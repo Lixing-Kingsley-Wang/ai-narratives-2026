@@ -60,3 +60,5 @@ node_modules/
 # input/sjr/sjr_YYYY.csv (SJR data — public, fine to share)
 # *.docx (commentary drafts, Kingsley brief, full report)
 # README.md (to be created)
+
+output/validation/
