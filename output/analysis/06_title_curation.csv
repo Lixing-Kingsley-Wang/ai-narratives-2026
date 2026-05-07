@@ -1,0 +1,241 @@
+year,stance,title,journal,quartile,confidence,predictive,pmid
+2021,Advocacy,The Impact of Artificial Intelligence on Traditional Chinese Medicine.,The American journal of Chinese medicine,Q1,High,yes,34247564
+2021,Advocacy,"Precision Medicine, AI, and the Future of Personalized Health Care.",Clinical and translational science,Q1,High,yes,32961010
+2021,Advocacy,Academics as leaders in the cancer artificial intelligence revolution.,Cancer,Q1,High,yes,33119903
+2021,Advocacy,Leveraging data and AI to deliver on the promise of digital health.,International journal of medical informatics,Q1,High,yes,33866232
+2021,Advocacy,"Response to ""Reply to 'A deep learning-based smartphone platform for cutaneous lupus erythematosus classification assistance: Simplifying the diagnosis of complicated diseases.' Has the complicated disease been simplified too much?"" Artificial intelligence system is helpful for diagnosis of cutaneous lupus erythematosus.",Journal of the American Academy of Dermatology,Q1,High,no,33864838
+2021,Advocacy,Machine Learning Will Extend the Clinical Utility of Adaptive Deep Brain Stimulation.,Movement disorders : official journal of the Movement Disorder Society,Q1,High,yes,33851753
+2021,Advocacy,The Beginning of a New Era: Artificial Intelligence in Healthcare.,Advanced pharmaceutical bulletin,Q1,High,yes,34513616
+2021,Advocacy,Gynecology Meets Big Data in the Disruptive Innovation Medical Era: State-of-Art and Future Prospects.,International journal of environmental research and public health,Q1,High,yes,34064710
+2021,Alarm,"Clinical Advice by Voice Assistants on Postpartum Depression: Cross-Sectional Investigation Using Apple Siri, Amazon Alexa, Google Assistant, and Microsoft Cortana.",JMIR mHealth and uHealth,Q1,High,no,33427680
+2021,Alarm,The Emerging Hazard of AI-Related Health Care Discrimination.,The Hastings Center report,Q1,High,no,33315263
+2021,Alarm,Bias at warp speed: how AI may contribute to the disparities gap in the time of COVID-19.,Journal of the American Medical Informatics Association : JAMIA,Q1,High,yes,32805004
+2021,Alarm,Low Predictability of Readmissions and Death Using Machine Learning in Cirrhosis.,The American journal of gastroenterology,Q1,High,no,33038139
+2021,Alarm,Reproducibility in machine learning for health research: Still a ways to go.,Science translational medicine,Q1,High,no,33762434
+2021,Alarm,Analysis of Potential for User Errors in Mobile Deployment of Radiology Deep Learning for Cardiac Rhythm Device Detection.,Journal of digital imaging,Q1,High,no,33742333
+2021,Alarm,AI-based smartphone apps for risk assessment of skin cancer need more evaluation and better regulation.,British journal of cancer,Q1,High,no,33742148
+2021,Alarm,"Does ""AI"" stand for augmenting inequality in the era of covid-19 healthcare?",BMJ (Clinical research ed.),Q1,High,yes,33722847
+2021,Caution,Stress Testing Pathology Models with Generated Artifacts.,Journal of pathology informatics,Q1,High,no,35070483
+2021,Caution,Artificial Intelligence: An Interprofessional Perspective on Implications for Geriatric Mental Health Research and Care.,Frontiers in psychiatry,Q1,High,yes,34867524
+2021,Caution,Drivers and social implications of Artificial Intelligence adoption in healthcare during the COVID-19 pandemic.,PloS one,Q1,High,no,34807907
+2021,Caution,Supporting Risk-Aware Use of Online Translation Tools in Delivering Mental Healthcare Services among Spanish-Speaking Populations.,Computational intelligence and neuroscience,Q1,High,no,34745242
+2021,Caution,Will Artificial Intelligence Replace the Movement Disorders Specialist for Diagnosing and Managing Parkinson's Disease?,Journal of Parkinson's disease,Q1,High,yes,34219671
+2021,Caution,Adequacy and Effectiveness of Watson For Oncology in the Treatment of Thyroid Carcinoma.,Frontiers in endocrinology,Q1,High,no,33746898
+2021,Caution,Towards evaluating the robustness of deep diagnostic models by adversarial attack.,Medical image analysis,Q1,High,no,33550005
+2021,Caution,Promises and pitfalls of deep neural networks in neuroimaging-based psychiatric research.,Experimental neurology,Q1,High,no,33513353
+2021,Cautious Optimism,Clinical Natural Language Processing for Radiation Oncology: A Review and Practical Primer.,"International journal of radiation oncology, biology, physics",Q1,High,yes,33545300
+2021,Cautious Optimism,A Preliminary Experience of Implementing Deep-Learning Based Auto-Segmentation in Head and Neck Cancer: A Study on Real-World Clinical Cases.,Frontiers in oncology,Q1,High,no,34026615
+2021,Cautious Optimism,Dermatologists' Perspectives on Artificial Intelligence and Augmented Intelligence - A Cross-sectional Survey.,JAMA dermatology,Q1,High,no,34037674
+2021,Cautious Optimism,Improved Diagnostic Accuracy of Ameloblastoma and Odontogenic Keratocyst on Cone-Beam CT by Artificial Intelligence.,Frontiers in oncology,Q1,High,no,35155194
+2021,Cautious Optimism,Artificial Intelligence in Cardiac MRI: Is Clinical Adoption Forthcoming?,Frontiers in cardiovascular medicine,Q1,High,yes,35083303
+2021,Cautious Optimism,Artificial Intelligence in Medicine: A Multinational Multi-Center Survey on the Medical and Dental Students' Perception.,Frontiers in public health,Q1,High,yes,35004598
+2021,Cautious Optimism,The Contribution of Artificial Intelligence in Achieving the Sustainable Development Goals (SDGs): What Can Eye Health Can Learn From Commercial Industry and Early Lessons From the Application of Machine Learning in Eye Health Programmes.,Frontiers in public health,Q1,High,yes,35004574
+2021,Cautious Optimism,Comparison of a Deep Learning Algorithm vs. Humans for Vertebral Heart Scale Measurements in Cats and Dogs Shows a High Degree of Agreement Among Readers.,Frontiers in veterinary science,Q1,High,no,34957280
+2021,Neutral,Diagnostic Performance of Deep Learning Classifiers in Measuring Peripheral Anterior Synechia Based on Swept Source Optical Coherence Tomography Images.,Frontiers in medicine,Q1,High,no,35155465
+2021,Neutral,Determinants of Intention to Use Artificial Intelligence-Based Diagnosis Support System Among Prospective Physicians.,Frontiers in public health,Q1,High,no,34900904
+2021,Neutral,Artificial intelligence in orthopaedics: A scoping review.,PloS one,Q1,High,no,34813611
+2021,Neutral,A clinical specific BERT developed using a huge Japanese clinical text corpus.,PloS one,Q1,High,no,34752490
+2021,Neutral,Artificial intelligence on COVID-19 pneumonia detection using chest xray images.,PloS one,Q1,High,no,34648509
+2021,Neutral,Articles That Use Artificial Intelligence for Ultrasound: A Reader's Guide.,Frontiers in oncology,Q1,High,no,34178622
+2021,Neutral,Evaluation of Computer-Aided Nodule Assessment and Risk Yield (CANARY) in Korean patients for prediction of invasiveness of ground-glass opacity nodule.,PloS one,Q1,High,no,34125856
+2021,Neutral,Artificial intelligence in clinical care amidst COVID-19 pandemic: A systematic review.,Computational and structural biotechnology journal,Q1,High,no,34025952
+2022,Advocacy,Artificial intelligence: the unstoppable revolution in ophthalmology.,Survey of ophthalmology,Q1,High,yes,33741420
+2022,Advocacy,Incessant threat of COVID-19 variants: Highlighting need for a mix of FDA-approved artificial intelligence tools and community pharmacy services.,Research in social & administrative pharmacy : RSAP,Q1,High,yes,34391673
+2022,Advocacy,Contribution of the Japan Gastroenterological Endoscopy Society to promote computer-aided diagnosis/detection system development using artificial intelligence technology.,Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society,Q1,High,yes,34652003
+2022,Advocacy,A Case for the Use of Artificial Intelligence in Glaucoma Assessment.,Ophthalmology. Glaucoma,Q1,High,yes,34954220
+2022,Advocacy,"Internet of Things, Machine Learning, and Blockchain Technology: Emerging technologies revolutionizing Universal Health Coverage.",Frontiers in public health,Q1,High,yes,36353272
+2022,Advocacy,Cushing's Disease Management: Glimpse Into 2051.,Frontiers in endocrinology,Q1,High,yes,35872988
+2022,Advocacy,A Clinician's Guide to Artificial Intelligence (AI): Why and How Primary Care Should Lead the Health Care AI Revolution.,Journal of the American Board of Family Medicine : JABFM,Q1,High,yes,35039425
+2022,Advocacy,Advancing pharmacy and healthcare with virtual digital technologies.,Advanced drug delivery reviews,Q1,High,yes,34998901
+2022,Alarm,Machine learning algorithms do not outperform preoperative thresholds in predicting clinically meaningful improvements after total knee arthroplasty.,"Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",Q1,High,no,34245310
+2022,Alarm,Missing data is poorly handled and reported in prediction model studies using machine learning: a literature review.,Journal of clinical epidemiology,Q1,High,no,34798287
+2022,Alarm,Commercial AI solutions in detecting COVID-19 pneumonia in chest CT: not yet ready for clinical implementation?,European radiology,Q1,High,no,34950973
+2022,Alarm,Machine learning classifiers do not improve prediction of hospitalization > 2 days after fast-track hip and knee arthroplasty compared with a classical statistical risk model.,Acta orthopaedica,Q1,High,no,34984485
+2022,Alarm,Automatic coronavirus disease 2019 diagnosis based on chest radiography and deep learning - Success story or dataset bias?,Medical physics,Q1,High,no,34951033
+2022,Alarm,Black Box Prediction Methods in Sports Medicine Deserve a Red Card for Reckless Practice: A Change of Tactics is Needed to Advance Athlete Care.,"Sports medicine (Auckland, N.Z.)",Q1,High,yes,35175575
+2022,Alarm,AI models in health care are not colour blind and we should not be either.,The Lancet. Digital health,Q1,High,no,35568691
+2022,Alarm,AI recognition of patient race in medical imaging: a modelling study.,The Lancet. Digital health,Q1,High,no,35568690
+2022,Caution,AI support for ethical decision-making around resuscitation: proceed with care.,Journal of medical ethics,Q1,High,no,33687916
+2022,Caution,Ethical implications of AI in robotic surgical training: A Delphi consensus statement.,European urology focus,Q1,High,no,33941503
+2022,Caution,Charting a path forward for clinical research in artificial intelligence and gastroenterology.,Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society,Q1,High,yes,33715244
+2022,Caution,Exploring the phenomenon and ethical issues of AI paternalism in health apps.,Bioethics,Q1,High,no,34031908
+2022,Caution,Machine learning in medicine: should the pursuit of enhanced interpretability be abandoned?,Journal of medical ethics,Q1,High,no,34006600
+2022,Caution,Randomised controlled trials in medical AI: ethical considerations.,Journal of medical ethics,Q1,High,no,33990429
+2022,Caution,From everyday life predictions to suicide prevention: Clinical and ethical considerations in suicide predictive analytic tools.,Journal of clinical psychology,Q1,High,no,34195998
+2022,Caution,Intentional machines: A defence of trust in medical artificial intelligence.,Bioethics,Q1,High,no,34142373
+2022,Cautious Optimism,Accuracy of artificial intelligence-assisted detection of Oral Squamous Cell Carcinoma: A systematic review and meta-analysis.,Critical reviews in oncology/hematology,Q1,High,no,35931404
+2022,Cautious Optimism,Artificial intelligence and atrial fibrillation.,Journal of cardiovascular electrophysiology,Q1,High,yes,35258136
+2022,Cautious Optimism,The use of artificial intelligence and virtual reality in doctor-patient risk communication: A scoping review.,Patient education and counseling,Q1,High,no,35725526
+2022,Cautious Optimism,Diabetic Retinopathy Screening Using Artificial Intelligence and Handheld Smartphone-Based Retinal Camera.,Journal of diabetes science and technology,Q1,High,no,33435711
+2022,Cautious Optimism,Clinical validation of an artificial intelligence-based diabetic retinopathy screening tool for a national health system.,"Eye (London, England)",Q1,High,no,33432168
+2022,Cautious Optimism,Artificial intelligence and pathology: From principles to practice and future applications in histomorphology and molecular profiling.,Seminars in cancer biology,Q1,High,yes,33631297
+2022,Cautious Optimism,Artificial Intelligence and Transcatheter Interventions for Structural Heart Disease: A glance at the (near) future.,Trends in cardiovascular medicine,Q1,High,yes,33581255
+2022,Cautious Optimism,Artificial Intelligence in Magnetic Resonance Imaging-based Prostate Cancer Diagnosis: Where Do We Stand in 2021?,European urology focus,Q1,High,no,33773964
+2022,Neutral,Application of artificial intelligence in the dental field: A literature review.,Journal of prosthodontic research,Q1,High,no,33441504
+2022,Neutral,Performance of a new integrated computer-assisted system (CADe/CADx) for detection and characterization of colorectal neoplasia.,Endoscopy,Q1,High,no,33494106
+2022,Neutral,Comparing Artificial Intelligence and Traditional Methods to Identify Factors Associated With Pediatric Asthma Readmission.,Academic pediatrics,Q1,High,no,34329757
+2022,Neutral,Diagnostic performance of deep learning models for detecting bone metastasis on whole-body bone scan in prostate cancer.,European journal of nuclear medicine and molecular imaging,Q1,High,no,34363089
+2022,Neutral,Deep learning in knee imaging: a systematic review utilizing a Checklist for Artificial Intelligence in Medical Imaging (CLAIM).,European radiology,Q1,High,no,34347157
+2022,Neutral,Do plaque-related factors affect the diagnostic performance of an artificial intelligence coronary-assisted diagnosis system? Comparison with invasive coronary angiography.,European radiology,Q1,High,no,34564743
+2022,Neutral,Evaluation of a New Neural Network Classifier for Diabetic Retinopathy.,Journal of diabetes science and technology,Q1,High,no,34549633
+2022,Neutral,Performance of deep convolutional neural network for classification and detection of oral potentially malignant disorders in photographic images.,International journal of oral and maxillofacial surgery,Q1,High,no,34548194
+2023,Advocacy,Academic Radiology Departments Should Lead Artificial Intelligence Initiatives.,Academic radiology,Q1,High,yes,35965155
+2023,Advocacy,Intelligent oncology: The convergence of artificial intelligence and oncology.,Journal of the National Cancer Center,Q1,High,yes,39036310
+2023,Advocacy,Contemporary Role and Applications of Artificial Intelligence in Dentistry.,F1000Research,Q1,High,yes,37942018
+2023,Advocacy,How AI is advancing asthma management? Insights into economic and clinical aspects.,Journal of medical economics,Q1,High,yes,37902681
+2023,Advocacy,The promise of large language models in health care.,"Lancet (London, England)",Q1,High,yes,36841609
+2023,Advocacy,Artificial Intelligence in Hypertension Management: An Ace up Your Sleeve.,Journal of cardiovascular development and disease,Q1,High,yes,36826570
+2023,Advocacy,A Structured Analysis to study the Role of Machine Learning and Deep Learning in The Healthcare Sector with Big Data Analytics.,Archives of computational methods in engineering : state of the art reviews,Q1,High,yes,37359744
+2023,Advocacy,Chat Generative Pre-trained Transformer: why we should embrace this technology.,American journal of obstetrics and gynecology,Q1,High,yes,36924908
+2023,Alarm,Limited clinical utility of a machine learning revision prediction model based on a national hip arthroscopy registry.,"Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",Q1,High,no,35947158
+2023,Alarm,Use of artificial intelligence in obstetrics: not quite ready for prime time.,American journal of obstetrics & gynecology MFM,Q1,High,no,36356939
+2023,Alarm,Machine learning does not outperform traditional statistical modelling for kidney allograft failure prediction.,Kidney international,Q1,High,no,36572246
+2023,Alarm,The uncovered biases and errors in clinical determination of bone age by using deep learning models.,European radiology,Q1,High,no,36538072
+2023,Alarm,ChatGPT is not ready yet for use in providing mental health assessment and interventions.,Frontiers in psychiatry,Q1,High,no,38239905
+2023,Alarm,Can ChatGPT diagnose my collapsing dog?,Frontiers in veterinary science,Q1,High,no,37901112
+2023,Alarm,AI chatbots not yet ready for clinical use.,Frontiers in digital health,Q1,High,no,37122812
+2023,Alarm,The reproducibility issues that haunt health-care AI.,Nature,Q1,High,no,36624237
+2023,Caution,Implications of large language models such as ChatGPT for dental medicine.,Journal of esthetic and restorative dentistry : official publication of the American Academy of Esthetic Dentistry ... [et al.],Q1,High,no,37017291
+2023,Caution,"Data for sale: trust, confidence and sharing health data with commercial companies.",Journal of medical ethics,Q1,High,no,34330796
+2023,Caution,AI-based clinical decision-making systems in palliative medicine: ethical challenges.,BMJ supportive & palliative care,Q1,High,no,34257065
+2023,Caution,(De)troubling transparency: artificial intelligence (AI) for clinical applications.,Medical humanities,Q1,High,no,35545432
+2023,Caution,Competencies for the Use of Artificial Intelligence-Based Tools by Health Care Professionals.,Academic medicine : journal of the Association of American Medical Colleges,Q1,High,no,36731054
+2023,Caution,"The Challenges of Regulating Artificial Intelligence in Healthcare Comment on ""Clinical Decision Support and New Regulatory Frameworks for Medical Devices: Are We Ready for It? - A Viewpoint Paper"".",International journal of health policy and management,Q1,High,no,36243948
+2023,Caution,Self-fulfilling prophecies and machine learning in resuscitation science.,Resuscitation,Q1,High,no,36306959
+2023,Caution,Artificial intelligence in musculoskeletal oncology imaging: A critical review of current applications.,Diagnostic and interventional imaging,Q1,High,no,36270953
+2023,Cautious Optimism,Diagnostic accuracy of artificial intelligence-aided capsule endoscopy (TOP100) in overt small bowel bleeding.,Surgical endoscopy,Q1,High,no,37495849
+2023,Cautious Optimism,Integration of artificial intelligence in lung cancer: Rise of the machine.,Cell reports. Medicine,Q1,High,no,36738739
+2023,Cautious Optimism,"Artificial intelligence in disease diagnosis: a systematic literature review, synthesizing framework and future research agenda.",Journal of ambient intelligence and humanized computing,Q1,High,yes,35039756
+2023,Cautious Optimism,Can Natural Language Processing and Artificial Intelligence Automate The Generation of Billing Codes From Operative Note Dictations?,Global spine journal,Q1,High,yes,35225694
+2023,Cautious Optimism,Artificial Intelligence for Automated Implant Identification in Total Hip Arthroplasty: A Multicenter External Validation Study Exceeding Two Million Plain Radiographs.,The Journal of arthroplasty,Q1,High,no,35271974
+2023,Cautious Optimism,External validation of the computerized analysis of TRUS of the prostate with the ANNA/C-TRUS system: a potential role of artificial intelligence for improving prostate cancer detection.,World journal of urology,Q1,High,yes,35249120
+2023,Cautious Optimism,"Novel Artificial Intelligence Applications in Cardiology: Current Landscape, Limitations, and the Road to Real-World Applications.",Journal of cardiovascular translational research,Q1,High,yes,35460017
+2023,Cautious Optimism,Editorial Comment: CT Body Composition Assessment With a Fully Automated Artificial Intelligence Pipeline-A Promising Tool in Predicting Survival in Patients With Colorectal Cancer.,AJR. American journal of roentgenology,Q1,High,yes,36043611
+2023,Neutral,Generalisability and performance of an OCT-based deep learning classifier for community-based and hospital-based detection of gonioscopic angle closure.,The British journal of ophthalmology,Q1,High,no,34670749
+2023,Neutral,AI software detection of large vessel occlusion stroke on CT angiography: a real-world prospective diagnostic test accuracy study.,Journal of neurointerventional surgery,Q1,High,no,35086962
+2023,Neutral,Evaluation of an artificial intelligence coronary artery calcium scoring model from computed tomography.,European radiology,Q1,High,no,35986771
+2023,Neutral,Recent developments on computer aided systems for diagnosis of diabetic retinopathy: a review.,Multimedia tools and applications,Q1,High,no,36185322
+2023,Neutral,Generalizability and Bias in a Deep Learning Pediatric Bone Age Prediction Model Using Hand Radiographs.,Radiology,Q1,High,no,36165796
+2023,Neutral,Deep learning reconstruction in pediatric brain MRI: comparison of image quality with conventional T2-weighted MRI.,Neuroradiology,Q1,High,no,36156109
+2023,Neutral,Evaluation of fully automated commercial software for Agatston calcium scoring on non-ECG-gated low-dose chest CT with different slice thickness.,European radiology,Q1,High,no,36152039
+2023,Neutral,Ensemble neural network model for detecting thyroid eye disease using external photographs.,The British journal of ophthalmology,Q1,High,no,36126104
+2024,Advocacy,Genomics and Artificial Intelligence: Prostate Cancer.,The Urologic clinics of North America,Q1,High,yes,37945100
+2024,Advocacy,Artificial intelligence in the neonatal intensive care unit: the time is now.,Journal of perinatology : official journal of the California Perinatal Association,Q1,High,yes,37443271
+2024,Advocacy,ChatGPT: The transformative influence of generative AI on science and healthcare.,Journal of hepatology,Q1,High,yes,37544516
+2024,Advocacy,Letter to the Editor: Leveraging ChatGPT to democratize and decolonize global surgery: Large language models for small healthcare budgets.,World journal of surgery,Q1,High,yes,38686754
+2024,Advocacy,Enhancing Awareness and Self-diagnosis of Obstructive Sleep Apnea Using AI-Powered Chatbots: The Role of ChatGPT in Revolutionizing Healthcare.,Annals of biomedical engineering,Q2,High,yes,37389659
+2024,Advocacy,AI-ChatGPT/GPT-4: An Booster for the Development of Physical Medicine and Rehabilitation in the New Era!,Annals of biomedical engineering,Q2,High,yes,37500980
+2024,Advocacy,Innovating Healthcare: The Role of ChatGPT in Streamlining Hospital Workflow in the Future.,Annals of biomedical engineering,Q2,High,yes,37464178
+2024,Advocacy,Revolutionising Impacts of Artificial Intelligence on Health Care System and Its Related Medical In-Transparencies.,Annals of biomedical engineering,Q2,High,yes,37548817
+2024,Alarm,"Is artificial intelligence ready to replace specialist doctors entirely? ENT specialists vs ChatGPT: 1-0, ball at the center.",European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery,Q1,High,yes,37962570
+2024,Alarm,Diagnosis Unreliability of ChatGPT for Journal Evaluation.,Advanced pharmaceutical bulletin,Q1,High,no,38585462
+2024,Alarm,Modern Machiavelli? The illusion of ChatGPT-generated patient reviews in plastic and aesthetic surgery based on 9000 review classifications.,"Journal of plastic, reconstructive & aesthetic surgery : JPRAS",Q1,High,no,37972444
+2024,Alarm,Open science practices need substantial improvement in prognostic model studies in oncology using machine learning.,Journal of clinical epidemiology,Q1,High,no,37898461
+2024,Alarm,Current Artificial Intelligence Based Chatbots May Produce Inaccurate and Potentially Harmful Information for Patients With Aortic Disease.,European journal of vascular and endovascular surgery : the official journal of the European Society for Vascular Surgery,Q1,High,no,37952634
+2024,Alarm,Evaluation of Oropharyngeal Cancer Information from Revolutionary Artificial Intelligence Chatbot.,The Laryngoscope,Q1,Medium,no,37983846
+2024,Alarm,Assessing the Soft Tissue Infection Expertise of ChatGPT and Bard Compared to IDSA Recommendations.,Annals of biomedical engineering,Q2,High,no,37865615
+2024,Alarm,Chatbots Vs. Human Experts: Evaluating Diagnostic Performance of Chatbots in Uveitis and the Perspectives on AI Adoption in Ophthalmology.,Ocular immunology and inflammation,Q2,High,yes,37831553
+2024,Caution,Considering the Secondary Use of Clinical and Educational Data to Facilitate the Development of Artificial Intelligence Models.,Academic medicine : journal of the Association of American Medical Colleges,Q1,High,no,38109656
+2024,Caution,Can ChatGPT Aid Clinicians in Educating Patients on the Surgical Management of Glaucoma?,Journal of glaucoma,Q1,High,no,38031276
+2024,Caution,Artificial intelligence and clinical anatomical education: Promises and perils.,Anatomical sciences education,Q1,High,yes,36030525
+2024,Caution,Consulting ChatGPT: Ethical dilemmas in language model artificial intelligence.,Journal of the American Academy of Dermatology,Q1,High,no,36907556
+2024,Caution,Real-World Performance of Large Vessel Occlusion Artificial Intelligence-Based Computer-Aided Triage and Notification Algorithms-What the Stroke Team Needs to Know.,Journal of the American College of Radiology : JACR,Q1,High,no,37196818
+2024,Caution,Possibilities and ethical issues of entrusting nursing tasks to robots and artificial intelligence.,Nursing ethics,Q1,High,yes,37306294
+2024,Caution,Artificial intelligence and urology: ethical considerations for urologists and patients.,Nature reviews. Urology,Q1,High,no,37524914
+2024,Caution,Trust and stakeholder perspectives on the implementation of AI tools in clinical radiology.,European radiology,Q1,High,no,37505245
+2024,Cautious Optimism,Novel AI-Based Algorithm for the Automated Computation of Coronal Parameters in Adolescent Idiopathic Scoliosis Patients: A Validation Study on 100 Preoperative Full Spine X-Rays.,Global spine journal,Q1,High,no,36708281
+2024,Cautious Optimism,Artificial Intelligence: Singularity Approaches.,Plastic and reconstructive surgery,Q1,High,yes,37075274
+2024,Cautious Optimism,"Impact of an artificial intelligence-aided endoscopic diagnosis system on improving endoscopy quality for trainees in colonoscopy: Prospective, randomized, multicenter study.",Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society,Q1,High,no,37079002
+2024,Cautious Optimism,Artificial Intelligence and Pathomics: Prostate Cancer.,The Urologic clinics of North America,Q1,High,yes,37945099
+2024,Cautious Optimism,Roadmap on the use of artificial intelligence for imaging of vulnerable atherosclerotic plaque in coronary arteries.,Nature reviews. Cardiology,Q1,High,yes,37464183
+2024,Cautious Optimism,Application of Artificial Intelligence in Drug-Drug Interactions Prediction: A Review.,Journal of chemical information and modeling,Q1,High,yes,37458400
+2024,Cautious Optimism,Artificial intelligence may help decision-making for withdrawal of life supporting treatment among the injured elderly.,The journal of trauma and acute care surgery,Q1,High,yes,38167260
+2024,Cautious Optimism,Bladder Cancer and Artificial Intelligence: Emerging Applications.,The Urologic clinics of North America,Q1,High,yes,37945103
+2024,Neutral,Assessing the Accuracy and Reproducibility of PARIETAL: A Deep Learning Brain Extraction Algorithm.,Journal of magnetic resonance imaging : JMRI,Q1,High,no,34137113
+2024,Neutral,The Comparison of Convolutional Neural Networks and the Manual Measurement of Cobb Angle in Adolescent Idiopathic Scoliosis.,Global spine journal,Q1,High,no,35622711
+2024,Neutral,Reliability of an AI-Powered Application Across Different Mobile Devices for Assessment of Chronic Wounds.,Advances in wound care,Q1,High,no,36721378
+2024,Neutral,Validation of Opportunistic Artificial Intelligence-Based Bone Mineral Density Measurements in Coronary Artery Calcium Scans.,Journal of the American College of Radiology : JACR,Q1,High,no,37336431
+2024,Neutral,Accuracy and clinical validity of automated cephalometric analysis using convolutional neural networks.,Orthodontics & craniofacial research,Q1,High,no,37326233
+2024,Neutral,Performance evaluation of a computer-aided polyp detection system with artificial intelligence for colonoscopy.,Digestive endoscopy : official journal of the Japan Gastroenterological Endoscopy Society,Q1,High,no,37099623
+2024,Neutral,Clinical use of artificial intelligence products for radiology in the Netherlands between 2020 and 2022.,European radiology,Q1,High,no,37515632
+2024,Neutral,"Screening in Patients With Dense Breasts: Comparison of Mammography, Artificial Intelligence, and Supplementary Ultrasound.",AJR. American journal of roentgenology,Q1,High,no,37493324
+2025,Advocacy,Artificial intelligence: Augmenting telehealth with large language models.,Journal of telemedicine and telecare,Q1,High,yes,37041736
+2025,Advocacy,Artificial intelligence in advanced endoscopic imaging: transforming optical diagnosis in gastroenterology.,Frontiers in medicine,Q1,High,yes,41625762
+2025,Advocacy,"Merging multimodal digital biomarkers into ""Digital Neuro Fingerprints"" for precision neurology in dementias: the promise of the right treatment for the right patient at the right time in the age of AI.",Frontiers in digital health,Q1,High,yes,41602207
+2025,Advocacy,The future of multimorbidity management in the older adults: transforming AI-enabled precision medicine.,Frontiers in public health,Q1,High,yes,41602068
+2025,Advocacy,"AI-driven transformation of precision medicine: a comprehensive narrative review of key application areas, emerging paradigms, and future directions.",Frontiers in public health,Q1,High,yes,41584179
+2025,Advocacy,"Reimagining Mental Health with Artificial Intelligence: Early Detection, Personalized Care, and a Preventive Ecosystem.",Journal of multidisciplinary healthcare,Q1,High,yes,41230404
+2025,Advocacy,AI-driven epidemic intelligence: the future of outbreak detection and response.,Frontiers in artificial intelligence,Q1,High,yes,40810005
+2025,Advocacy,Personalized cardiometabolic care powered by artificial intelligence.,Frontiers in endocrinology,Q1,High,yes,40487762
+2025,Alarm,Assessing ChatGPT vs. evidence-based online responses for polycystic ovary syndrome self-management and education: an international cross-sectional blinded survey of healthcare professionals.,Frontiers in digital health,Q1,High,no,41988362
+2025,Alarm,Evaluation of the reliability and risks of ChatGPT-4o in answering pediatric cough questions: A comparative analysis between pediatricians and pediatric pulmonologists.,PloS one,Q1,High,no,41474704
+2025,Alarm,Uncovering bias and variability in how large language models attribute cardiovascular risk.,Frontiers in digital health,Q1,High,no,41445760
+2025,Alarm,Assessment of the information quality of chatbot technologies on orthodontic miniscrews.,Dental press journal of orthodontics,Q1,High,no,41379196
+2025,Alarm,Limitations of broadly trained LLMs in interpreting orthopedic Walch glenoid classifications.,Frontiers in artificial intelligence,Q1,High,no,40951327
+2025,Alarm,Evaluating diversity and stereotypes amongst AI generated representations of healthcare providers.,Frontiers in digital health,Q1,High,no,40352327
+2025,Alarm,Artificial intelligence (ChatGPT) ready to evaluate ECG in real life? Not yet!,Digital health,Q1,High,no,40078449
+2025,Alarm,Sex-Based Bias in Artificial Intelligence-Based Segmentation Models in Clinical Oncology.,Clinical oncology (Royal College of Radiologists (Great Britain)),Q1,High,no,39874747
+2025,Caution,Evaluating sentiment analysis models in healthcare: addressing bias and enhancing interpretability.,Frontiers in public health,Q1,High,no,41938540
+2025,Caution,Exploring the application boundaries of LLMs in mental health: a systematic scoping review.,Frontiers in psychology,Q1,High,no,41836276
+2025,Caution,"Prioritizing human-AI collaboration in healthcare: the TRIAD framework for trustworthy governance, real-world, and integrated adaptive deployment.",Military Medical Research,Q1,High,yes,41810150
+2025,Caution,Epistemic and ethical limits of large language models in evidence-based medicine: from knowledge to judgment.,Frontiers in digital health,Q1,High,no,41641437
+2025,Caution,"Opportunities and challenges of artificial intelligence in public health: a systematic review on technological efficacy, ethical dilemmas, and governance pathways.",Frontiers in public health,Q1,High,yes,41613098
+2025,Caution,The legal dilemma of medical artificial intelligence in China: challenges to physicians' duty to inform and a typology-based response.,Frontiers in public health,Q1,High,yes,41607903
+2025,Caution,Large language model bias auditing for periodontal diagnosis using an ambiguity-probe methodology: a pilot study.,Frontiers in digital health,Q1,High,no,41561161
+2025,Caution,"ChatGPT and reference intervals: a comparative analysis of repeatability in GPT-3.5 Turbo, GPT-4, and GPT-4o.",Frontiers in artificial intelligence,Q1,High,no,41459577
+2025,Cautious Optimism,The role of artificial intelligence in diagnosing pediatric dental disorders-a narrative review.,Frontiers in dental medicine,Q1,High,yes,41705231
+2025,Cautious Optimism,Understanding Machine Learning Applications in Lung Transplantation: A Narrative Review.,Transplant international : official journal of the European Society for Organ Transplantation,Q1,High,yes,41704919
+2025,Cautious Optimism,Application of artificial intelligence in diagnosis and management of fetal growth disorders: a comprehensive review.,Frontiers in medicine,Q1,High,yes,41625753
+2025,Cautious Optimism,Artificial intelligence in aortic CT angiography: current applications and future perspectives.,Frontiers in cardiovascular medicine,Q1,High,yes,41614027
+2025,Cautious Optimism,Applications and prospects of artificial intelligence in the auxiliary diagnosis of pediatric pulmonary tuberculosis.,Frontiers in microbiology,Q1,High,yes,41608688
+2025,Cautious Optimism,Artificial intelligence and multimodal imaging in orthopaedics: from technological advances to clinical translation.,Frontiers in medicine,Q1,High,yes,41585271
+2025,Cautious Optimism,"Applications, image analysis, and interpretation of computer vision in medical imaging.",Frontiers in radiology,Q1,High,yes,41585084
+2025,Cautious Optimism,A Brief Review of Artificial Intelligence in Living Kidney Donation.,Transplant international : official journal of the European Society for Organ Transplantation,Q1,High,yes,41573384
+2025,Neutral,Transparency in research: An analysis of ChatGPT usage acknowledgment by authors across disciplines and geographies.,Accountability in research,Q1,High,no,37877216
+2025,Neutral,"A comparative accuracy study of multimodal LLMs, VLM and agent-based framework for pulmonary nodule detection on chest radiographs.",Frontiers in digital health,Q1,High,no,41675260
+2025,Neutral,Automated versus human scoring of the Rey-Osterrieth Complex Figure Test: a rapid review.,Frontiers in psychiatry,Q1,High,no,41614114
+2025,Neutral,The top 100 cited articles on artificial intelligence in Alzheimer's disease and mild cognitive impairment: a bibliometric analysis.,Frontiers in aging neuroscience,Q1,High,no,41601600
+2025,Neutral,"SWE, C-TIRADS and AI-assisted diagnostic systems in distinguishing thyroid nodules of different lesion size: Which has better diagnostic performance?",Frontiers in endocrinology,Q1,High,no,41573208
+2025,Neutral,Performance comparison of artificial intelligence models in predicting 72-h emergency department unscheduled return visits.,Frontiers in public health,Q1,High,no,41487618
+2025,Neutral,Research Progress and Clinical Implications of Generative Artificial Intelligence in Perinatal Health Care for Advanced Maternal Age Pregnant Women [Retraction].,International journal of women's health,Q1,High,no,41451348
+2025,Neutral,The research hotspots and trends of artificial intelligence technology in nursing management: a bibliometric study.,Frontiers in medicine,Q1,High,no,41451100
+2026,Advocacy,An AI-Enabled Nursing Future With no Documentation Burden: A Vision for a New Reality.,Journal of advanced nursing,Q1,High,yes,40129115
+2026,Advocacy,Transforming plastic surgery: an innovative role of Chat GPT in plastic surgery practices.,Updates in surgery,Q1,High,yes,40067594
+2026,Advocacy,Convergence: Multi-omics and AI are reshaping the landscape biomedical research.,Biochimica et biophysica acta. Molecular basis of disease,Q1,High,yes,40865690
+2026,Advocacy,Small language models: The big play for agentic artificial intelligence in orthopaedics.,"Knee surgery, sports traumatology, arthroscopy : official journal of the ESSKA",Q1,High,yes,41144760
+2026,Advocacy,Translating multimodal foundation models into oncology: Toward a future where AI directs diagnosis and therapy.,Genes & diseases,Q1,High,yes,41847347
+2026,Advocacy,A Custom Artificial Intelligence GPT-4 Model for Pediatric Cardiology: Surpassing the Board Exam Threshold and Transforming Medical Learning.,The Canadian journal of cardiology,Q1,High,yes,41276215
+2026,Advocacy,"Re-engineering the disordered mind: clinical experimentation, dynamical systems, and AI for personalized psychiatry.",Neuropsychopharmacology : official publication of the American College of Neuropsychopharmacology,Q1,High,yes,41407866
+2026,Advocacy,Precision dermatology 2050: AI-driven personalized monitoring and individualized treatment.,Journal of the European Academy of Dermatology and Venereology : JEADV,Q1,High,yes,41392515
+2026,Alarm,Beyond Doomsday Fears: Why We Need to Consider the Potential Harms of AI Psychotherapy.,The American journal of bioethics : AJOB,Q1,High,no,39913781
+2026,Alarm,Does ChatGPT update itself? Accuracy of ChatGPT in tympanostomy tube guidance: A comparative analysis with current literature.,European archives of oto-rhino-laryngology : official journal of the European Federation of Oto-Rhino-Laryngological Societies (EUFOS) : affiliated with the German Society for Oto-Rhino-Laryngology - Head and Neck Surgery,Q1,High,no,40849397
+2026,Alarm,Unconditional latent diffusion models memorize patient imaging data.,Nature biomedical engineering,Q1,High,no,40790276
+2026,Alarm,Deep learning-based radiomics does not improve residual cancer burden prediction post-chemotherapy in LIMA breast MRI trial.,European radiology,Q1,High,no,40770139
+2026,Alarm,'ChatGPT can make mistakes' warnings fail: A randomized controlled trial.,Medical education,Q1,High,no,40998694
+2026,Alarm,Does robot-assisted gait training represent a true advancement in post-stroke walking rehabilitation?,Expert review of neurotherapeutics,Q1,High,no,40974068
+2026,Alarm,Challenges and Limitations of Multimodal Large Language Models in Interpreting Pediatric Panoramic Radiographs.,International journal of paediatric dentistry,Q1,High,no,40958411
+2026,Alarm,Postoperative data leakage in AI-based IOL power prediction formulas: a hidden source of bias.,Experimental eye research,Q1,High,no,41161368
+2026,Caution,"Augmented intelligence and dermatology-Part II: Bias, benchmarks, guidelines, ethics, regulation, and future directions.",Journal of the American Academy of Dermatology,Q1,High,no,40090590
+2026,Caution,How Do Radiologists Currently Monitor AI in Radiology and What Challenges Do They Face? An Interview Study and Qualitative Analysis.,Journal of imaging informatics in medicine,Q1,High,no,40199833
+2026,Caution,Mask of Truth: Model Sensitivity to Unexpected Regions of Medical Images.,Journal of imaging informatics in medicine,Q1,High,no,40394319
+2026,Caution,Tomorrow's doctors are robots: Redefining healthcare education and practice in the technological revolution.,Medical education,Q1,High,no,40390563
+2026,Caution,Mitigating Bias in Machine Learning Models with Ethics-Based Initiatives: The Case of Sepsis.,The American journal of bioethics : AJOB,Q1,High,no,40354171
+2026,Caution,A Justice-First Approach to Ambient Intelligence in Healthcare.,The American journal of bioethics : AJOB,Q1,High,no,40340546
+2026,Caution,"Assisting, Replicating, or Autonomously Acting? An Ethical Framework for Integrating AI Tools and Technologies in Healthcare.",Bioethics,Q1,High,no,40679067
+2026,Caution,Applications and potential of ChatGPT in dentistry: Scoping review of research perspectives.,Journal of dental sciences,Q1,High,no,41585200
+2026,Cautious Optimism,Digitalomics: Towards Artificial Intelligence / Machine Learning-Based Precision Cardiovascular Medicine.,Circulation journal : official journal of the Japanese Circulation Society,Q1,High,yes,39894532
+2026,Cautious Optimism,Improving the Real-Time Classification of Disease Severity in Ulcerative Colitis: Artificial Intelligence as the Trigger for a Second Opinion.,The American journal of gastroenterology,Q1,High,yes,40019166
+2026,Cautious Optimism,Matching Human Expertise: ChatGPT's Performance on Hand Surgery Examinations.,"Hand (New York, N.Y.)",Q1,High,no,40114359
+2026,Cautious Optimism,How Artificial Intelligence Can Revolutionize Evidence-Based Health Care: A Critical Commentary.,JDR clinical and translational research,Q1,High,yes,40070105
+2026,Cautious Optimism,The Augmented Colonoscopy With Computer-Aided Polyp Characterization Study: Prospective Study Comparing the Diagnostic Reliability of Optical Diagnosis of Trainees With Experts Without Artificial Intelligence.,The American journal of gastroenterology,Q1,High,no,40434246
+2026,Cautious Optimism,"Generative Artificial Intelligence, With Constrained Information, Outperforms Pre-Doctoral Student Average on Oral Pathology Differential Diagnosis Questions.",European journal of dental education : official journal of the Association for Dental Education in Europe,Q1,High,no,40359137
+2026,Cautious Optimism,Improving radiology reporting accuracy: use of GPT-4 to reduce errors in reports.,Abdominal radiology (New York),Q1,High,no,40576664
+2026,Cautious Optimism,Artificial intelligence in imaging diagnosis of liver tumors: current status and future prospects.,Abdominal radiology (New York),Q1,High,yes,40536541
+2026,Neutral,Feasibility and accuracy of single maxillary molar designed by an implicit neural network (INN)-based model: A comparative study.,Journal of prosthodontics : official journal of the American College of Prosthodontists,Q1,High,no,39910763
+2026,Neutral,Augmented intelligence and dermatology-Part I: Core concepts and applications.,Journal of the American Academy of Dermatology,Q1,High,no,40090589
+2026,Neutral,AI-Generated vs. Traditional STL Models in CBCT Imaging: A Pilot Study on Measurements Accuracy and Reliability.,Journal of imaging informatics in medicine,Q1,High,no,40240655
+2026,Neutral,Accuracy Assessment of Human and Artificial Intelligence-Assisted Bitewing Radiography and Near-Infrared Reflectance Imaging-Based Methods for Interproximal Caries Detection: A Histological Validation.,Caries research,Q1,High,no,40451163
+2026,Neutral,Global Trends in the Use of Artificial Intelligence in Dental Education: A Bibliometric Analysis.,European journal of dental education : official journal of the Association for Dental Education in Europe,Q1,High,no,40440490
+2026,Neutral,Efficacy of an Automated Pulmonary Embolism (PE) Detection Algorithm on Routine Contrast-Enhanced Chest CT Imaging for Non-PE Studies.,Journal of imaging informatics in medicine,Q1,High,no,40563035
+2026,Neutral,Performance Comparison of Machine Learning Using Radiomic Features and CNN-Based Deep Learning in Benign and Malignant Classification of Vertebral Compression Fractures Using CT Scans.,Journal of imaging informatics in medicine,Q1,High,no,40456998
+2026,Neutral,Diagnostic performance of artificial intelligence models for pulmonary nodule classification: a multi-model evaluation.,European radiology,Q1,High,no,40715822

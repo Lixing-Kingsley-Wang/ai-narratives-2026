@@ -1,0 +1,7 @@
+sector,total,Alarm,Caution,Neutral,Cautious Optimism,Advocacy,critical_pct,advocacy_pct
+Editorial,283,11,91,35,127,19,36.04,6.71
+Letter,353,28,119,80,105,21,41.64,5.95
+Comment,66,5,25,5,30,1,45.45,1.52
+Systematic Review,799,7,138,199,450,5,18.15,0.63
+Review,3545,26,692,299,2389,139,20.25,3.92
+Original Article,8290,364,1515,3475,2869,67,22.67,0.81

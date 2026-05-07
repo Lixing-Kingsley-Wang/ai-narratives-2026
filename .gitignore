@@ -1,0 +1,62 @@
+# API keys and secrets — NEVER commit these
+.env
+*.env
+secrets.py
+
+# Large raw data files (too big for GitHub)
+output/raw_medical_*.csv
+output/raw_legal_*.csv
+output/raw_medical_all.csv
+output/raw_legal_all.csv
+
+# Intermediate filtered files (regeneratable from scripts)
+output/filtered_medical_all_Q1Q2.csv
+output/filtered_medical_all_Q3.csv
+output/filtered_medical_all_excluded.csv
+output/filtered_medical_all_unmatched.csv
+output/filtered_medical_2024_*.csv
+output/prefiltered_application.csv
+output/prefiltered_Q3_application.csv
+output/filtered_legal_*.csv
+output/prefiltered_legal_application.csv
+
+# Large classified files (keep analysis outputs, exclude raw classified)
+# Comment out the next line if you want to share the classified corpus
+output/classified_medical_Q1Q2.csv
+output/classified_medical_Q3*.csv
+output/classified_medical_Q1Q2_original.csv
+output/classified_medical_Q1Q2_yearcorrected.csv
+
+# Splits directory (intermediate)
+output/splits/
+
+# Pilot files (not needed for reproducibility)
+output/pilot_*.csv
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# VS Code settings (optional — remove this line if you want to share workspace settings)
+.vscode/
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Node modules (if any)
+node_modules/
+
+# ── What IS committed (everything not excluded above): ────────────────────────
+# All Python scripts (fetch, filter, classify, analyse, etc.)
+# output/analysis/*.csv (all analysis results)
+# output/figures/*.png (all figures at 300 DPI)
+# output/validation/kingsley_coding_sheet.csv
+# output/validation/coding_instructions.txt
+# output/prefiltered_discourse_eval.csv (retained — this is the key corpus)
+# output/prefiltered_Q3_discourse_eval.csv
+# input/sjr/sjr_YYYY.csv (SJR data — public, fine to share)
+# *.docx (commentary drafts, Kingsley brief, full report)
+# README.md (to be created)

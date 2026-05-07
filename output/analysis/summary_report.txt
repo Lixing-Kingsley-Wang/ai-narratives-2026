@@ -1,0 +1,41 @@
+AI NARRATIVES STUDY — ANALYSIS SUMMARY
+Generated: 2026-04-30 08:15
+============================================================
+
+CORPUS
+  Total classified records: 13,336
+  Years covered: 2021–2026
+
+OVERALL STANCE DISTRIBUTION
+  Alarm                     441  (3.3%)
+  Caution                 2,580  (19.3%)
+  Neutral                 4,093  (30.7%)
+  Cautious Optimism       5,970  (44.8%)
+  Advocacy                  252  (1.9%)
+
+ANNUAL CRITICAL STANCE (Alarm + Caution)
+  2021: 21.7%  (n=975)
+  2022: 21.9%  (n=1,197)
+  2023: 25.3%  (n=2,058)
+  2024: 23.2%  (n=456)
+  2025: 22.0%  (n=5,875)
+  2026: 22.7%  (n=2,772)
+
+SPECIALTY RANKING BY CRITICAL STANCE
+  Psychiatry/Neurology                35.5%
+  Other/General                       33.0%
+  Informatics/Digital Health          32.4%
+  Dermatology                         30.7%
+  Primary Care/Internal Medicine      30.5%
+  Medical Education                   28.8%
+  Emergency/Critical Care             28.4%
+  Surgery                             21.1%
+
+PREDICTIVE CLAIMS
+  Total papers with predictive claims: 5,048
+  2021: 389 (39.9%)
+  2022: 450 (37.6%)
+  2023: 855 (41.5%)
+  2024: 187 (41.0%)
+  2025: 2221 (37.8%)
+  2026: 946 (34.1%)

@@ -1,0 +1,9 @@
+region,total,Alarm,Caution,Neutral,Cautious Optimism,Advocacy,critical_pct,alarm_pct
+North America,3516,158,787,919,1588,64,26.88,4.49
+Europe,4123,145,902,1286,1734,56,25.39,3.52
+China,1798,28,167,680,888,35,10.85,1.56
+Asia-Pacific,1624,31,270,513,754,56,18.53,1.91
+Middle East,602,20,90,184,291,17,18.27,3.32
+Latin America,180,2,26,66,84,2,15.56,1.11
+Africa,32,0,9,8,13,2,28.12,0.0
+Unknown,1461,57,329,437,618,20,26.42,3.9

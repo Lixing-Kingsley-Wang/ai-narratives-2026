@@ -1,0 +1,6 @@
+pub_type,total,Alarm,Alarm_pct,Caution,Caution_pct,Neutral,Neutral_pct,Cautious Optimism,Cautious Optimism_pct,Advocacy,Advocacy_pct,critical_pct
+Comment,66,5,7.58,25,37.88,5,7.58,30,45.45,1,1.52,45.45
+Letter,353,28,7.93,119,33.71,80,22.66,105,29.75,21,5.95,41.64
+Editorial,283,11,3.89,91,32.16,35,12.37,127,44.88,19,6.71,36.04
+Article,8290,364,4.39,1515,18.28,3475,41.92,2869,34.61,67,0.81,22.67
+Review,4344,33,0.76,830,19.11,498,11.46,2839,65.35,144,3.31,19.87

@@ -1,0 +1,5 @@
+sector,total,Alarm,Caution,Neutral,Cautious Optimism,Advocacy,critical_pct,advocacy_pct
+academia,11917,390,2247,3742,5325,213,22.13,1.79
+industry,119,0,26,24,59,10,21.85,8.4
+mixed,190,3,44,44,97,2,24.74,1.05
+unknown,1110,48,263,283,489,27,28.02,2.43
