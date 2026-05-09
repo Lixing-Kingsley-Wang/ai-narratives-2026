@@ -27,6 +27,13 @@ MAX_RETRIES   = 3
 EMAIL         = os.environ["EMAIL"]
 TOOL_NAME     = "ai_narratives_study"
 
+# ── corpus cutoff ──────────────────────────────────────────────────────────────
+# Papers with PDAT after this month/year are excluded from the fetch.
+# Note: PubDate (cover date) cutoff is applied separately post-fetch — this
+# only narrows the PubMed query window to save fetch time.
+CUTOFF_YEAR  = 2026
+CUTOFF_MONTH = 4  # April 2026
+
 COLUMNS = [
     "pmid", "year", "pub_date", "title", "abstract",
     "journal", "journal_abbr", "pub_type",
@@ -45,7 +52,6 @@ QUERY_TEMPLATE = (
     '"deep learning"[tiab] OR "large language model"[tiab] OR '
     '"large language models"[tiab] OR "generative AI"[tiab] OR '
     '"generative artificial intelligence"[tiab] OR ChatGPT[tiab] OR '
-    '"GPT-5"[tiab] OR "GPT-4.5"[tiab] OR "GPT-4o"[tiab] OR '
     '"GPT-4"[tiab] OR "GPT-3"[tiab] OR GPT4[tiab] OR '
     '"foundation model"[tiab] OR "foundation models"[tiab] OR '
     '"natural language processing"[MeSH]) '
@@ -228,13 +234,17 @@ def process_year(year, output_dir):
                 fetched_pmids.add(row["pmid"])
         print(f"  Resuming {year}: {len(fetched_pmids)} already saved")
 
-    # Determine which months to query based on current date
+    # Determine which months to query based on current date and corpus cutoff
     current_year  = date.today().year
     current_month = date.today().month
     if year < current_year:
         months = list(range(1, 13))
     else:
-        months = list(range(1, current_month + 1))
+        max_month = current_month
+        # Apply corpus cutoff: never fetch beyond the configured cutoff year/month
+        if year == CUTOFF_YEAR:
+            max_month = min(max_month, CUTOFF_MONTH)
+        months = list(range(1, max_month + 1))
 
     print(f"\nYear {year}: collecting PMIDs across {len(months)} months...")
     all_pmids = []

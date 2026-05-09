@@ -45,6 +45,13 @@ venv/
 # Pipeline run logs
 output/*.log
 
+# Archived prior pipeline runs (preserved locally for diagnostics, never committed)
+output/archive_*/
+
+# macOS filesystem metadata
+.DS_Store
+**/.DS_Store
+
 # VS Code settings (optional — remove this line if you want to share workspace settings)
 .vscode/
 

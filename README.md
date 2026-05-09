@@ -7,7 +7,7 @@ A computational bibliometric study of stance and discourse toward AI in Q1/Q2 me
 **Target journal:** Lancet Digital Health  
 **Status:** Corpus rebuild May 2026 — sole-investigator re-run for Lancet Digital Health Commentary submission.
 
-> The May 2026 pipeline run (corpus fetch, prefilter, stance and thematic classification, validation export) was conducted by Kingsley as sole lead investigator; Dan Poenaru remains senior author. The query was expanded to include newer model names (`GPT-5`, `GPT-4o`, `GPT-4.5`) that postdate the original pipeline. Prior to running the prefilter on the full corpus, a 50-record pilot validation will be conducted (Kingsley's hand-codes vs. Haiku 4.5) to support the Methods section.
+> The May 2026 pipeline run (corpus fetch, prefilter, stance and thematic classification, validation export) was conducted by Kingsley as sole lead investigator; Dan Poenaru remains senior author. The PubMed query and date range follow Dan's original specification. Prior to running the prefilter on the full corpus, a 200-record pilot validation is conducted (Kingsley's hand-codes vs. Haiku 4.5) to support the Methods section.
 
 ## Key Findings (from prior pipeline run, May 2026 — to be replaced after re-run completes)
 - Critical stance (Alarm + Caution) peaked in 2023 at 25.3%, declining to 22.0% by 2025
