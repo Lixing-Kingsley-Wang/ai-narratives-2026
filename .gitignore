@@ -39,6 +39,12 @@ __pycache__/
 *.pyo
 .Python
 
+# Python virtual environment
+venv/
+
+# Pipeline run logs
+output/*.log
+
 # VS Code settings (optional — remove this line if you want to share workspace settings)
 .vscode/
 

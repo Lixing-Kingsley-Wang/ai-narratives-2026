@@ -61,7 +61,11 @@ Return ONLY valid JSON: {"stance":"...","confidence":"...","predictive_claim":".
 def build_prompt(title, abstract):
     text = f"Title: {title}"
     if abstract and abstract.strip():
-        text += f"\nAbstract: {abstract[:400]}"
+        # No truncation (was [:400]). 400 chars = ~70 words = LLM saw only abstract intro,
+        # missing findings/conclusions where stance signal lives. Sonnet 4.6's 200K-token
+        # context easily fits any PubMed abstract (typical max ~10K chars). Cost impact
+        # at corpus scale ~$15-30 incremental, negligible.
+        text += f"\nAbstract: {abstract}"
     return text
 
 

@@ -13,6 +13,9 @@ Output: raw_medical_YYYY.csv per year
 import csv, time, os, sys, json, xml.etree.ElementTree as ET
 from datetime import date
 import requests
+from dotenv import load_dotenv
+
+load_dotenv(override=True)
 
 # ── constants ──────────────────────────────────────────────────────────────────
 BASE_URL      = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
@@ -21,7 +24,7 @@ SLEEP_ESEARCH = 0.5
 SLEEP_EFETCH  = 0.4
 SLEEP_RETRY   = 12
 MAX_RETRIES   = 3
-EMAIL         = "dan.poenaru@mcgill.ca"
+EMAIL         = os.environ["EMAIL"]
 TOOL_NAME     = "ai_narratives_study"
 
 COLUMNS = [
@@ -42,6 +45,7 @@ QUERY_TEMPLATE = (
     '"deep learning"[tiab] OR "large language model"[tiab] OR '
     '"large language models"[tiab] OR "generative AI"[tiab] OR '
     '"generative artificial intelligence"[tiab] OR ChatGPT[tiab] OR '
+    '"GPT-5"[tiab] OR "GPT-4.5"[tiab] OR "GPT-4o"[tiab] OR '
     '"GPT-4"[tiab] OR "GPT-3"[tiab] OR GPT4[tiab] OR '
     '"foundation model"[tiab] OR "foundation models"[tiab] OR '
     '"natural language processing"[MeSH]) '
