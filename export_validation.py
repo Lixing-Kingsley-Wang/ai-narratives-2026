@@ -85,7 +85,7 @@ def main():
     print(f"\nFull reference file (with LLM stance): {full_path}")
 
     # ── File 2: Coding sheet (NO LLM stance — for Kingsly) ───────────────────
-    coding_path = os.path.join(VAL_DIR, "kingsly_coding_sheet.csv")
+    coding_path = os.path.join(VAL_DIR, "kingsly_coding_sheet.xlsx")
     coding_cols = ["record_id", "pub_year", "title", "abstract", "journal",
                    "human_stance", "human_notes"]
 
@@ -95,16 +95,40 @@ def main():
             "record_id":    r["record_id"],
             "pub_year":     r.get("pub_year","") or get_year(r),
             "title":        r.get("title",""),
-            "abstract":     r.get("abstract","")[:600],  # truncate for readability
+            # full abstract preserved (was truncated to 600 chars by Dan's original — broke validation coding)
+            "abstract":     r.get("abstract",""),
             "journal":      r.get("journal",""),
             "human_stance": "",   # Kingsly fills this in
             "human_notes":  "",   # optional comments
         })
 
-    with open(coding_path, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=coding_cols)
-        w.writeheader()
-        w.writerows(coding_rows)
+    # XLSX with ergonomics: stance dropdown, text wrap, frozen header, column widths
+    import pandas as pd
+    from openpyxl.styles import Alignment
+    from openpyxl.worksheet.datavalidation import DataValidation
+
+    df = pd.DataFrame(coding_rows, columns=coding_cols)
+    with pd.ExcelWriter(coding_path, engine="openpyxl") as writer:
+        df.to_excel(writer, index=False, sheet_name="coding")
+        ws = writer.sheets["coding"]
+        # column widths: A=record_id B=pub_year C=title D=abstract E=journal F=human_stance G=human_notes
+        for col, w in {"A": 12, "B": 8, "C": 55, "D": 90, "E": 28, "F": 20, "G": 30}.items():
+            ws.column_dimensions[col].width = w
+        # wrap title (C) and abstract (D)
+        for row in ws.iter_rows(min_row=2, min_col=3, max_col=4):
+            for cell in row:
+                cell.alignment = Alignment(wrap_text=True, vertical="top")
+        # dropdown for human_stance (column F)
+        dv = DataValidation(
+            type="list",
+            formula1='"Alarm,Caution,Neutral,Cautious Optimism,Advocacy"',
+            allow_blank=True,
+        )
+        dv.error = "Must be one of: Alarm, Caution, Neutral, Cautious Optimism, Advocacy"
+        dv.errorTitle = "Invalid stance"
+        ws.add_data_validation(dv)
+        dv.add(f"F2:F{len(df)+1}")
+        ws.freeze_panes = "A2"
     print(f"Coding sheet for Kingsly (no LLM stance): {coding_path}")
 
     # ── Instructions for Kingsly ──────────────────────────────────────────────

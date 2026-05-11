@@ -15,7 +15,8 @@ import asyncio
 import anthropic
 from anthropic import AsyncAnthropic
 from dotenv import load_dotenv
-load_dotenv()
+# override=True forces .env to win over shell environment vars (shell may have empty ANTHROPIC_API_KEY)
+load_dotenv(override=True)
 
 # ── constants ──────────────────────────────────────────────────────────────────
 MODEL       = "claude-sonnet-4-6"

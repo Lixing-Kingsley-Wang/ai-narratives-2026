@@ -12,7 +12,8 @@ import csv, json, time, os, sys, re
 import asyncio
 import anthropic
 from dotenv import load_dotenv
-load_dotenv()
+# override=True forces .env to win over shell environment vars (shell may have empty ANTHROPIC_API_KEY)
+load_dotenv(override=True)
 
 # ── constants ──────────────────────────────────────────────────────────────────
 MODEL       = "claude-haiku-4-5-20251001"

@@ -13,7 +13,8 @@ import csv, json, time, os, sys, re
 import asyncio
 from anthropic import AsyncAnthropic
 from dotenv import load_dotenv
-load_dotenv()
+# override=True forces .env to win over shell environment vars (shell may have empty ANTHROPIC_API_KEY)
+load_dotenv(override=True)
 
 MODEL       = "claude-sonnet-4-6"
 MAX_TOKENS  = 150
