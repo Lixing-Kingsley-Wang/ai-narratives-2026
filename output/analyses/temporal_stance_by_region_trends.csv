@@ -1,0 +1,6 @@
+region,n,spearman_rho,p_value,y_2021,y_2026,delta_pp_2021_to_2026
+North America,4961,0.6571,0.15617,29.84,36.62,6.78
+Western Europe,4296,0.8286,0.04156,32.56,38.47,5.91
+East Asia,3260,0.8857,0.01885,10.5,22.58,12.08
+Middle East / North Africa,1706,0.9429,0.0048,20.51,33.33,12.82
+South/Southeast Asia,782,0.7714,0.0724,6.67,25.4,18.73

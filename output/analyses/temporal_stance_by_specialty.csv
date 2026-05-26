@@ -1,0 +1,49 @@
+specialty,year,critical_pct,ci_lower,ci_upper
+Medical Informatics / Digital Health,2021,45.3925,39.6986,51.198
+Medical Informatics / Digital Health,2022,44.2935,38.9355,49.7111
+Medical Informatics / Digital Health,2023,46.9203,42.906,51.2016
+Medical Informatics / Digital Health,2024,47.1679,44.2449,50.2986
+Medical Informatics / Digital Health,2025,43.5728,41.1948,45.9865
+Medical Informatics / Digital Health,2026,43.239,39.6115,47.0041
+Radiology / Diagnostic Imaging,2021,15.4696,10.5256,21.1122
+Radiology / Diagnostic Imaging,2022,16.8,12.1566,21.7755
+Radiology / Diagnostic Imaging,2023,20.059,15.5687,24.131
+Radiology / Diagnostic Imaging,2024,20.8437,16.984,24.6914
+Radiology / Diagnostic Imaging,2025,23.3221,19.6987,27.0098
+Radiology / Diagnostic Imaging,2026,26.1438,21.3108,31.0366
+Surgery,2021,16.0714,7.0175,26.2295
+Surgery,2022,16.9492,8.3333,27.1192
+Surgery,2023,29.4479,21.8141,36.4708
+Surgery,2024,34.414,29.9716,39.323
+Surgery,2025,27.7344,23.8452,31.7431
+Surgery,2026,27.8884,22.1706,33.3333
+Oncology,2021,8.4906,3.4167,14.0368
+Oncology,2022,15.0376,9.5652,21.1553
+Oncology,2023,15.0289,10.0626,20.6064
+Oncology,2024,23.2258,18.749,27.8599
+Oncology,2025,20.4499,16.5984,23.8584
+Oncology,2026,24.8826,19.3131,30.6545
+Internal Medicine / Primary Care,2021,10.4651,4.5455,17.4433
+Internal Medicine / Primary Care,2022,10.0,4.1639,16.4755
+Internal Medicine / Primary Care,2023,18.797,12.4179,26.4475
+Internal Medicine / Primary Care,2024,25.9259,20.7545,31.1928
+Internal Medicine / Primary Care,2025,25.0,20.7071,29.2016
+Internal Medicine / Primary Care,2026,27.0718,20.9661,33.1721
+Medical Education,2021,37.037,19.2262,56.25
+Medical Education,2022,27.2727,12.1212,42.8571
+Medical Education,2023,35.8974,26.8252,44.9553
+Medical Education,2024,38.326,32.2028,45.0419
+Medical Education,2025,33.4746,29.3866,37.4733
+Medical Education,2026,36.0,29.1429,42.4532
+Dentistry,2021,11.1111,0.0,25.0
+Dentistry,2022,12.9032,2.9391,25.9259
+Dentistry,2023,21.2766,10.2041,33.3333
+Dentistry,2024,21.2329,15.2174,27.8571
+Dentistry,2025,29.3939,24.7544,34.5142
+Dentistry,2026,24.4318,18.0833,30.6033
+Ophthalmology,2021,18.4615,9.2075,29.1683
+Ophthalmology,2022,10.3896,3.9987,18.0778
+Ophthalmology,2023,21.8182,14.0488,29.4658
+Ophthalmology,2024,21.2766,15.539,27.3757
+Ophthalmology,2025,17.4672,12.6076,22.6106
+Ophthalmology,2026,17.4419,10.4149,25.3016
