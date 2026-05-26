@@ -261,11 +261,32 @@ Figure: [temporal_stance_by_region.png](../figures/temporal_stance_by_region.png
 
 Interpretation: hallucination is essentially a *subset* of broader safety concerns, not a parallel theme. Hallucination papers almost always invoke safety; safety papers don't always invoke hallucination. Asymmetric coupling. Details: [hallucination_patient_safety_cooccurrence.md](hallucination_patient_safety_cooccurrence.md).
 
-#### C.2 — Q1/Q2 vs Q3 comparison: DEFERRED
+#### C.2 — Q1/Q2 vs Q3 comparison: DONE (Session 2 fixup, 2026-05-26)
 
-Q3 corpus exists (5,433 filtered records; 1,055 in the prefiltered discourse+eval subset) but has **NOT** been stance-classified with the v1 or v2 prompts. Dan's `output/analysis/05_q1q2_vs_q3_stance.csv` is from his pre-v1 truncated-abstract pipeline (superseded).
+The 1,055 records in `prefiltered_Q3_discourse_eval.csv` were classified with the v1 canonical Sonnet 4.6 prompt (`classify_stance.py Q3`, async with 5-way concurrency, 5.7 min wall, 0 FAILED). Comparison run with `analysis/run_q3_compare.py`.
 
-**Decision needed from Kingsley:** run v1 stance classification on the 1,055 Q3 discourse+evaluative records (~30 min + ~$10), or report Q1/Q2 only. Details: [q1q2_vs_q3.md](q1q2_vs_q3.md).
+**Stance distribution (v1 prompt, both tiers, bootstrap 95% CI):**
+
+| Stance | Q1/Q2 % | Q3 % | Δ pp |
+|---|---|---|---:|
+| Alarm | 5.47 (5.14–5.83) | 4.74 (3.51–5.97) | -0.73 |
+| Caution | 25.35 (24.68–26.05) | 21.80 (19.33–24.27) | -3.55 |
+| Neutral | 5.00 (4.68–5.32) | 3.51 (2.46–4.64) | -1.49 |
+| Cautious Optimism | 62.78 (62.08–63.50) | 67.20 (64.27–69.86) | **+4.42** |
+| Advocacy | 1.40 (1.22–1.59) | 2.75 (1.80–3.79) | **+1.35** |
+| **Critical (A+C)** | **30.82** (30.13–31.51) | **26.54** (23.79–29.29) | **-4.28** |
+
+**Headline:** Q3 is **4.28 pp less critical** than Q1/Q2. The 95% CIs barely overlap (30.13–31.51 vs 23.79–29.29), so the gap is real, not chance. Q3 also has **~2× the Advocacy rate** (2.75% vs 1.40%) and ~4 pp more Cautious Optimism. The pattern is internally consistent — Q3 sits where you'd expect a less-critical sibling corpus.
+
+**Temporal:** Both tiers show rising critical trends with similar Spearman ρ:
+- Q1/Q2: ρ = +0.77, Δ = +7.25 pp (25.4% → 32.7%)
+- Q3:    ρ = +0.71, Δ = +4.22 pp (23.0% → 27.2%)
+
+**Caveat — Q3 2024 anomaly:** Q3 has only **n=32 records** for 2024 (vs 113/105/180/423 in 2021/22/23/25). The Q3 corpus appears to have a 2024 indexing dip — flag this in any temporal Q3 statement.
+
+**Manuscript phrasing suggestion** (for Kingsley to adapt): "The temporal critical shift observed in Q1/Q2 medical journals also holds in a smaller Q3 sample (n=1,055), though Q3 papers are overall 4.3 pp less critical with cleanly separated 95% CIs. This pattern is consistent with prestige bias in either direction — high-impact journals may either (a) attract more critical voices or (b) editorially favor critique; future work should distinguish."
+
+Figure: [q1q2_vs_q3.png](../figures/q1q2_vs_q3.png). Details: [q1q2_vs_q3.md](q1q2_vs_q3.md). CSVs: [q1q2_vs_q3_stance.csv](q1q2_vs_q3_stance.csv), [q1q2_vs_q3_temporal.csv](q1q2_vs_q3_temporal.csv).
 
 #### C.3 — Reviews-positive depth check by specialty
 
@@ -302,7 +323,7 @@ Figure: [reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by
 
 6. **Reviews-MORE-critical in MH/Radiology/Medical Education** is a small but interesting subfinding. Worth flagging in the discussion as a counter to a too-simple "reviews dampen critique" story.
 
-7. **Q3 comparison deferral.** If you want to keep the manuscript clean, plan to run the 1,055 Q3 discourse-eval records through `classify_stance_batch.py` in Session 3. ~$10 of Sonnet compute. Otherwise drop the Q3 generalizability claim.
+7. **Q3 comparison: DONE.** Q3 is 4.28 pp less critical than Q1/Q2 (CIs cleanly separated). Q3 Advocacy rate is ~2× higher. Temporal direction matches between tiers. Defensible generalizability claim for the manuscript.
 
 ---
 
@@ -320,6 +341,7 @@ Figure: [reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by
 - [analysis/run_advocacy_collapse.py](../../analysis/run_advocacy_collapse.py)
 - [analysis/run_reviews_by_specialty.py](../../analysis/run_reviews_by_specialty.py)
 - [analysis/run_hallu_safety_cooccurrence.py](../../analysis/run_hallu_safety_cooccurrence.py)
+- [analysis/run_q3_compare.py](../../analysis/run_q3_compare.py) (Session 2 fixup)
 
 **Figures (300 dpi):**
 - [output/figures/specialty_critical.png](../figures/specialty_critical.png)
@@ -328,6 +350,7 @@ Figure: [reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by
 - [output/figures/region_critical.png](../figures/region_critical.png)
 - [output/figures/temporal_stance_by_region.png](../figures/temporal_stance_by_region.png)
 - [output/figures/reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by_specialty.png)
+- [output/figures/q1q2_vs_q3.png](../figures/q1q2_vs_q3.png) (Session 2 fixup)
 
 **Classifications (worktree, committed):**
 - `output/specialty_classifications.csv` (16,759 rows; pmid, title, pub_year, journal, specialty, confidence, specialty_raw)
@@ -376,4 +399,4 @@ Figure: [reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by
 
 ### Q3 generalizability check
 
-In flight as of 2026-05-26 — see [q1q2_vs_q3.md](q1q2_vs_q3.md) for the updated status. Will be appended to this summary once the comparison runs.
+DONE (Session 2 fixup, 2026-05-26). Folded into the Workstream C section above (C.2). Q3 stance classification cost: ~$5 Sonnet 4.6 list price, 5.7 min wall.
