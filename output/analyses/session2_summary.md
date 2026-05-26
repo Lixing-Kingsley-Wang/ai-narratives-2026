@@ -16,7 +16,7 @@
 
 Seven new headline findings, all v1-canonical:
 
-1. **Critical stance varies 3.1× across specialties.** Mental Health/Psychiatry 51.3% (95% CI 46.8–55.5) → Cardiology 16.8% (14.1–19.8). Patient-facing/high-stakes clinical domains (MH, Nursing, Medical Education) and AI-methodology papers concentrate criticism; image-recognition domains (Radiology, Ophthalmology, Cardiology) skew most positive.
+1. **Critical stance varies 3.1× across specialties.** Mental Health/Psychiatry 51.3% (95% CI 46.8–55.5) → Cardiology 16.8% (14.1–19.8). The **top 3 critical specialties** are MH (51.3%), **Medical Informatics (44.9%)**, and Nursing (43.0%). Two clusters drive criticism: (a) **AI-methodology papers** (Medical Informatics, #2) — frameworks/ethics/benchmarks that explicitly debate AI risks; (b) **patient-facing / high-stakes clinical domains** where AI replaces human judgement (MH #1, Nursing #3, Dermatology #4, Medical Education #5). Image-recognition-heavy specialties (Radiology #14, Ophthalmology #17, Cardiology #18) skew most positive — AI augments rather than replaces in these.
 
 2. **Post-ChatGPT critical shift is global, not Western.** All 5 top regions show rising critical-rate trends (5/5 ρ>0). Significant rises in Western Europe (p=0.04), East Asia (p=0.02), MENA (p=0.005). Eastern markets show *larger absolute gains*: East Asia +12.1 pp, MENA +12.8 pp, S/SE Asia +18.7 pp vs NA +6.8 pp / WEU +5.9 pp. Eastern fields started low and caught up.
 
@@ -178,6 +178,54 @@ Unknown rate 3.5% — well under the 15% stop threshold. 274 of the 593 unknowns
 **East Asia at 18.5% with n=3,260 is the most robust regional finding.** It's about half the NA/WEU critical rate.
 
 Figure: [region_critical.png](../figures/region_critical.png).
+
+##### B.2.a — Sub-Saharan Africa detail (n=68)
+
+The headline 45.6% critical rate (95% CI 32.7–56.5%) is fragile (small n, wide CI) but worth full unpacking before deciding whether to feature it.
+
+**Country composition:**
+- South Africa: 26 (38%)
+- Uganda: 9
+- Nigeria: 8
+- Ethiopia: 7
+- Tanzania: 4
+- Ghana, Burkina Faso: 3 each
+- Singletons: Côte d'Ivoire, Senegal, Zimbabwe, Republic of Congo, Sierra Leone, Somalia, Rwanda, Zambia
+
+Anglophone southern + East Africa account for nearly all of it.
+
+**Stance distribution:** 34 Cautious Optimism, 27 Caution, 4 Alarm, 2 Advocacy, 1 Neutral. So "critical" = 4 Alarm + 27 Caution = 31/68 = 45.6%.
+
+**Specialty mix:** highly skewed:
+- Medical Informatics: 24 (35.3%)
+- Medical Education: 7 (10.3%)
+- Oncology: 6, Radiology: 5, Internal Medicine: 5
+- Other 14 specialties: 21 records total
+
+The high critical rate is **mechanically explained by composition**: 35% of SSA records are Medical Informatics (44.9% critical at corpus level) + 10% Medical Education (35.1% critical) + smaller contributions. A back-of-envelope mix-adjusted expectation lands close to 35–40%. The remaining excess (~5–10 pp) might reflect a regionally distinctive critical voice — see sample titles below — but n is too small to claim this with confidence.
+
+**Per-year volume and critical rate:**
+
+| year | n | crit % |
+|---:|---:|---:|
+| 2021 | 1 | 0.0% |
+| 2022 | 4 | 25.0% |
+| 2023 | 7 | 42.9% |
+| 2024 | 13 | 61.5% |
+| 2025 | 24 | 37.5% |
+| 2026 | 19 | 52.6% |
+
+Volume ramping rapidly (19 records in 4 months of 2026 vs 1 in all of 2021). Trend is real but per-year n still too small to fit a meaningful Spearman.
+
+**Sample Alarm-stance titles** (illustrating the regionally distinctive voice):
+- "The AI Health Arms Race: A Critical Perspective on Big Tech and the Widening Global Health Equity Gap" (Somalia)
+- "Epistemic (in)justice, social identity and the Black Box problem in patient care" (South Africa)
+- "Controversy in Hypertension: Con-side of the argument using AI for HTN diagnosis and management" (Uganda)
+- "Evaluation of the Diagnostic Capabilities of Artificial Intelligence (GPT-4) in a Cardiology Department in Sub-Saharan Africa" (Burkina Faso)
+
+Two of the four Alarm papers explicitly frame AI as a global-equity / colonial-tech concern — a register essentially absent from the NA/WEU Alarm corpus (which centers on hallucination and patient safety). If you want to feature SSA in the Commentary, this **equity/justice framing** is the distinctive substantive finding, not the headline rate.
+
+**Recommendation for your manuscript-selection decision:** treat the 45.6% number as an exploratory point with the n=68 caveat, but lift the equity-framing observation as a separate qualitative finding (4 Alarm titles are enough to anchor a 1–2 sentence discussion).
 
 #### B.3 — Temporal critical-rate trend by region (top 5)
 
