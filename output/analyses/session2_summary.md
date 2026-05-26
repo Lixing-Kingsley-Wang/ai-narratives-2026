@@ -345,3 +345,35 @@ Figure: [reviews_vs_research_by_specialty.png](../figures/reviews_vs_research_by
 - `reviews_by_specialty.md`, `.csv`
 - `hallucination_patient_safety_cooccurrence.md`, `_yearly.csv`
 - `q1q2_vs_q3.md` (status note)
+
+---
+
+## Future work — decisions noted
+
+### Finer-grained specialty taxonomy (post-Lancet-Commentary)
+
+**Kingsley's decision (2026-05-26):** when we revisit the specialty taxonomy for a longer follow-up paper, do **Option A + Option C together**, not separately. Specifically:
+
+- **Option A (two-axis decomposition)**: re-classify each of the 16,759 records with TWO labels:
+  - Axis 1: Clinical specialty (existing 18 categories, unchanged)
+  - Axis 2: Methodology-focus tag (a 4-bucket label: `methodology` / `ethics-governance` / `overview` / `not-applicable`)
+- **Option C (Med Informatics sub-split)**: layer this 4-bucket methodology-focus tag specifically as a *second-pass* refinement of the current `Medical Informatics / Digital Health` records (n=4,343), so the 25.9% Med Informatics bucket gets cleanly partitioned into:
+  - `methodology` (pure framework / benchmark / dataset / model architecture)
+  - `ethics-governance` (regulation, ethics frameworks, deployment / policy)
+  - `overview` (general AI-in-medicine cross-cutting reviews)
+  - `not-applicable` (papers mis-classified into Med Informatics that actually have a clinical anchor — re-route to that anchor's bucket)
+
+**Why combine A + C:** Option A alone gives the methodology tag to *every* record (so we can ask "what % of Cardiology papers are methodology-focused?"). Layering C on top means the Med Informatics bucket — currently the largest and most internally heterogeneous — gets the same finer treatment, AND any mis-routed records can be relabeled to their proper clinical anchor.
+
+**Estimated cost:** ~$11 (Option A's batch covers everything; C is the analysis layer on the same output, no extra classification).
+
+**Trigger:** revisit after the Lancet Digital Health Commentary is submitted (target mid-Aug 2026). Not needed for the Commentary itself.
+
+**Code touchpoints when we do it:**
+- Extend `SPECIALTY_PROMPT` in `analysis/classify_specialty.py` to request both axes
+- Update parser + output schema (add `methodology_tag` column)
+- Add an `analysis/split_med_informatics.py` (or extend `run_specialty_critical.py`) to apply Option C's interpretation logic on top of the Option A results
+
+### Q3 generalizability check
+
+In flight as of 2026-05-26 — see [q1q2_vs_q3.md](q1q2_vs_q3.md) for the updated status. Will be appended to this summary once the comparison runs.
