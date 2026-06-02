@@ -10,9 +10,15 @@ import re
 import matplotlib.pyplot as plt
 import pandas as pd
 
+# Input data lives in the parent checkout's gitignored output dir.
 DATA_DIR = Path("/Users/kingslywang/repos/ai-narratives-2026/output")
 THEMES_CSV = DATA_DIR / "analysis" / "thematic_alarm.csv"
-FIG_OUT = DATA_DIR / "figures" / "hallucination_keyword_composition.png"
+
+# Outputs land next to the script so they can be tracked in whichever
+# working tree is running it.
+OUT_DIR = Path(__file__).resolve().parent / "output"
+FIG_OUT = OUT_DIR / "figures" / "hallucination_keyword_composition.png"
+TABLE_OUT = OUT_DIR / "analyses" / "hallucination_keyword_composition.csv"
 
 PATTERN_GEN = re.compile(
     r"ChatGPT|GPT-?[34]?\b|\bLLM\b|\bLLMs\b|large language model|"
@@ -56,6 +62,14 @@ def main() -> None:
 
     print("\nSensitivity check (adding bare 'generative'):")
     print(g[["pub_year", "n", "pct_gen", "pct_gen_sens"]].round(1).to_string(index=False))
+
+    # Persist the yearly table.
+    TABLE_OUT.parent.mkdir(parents=True, exist_ok=True)
+    g_out = g.copy()
+    for c in ("pct_gen", "pct_disc", "pct_gen_sens"):
+        g_out[c] = g_out[c].round(2)
+    g_out.to_csv(TABLE_OUT, index=False)
+    print(f"\nSaved table:  {TABLE_OUT}")
 
     # Step 4: plot
     fig, ax = plt.subplots(figsize=(10, 6))
@@ -102,7 +116,7 @@ def main() -> None:
     plt.tight_layout()
     FIG_OUT.parent.mkdir(parents=True, exist_ok=True)
     plt.savefig(FIG_OUT, dpi=300, bbox_inches="tight")
-    print(f"\nSaved figure: {FIG_OUT}")
+    print(f"Saved figure: {FIG_OUT}")
 
 
 if __name__ == "__main__":
