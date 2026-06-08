@@ -147,16 +147,24 @@ def main() -> None:
     # ── [3] critical rate industry vs academic, overall + bootstrap CI ─────────
     ind = df[df["sector"] == "industry"]
     acad = df[df["sector"] == "academic_clinical"]
+    # sensitivity arm: ANY industry involvement = pure industry + mixed
+    # (mixed = both industry and academic tokens present, i.e. collaborations).
+    any_ind = df[df["sector"].isin(["industry", "mixed"])]
     ci_ind = bootstrap_ci(ind, critical_rate)
     ci_acad = bootstrap_ci(acad, critical_rate)
+    ci_any = bootstrap_ci(any_ind, critical_rate)
     print("\n[3] Critical (Alarm+Caution) rate — overall")
-    print(f"    industry          n={len(ind):>5,}  {ci_ind['point']:5.1f}%  "
+    print(f"    industry (pure)      n={len(ind):>5,}  {ci_ind['point']:5.1f}%  "
           f"CI[{ci_ind['lower']:.1f}, {ci_ind['upper']:.1f}]  "
           f"(width {ci_ind['upper']-ci_ind['lower']:.1f}pp)")
-    print(f"    academic_clinical n={len(acad):>5,}  {ci_acad['point']:5.1f}%  "
+    print(f"    any-industry (+mixed)n={len(any_ind):>5,}  {ci_any['point']:5.1f}%  "
+          f"CI[{ci_any['lower']:.1f}, {ci_any['upper']:.1f}]  "
+          f"(width {ci_any['upper']-ci_any['lower']:.1f}pp)")
+    print(f"    academic_clinical    n={len(acad):>5,}  {ci_acad['point']:5.1f}%  "
           f"CI[{ci_acad['lower']:.1f}, {ci_acad['upper']:.1f}]  "
           f"(width {ci_acad['upper']-ci_acad['lower']:.1f}pp)")
-    print(f"    delta (industry - academic): {ci_ind['point']-ci_acad['point']:+.1f} pp")
+    print(f"    delta (pure industry - academic): {ci_ind['point']-ci_acad['point']:+.1f} pp")
+    print(f"    delta (any-industry  - academic): {ci_any['point']-ci_acad['point']:+.1f} pp")
 
     # by pub_year
     print("\n    By pub_year (industry n | crit% | academic crit%):")
@@ -195,6 +203,8 @@ def main() -> None:
     rows = [
         {"group": "industry_overall", "n": len(ind), "critical_pct": round(ci_ind["point"], 2),
          "ci_lo": round(ci_ind["lower"], 2), "ci_hi": round(ci_ind["upper"], 2)},
+        {"group": "any_industry_overall", "n": len(any_ind), "critical_pct": round(ci_any["point"], 2),
+         "ci_lo": round(ci_any["lower"], 2), "ci_hi": round(ci_any["upper"], 2)},
         {"group": "academic_overall", "n": len(acad), "critical_pct": round(ci_acad["point"], 2),
          "ci_lo": round(ci_acad["lower"], 2), "ci_hi": round(ci_acad["upper"], 2)},
         {"group": "industry_pubtype_adjusted", "n": len(ind), "critical_pct": round(adj_ind, 2),
@@ -214,13 +224,13 @@ def main() -> None:
     fig, (axL, axR) = plt.subplots(1, 2, figsize=(13, 5.5),
                                    gridspec_kw={"width_ratios": [1, 1.4]})
 
-    # left: bar + CI overall
-    groups = ["industry", "academic_clinical"]
-    pts = [ci_ind["point"], ci_acad["point"]]
-    los = [ci_ind["lower"], ci_acad["lower"]]
-    his = [ci_ind["upper"], ci_acad["upper"]]
-    ns = [len(ind), len(acad)]
-    colors = ["#8E44AD", "#16A085"]
+    # left: bar + CI overall (incl. any-industry sensitivity arm)
+    groups = ["industry\n(pure)", "any-industry\n(+mixed)", "academic\nclinical"]
+    pts = [ci_ind["point"], ci_any["point"], ci_acad["point"]]
+    los = [ci_ind["lower"], ci_any["lower"], ci_acad["lower"]]
+    his = [ci_ind["upper"], ci_any["upper"], ci_acad["upper"]]
+    ns = [len(ind), len(any_ind), len(acad)]
+    colors = ["#8E44AD", "#B07CC6", "#16A085"]
     yerr = np.array([[p - l for p, l in zip(pts, los)], [h - p for p, h in zip(pts, his)]])
     bars = axL.bar(groups, pts, yerr=yerr, color=colors, alpha=0.9,
                    error_kw={"lw": 1.2, "capsize": 5, "ecolor": "#333"})

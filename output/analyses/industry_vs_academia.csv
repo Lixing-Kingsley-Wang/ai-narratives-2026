@@ -1,5 +1,6 @@
 group,n,critical_pct,ci_lo,ci_hi
 industry_overall,285,27.72,22.81,32.98
+any_industry_overall,1209,27.71,25.14,30.36
 academic_overall,14213,30.77,30.0,31.5
 industry_pubtype_adjusted,285,27.29,,
 industry_2021,28,21.43,,
