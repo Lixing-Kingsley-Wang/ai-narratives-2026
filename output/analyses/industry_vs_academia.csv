@@ -1,0 +1,16 @@
+group,n,critical_pct,ci_lo,ci_hi
+industry_overall,285,27.72,22.81,32.98
+academic_overall,14213,30.77,30.0,31.5
+industry_pubtype_adjusted,285,27.29,,
+industry_2021,28,21.43,,
+academic_2021,882,25.4,,
+industry_2022,25,20.0,,
+academic_2022,1119,24.49,,
+industry_2023,39,33.33,,
+academic_2023,1732,30.77,,
+industry_2024,70,30.0,,
+academic_2024,3090,33.59,,
+industry_2025,88,29.55,,
+academic_2025,5085,30.74,,
+industry_2026,35,22.86,,
+academic_2026,2305,32.15,,
