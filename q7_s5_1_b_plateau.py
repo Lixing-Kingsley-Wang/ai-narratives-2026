@@ -127,7 +127,8 @@ print(f"\nSaved → {OUT_CSV}")
 
 # ── figure ────────────────────────────────────────────────────────────────────
 os.makedirs(os.path.dirname(OUT_PNG), exist_ok=True)
-fig, ax = plt.subplots(figsize=(10, 6.5))
+fig, ax = plt.subplots(figsize=(11, 7))
+fig.subplots_adjust(left=0.09, right=0.97, top=0.84, bottom=0.26)
 x = np.arange(len(YEARS))
 
 # generative-share line with CI band
@@ -140,55 +141,70 @@ cag_h = tab["confab_among_gen_hi"].values
 cb    = tab["confab_broad"].values
 cs    = tab["confab_strict"].values
 
-ax.fill_between(x, gen_l, gen_h, color="#e377c2", alpha=0.18, linewidth=0)
-ax.plot(x, gen, marker="o", color="#e377c2", linewidth=2.5, markersize=8,
+# 2023 inflection (draw first, behind everything)
+ax.axvline(2, color="0.55", linestyle="--", linewidth=0.9, zorder=0)
+ax.text(2.02, 106, "ChatGPT (Nov 2022) →", fontsize=8.5, ha="left",
+        va="top", color="0.4")
+
+# two HERO lines (with CI bands)
+ax.fill_between(x, gen_l, gen_h, color="#e377c2", alpha=0.16, linewidth=0, zorder=1)
+ax.plot(x, gen, marker="o", color="#d6379b", linewidth=2.8, markersize=8, zorder=3,
         label="generative-share  (model_type ∈ {generative, both})")
-ax.fill_between(x, cag_l, cag_h, color="#d62728", alpha=0.18, linewidth=0)
-ax.plot(x, cag, marker="s", color="#d62728", linewidth=2.5, markersize=8,
-        label="confab-share AMONG GENERATIVE  (failure_mode ∈ {confab, both})")
-# faint reference: broad confab among all Alarm
-ax.plot(x, cb, marker="D", color="#8c564b", linewidth=1.4, markersize=5,
-        linestyle="--", alpha=0.75,
-        label="confab BROAD over all Alarm (reference)")
-ax.plot(x, cs, marker="v", color="#7f7f7f", linewidth=1.2, markersize=5,
-        linestyle=":", alpha=0.65,
-        label="confab STRICT over all Alarm (reference)")
+ax.fill_between(x, cag_l, cag_h, color="#d62728", alpha=0.16, linewidth=0, zorder=1)
+ax.plot(x, cag, marker="s", color="#c81e1e", linewidth=2.8, markersize=8, zorder=3,
+        label="confab-share AMONG generative  (failure_mode ∈ {confab, both})")
 
-# annotations on key endpoints
+# two faint REFERENCE lines (no CI band, muted, thin)
+ax.plot(x, cb, marker="D", color="#8c564b", linewidth=1.3, markersize=4.5,
+        linestyle="--", alpha=0.6, zorder=2,
+        label="confab BROAD over all Alarm  (reference)")
+ax.plot(x, cs, marker="v", color="#9a9a9a", linewidth=1.1, markersize=4.5,
+        linestyle=":", alpha=0.6, zorder=2,
+        label="confab STRICT over all Alarm  (reference)")
+
+# value labels on the two hero lines only
 for xi, v in zip(x, gen):
-    ax.annotate(f"{v:.0f}%", (xi, v), xytext=(0,9), textcoords="offset points",
-                ha="center", fontsize=9, color="#e377c2")
+    ax.annotate(f"{v:.0f}%", (xi, v), xytext=(0, 11), textcoords="offset points",
+                ha="center", fontsize=9, color="#d6379b", fontweight="bold")
 for xi, v, n in zip(x, cag, tab["n_generative"]):
-    txt = f"{v:.0f}%" if n>=10 else f"{v:.0f}%*"
-    ax.annotate(txt, (xi, v), xytext=(0,-15), textcoords="offset points",
-                ha="center", fontsize=9, color="#d62728")
+    txt = f"{v:.0f}%" if n >= 10 else f"{v:.0f}%*"
+    ax.annotate(txt, (xi, v), xytext=(0, -16), textcoords="offset points",
+                ha="center", fontsize=9, color="#c81e1e", fontweight="bold")
 
-# 2023 inflection
-ax.axvline(2, color="black", linestyle="--", linewidth=0.8, alpha=0.5)
-ax.text(2, 102, "  ChatGPT (Nov 2022) →", fontsize=8, ha="left", color="black", alpha=0.7)
-
-# divergence annotation
+# divergence annotation — parked in the empty UPPER-LEFT, arrow to the plateau
 ax.annotate(
-    "Divergence:\ngenerative-share rises ~80 pp,\nfabrication concern AMONG\ngenerative-AI Alarm\nplateaus at ~20%.",
-    xy=(4.0, 17), xytext=(2.4, 55),
-    fontsize=9, color="black",
-    bbox=dict(boxstyle="round,pad=0.4", facecolor="#fff8b0", edgecolor="#999", linewidth=0.8),
-    arrowprops=dict(arrowstyle="->", color="#666", lw=1))
+    "Divergence\ngenerative-share rises ~80 pp,\nbut fabrication concern among\ngenerative-AI Alarm papers\nplateaus near 20%.",
+    xy=(4.0, cag[4]), xytext=(0.12, 74),
+    fontsize=9.5, color="0.15", va="center", ha="left",
+    bbox=dict(boxstyle="round,pad=0.45", facecolor="#fff7c2",
+              edgecolor="#c9b66b", linewidth=0.9),
+    arrowprops=dict(arrowstyle="->", color="#888", lw=1.2,
+                    connectionstyle="arc3,rad=-0.2"))
 
+# x axis: clean year labels + a separate thin n-row beneath
 ax.set_xticks(x)
-ax.set_xticklabels([f"{y}\n(n_alarm={n}, n_gen={ng})"
-                    for y,n,ng in zip(YEARS, tab["n_alarm"], tab["n_generative"])],
-                   fontsize=9)
+ax.set_xticklabels(YEARS, fontsize=10)
+ax.set_xlim(-0.4, 5.4)
+for xi, n, ng in zip(x, tab["n_alarm"], tab["n_generative"]):
+    ax.annotate(f"n={n}\ngen={ng}", (xi, 0), xytext=(0, -30),
+                textcoords="offset points", ha="center", va="top",
+                fontsize=7.5, color="0.45", annotation_clip=False)
+
 ax.set_ylabel("% of papers", fontsize=11)
-ax.set_ylim(-3, 108)
+ax.set_ylim(-4, 110)
+ax.set_yticks([0, 20, 40, 60, 80, 100])
 ax.set_title("Q7 S5-1-b — fabrication concern did NOT scale with LLM uptake\n"
-             "(Alarm papers, bootstrap 95% CI shaded; * = n_gen<10)",
-             fontsize=11.5, loc="left")
-ax.legend(loc="center right", fontsize=8.5, frameon=False)
-for s in ("top","right"): ax.spines[s].set_visible(False)
-fig.text(0.5, -0.01,
+             "Alarm papers · bootstrap 95% CI shaded on the two hero lines · * = n_gen<10",
+             fontsize=12, loc="left", pad=26)
+# legend OUTSIDE the data, below the plot, 2 columns
+ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.20), ncol=2,
+          fontsize=9, frameon=False, columnspacing=2.4, handlelength=2.6)
+for s in ("top", "right"):
+    ax.spines[s].set_visible(False)
+
+fig.text(0.5, 0.015,
          "Prompt: q7_failuremode_v1 · Alarm only (Caution pending) · "
-         "ρ(generative-share, year)=%+.2f  ρ(confab-among-gen, year)=%+.2f"
+         "ρ(generative-share, year)=%+.2f   ρ(confab-among-gen, year)=%+.2f"
          % (rho_g, rho_c),
          ha="center", fontsize=8, style="italic", color="gray")
 fig.savefig(OUT_PNG, dpi=300, bbox_inches="tight")
