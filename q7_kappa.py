@@ -11,16 +11,29 @@ import pandas as pd
 from sklearn.metrics import cohen_kappa_score, confusion_matrix
 
 BASE  = os.path.dirname(os.path.abspath(__file__))
+XLSX  = os.path.join(BASE, "output", "analyses", "q7_validation_coding.xlsx")
 BLIND = os.path.join(BASE, "output", "analyses", "q7_validation_blind.csv")
 AC    = os.path.join(BASE, "output", "analyses", "q7_classified_ac.csv")
 
 FM_LABELS = ["confabulation","misclassification","both","none_or_unclear"]
 MT_LABELS = ["generative","discriminative","both","unclear"]
 
+def load_coding():
+    """Prefer the filled coding workbook (sheet 'Coding'); else the blind CSV."""
+    if os.path.exists(XLSX):
+        b = pd.read_excel(XLSX, sheet_name="Coding", dtype={"pmid": str})
+        print(f"Source: {os.path.basename(XLSX)} (sheet 'Coding')")
+        return b
+    if os.path.exists(BLIND):
+        print(f"Source: {os.path.basename(BLIND)}")
+        return pd.read_csv(BLIND, dtype={"pmid": str})
+    sys.exit(f"No coding file found: {XLSX} or {BLIND}")
+
 def main():
-    if not os.path.exists(BLIND):
-        sys.exit(f"Blind file not found: {BLIND}")
-    blind = pd.read_csv(BLIND, dtype={"pmid": str})
+    blind = load_coding()
+    for c in ("human_failure_mode","human_model_type"):
+        if c not in blind.columns:
+            sys.exit(f"Missing column '{c}' in coding file.")
     model = pd.read_csv(AC, dtype={"pmid": str})[["pmid","failure_mode","model_type"]]
     df = blind.merge(model, on="pmid", how="left",
                      suffixes=("", "_model"))
