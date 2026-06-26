@@ -18,9 +18,17 @@ import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 from robustness import bootstrap_ci
 
+import argparse
+ap = argparse.ArgumentParser()
+ap.add_argument("--abstract-only", action="store_true",
+                help="QC: restrict to A+C papers carrying an abstract (drop title-only)")
+ARGS = ap.parse_args()
+SUF = "_abstractonly" if ARGS.abstract_only else ""
+
 SEED = 42
 BASE = os.path.dirname(os.path.abspath(__file__))
 AC    = os.path.join(BASE, "output", "analyses", "q7_classified_ac.csv")
+SRC   = os.path.join(BASE, "output", "classified_medical_Q1Q2.csv")
 THEME = os.path.join(BASE, "output", "analysis", "thematic_alarm.csv")
 SPEC  = os.path.join(BASE, "output", "specialty_classifications.csv")
 ADOPT = os.path.join(BASE, "output", "analyses", "specialty_aiadoption.csv")
@@ -33,6 +41,15 @@ ac = pd.read_csv(AC, dtype={"pmid": str})
 ac = ac[ac["failure_mode"] != "FAILED"].copy()
 ac["pub_year"] = ac["pub_year"].astype(str)
 print(f"A+C valid rows (FAILED dropped): {len(ac)}")
+
+if ARGS.abstract_only:
+    ab = pd.read_csv(SRC, dtype={"pmid": str})[["pmid", "abstract"]]
+    ab["has_ab"] = ab["abstract"].fillna("").astype(str).str.strip().str.len() > 0
+    keep_pmids = set(ab.loc[ab["has_ab"], "pmid"])
+    before = len(ac)
+    ac = ac[ac["pmid"].isin(keep_pmids)].copy()
+    print(f"QC --abstract-only: dropped {before - len(ac)} title-only papers; "
+          f"kept {len(ac)} abstract-present.")
 
 th = pd.read_csv(THEME, dtype={"pmid": str})[["pmid","themes"]]
 th["hallu_gate"] = th["themes"].fillna("").str.lower().str.contains("hallucination").astype(int)
@@ -124,7 +141,7 @@ fig.suptitle("Q7 Phase 3 · Part 1 — the 'hallucination' theme gate is heterog
              fontsize=12, y=1.0)
 fig.text(0.5,-0.02,"Prompt: q7_failuremode_v1 · A+C (n=%d) · old gate from output/analysis/thematic_alarm.csv"%len(ac),
          ha="center", fontsize=8, style="italic", color="gray")
-f1 = os.path.join(FIGDIR, "q7_gate_composition.png")
+f1 = os.path.join(FIGDIR, f"q7_gate_composition{SUF}.png")
 fig.savefig(f1, dpi=300, bbox_inches="tight"); plt.close(fig)
 print(f"\nSaved → {f1}")
 
@@ -155,7 +172,7 @@ rho_c,p_c = spearmanr(np.arange(6), trend["confab_broad"])
 rho_g,p_g = spearmanr(np.arange(6), trend["gen_share"])
 print(f"\nSpearman over years: confab-broad rho={rho_c:+.3f} p={p_c:.3f} | "
       f"generative-share rho={rho_g:+.3f} p={p_g:.3f}")
-trend.to_csv(os.path.join(BASE,"output","analyses","q7_ac_temporal_trend.csv"), index=False)
+trend.to_csv(os.path.join(BASE,"output","analyses",f"q7_ac_temporal_trend{SUF}.csv"), index=False)
 
 # =============================================================================
 # PART 3 — S4-1 DISENTANGLEMENT
@@ -234,7 +251,7 @@ ax.text(0.98,0.04,tbl,transform=ax.transAxes,ha="right",va="bottom",fontsize=9,
 for s in ("top","right"): ax.spines[s].set_visible(False)
 fig.text(0.5,0.005,"CAVEAT: gen-share computed on critical papers only → endogenous to criticality, tends to OVER-attenuate. Suggestive only.",
          ha="center",fontsize=8,style="italic",color="#c81e1e")
-f2 = os.path.join(FIGDIR,"q7_s41_disentangle.png")
+f2 = os.path.join(FIGDIR,f"q7_s41_disentangle{SUF}.png")
 fig.savefig(f2,dpi=300,bbox_inches="tight"); plt.close(fig)
 print(f"\nSaved → {f2}")
 

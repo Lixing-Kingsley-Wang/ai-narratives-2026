@@ -37,6 +37,28 @@ bootstrap n = 1,000 percentile 95% CI (reused `robustness.bootstrap_ci`).
 
 ---
 
+## Robustness — abstract-present subset (QC)
+
+All Phase 3 analyses below were re-run on the **4,747 A+C papers carrying an
+abstract** (412 title-only papers dropped; `q7_phase3_analyses.py --abstract-only`).
+Every finding is unchanged — the QC does not move any conclusion:
+
+| metric | full A+C (5,159) | abstract-present (4,747) |
+|---|--:|--:|
+| gate composition: misclassification-dominant every year | yes (55–78%) | yes (56–90%) |
+| gate recall for confabulation | 90.5% | 89.7% |
+| trend: confab-broad ρ(year) / gen-share ρ(year) | +0.94 / +0.94 | +0.94 / +0.94 |
+| Spearman(critical_rate, FDA) | −0.647 | −0.647 |
+| partial(critical_rate, FDA \| gen-share) | −0.648 | −0.647 |
+| Spearman(critical_rate, gen-share) | −0.026 | −0.011 |
+| divergence: generative-not-confab / confab-not-generative | 39.0% / 1 | 39.1% / 1 |
+
+Figures/CSVs for the abstract-present run carry the `_abstractonly` suffix. The
+numbers cited in each Part below are the full-corpus values; the abstract-present
+values are within rounding and lead to identical conclusions.
+
+---
+
 ## Part 1 — Gate audit (heterogeneity + leakage)
 
 `output/figures/q7_gate_composition.png`
@@ -227,12 +249,15 @@ on already-circulated figures.
 | `output/analyses/q7_classified_ac.csv` | 5,161 critical papers, both axes |
 | `output/analyses/q7_classified_alarm.csv` | Alarm subset (916) |
 | `output/analyses/q7_classified_cautious.csv` | Caution subset (4,245) |
-| `output/analyses/q7_ac_temporal_trend.csv` | Part 2 trend + CI |
+| `output/analyses/q7_ac_temporal_trend.csv` | Part 2 trend + CI (full) |
+| `output/analyses/q7_ac_temporal_trend_abstractonly.csv` | Part 2 trend, abstract-present |
 | `output/analyses/q7_alarm_by_specialty.csv` | S5-1-a specialty table |
 | `output/analyses/q7_alarm_temporal_shares.csv` | S5-1-b plateau table |
-| `output/analyses/q7_validation_blind.csv` | 120-paper blind set (κ pending) |
-| `output/figures/q7_gate_composition.png` | Part 1 |
-| `output/figures/q7_s41_disentangle.png` | Part 3 |
+| `output/analyses/q7_validation_coding.xlsx` | 120-paper coded set |
+| `output/analyses/q7_adjudication.xlsx` | 46 disagreements, adjudicated |
+| `output/analyses/q7_kappa_report_adjudicated_abstractonly.md` | final κ report |
+| `output/figures/q7_gate_composition.png` (+ `_abstractonly`) | Part 1 |
+| `output/figures/q7_s41_disentangle.png` (+ `_abstractonly`) | Part 3 |
 | `output/figures/q7_alarm_confab_plateau.png` | S5-1-b |
 | `output/figures/q7_alarm_failuremode_by_specialty.png` | S5-1-a |
 | `output/figures/q7_alarm_temporal.png` | Phase 1 |
