@@ -50,6 +50,15 @@ def main():
         print("No rows coded yet — fill human_failure_mode / human_model_type and re-run.")
         return
 
+    def landis_koch(k):
+        return ("poor" if k < 0 else "slight" if k < 0.20 else "fair" if k < 0.40
+                else "moderate" if k < 0.60 else "substantial" if k < 0.80
+                else "almost perfect")
+
+    md = ["# Q7 validation — inter-rater agreement (human vs classifier)\n",
+          f"Coded rows: **{n_coded}/{n_total}**. Cohen's κ (unweighted, nominal). "
+          "Strength labels per Landis & Koch (1977).\n"]
+
     def report(axis, human_col, model_col, labels):
         h = coded[human_col]
         m = coded[model_col].astype(str).str.strip().str.lower()
@@ -62,16 +71,40 @@ def main():
         agree = (h.values == m.values).mean()
         print(f"\n{'='*70}\n[{axis}]  n={len(h)}"
               + (f"  ({bad} rows with out-of-vocab labels skipped)" if bad else ""))
-        print(f"  Cohen's kappa : {kappa:+.3f}")
+        print(f"  Cohen's kappa : {kappa:+.3f}  ({landis_koch(kappa)})")
         print(f"  raw agreement : {agree*100:.1f}%")
         cm = confusion_matrix(h, m, labels=labels)
         cmdf = pd.DataFrame(cm, index=[f"H:{l}" for l in labels],
                             columns=[f"M:{l}" for l in labels])
         print("  confusion matrix (rows=human, cols=model):")
         print(cmdf.to_string())
+        md.append(f"\n## {axis}\n")
+        md.append(f"- n = {len(h)}{f' ({bad} out-of-vocab skipped)' if bad else ''}")
+        md.append(f"- **Cohen's κ = {kappa:+.3f}** ({landis_koch(kappa)})")
+        md.append(f"- raw agreement = {agree*100:.1f}%\n")
+        md.append("Confusion matrix (rows = human, cols = model):\n")
+        md.append("| | " + " | ".join(cmdf.columns) + " |")
+        md.append("|" + "---|" * (len(cmdf.columns) + 1))
+        for idx, row in cmdf.iterrows():
+            md.append(f"| **{idx}** | " + " | ".join(str(v) for v in row.values) + " |")
+        md.append("")
 
     report("failure_mode", "human_failure_mode", "failure_mode", FM_LABELS)
     report("model_type",   "human_model_type",   "model_type",   MT_LABELS)
+
+    # disagreement rows for adjudication
+    dis = coded[(coded["human_failure_mode"] != coded["failure_mode"].str.lower()) |
+                (coded["human_model_type"]   != coded["model_type"].str.lower())]
+    keep = ["pmid","pub_year","human_failure_mode","failure_mode",
+            "human_model_type","model_type"]
+    keep = [c for c in keep if c in dis.columns]
+    out_dis = os.path.join(BASE, "output", "analyses", "q7_validation_disagreements.csv")
+    dis[keep].to_csv(out_dis, index=False)
+    out_md = os.path.join(BASE, "output", "analyses", "q7_kappa_report.md")
+    with open(out_md, "w") as f:
+        f.write("\n".join(md))
+    print(f"\nDisagreements ({len(dis)} rows) → {out_dis}")
+    print(f"Report → {out_md}")
 
 if __name__ == "__main__":
     main()
