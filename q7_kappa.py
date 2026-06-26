@@ -61,6 +61,8 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--adjudicated", action="store_true",
                     help="merge FINAL labels from q7_adjudication.xlsx before scoring")
+    ap.add_argument("--require-abstract", action="store_true",
+                    help="QC: drop title-only papers (empty abstract) before scoring")
     args = ap.parse_args()
 
     blind = load_coding()
@@ -72,6 +74,13 @@ def main():
         blind[c] = blind[c].astype(str).str.strip().str.lower()
     if args.adjudicated:
         blind = apply_adjudication(blind)
+    if args.require_abstract:
+        if "abstract" not in blind.columns:
+            sys.exit("--require-abstract needs an 'abstract' column in the coding file.")
+        has = blind["abstract"].fillna("").astype(str).str.strip().str.len() > 0
+        print(f"QC: dropping {int((~has).sum())} title-only papers (empty abstract); "
+              f"keeping {int(has.sum())}.")
+        blind = blind[has].copy()
 
     model = pd.read_csv(AC, dtype={"pmid": str})[["pmid","failure_mode","model_type"]]
     df = blind.merge(model, on="pmid", how="left",
@@ -190,7 +199,8 @@ def main():
     report("failure_mode", "human_failure_mode", "failure_mode", FM_LABELS)
     report("model_type",   "human_model_type",   "model_type",   MT_LABELS)
 
-    suffix = "_adjudicated" if args.adjudicated else ""
+    suffix = ("_adjudicated" if args.adjudicated else "") + \
+             ("_abstractonly" if args.require_abstract else "")
     # disagreement rows (post-adjudication these are the residual unresolved ones)
     dis = coded[(coded["human_failure_mode"] != coded["failure_mode"].str.lower()) |
                 (coded["human_model_type"]   != coded["model_type"].str.lower())]

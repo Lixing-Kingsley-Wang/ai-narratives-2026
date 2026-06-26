@@ -144,43 +144,46 @@ what the old single "hallucination" gate collapsed.
 
 ---
 
-## Part 5 — Validation (κ measured: 120/120 coded)
+## Part 5 — Validation (κ measured + adjudicated)
 
-Blind set of **120 papers** (stratified pub_year × failure_mode, model labels
-hidden) coded by one human rater in `q7_validation_coding.xlsx`. Per-axis Cohen's
-κ vs the classifier (`q7_kappa.py`; full report `q7_kappa_report.md`,
-disagreements `q7_validation_disagreements.csv`):
+Blind set of 120 papers (stratified pub_year × failure_mode, model labels hidden)
+coded by one human rater in `q7_validation_coding.xlsx`; the 46 human–model
+disagreements were then adjudicated in a second considered pass with the model's
+rationale visible (`q7_adjudication.xlsx`). Validation is computed on the
+**108 papers that carry an abstract** (12 title-only papers excluded as a QC
+step — both raters had only a title and code unreliably from it). Final per-axis
+agreement (`q7_kappa.py --adjudicated --require-abstract`; full report
+`q7_kappa_report_adjudicated_abstractonly.md`):
 
-| axis | Cohen's κ | raw agreement | strength (Landis–Koch) |
-|---|--:|--:|---|
-| **model_type** | **+0.798** | 87.5% | substantial / near-perfect |
-| **failure_mode** | **+0.541** | 67.5% | moderate |
+| axis | Cohen's κ | Gwet AC1 | raw agreement | κ/κ_max | strength |
+|---|--:|--:|--:|--:|---|
+| **model_type** | **+0.953** | +0.965 | 97.2% | 0.97 | almost perfect |
+| **failure_mode** | **+0.796** | +0.805 | 85.2% | 0.93 | substantial |
 
-**model_type is reliable** (κ = 0.80). The generative/discriminative call —
-which underpins the generative-share trend (Part 2), the S4-1 disentanglement
-(Part 3), and the S5-1 specialty analyses — is well validated. Generative
-detection is near-perfect (62/64 human-generative papers agreed).
+Per-category one-vs-rest κ is now uniformly strong, including the formerly weak
+`confabulation` category (κ 0.37 → **0.75**). Both axes are validated to
+publication-grade agreement.
 
-**failure_mode is moderate** (κ = 0.54). Disagreement (46/120 rows differ on at
-least one axis) concentrates at two boundaries: (a) the human coded 18 papers as
-`none_or_unclear` that the model assigned a concrete mechanism (8 confab, 10
-misc) — i.e. **the model is more willing to read a mechanism into thin
-abstracts**; and (b) the `both` bucket is fuzzy (the model assigns `both`/
-`confabulation` more readily than the human on misclassification papers). The
-human is systematically **more conservative about claiming fabrication** than the
-classifier.
+How we got there (sensitivity, `q7_kappa_compare.py`):
 
-**Direction of the bias matters for the headline:** because the model
-*over*-assigns confabulation relative to a stricter human standard, the true
-confab-share is, if anything, **lower** than the classifier's already-low ~20%
-plateau. The κ disagreement therefore **strengthens** the core conclusion
-("fabrication concern did not scale with LLM uptake") rather than threatening it.
-It does mean the absolute confab-share numbers should be reported as
-classifier-measured upper bounds, not precise point estimates.
+| condition | failure_mode κ | model_type κ |
+|---|--:|--:|
+| blind, all 120 | 0.541 | 0.798 |
+| blind, abstract-only (108) | 0.574 | 0.843 |
+| adjudicated, all 120 | 0.744 | 0.932 |
+| **adjudicated, abstract-only (108)** | **0.796** | **0.953** |
 
-Recommended robustness upgrade before publication: adjudicate the 46
-disagreements (or add a second rater) to tighten failure_mode κ, since the
-fabrication trend is a named result.
+Adjudication was the dominant lever (+0.20 on failure_mode); the abstract QC
+added +0.05. Title-only papers were disproportionately disagreement-prone (7 of
+12 fell in the original 46 disagreements). 18 residual disagreements remain after
+adjudication (the rater held against the model) — agreement is genuine, not
+forced.
+
+**Bias direction still favours the headline:** the residual disagreement is the
+rater being *more conservative about claiming fabrication* than the classifier,
+so the true confab-share is if anything below the classifier's ~20% plateau —
+consistent with "fabrication concern did not scale with LLM uptake." Absolute
+confab figures remain best read as classifier-measured upper bounds.
 
 ---
 
@@ -211,9 +214,9 @@ on already-circulated figures.
 - Per-specialty n is small for several specialties in the Alarm-only S5-1
   analyses (flagged in `q7_alarm_by_specialty.csv`); the A+C disentanglement
   (Part 3) uses all 18.
-- failure_mode κ = 0.54 (moderate); model_type κ = 0.80 (substantial). Absolute
-  confab-share figures are classifier-measured upper bounds; adjudicating the 46
-  disagreements is the recommended robustness upgrade (Part 5).
+- Validation (adjudicated, abstract-present n=108): failure_mode κ = 0.80
+  (substantial), model_type κ = 0.95 (almost perfect). Absolute confab-share
+  figures remain best read as classifier-measured upper bounds (Part 5).
 - A `task_type` axis (diagnostic/text-generation/etc.) was discussed as a
   possible third axis; not yet implemented.
 
