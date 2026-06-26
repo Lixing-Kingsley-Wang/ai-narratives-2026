@@ -7,15 +7,26 @@ whether the latter is flat (plateau) while the former rises.
 import os
 import numpy as np
 import pandas as pd
+import argparse
 import matplotlib.pyplot as plt
 from scipy.stats import spearmanr
 from robustness import bootstrap_ci
+from q7_abstract_filter import abstract_present_pmids
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--abstract-only", action="store_true")
+ap.add_argument("--ac", action="store_true", help="use the A+C critical corpus instead of Alarm-only")
+ARGS = ap.parse_args()
+SUF = "_abstractonly" if ARGS.abstract_only else ""
+TOK = "ac" if ARGS.ac else "alarm"
+SCOPE = "Alarm+Caution (critical)" if ARGS.ac else "Alarm"
 
 SEED = 42
 BASE = os.path.dirname(os.path.abspath(__file__))
-ALARM = os.path.join(BASE, "output", "analyses", "q7_classified_alarm.csv")
-OUT_CSV = os.path.join(BASE, "output", "analyses", "q7_alarm_temporal_shares.csv")
-OUT_PNG = os.path.join(BASE, "output", "figures", "q7_alarm_confab_plateau.png")
+ALARM = os.path.join(BASE, "output", "analyses",
+                     "q7_classified_ac.csv" if ARGS.ac else "q7_classified_alarm.csv")
+OUT_CSV = os.path.join(BASE, "output", "analyses", f"q7_{TOK}_temporal_shares{SUF}.csv")
+OUT_PNG = os.path.join(BASE, "output", "figures", f"q7_{TOK}_confab_plateau{SUF}.png")
 
 YEARS = ["2021","2022","2023","2024","2025","2026"]
 
@@ -23,7 +34,12 @@ YEARS = ["2021","2022","2023","2024","2025","2026"]
 df = pd.read_csv(ALARM, dtype={"pmid": str})
 n0 = len(df)
 df = df[df["failure_mode"] != "FAILED"].copy()
-print(f"Loaded Alarm: {n0} → dropped {n0-len(df)} FAILED → {len(df)} rows.")
+if ARGS.abstract_only:
+    keep = abstract_present_pmids(BASE)
+    nb = len(df)
+    df = df[df["pmid"].isin(keep)].copy()
+    print(f"QC --abstract-only: {nb} → {len(df)} abstract-present Alarm rows.")
+print(f"Loaded {SCOPE}: {n0} → dropped {n0-len(df)} FAILED → {len(df)} rows.")
 
 df["pub_year"] = df["pub_year"].astype(str)
 df["gen"]    = df["model_type"].isin(["generative","both"]).astype(int)
@@ -63,7 +79,7 @@ tab = pd.DataFrame(rows)
 # ── print table ───────────────────────────────────────────────────────────────
 print()
 print("="*132)
-print("Per-year shares (Alarm, n=915), bootstrap n=1000 percentile 95% CI")
+print(f"Per-year shares ({SCOPE}, n={len(df)}), bootstrap n=1000 percentile 95% CI")
 print("="*132)
 print(f"{'year':<6s} {'n':>4s} {'n_gen':>6s} | "
       f"{'gen-share':>22s} | {'confab STRICT':>22s} | {'confab BROAD':>22s} | "
@@ -157,10 +173,10 @@ ax.plot(x, cag, marker="s", color="#c81e1e", linewidth=2.8, markersize=8, zorder
 # two faint REFERENCE lines (no CI band, muted, thin)
 ax.plot(x, cb, marker="D", color="#8c564b", linewidth=1.3, markersize=4.5,
         linestyle="--", alpha=0.6, zorder=2,
-        label="confab BROAD over all Alarm  (reference)")
+        label="confab BROAD over all critical  (reference)")
 ax.plot(x, cs, marker="v", color="#9a9a9a", linewidth=1.1, markersize=4.5,
         linestyle=":", alpha=0.6, zorder=2,
-        label="confab STRICT over all Alarm  (reference)")
+        label="confab STRICT over all critical  (reference)")
 
 # value labels on the two hero lines only
 for xi, v in zip(x, gen):
@@ -173,7 +189,7 @@ for xi, v, n in zip(x, cag, tab["n_generative"]):
 
 # divergence annotation — parked in the empty UPPER-LEFT, arrow to the plateau
 ax.annotate(
-    "Divergence\ngenerative-share rises ~80 pp,\nbut fabrication concern among\ngenerative-AI Alarm papers\nplateaus near 20%.",
+    "Divergence\ngenerative-share rises ~80 pp,\nbut fabrication concern among\ngenerative-AI critical papers\nplateaus near 20%.",
     xy=(4.0, cag[4]), xytext=(0.12, 74),
     fontsize=9.5, color="0.15", va="center", ha="left",
     bbox=dict(boxstyle="round,pad=0.45", facecolor="#fff7c2",
@@ -194,7 +210,7 @@ ax.set_ylabel("% of papers", fontsize=11)
 ax.set_ylim(-4, 110)
 ax.set_yticks([0, 20, 40, 60, 80, 100])
 ax.set_title("Q7 S5-1-b — fabrication concern did NOT scale with LLM uptake\n"
-             "Alarm papers · bootstrap 95% CI shaded on the two hero lines · * = n_gen<10",
+             f"{SCOPE} papers · bootstrap 95% CI shaded on the two hero lines · * = n_gen<10",
              fontsize=12, loc="left", pad=26)
 # legend OUTSIDE the data, below the plot, 2 columns
 ax.legend(loc="upper center", bbox_to_anchor=(0.5, -0.20), ncol=2,
@@ -203,7 +219,8 @@ for s in ("top", "right"):
     ax.spines[s].set_visible(False)
 
 fig.text(0.5, 0.015,
-         "Prompt: q7_failuremode_v1 · Alarm only (Caution pending) · "
+         "Prompt: q7_failuremode_v1 · " + SCOPE +
+         (" · abstract-present · " if ARGS.abstract_only else " · ") +
          "ρ(generative-share, year)=%+.2f   ρ(confab-among-gen, year)=%+.2f"
          % (rho_g, rho_c),
          ha="center", fontsize=8, style="italic", color="gray")

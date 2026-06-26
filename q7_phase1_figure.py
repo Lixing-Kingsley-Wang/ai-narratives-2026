@@ -2,14 +2,24 @@
 Two stacked-bar panels (failure_mode and model_type, % within year) sharing the
 year axis, plus an inline line panel for confabulation-share and generative-share."""
 
-import csv, os
+import csv, os, argparse
 from collections import Counter
 import matplotlib.pyplot as plt
 import numpy as np
+from q7_abstract_filter import abstract_present_pmids
+
+ap = argparse.ArgumentParser()
+ap.add_argument("--abstract-only", action="store_true")
+ap.add_argument("--ac", action="store_true", help="use the A+C critical corpus instead of Alarm-only")
+ARGS = ap.parse_args()
+SUF = "_abstractonly" if ARGS.abstract_only else ""
+TOK = "ac" if ARGS.ac else "alarm"
+SCOPE = "Alarm+Caution (critical)" if ARGS.ac else "Alarm only"
 
 BASE = os.path.dirname(os.path.abspath(__file__))
-P    = os.path.join(BASE, "output", "analyses", "q7_classified_alarm.csv")
-OUT  = os.path.join(BASE, "output", "figures", "q7_alarm_temporal.png")
+P    = os.path.join(BASE, "output", "analyses",
+                    "q7_classified_ac.csv" if ARGS.ac else "q7_classified_alarm.csv")
+OUT  = os.path.join(BASE, "output", "figures", f"q7_{TOK}_temporal{SUF}.png")
 
 YEARS = ["2021","2022","2023","2024","2025","2026"]
 FM_ORDER  = ["confabulation","both","misclassification","none_or_unclear"]
@@ -21,6 +31,12 @@ MT_COLORS = {"generative":"#e377c2", "both":"#9467bd",
 
 with open(P, encoding="utf-8") as f:
     rows = [r for r in csv.DictReader(f) if r["failure_mode"] != "FAILED"]
+
+if ARGS.abstract_only:
+    keep = abstract_present_pmids(BASE)
+    n0 = len(rows)
+    rows = [r for r in rows if r["pmid"] in keep]
+    print(f"QC --abstract-only: {n0} → {len(rows)} abstract-present {SCOPE} rows.")
 
 by_year = Counter(r["pub_year"] for r in rows)
 fm_by   = Counter((r["pub_year"], r["failure_mode"]) for r in rows)
@@ -74,10 +90,11 @@ def stacked(ax, m, order, colors, title, totals):
             va="bottom", ha="left", style="italic")
     for s in ("top","right"): ax.spines[s].set_visible(False)
 
+_N = len(rows)
 stacked(ax1, fm_m, FM_ORDER, FM_COLORS,
-        "A. failure_mode composition by year (Alarm only, n=915)", totals)
+        f"A. failure_mode composition by year ({SCOPE}, n={_N})", totals)
 stacked(ax2, mt_m, MT_ORDER, MT_COLORS,
-        "B. model_type composition by year (Alarm only, n=915)", totals)
+        f"B. model_type composition by year ({SCOPE}, n={_N})", totals)
 
 x = np.arange(len(YEARS))
 ax3.plot(x, gen_share,  marker="o", color="#e377c2", linewidth=2.2,
@@ -99,10 +116,11 @@ ax3.set_title("C. Key shares over time — note divergence between the two axes"
 ax3.legend(loc="upper left", fontsize=9, frameon=False)
 for s in ("top","right"): ax3.spines[s].set_visible(False)
 
-fig.suptitle("Q7 Phase 1 — temporal pattern of failure_mode and model_type within Alarm papers",
+fig.suptitle(f"Q7 — temporal pattern of failure_mode and model_type ({SCOPE})",
              fontsize=12, y=0.995)
 fig.text(0.5, 0.005,
-         "Prompt: q7_failuremode_v1 · model: claude-sonnet-4-6 · stance: Alarm only (Caution pending)",
+         f"Prompt: q7_failuremode_v1 · model: claude-sonnet-4-6 · stance: {SCOPE}"
+         f"{' · abstract-present' if ARGS.abstract_only else ''}",
          ha="center", fontsize=8, style="italic", color="gray")
 
 os.makedirs(os.path.dirname(OUT), exist_ok=True)

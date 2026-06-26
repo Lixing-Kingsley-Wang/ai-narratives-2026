@@ -244,20 +244,22 @@ on already-circulated figures.
 
 ### Artifacts
 
+**Canonical package = full-abstract (abstract-present) + A+C scope.** See
+`q7_session5_package.md` for the curated manifest. The Alarm-only and full-corpus
+(title-inclusive) variants remain in git history but are superseded.
+
 | file | what |
 |---|---|
-| `output/analyses/q7_classified_ac.csv` | 5,161 critical papers, both axes |
-| `output/analyses/q7_classified_alarm.csv` | Alarm subset (916) |
-| `output/analyses/q7_classified_cautious.csv` | Caution subset (4,245) |
-| `output/analyses/q7_ac_temporal_trend.csv` | Part 2 trend + CI (full) |
-| `output/analyses/q7_ac_temporal_trend_abstractonly.csv` | Part 2 trend, abstract-present |
-| `output/analyses/q7_alarm_by_specialty.csv` | S5-1-a specialty table |
-| `output/analyses/q7_alarm_temporal_shares.csv` | S5-1-b plateau table |
+| `output/analyses/q7_session5_package.md` | **manifest of the full-abstract package** |
+| `output/analyses/q7_classified_ac.csv` | 5,161 critical papers, both axes (base table) |
+| `output/analyses/q7_ac_temporal_trend_abstractonly.csv` | Part 2 trend + CI (A+C, abstract-present) |
+| `output/analyses/q7_ac_by_specialty_abstractonly.csv` | S5-1-a specialty table (A+C, abstract-present) |
+| `output/analyses/q7_ac_temporal_shares_abstractonly.csv` | S5-1-b plateau table (A+C, abstract-present) |
 | `output/analyses/q7_validation_coding.xlsx` | 120-paper coded set |
 | `output/analyses/q7_adjudication.xlsx` | 46 disagreements, adjudicated |
 | `output/analyses/q7_kappa_report_adjudicated_abstractonly.md` | final κ report |
-| `output/figures/q7_gate_composition.png` (+ `_abstractonly`) | Part 1 |
-| `output/figures/q7_s41_disentangle.png` (+ `_abstractonly`) | Part 3 |
-| `output/figures/q7_alarm_confab_plateau.png` | S5-1-b |
-| `output/figures/q7_alarm_failuremode_by_specialty.png` | S5-1-a |
-| `output/figures/q7_alarm_temporal.png` | Phase 1 |
+| `output/figures/q7_ac_temporal_abstractonly.png` | Phase 1 temporal (A+C) |
+| `output/figures/q7_gate_composition_abstractonly.png` | Part 1 gate audit |
+| `output/figures/q7_s41_disentangle_abstractonly.png` | Part 3 disentanglement |
+| `output/figures/q7_ac_failuremode_by_specialty_abstractonly.png` | S5-1-a specialty (A+C) |
+| `output/figures/q7_ac_confab_plateau_abstractonly.png` | S5-1-b plateau (A+C) |

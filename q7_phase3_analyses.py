@@ -103,7 +103,9 @@ print(f"\nTotal confab-involved papers MISSED by the old gate: {total_missed} "
       f"= {ac[(ac.confab_inv==1)&(ac.hallu_gate==1)].shape[0]/ac[ac.confab_inv==1].shape[0]*100:.1f}%.")
 
 # ── Figure 1: gate composition ───────────────────────────────────────────────
-fig, (axL, axR) = plt.subplots(1, 2, figsize=(15, 6), gridspec_kw={"width_ratios":[1.25,1]})
+from matplotlib.patches import Patch
+fig, (axL, axR) = plt.subplots(1, 2, figsize=(15, 6.4), gridspec_kw={"width_ratios":[1.25,1]})
+fig.subplots_adjust(top=0.84, bottom=0.20, wspace=0.22)
 x = np.arange(len(YEARS))
 FM_COL = {"confabulation":"#d62728","both":"#9467bd",
           "misclassification":"#1f77b4","none_or_unclear":"#bcbd22"}
@@ -125,7 +127,6 @@ axL.set_ylim(0,105); axL.set_ylabel("% within year")
 axL.set_title("A. failure_mode composition INSIDE the old 'hallucination' gate\n"
               "(heterogeneous gate: pre-2023 misclassification, post-2023 more confabulation)",
               fontsize=10.5, loc="left")
-axL.legend(fontsize=8.5, frameon=False, loc="lower right", ncol=2)
 for s in ("top","right"): axL.spines[s].set_visible(False)
 
 axR.bar(x, rec["n_confab"].values, color="#d62728", width=0.6, alpha=0.85)
@@ -134,12 +135,18 @@ for j,(n,p) in enumerate(zip(rec["n_confab"].values, rec["pct_confab"].values)):
 axR.axvline(2-0.5, color="black", ls="--", lw=1, alpha=0.6)
 axR.set_xticks(x); axR.set_xticklabels([f"{y}\n(n_ng={int(rec['n_notgated'][y])})" for y in YEARS], fontsize=9)
 axR.set_ylabel("# confab-involved papers MISSED by gate")
+axR.set_ylim(0, max(rec["n_confab"].max()*1.25, 5))
 axR.set_title("B. Gate-recall miss: confab-involved papers\nthe old gate did NOT flag (by year)",
               fontsize=10.5, loc="left")
 for s in ("top","right"): axR.spines[s].set_visible(False)
+# shared failure_mode legend BELOW panel A, outside the bars (no occlusion)
+handles = [Patch(facecolor=FM_COL[fm], label=fm) for fm in order]
+axL.legend(handles=handles, fontsize=9, frameon=False, ncol=4,
+           loc="upper center", bbox_to_anchor=(0.5, -0.12))
 fig.suptitle("Q7 Phase 3 · Part 1 — the 'hallucination' theme gate is heterogeneous and leaky",
-             fontsize=12, y=1.0)
-fig.text(0.5,-0.02,"Prompt: q7_failuremode_v1 · A+C (n=%d) · old gate from output/analysis/thematic_alarm.csv"%len(ac),
+             fontsize=12, y=0.97)
+fig.text(0.5, 0.02,
+         "Prompt: q7_failuremode_v1 · A+C (n=%d) · old gate from output/analysis/thematic_alarm.csv"%len(ac),
          ha="center", fontsize=8, style="italic", color="gray")
 f1 = os.path.join(FIGDIR, f"q7_gate_composition{SUF}.png")
 fig.savefig(f1, dpi=300, bbox_inches="tight"); plt.close(fig)
