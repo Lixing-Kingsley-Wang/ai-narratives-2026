@@ -42,6 +42,8 @@ Corpus sizes: A+C valid = 5,159; **abstract-present A+C = 4,747** (843 Alarm +
 | file | what |
 |---|---|
 | `q7_kappa_report_adjudicated_abstractonly.md` | Final κ: model_type 0.953, failure_mode 0.796 (adjudicated, abstract-present n=108). |
+| `q7_kappa_report_abstractonly.md` | Blind (pre-adjudication) κ: model_type 0.843, failure_mode 0.574 (abstract-present n=108). Added in S5-9 (initially omitted). |
+| `q7_kappa_report.md` | Blind κ on all 120 (no abstract QC): model_type 0.798, failure_mode 0.541. |
 | `q7_validation_coding.xlsx` | 120 blind-coded papers (human labels). |
 | `q7_adjudication.xlsx` | 46 disagreements adjudicated. |
 

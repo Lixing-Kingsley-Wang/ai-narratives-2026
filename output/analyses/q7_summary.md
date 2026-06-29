@@ -188,12 +188,18 @@ publication-grade agreement.
 
 How we got there (sensitivity, `q7_kappa_compare.py`):
 
-| condition | failure_mode κ | model_type κ |
-|---|--:|--:|
-| blind, all 120 | 0.541 | 0.798 |
-| blind, abstract-only (108) | 0.574 | 0.843 |
-| adjudicated, all 120 | 0.744 | 0.932 |
-| **adjudicated, abstract-only (108)** | **0.796** | **0.953** |
+| condition | failure_mode κ | model_type κ | full report (with matrices) |
+|---|--:|--:|---|
+| blind, all 120 | 0.541 | 0.798 | `q7_kappa_report.md` |
+| blind, abstract-only (108) | 0.574 | 0.843 | `q7_kappa_report_abstractonly.md` |
+| adjudicated, all 120 | 0.744 | 0.932 | *(numbers via q7_kappa_compare.py)* |
+| **adjudicated, abstract-only (108)** | **0.796** | **0.953** | `q7_kappa_report_adjudicated_abstractonly.md` |
+
+> Note: the **blind / abstract-only (n=108)** full report
+> (`q7_kappa_report_abstractonly.md`, with confusion matrices, per-category κ, and
+> all coefficients) was added later in commit S5-9 — it was initially omitted; the
+> first pass only produced the blind-120 and the adjudicated-abstract-only
+> reports. Numbers are unchanged from the sensitivity table above.
 
 Adjudication was the dominant lever (+0.20 on failure_mode); the abstract QC
 added +0.05. Title-only papers were disproportionately disagreement-prone (7 of
