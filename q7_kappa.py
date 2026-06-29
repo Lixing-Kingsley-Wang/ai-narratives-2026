@@ -207,7 +207,7 @@ def main():
     keep = ["pmid","pub_year","human_failure_mode","failure_mode",
             "human_model_type","model_type"]
     keep = [c for c in keep if c in dis.columns]
-    if not args.adjudicated:  # don't clobber the original disagreement file
+    if not args.adjudicated and not args.require_abstract:  # only the canonical blind-120 run writes disagreements
         out_dis = os.path.join(BASE, "output", "analyses", "q7_validation_disagreements.csv")
         dis[keep].to_csv(out_dis, index=False)
         print(f"\nDisagreements ({len(dis)} rows) → {out_dis}")
