@@ -1,0 +1,301 @@
+record_id,pmid,human_stance,v1_stance,v2_stance,v2_meta_discourse,category,v2_changed,human_notes
+VAL_0001,35872988,Advocacy,Advocacy,Advocacy,no,both_correct,False,
+VAL_0002,42013239,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,no comparison to human
+VAL_0003,35329186,Neutral,Neutral,Neutral,no,both_correct,False,Incomplete abstract
+VAL_0005,37202591,Neutral,Neutral,Neutral,no,both_correct,False,"not a stance, it is more of how to use ai in industries"
+VAL_0006,38991503,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"no limitation/ draw back discussed at all, but just protentials"
+VAL_0007,41529243,Neutral,Neutral,Neutral,yes,both_correct,False,"not a stance,"
+VAL_0009,41206192,Caution,Caution,Caution,no,both_correct,False,"ethical challanges, mainly concerns"
+VAL_0015,40239236,Neutral,Neutral,Neutral,no,both_correct,False,discriptive
+VAL_0016,40093709,Neutral,Neutral,Neutral,no,both_correct,False,no-stance 
+VAL_0017,38422082,Cautious Optimism,Cautious Optimism,Cautious Optimism,yes,both_correct,False,
+VAL_0018,40301823,Neutral,Neutral,Neutral,yes,both_correct,False,"[META_DISCOURSE] survey of readiness, no-stance "
+VAL_0020,39405186,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"similar to radiologies, but best when combined with radiologiests"
+VAL_0021,40405178,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0022,39748331,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,mostly good side of discussion
+VAL_0023,41754062,Neutral,Neutral,Neutral,no,both_correct,False,"topic modeling analysis, descriptive, no-stance"
+VAL_0024,39894601,Advocacy,Advocacy,Advocacy,no,both_correct,False,transformative role
+VAL_0026,34397576,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"very pro-ai, no drawback mentioned"
+VAL_0028,41939087,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,balanced integration not extremely excited pro-ai
+VAL_0029,37945100,Advocacy,Advocacy,Advocacy,no,both_correct,False,"no drawback mentioned, extremely positive, revolutionizing research"
+VAL_0031,41091584,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0033,38323515,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, metanalysis"
+VAL_0034,40275308,Neutral,Neutral,Neutral,yes,both_correct,False,[META_DISCOURSE]
+VAL_0041,37231330,Alarm,Alarm,Alarm,no,both_correct,False,worse than human
+VAL_0042,38259001,Advocacy,Advocacy,Advocacy,no,both_correct,False,"purely good, not one bad mentioned"
+VAL_0045,39106070,Neutral,Neutral,Neutral,no,both_correct,False,no-stance
+VAL_0046,37750493,Alarm,Alarm,Alarm,no,both_correct,False,non-replacablity of cadavor lab
+VAL_0047,41838317,Caution,Caution,Caution,no,both_correct,False,problems with the current researching methods for ai researches
+VAL_0048,39264624,Caution,Caution,Caution,no,both_correct,False,need to improve availability of evidence. to better facilitate implementation
+VAL_0049,39932784,Caution,Caution,Caution,no,both_correct,False,"potential use but with caution, caution is adviced"
+VAL_0052,34886244,Neutral,Neutral,Neutral,yes,both_correct,False,"no-stance, just survey of people's trust in medical robots"
+VAL_0055,41525195,Caution,Caution,Caution,no,both_correct,False,"not related topic, this is economic evaluation needed for AI "
+VAL_0056,33594897,Neutral,Neutral,Neutral,no,both_correct,False,"This paper is applicational, they used ai but not evaluating ai"
+VAL_0058,37754934,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0059,37604328,Neutral,Neutral,Neutral,no,both_correct,False,"economical perspective, not related, no-stance"
+VAL_0060,41203886,Neutral,Neutral,Neutral,no,both_correct,False,"applicational? no-stance, just descriptive"
+VAL_0061,39677375,Caution,Caution,Caution,no,both_correct,False,identified gaps for more research on bias
+VAL_0062,40818204,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,a lot of contributions but not mentioned stance? tone is optimistic
+VAL_0064,41347125,Caution,Caution,Caution,no,both_correct,False,"need balance betweeen tech, policy andleadership"
+VAL_0065,38188345,Caution,Caution,Caution,no,both_correct,False,"lot of limitations, but can be used"
+VAL_0066,40089747,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, just a review"
+VAL_0067,41489300,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance on AI, this is unrelated !"
+VAL_0068,39999963,Alarm,Alarm,Alarm,no,both_correct,False,worse than human
+VAL_0069,40319039,Neutral,Neutral,Neutral,no,both_correct,False,"this is a dataset, no-stance"
+VAL_0075,41197595,Caution,Caution,Caution,no,both_correct,False,overall negative.
+VAL_0076,41025382,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,gpt is competent but need more guidance
+VAL_0077,33499405,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,may lead to…
+VAL_0078,41868387,Alarm,Alarm,Alarm,no,both_correct,False,gap too huge to be optimistic
+VAL_0079,41626985,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0081,40622614,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, this is applicational."
+VAL_0085,34394982,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,may improve
+VAL_0087,39230022,Alarm,Alarm,Alarm,no,both_correct,False,not as good
+VAL_0089,37427110,Neutral,Neutral,Neutral,no,both_correct,False,"purely methodological, no-stance"
+VAL_0092,34537134,Caution,Caution,Caution,no,both_correct,False,the implementation is unprepared and inequitable 
+VAL_0093,34951033,Alarm,Alarm,Alarm,no,both_correct,False,low sensitivity
+VAL_0094,35232784,Neutral,Neutral,Neutral,no,both_correct,False,"no result, it's a protocol. No-stance"
+VAL_0095,38006614,Caution,Caution,Caution,no,both_correct,False,"need to declear, concerns of non-disclosure.."
+VAL_0097,38388516,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,have the potential to assist not replace
+VAL_0099,41672140,Cautious Optimism,Cautious Optimism,Cautious Optimism,yes,both_correct,False,"positive of AI in medicine, by aiding in admin tasks. But the student should learn to operate without ai."
+VAL_0101,38569639,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"exceptional ability, but scrutiny should be exercised"
+VAL_0102,37071280,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0103,33519433,Neutral,Neutral,Neutral,no,both_correct,False,pure benchmark
+VAL_0105,38740469,Neutral,Neutral,Neutral,no,both_correct,False,
+VAL_0106,40196962,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0107,41677994,Alarm,Alarm,Alarm,no,both_correct,False,skeptical
+VAL_0108,40220179,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,great potential so it's not neutral
+VAL_0110,39846075,Caution,Caution,Caution,no,both_correct,False,"inconsistant but moderately well. potential and limitations, leaning more to limitations"
+VAL_0111,41951858,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,competitive tools but need evaluation
+VAL_0112,41660542,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0113,40597031,Caution,Caution,Caution,no,both_correct,False,not overwhelmingly negative
+VAL_0114,41340047,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0115,42037603,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, just descriptive"
+VAL_0116,41406283,Neutral,Neutral,Neutral,no,both_correct,False,"benchmark only, no-stance"
+VAL_0117,36670118,Neutral,Neutral,Neutral,no,both_correct,False,"benchmark only, no-stance"
+VAL_0124,40361763,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,potential 
+VAL_0125,41493897,Neutral,Neutral,Neutral,yes,both_correct,False,"[META_DISCOURSE] AI literacy , no-stance"
+VAL_0131,35680613,Neutral,Neutral,Neutral,no,both_correct,False,"protocol, no-stance"
+VAL_0132,38576308,Neutral,Neutral,Neutral,no,both_correct,False,"workshop, no-stance"
+VAL_0133,36731310,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, bibliometric analysis"
+VAL_0136,34155984,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0138,33340123,Caution,Caution,Caution,no,both_correct,False,effect yet to be determined
+VAL_0139,40665980,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, bibliometric analysis"
+VAL_0140,40371494,Caution,Caution,Caution,no,both_correct,False,"though potentials, still need to show more accuracy"
+VAL_0141,36939696,Neutral,Neutral,Neutral,no,both_correct,False,
+VAL_0143,38011011,Caution,Caution,Caution,no,both_correct,False,"Borderline Caution. there is a role of ai in serious illness com, while outsourcing com to AI may be iappropriate. And the limitations(ethical and practical) is discussed"
+VAL_0145,35278146,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0147,40996509,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,remain challenges though out-perform human
+VAL_0150,39711496,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0151,39322406,Caution,Caution,Caution,no,both_correct,False,"pros and cons, but leaning toward cons"
+VAL_0153,37665729,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0156,34464278,Neutral,Neutral,Neutral,no,both_correct,False,out of scope
+VAL_0157,41224513,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"genAI tools can assist in …, and therapy can flourish using gen ai"
+VAL_0158,41311632,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"significant promise, but need to focus on…"
+VAL_0160,37831495,Neutral,Neutral,Neutral,yes,both_correct,False,"[META_DISCOURSE] user interaction survey, no-stance"
+VAL_0161,40454208,Caution,Caution,Caution,no,both_correct,False,"good for initial, but limitations must be adressed"
+VAL_0162,41183651,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"strongly pro-ai, but no ""transformative "" or immediate deployment "
+VAL_0163,40411724,Caution,Caution,Caution,no,both_correct,False,concerns…
+VAL_0166,39186000,Advocacy,Advocacy,Advocacy,no,both_correct,False,pro-ai 
+VAL_0167,41417777,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,can strengthen clinical consensus
+VAL_0169,41807959,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,potential of improving
+VAL_0173,37750257,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,has advantage
+VAL_0175,41045018,Caution,Caution,Caution,no,both_correct,False,"[META_DISCOURSE] albeit a review, ethical concerns and many bias and barriers listed in the result section"
+VAL_0177,40482575,Alarm,Alarm,Alarm,no,both_correct,False,worse than CNN
+VAL_0178,41982429,Neutral,Neutral,Neutral,no,both_correct,False,"performs similar to scientists, but no-stance"
+VAL_0181,35354505,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, guideline to read papers"
+VAL_0184,40859774,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0185,39325705,Alarm,Alarm,Alarm,no,both_correct,False,worse than high-level human
+VAL_0187,36001408,Alarm,Alarm,Alarm,no,both_correct,False,worse than human
+VAL_0189,36228127,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0190,41601600,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, pure survey"
+VAL_0192,38903157,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"useful tool in aiding physicians, but some limitations"
+VAL_0193,39805110,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"can help…, capable to help…"
+VAL_0194,38931161,Neutral,Neutral,Neutral,no,both_correct,False,"consistency / ai superiority mentioned but no advocatory vocab, no-stance, pure benchmark. not sure if neutral or CO or advocacy"
+VAL_0195,40465378,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0198,38247116,Neutral,Neutral,Neutral,no,both_correct,False,no-stance
+VAL_0199,35469549,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0201,37524914,Caution,Caution,Caution,no,both_correct,False,need to review ethical issues before applying
+VAL_0202,33742148,Alarm,Alarm,Alarm,no,both_correct,False,warning agaist smartphone ai algorithms
+VAL_0203,36997411,Alarm,Alarm,Alarm,no,both_correct,False,concerns over inconsistentency
+VAL_0204,38735565,Caution,Caution,Caution,no,both_correct,False,Very low sensitivity (17/28 true aneurysms missed) potential but only as an adjacent tool
+VAL_0205,39093229,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, bibliometric tool"
+VAL_0206,36913002,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,could revoluntionize but need to be evaluated clinically
+VAL_0210,41742002,Neutral,Neutral,Neutral,yes,both_correct,False,"[META_DISCOURSE] pure survey , no-stance"
+VAL_0211,39593041,Neutral,Neutral,Neutral,no,both_correct,False,"comparison between LLMs , more like a benchmark"
+VAL_0214,35326946,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,feasible to employ
+VAL_0216,41494128,Caution,Caution,Caution,no,both_correct,False,"economical discourse, very negative tone"
+VAL_0217,41799031,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,no overt word of rapid deployment but overly positive
+VAL_0218,40086938,Caution,Caution,Caution,no,both_correct,False,"cautious, require legal and ethical regulations"
+VAL_0219,36093684,Neutral,Neutral,Neutral,no,both_correct,False,"scafold of theories , no-stance to ai, even not relavant"
+VAL_0222,38967407,Alarm,Alarm,Alarm,no,both_correct,False,limited utility
+VAL_0225,39137403,Alarm,Alarm,Alarm,no,both_correct,False,worse performance than AAOS
+VAL_0230,40524839,Alarm,Alarm,Alarm,no,both_correct,False,clinical usage should be minimal
+VAL_0231,40773435,Neutral,Neutral,Neutral,no,both_correct,False,"pure benchmark, no-stance"
+VAL_0232,40273439,Caution,Caution,Caution,no,both_correct,False,potential but limitations
+VAL_0233,36146414,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, systemic review"
+VAL_0234,36040575,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0235,41771212,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0236,38124357,Alarm,Alarm,Alarm,no,both_correct,False,should not be currently considered as a reliable source
+VAL_0237,40680990,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,"not strongly pro-ai, just represents a step toward transforming. "
+VAL_0238,38866891,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, but need for future analysis of GPT in med education"
+VAL_0242,39170856,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,borderline CO
+VAL_0244,41816214,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0245,39278360,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, gpt is the tool used here"
+VAL_0250,39276594,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,can not replace but may support and deepen the insight
+VAL_0251,38585462,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0252,40857549,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0254,35070384,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,textbook co
+VAL_0255,41506371,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0258,41183160,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0259,38512017,Caution,Caution,Caution,no,both_correct,False,current evidences do not support AI adoption. Tone skeptical
+VAL_0260,34387234,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0262,40912058,Alarm,Alarm,Alarm,no,both_correct,False,worse than derm professionals
+VAL_0263,39147901,Advocacy,Advocacy,Advocacy,no,both_correct,False,"although being a review, the tone adopted by the author is  pro-ai"
+VAL_0265,34156338,Neutral,Neutral,Neutral,no,both_correct,False,"Pure systematic analysis on facts, no-stance"
+VAL_0269,39110973,Neutral,Neutral,Neutral,yes,both_correct,False,"[META_DISCOURSE] survey of patient preference, no-stance on AI in medicine"
+VAL_0270,39895671,Advocacy,Advocacy,Advocacy,no,both_correct,False,has transformed and has a promising future
+VAL_0271,37047950,Neutral,Neutral,Neutral,no,both_correct,False,"no-stance, pure analysis"
+VAL_0272,41055082,Neutral,Neutral,Neutral,no,both_correct,False,"protocol, no-stance"
+VAL_0273,39960745,Neutral,Neutral,Neutral,no,both_correct,False,no-stance in abstract
+VAL_0274,38724317,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0275,38421392,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0278,35357976,Neutral,Neutral,Neutral,no,both_correct,False,"technique discussion, no-stance"
+VAL_0280,39259925,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0281,38593386,Neutral,Neutral,Neutral,no,both_correct,False,no-stance in abstract
+VAL_0283,40194867,Alarm,Alarm,Alarm,no,both_correct,False,
+VAL_0284,38421272,Caution,Caution,Caution,no,both_correct,False,need to develop guidline
+VAL_0286,34000598,Cautious Optimism,Cautious Optimism,Cautious Optimism,no,both_correct,False,
+VAL_0287,38284287,Advocacy,Advocacy,Advocacy,no,both_correct,False,
+VAL_0288,38759427,Caution,Caution,Caution,no,both_correct,False,remains questionnable
+VAL_0289,39851128,Advocacy,Advocacy,Advocacy,no,both_correct,False,"new era of precision medicine, not only… but also… the author is quite enthusiastic about their stance."
+VAL_0293,34972616,Advocacy,Advocacy,Advocacy,no,both_correct,False,"can change the medical care style in the future. There is no overt advocacy for immediate adoption, but overly optimistic of the future"
+VAL_0297,40516520,Advocacy,Advocacy,Advocacy,no,both_correct,False,strongly pro-ai 
+VAL_0298,41563136,Alarm,Alarm,Alarm,no,both_correct,False,performance worse than human
+VAL_0299,39105746,Neutral,Neutral,Neutral,no,both_correct,False,"purely descriptive, no-stance"
+VAL_0300,35700021,Neutral,Neutral,Neutral,no,both_correct,False,"pure review, no-stance"
+VAL_0011,37574841,Neutral,Advocacy,Cautious Optimism,no,both_wrong_diff,True,no-stance
+VAL_0032,41950508,Cautious Optimism,Caution,Neutral,no,both_wrong_diff,True,
+VAL_0035,39692996,Caution,Cautious Optimism,Neutral,no,both_wrong_diff,True,many challenges
+VAL_0074,32974930,Neutral,Advocacy,Cautious Optimism,no,both_wrong_diff,True,no-stance in abstract
+VAL_0174,36278323,Cautious Optimism,Caution,Neutral,no,both_wrong_diff,True,
+VAL_0209,41554116,Cautious Optimism,Caution,Neutral,no,both_wrong_diff,True,ai as a valuable tool
+VAL_0229,41828006,Caution,Cautious Optimism,Neutral,no,both_wrong_diff,True,"more studies needed, evidence limited, but has potential"
+VAL_0256,35031822,Neutral,Advocacy,Cautious Optimism,no,both_wrong_diff,True,"purely descriptive, no-stance"
+VAL_0279,41266935,Cautious Optimism,Caution,Neutral,yes,both_wrong_diff,True,[META_DISCOURSE]
+VAL_0282,39873040,Cautious Optimism,Alarm,Caution,no,both_wrong_diff,True,
+VAL_0291,42081524,Caution,Cautious Optimism,Neutral,yes,both_wrong_diff,True,"[META_DISCOURSE] althou being a survey on education, the authors posed a caution on the need of having a better preparedness for ai-integrated clinical care"
+VAL_0012,41814072,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,more like a applicational: how to better leverage ai
+VAL_0013,32985324,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,pure topic review no stance
+VAL_0014,37969495,Alarm,Caution,Caution,no,both_wrong_same,False,worse than human
+VAL_0025,34890271,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,promising but a lot of cautions
+VAL_0036,36900036,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,many changes before implementation
+VAL_0037,40079336,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,Emphasized challenges. 
+VAL_0038,34288435,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no-stance, pure overview of concept"
+VAL_0039,39409537,Caution,Alarm,Alarm,no,both_wrong_same,False,"the tone is cautious, though could be neutral as it is discribing facts"
+VAL_0040,41946482,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,promising but a lot of cautions
+VAL_0053,38269650,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,promising usage of dl in surgery
+VAL_0054,38667736,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no-stance, not in the abstract, may be in the review "
+VAL_0063,35124665,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,acuracy is far from perfect
+VAL_0070,39733797,Cautious Optimism,Neutral,Neutral,yes,both_wrong_same,False,"mostly non-inferior, though some younger patient prefer non-gpt"
+VAL_0072,40428096,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"just a summary, no-stance"
+VAL_0080,41256318,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,advocacy for the integration directly
+VAL_0082,38215455,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,limited usage
+VAL_0084,40290269,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"overview, no-stance"
+VAL_0086,40214219,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"though caveats, ai will transform ERAS"
+VAL_0088,35773557,Caution,Neutral,Neutral,no,both_wrong_same,False,higher segmentation accuracy but error dependent on the metastases burden. 
+VAL_0090,38554069,Neutral,Caution,Caution,no,both_wrong_same,False,"no-stance, not supportive or cautions, just pointing out the ethics deficit and offered a solution"
+VAL_0098,41335521,Cautious Optimism,Caution,Caution,no,both_wrong_same,False,
+VAL_0100,36171272,Alarm,Caution,Caution,no,both_wrong_same,False,inferior at real-world settings
+VAL_0104,39175590,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,borderline advocacy?
+VAL_0120,41629059,Neutral,Caution,Caution,no,both_wrong_same,False,no-stance
+VAL_0121,39543611,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no-stance, just a review"
+VAL_0122,37224516,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no-stance, too short abstract"
+VAL_0123,40095966,Cautious Optimism,Advocacy,Advocacy,no,both_wrong_same,False,
+VAL_0128,37988149,Cautious Optimism,Caution,Caution,no,both_wrong_same,False,potentially augment human capacity
+VAL_0129,35385184,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no draw-back, fully pro"
+VAL_0134,40764201,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,
+VAL_0135,41023264,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,"mostly good, but need more editing"
+VAL_0144,40687630,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,very promising tone
+VAL_0146,37698703,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,
+VAL_0148,38416482,Neutral,Caution,Caution,no,both_wrong_same,False,no-stance
+VAL_0152,40436614,Neutral,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no-stance, pure systemic review"
+VAL_0155,40648241,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"no draw-back, fully pro-ai, substantially improve"
+VAL_0159,41276667,Caution,Alarm,Alarm,no,both_wrong_same,False,cautious tone of limitation in triage
+VAL_0164,36878360,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"poor, but has promises"
+VAL_0165,40335319,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,
+VAL_0172,39280147,Alarm,Caution,Caution,no,both_wrong_same,False,significant shortcoming
+VAL_0182,38365427,Alarm,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"perform worse than human, though promising"
+VAL_0191,37863612,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,more risk than benefits mentioned
+VAL_0197,35162901,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,need government attention on matters / surveillance 
+VAL_0200,41642151,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,
+VAL_0212,41713400,Advocacy,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,transformative role
+VAL_0213,35381490,Caution,Neutral,Neutral,no,both_wrong_same,False,"high sensitivity while for the shape irregularity has error.  Borderline caution, even neutral? "
+VAL_0221,40397947,Alarm,Caution,Caution,no,both_wrong_same,False,worse than human in some clinical cases
+VAL_0223,36140543,Caution,Cautious Optimism,Cautious Optimism,no,both_wrong_same,False,"learning toward gap, though promising prospect of DL in covid"
+VAL_0243,39373853,Cautious Optimism,Neutral,Neutral,yes,both_wrong_same,False,
+VAL_0248,40216451,Neutral,Caution,Caution,no,both_wrong_same,False,"no-stance, just different perspectives in law for health ai"
+VAL_0253,40342137,Cautious Optimism,Caution,Caution,no,both_wrong_same,False,
+VAL_0257,41092593,Cautious Optimism,Neutral,Neutral,yes,both_wrong_same,False,deemed valid
+VAL_0266,39311453,Neutral,Caution,Caution,no,both_wrong_same,False,"no-stance, pure presentation"
+VAL_0268,37510967,Cautious Optimism,Neutral,Neutral,no,both_wrong_same,False,satisfactory
+VAL_0285,40508883,Neutral,Caution,Caution,no,both_wrong_same,False,"benchmark between models, no-stance"
+VAL_0294,34479396,Caution,Neutral,Neutral,no,both_wrong_same,False,challenging due to the limitations poses in the language problem
+VAL_0010,40540146,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,supports widespread clinical adoption
+VAL_0030,34082064,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,"no drawback mentioned, strong pro-ai"
+VAL_0044,38141549,Caution,Caution,Cautious Optimism,no,v2_broke_v1,True,need a thorough and critical condideration
+VAL_0050,37704332,Neutral,Neutral,Cautious Optimism,no,v2_broke_v1,True,"no-stance, pure overview of EMR data"
+VAL_0051,41761913,Alarm,Alarm,Caution,no,v2_broke_v1,True,may pose risks for patient safety
+VAL_0057,36626192,Caution,Caution,Neutral,yes,v2_broke_v1,True,lack of stateholder prespectives in ai
+VAL_0071,40974075,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,"no draw-back, fully pro, transformative "
+VAL_0083,40246249,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,"no draw-back, fully pro, transformative "
+VAL_0091,37547540,Caution,Caution,Cautious Optimism,no,v2_broke_v1,True,more issues than support
+VAL_0109,41270992,Alarm,Alarm,Caution,no,v2_broke_v1,True,worse than human
+VAL_0127,38742754,Alarm,Alarm,Caution,no,v2_broke_v1,True,limited ability
+VAL_0137,38909180,Caution,Caution,Neutral,yes,v2_broke_v1,True,[META_DISCOURSE] cautious tone of ethical issue
+VAL_0170,42040623,Caution,Caution,Cautious Optimism,no,v2_broke_v1,True,need of better frameworks
+VAL_0171,40570257,Cautious Optimism,Cautious Optimism,Caution,no,v2_broke_v1,True,
+VAL_0176,40196917,Alarm,Alarm,Caution,no,v2_broke_v1,True,not feasible to integrate into clinical settings based on accuracy
+VAL_0196,33731170,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,revolutionize and transform
+VAL_0207,40869701,Alarm,Alarm,Caution,no,v2_broke_v1,True,residents better than ai
+VAL_0208,39448515,Alarm,Alarm,Caution,no,v2_broke_v1,True,"pure warning, no benefit mentioned"
+VAL_0226,41667642,Advocacy,Advocacy,Cautious Optimism,no,v2_broke_v1,True,"superhuman, critical second readers.There is no caution mentioned"
+VAL_0227,40563050,Cautious Optimism,Cautious Optimism,Caution,no,v2_broke_v1,True,
+VAL_0240,35969467,Neutral,Neutral,Advocacy,no,v2_broke_v1,True,"pure fact, no-stance"
+VAL_0246,38133626,Caution,Caution,Cautious Optimism,no,v2_broke_v1,True,"currently can not be used, but has the potential"
+VAL_0264,34927595,Cautious Optimism,Cautious Optimism,Neutral,no,v2_broke_v1,True,borderline CO
+VAL_0267,38453035,Cautious Optimism,Cautious Optimism,Neutral,no,v2_broke_v1,True,
+VAL_0290,33835032,Cautious Optimism,Cautious Optimism,Neutral,yes,v2_broke_v1,True,
+VAL_0292,39532572,Alarm,Alarm,Caution,no,v2_broke_v1,True,not suitable now
+VAL_0004,40915468,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"no-stance, summary of a workshop"
+VAL_0008,36267967,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"no-stance, just an overview of past"
+VAL_0019,34527076,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,broadly positive on topics
+VAL_0027,41694518,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,"just a summary, maybe excluded from validation?"
+VAL_0043,38565004,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"not sure, but tone is optimistic but not overwhelming, no drawbacks mentioned"
+VAL_0073,41590902,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"between 2 ai models, not between human and ai"
+VAL_0096,35691440,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,"did not warn anything so I would not say it is cautious, it also did not openly promote, but just showed superiority of AI over human"
+VAL_0118,35749623,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"applicational? no-stance, just descriptive"
+VAL_0119,38133908,Neutral,Caution,Neutral,yes,v2_fixed_v1,True,[META_DISCOURSE] no clear message. or borderline CO because of the positivity in medical education in both cohorts? because I labeled 34 and 52 for neutral I will label neutral here
+VAL_0126,37155000,Cautious Optimism,Caution,Cautious Optimism,no,v2_fixed_v1,True,"learning is important, benefitial to us."
+VAL_0130,38897175,Caution,Alarm,Caution,no,v2_fixed_v1,True,"racism issue, but not strongly/alarmingly against "
+VAL_0142,35916673,Neutral,Caution,Neutral,no,v2_fixed_v1,True,non-stance
+VAL_0149,40631924,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,
+VAL_0154,38871349,Cautious Optimism,Caution,Cautious Optimism,no,v2_fixed_v1,True,
+VAL_0168,41734929,Neutral,Caution,Neutral,no,v2_fixed_v1,True,"protocol, no-stance"
+VAL_0179,37459906,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,promising future
+VAL_0180,36250788,Neutral,Cautious Optimism,Neutral,yes,v2_fixed_v1,True,"[META_DISCOURSE] pure survey, not CO because it's the patients' attitude toward ai, not the authors'"
+VAL_0183,36811011,Caution,Alarm,Caution,no,v2_fixed_v1,True,raises awareness of adversarial attacks
+VAL_0186,41673893,Neutral,Cautious Optimism,Neutral,yes,v2_fixed_v1,True,"no-stance, survey"
+VAL_0188,37966807,Caution,Alarm,Caution,no,v2_fixed_v1,True,need for guidline of racial disparity in LLM
+VAL_0215,41462460,Neutral,Caution,Neutral,yes,v2_fixed_v1,True,"[META_DISCOURSE] no-stance, pure survey"
+VAL_0220,40378129,Neutral,Cautious Optimism,Neutral,yes,v2_fixed_v1,True,"[META_DISCOURSE] no-stance, a survey of ai readiness"
+VAL_0224,36477347,Neutral,Cautious Optimism,Neutral,no,v2_fixed_v1,True,"no-stance, protocol/methodological"
+VAL_0228,39473198,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,
+VAL_0239,39847582,Neutral,Advocacy,Neutral,no,v2_fixed_v1,True,"no-stance, methodological paper"
+VAL_0241,38975200,Cautious Optimism,Caution,Cautious Optimism,no,v2_fixed_v1,True,
+VAL_0247,41845047,Cautious Optimism,Caution,Cautious Optimism,no,v2_fixed_v1,True,
+VAL_0249,38318798,Cautious Optimism,Caution,Cautious Optimism,no,v2_fixed_v1,True,not advocacy because of ethics and bias mentioned
+VAL_0261,39992569,Caution,Alarm,Caution,no,v2_fixed_v1,True,"both pros and cons, but the author leaned more on the limitations"
+VAL_0276,35302963,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,"improved accuaracy compared with clinicians, better triaging and less time"
+VAL_0277,41870191,Caution,Alarm,Caution,no,v2_fixed_v1,True,
+VAL_0295,41674096,Caution,Alarm,Caution,no,v2_fixed_v1,True,"low sensitivity is a limit, despite high specificity"
+VAL_0296,37055885,Cautious Optimism,Advocacy,Cautious Optimism,no,v2_fixed_v1,True,positive tone albeit a review
