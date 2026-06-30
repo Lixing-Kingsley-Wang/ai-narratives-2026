@@ -1,0 +1,88 @@
+Loaded 4245 Caution rows (pub_year 2021–2026).
+Pending: 4245
+  [50/4245] failed=0 fm={'both': 3, 'confabulation': 2, 'misclassification': 26, 'none_or_unclear': 19} ETA=36min
+  [100/4245] failed=0 fm={'both': 6, 'confabulation': 3, 'misclassification': 47, 'none_or_unclear': 44} ETA=35min
+  [150/4245] failed=0 fm={'both': 7, 'confabulation': 9, 'misclassification': 61, 'none_or_unclear': 73} ETA=33min
+  [200/4245] failed=0 fm={'both': 12, 'confabulation': 11, 'misclassification': 76, 'none_or_unclear': 101} ETA=32min
+  [250/4245] failed=0 fm={'both': 15, 'confabulation': 14, 'misclassification': 85, 'none_or_unclear': 136} ETA=31min
+  [300/4245] failed=0 fm={'both': 17, 'confabulation': 15, 'misclassification': 103, 'none_or_unclear': 165} ETA=31min
+  [350/4245] failed=0 fm={'both': 17, 'confabulation': 16, 'misclassification': 123, 'none_or_unclear': 194} ETA=30min
+  [400/4245] failed=0 fm={'both': 19, 'confabulation': 19, 'misclassification': 136, 'none_or_unclear': 226} ETA=30min
+  [450/4245] failed=0 fm={'both': 21, 'confabulation': 22, 'misclassification': 153, 'none_or_unclear': 254} ETA=29min
+  [500/4245] failed=0 fm={'both': 24, 'confabulation': 24, 'misclassification': 172, 'none_or_unclear': 280} ETA=29min
+  [550/4245] failed=0 fm={'both': 28, 'confabulation': 27, 'misclassification': 191, 'none_or_unclear': 304} ETA=28min
+  [600/4245] failed=0 fm={'both': 31, 'confabulation': 29, 'misclassification': 214, 'none_or_unclear': 326} ETA=27min
+  [650/4245] failed=0 fm={'both': 32, 'confabulation': 32, 'misclassification': 231, 'none_or_unclear': 355} ETA=27min
+  [700/4245] failed=0 fm={'both': 33, 'confabulation': 35, 'misclassification': 253, 'none_or_unclear': 379} ETA=27min
+  [750/4245] failed=0 fm={'both': 36, 'confabulation': 37, 'misclassification': 275, 'none_or_unclear': 402} ETA=27min
+  [800/4245] failed=0 fm={'both': 37, 'confabulation': 38, 'misclassification': 292, 'none_or_unclear': 433} ETA=26min
+  [850/4245] failed=0 fm={'both': 43, 'confabulation': 39, 'misclassification': 307, 'none_or_unclear': 461} ETA=26min
+  [900/4245] failed=0 fm={'both': 44, 'confabulation': 43, 'misclassification': 321, 'none_or_unclear': 492} ETA=26min
+  [950/4245] failed=0 fm={'both': 46, 'confabulation': 45, 'misclassification': 336, 'none_or_unclear': 523} ETA=25min
+  [1000/4245] failed=0 fm={'both': 52, 'confabulation': 48, 'misclassification': 353, 'none_or_unclear': 547} ETA=25min
+  [1050/4245] failed=0 fm={'both': 56, 'confabulation': 49, 'misclassification': 377, 'none_or_unclear': 568} ETA=24min
+  [1100/4245] failed=0 fm={'both': 56, 'confabulation': 52, 'misclassification': 399, 'none_or_unclear': 593} ETA=24min
+  [1150/4245] failed=0 fm={'both': 58, 'confabulation': 54, 'misclassification': 415, 'none_or_unclear': 623} ETA=24min
+  [1200/4245] failed=0 fm={'both': 59, 'confabulation': 59, 'misclassification': 435, 'none_or_unclear': 647} ETA=23min
+  [1250/4245] failed=0 fm={'both': 60, 'confabulation': 60, 'misclassification': 457, 'none_or_unclear': 673} ETA=23min
+  [1300/4245] failed=0 fm={'both': 63, 'confabulation': 61, 'misclassification': 473, 'none_or_unclear': 703} ETA=22min
+  [1350/4245] failed=0 fm={'both': 63, 'confabulation': 63, 'misclassification': 492, 'none_or_unclear': 732} ETA=22min
+  [1400/4245] failed=0 fm={'both': 68, 'confabulation': 66, 'misclassification': 509, 'none_or_unclear': 757} ETA=21min
+  [1450/4245] failed=0 fm={'both': 69, 'confabulation': 66, 'misclassification': 524, 'none_or_unclear': 791} ETA=21min
+  [1500/4245] failed=0 fm={'both': 70, 'confabulation': 67, 'misclassification': 542, 'none_or_unclear': 821} ETA=21min
+  [1550/4245] failed=0 fm={'both': 72, 'confabulation': 72, 'misclassification': 561, 'none_or_unclear': 845} ETA=20min
+  [1600/4245] failed=0 fm={'both': 73, 'confabulation': 74, 'misclassification': 578, 'none_or_unclear': 875} ETA=20min
+  [1650/4245] failed=0 fm={'both': 74, 'confabulation': 76, 'misclassification': 596, 'none_or_unclear': 904} ETA=20min
+  [1700/4245] failed=0 fm={'both': 77, 'confabulation': 79, 'misclassification': 611, 'none_or_unclear': 933} ETA=19min
+  [1750/4245] failed=0 fm={'both': 78, 'confabulation': 81, 'misclassification': 633, 'none_or_unclear': 958} ETA=19min
+  [1800/4245] failed=0 fm={'both': 80, 'confabulation': 84, 'misclassification': 649, 'none_or_unclear': 987} ETA=18min
+  [1850/4245] failed=0 fm={'both': 82, 'confabulation': 86, 'misclassification': 668, 'none_or_unclear': 1014} ETA=18min
+  [1900/4245] failed=0 fm={'both': 84, 'confabulation': 87, 'misclassification': 683, 'none_or_unclear': 1046} ETA=18min
+  [1950/4245] failed=0 fm={'both': 87, 'confabulation': 89, 'misclassification': 705, 'none_or_unclear': 1069} ETA=17min
+  [2000/4245] failed=0 fm={'both': 89, 'confabulation': 90, 'misclassification': 720, 'none_or_unclear': 1101} ETA=17min
+  [2050/4245] failed=0 fm={'both': 92, 'confabulation': 91, 'misclassification': 736, 'none_or_unclear': 1131} ETA=16min
+  [2100/4245] failed=0 fm={'both': 96, 'confabulation': 93, 'misclassification': 760, 'none_or_unclear': 1151} ETA=16min
+  [2150/4245] failed=0 fm={'both': 98, 'confabulation': 98, 'misclassification': 778, 'none_or_unclear': 1176} ETA=16min
+  [2200/4245] failed=0 fm={'both': 104, 'confabulation': 102, 'misclassification': 796, 'none_or_unclear': 1198} ETA=15min
+  [2250/4245] failed=0 fm={'both': 106, 'confabulation': 107, 'misclassification': 810, 'none_or_unclear': 1227} ETA=15min
+  [2300/4245] failed=0 fm={'both': 111, 'confabulation': 110, 'misclassification': 826, 'none_or_unclear': 1253} ETA=15min
+  [2350/4245] failed=0 fm={'both': 112, 'confabulation': 112, 'misclassification': 848, 'none_or_unclear': 1278} ETA=14min
+  [2400/4245] failed=0 fm={'both': 116, 'confabulation': 114, 'misclassification': 867, 'none_or_unclear': 1303} ETA=14min
+  [2450/4245] failed=0 fm={'both': 118, 'confabulation': 115, 'misclassification': 878, 'none_or_unclear': 1339} ETA=13min
+  [2500/4245] failed=0 fm={'both': 120, 'confabulation': 119, 'misclassification': 896, 'none_or_unclear': 1365} ETA=13min
+  [2550/4245] failed=0 fm={'both': 121, 'confabulation': 121, 'misclassification': 916, 'none_or_unclear': 1392} ETA=13min
+  [2600/4245] failed=0 fm={'both': 123, 'confabulation': 126, 'misclassification': 936, 'none_or_unclear': 1415} ETA=12min
+  [2650/4245] failed=0 fm={'both': 125, 'confabulation': 129, 'misclassification': 960, 'none_or_unclear': 1436} ETA=12min
+  [2700/4245] failed=0 fm={'both': 126, 'confabulation': 129, 'misclassification': 981, 'none_or_unclear': 1464} ETA=12min
+  [2750/4245] failed=0 fm={'both': 127, 'confabulation': 132, 'misclassification': 1001, 'none_or_unclear': 1490} ETA=11min
+  [2800/4245] failed=0 fm={'both': 128, 'confabulation': 132, 'misclassification': 1021, 'none_or_unclear': 1519} ETA=11min
+  [2850/4245] failed=0 fm={'both': 129, 'confabulation': 135, 'misclassification': 1039, 'none_or_unclear': 1547} ETA=10min
+  [2900/4245] failed=0 fm={'both': 130, 'confabulation': 138, 'misclassification': 1057, 'none_or_unclear': 1575} ETA=10min
+  [2950/4245] failed=0 fm={'both': 132, 'confabulation': 139, 'misclassification': 1074, 'none_or_unclear': 1605} ETA=10min
+  [3000/4245] failed=0 fm={'both': 133, 'confabulation': 139, 'misclassification': 1100, 'none_or_unclear': 1628} ETA=9min
+  [3050/4245] failed=0 fm={'both': 140, 'confabulation': 141, 'misclassification': 1124, 'none_or_unclear': 1645} ETA=9min
+  [3100/4245] failed=0 fm={'both': 141, 'confabulation': 142, 'misclassification': 1144, 'none_or_unclear': 1673} ETA=8min
+  [3150/4245] failed=0 fm={'both': 144, 'confabulation': 145, 'misclassification': 1157, 'none_or_unclear': 1704} ETA=8min
+  [3200/4245] failed=0 fm={'both': 147, 'confabulation': 146, 'misclassification': 1171, 'none_or_unclear': 1736} ETA=8min
+  [3250/4245] failed=0 fm={'both': 149, 'confabulation': 148, 'misclassification': 1187, 'none_or_unclear': 1766} ETA=7min
+  [3300/4245] failed=0 fm={'both': 151, 'confabulation': 154, 'misclassification': 1207, 'none_or_unclear': 1788} ETA=7min
+  [3350/4245] failed=0 fm={'both': 155, 'confabulation': 157, 'misclassification': 1228, 'none_or_unclear': 1810} ETA=7min
+  [3400/4245] failed=0 fm={'both': 156, 'confabulation': 159, 'misclassification': 1245, 'none_or_unclear': 1840} ETA=6min
+  [3450/4245] failed=0 fm={'both': 158, 'confabulation': 165, 'misclassification': 1266, 'none_or_unclear': 1861} ETA=6min
+  [3500/4245] failed=1 fm={'FAILED': 1, 'both': 158, 'confabulation': 166, 'misclassification': 1286, 'none_or_unclear': 1889} ETA=6min
+  [3550/4245] failed=1 fm={'FAILED': 1, 'both': 159, 'confabulation': 169, 'misclassification': 1304, 'none_or_unclear': 1917} ETA=5min
+  [3600/4245] failed=1 fm={'FAILED': 1, 'both': 163, 'confabulation': 169, 'misclassification': 1322, 'none_or_unclear': 1945} ETA=5min
+  [3650/4245] failed=1 fm={'FAILED': 1, 'both': 165, 'confabulation': 174, 'misclassification': 1338, 'none_or_unclear': 1972} ETA=4min
+  [3700/4245] failed=1 fm={'FAILED': 1, 'both': 168, 'confabulation': 175, 'misclassification': 1357, 'none_or_unclear': 1999} ETA=4min
+  [3750/4245] failed=1 fm={'FAILED': 1, 'both': 171, 'confabulation': 180, 'misclassification': 1382, 'none_or_unclear': 2016} ETA=4min
+  [3800/4245] failed=1 fm={'FAILED': 1, 'both': 174, 'confabulation': 183, 'misclassification': 1400, 'none_or_unclear': 2042} ETA=3min
+  [3850/4245] failed=1 fm={'FAILED': 1, 'both': 176, 'confabulation': 188, 'misclassification': 1417, 'none_or_unclear': 2068} ETA=3min
+  [3900/4245] failed=1 fm={'FAILED': 1, 'both': 178, 'confabulation': 192, 'misclassification': 1437, 'none_or_unclear': 2092} ETA=3min
+  [3950/4245] failed=1 fm={'FAILED': 1, 'both': 184, 'confabulation': 193, 'misclassification': 1456, 'none_or_unclear': 2116} ETA=2min
+  [4000/4245] failed=1 fm={'FAILED': 1, 'both': 186, 'confabulation': 197, 'misclassification': 1475, 'none_or_unclear': 2141} ETA=2min
+  [4050/4245] failed=1 fm={'FAILED': 1, 'both': 190, 'confabulation': 198, 'misclassification': 1492, 'none_or_unclear': 2169} ETA=1min
+  [4100/4245] failed=1 fm={'FAILED': 1, 'both': 192, 'confabulation': 200, 'misclassification': 1517, 'none_or_unclear': 2190} ETA=1min
+  [4150/4245] failed=1 fm={'FAILED': 1, 'both': 193, 'confabulation': 202, 'misclassification': 1535, 'none_or_unclear': 2219} ETA=1min
+  [4200/4245] failed=1 fm={'FAILED': 1, 'both': 194, 'confabulation': 207, 'misclassification': 1554, 'none_or_unclear': 2244} ETA=0min
+  [4245/4245] failed=1 fm={'FAILED': 1, 'both': 197, 'confabulation': 209, 'misclassification': 1573, 'none_or_unclear': 2265} ETA=0min
+Done in 31.5 min. Saved → /Users/kingslywang/repos/ai-narratives-2026/output/analyses/q7_classified_cautious.csv

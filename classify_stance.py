@@ -129,7 +129,10 @@ async def main_async():
         input_path  = os.path.join(OUTPUT_DIR, "pilot_prefiltered_discourse_eval.csv")
         output_path = os.path.join(OUTPUT_DIR, "classified_pilot.csv")
     elif arm == "Q3":
-        input_path  = os.path.join(OUTPUT_DIR, "filtered_medical_all_Q3.csv")
+        # Session 2 fixup: use the prefilter-discourse-eval subset (1,055 records),
+        # mirroring the Q1/Q2 path. The original `filtered_medical_all_Q3.csv`
+        # (5,433 records) predates the discourse-eval prefilter step.
+        input_path  = os.path.join(OUTPUT_DIR, "prefiltered_Q3_discourse_eval.csv")
         output_path = os.path.join(OUTPUT_DIR, "classified_medical_Q3.csv")
     else:
         input_path  = os.path.join(OUTPUT_DIR, "prefiltered_discourse_eval.csv")

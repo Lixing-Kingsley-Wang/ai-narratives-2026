@@ -1,0 +1,917 @@
+pmid,pub_year,stance,failure_mode,model_type,confidence,rationale,prompt_version,model
+39446672,2025,Alarm,misclassification,generative,0.880,LLM accuracy on multiple-choice dental questions measured; wrong answers are misclassification errors,q7_failuremode_v1,claude-sonnet-4-6
+38801724,2024,Alarm,misclassification,discriminative,0.950,AI mammography tool missed cancers (false negatives) and had false positives vs human readers,q7_failuremode_v1,claude-sonnet-4-6
+41872525,2026,Alarm,misclassification,generative,0.950,"LLMs evaluated for diagnostic accuracy/classification of pediatric ECGs, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40055532,2025,Alarm,both,generative,0.920,Explicitly measures hallucinations/accuracy and safety/bias misclassification in LLMs,q7_failuremode_v1,claude-sonnet-4-6
+39299831,2025,Alarm,misclassification,discriminative,0.970,AI fracture detection model evaluated on false positives/negatives vs radiologist performance,q7_failuremode_v1,claude-sonnet-4-6
+40002618,2025,Alarm,misclassification,discriminative,0.920,DL detection/classification of bone loss evaluated via diagnostic accuracy metrics,q7_failuremode_v1,claude-sonnet-4-6
+40194867,2025,Alarm,misclassification,generative,0.850,"Evaluates diagnostic accuracy/detection rates of VLLMs on retinal images, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39622288,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on accuracy of surgical decisions and radiological assessments, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+42054485,2026,Alarm,confabulation,generative,0.850,"LLMs generating incorrect/fabricated statistical calculations, not classification errors",q7_failuremode_v1,claude-sonnet-4-6
+39952325,2025,Alarm,misclassification,generative,0.720,LLM accuracy evaluated on medical questions; one question showed lower accuracy score,q7_failuremode_v1,claude-sonnet-4-6
+38213186,2024,Alarm,both,generative,0.870,LLM misclassifies accuracy AND fabricates nonexistent evidence support for recommendations,q7_failuremode_v1,claude-sonnet-4-6
+39695057,2026,Alarm,misclassification,discriminative,0.800,Review focuses on biased predictions/disparate outcomes across racial groups from AI models,q7_failuremode_v1,claude-sonnet-4-6
+36624237,2023,Alarm,none_or_unclear,unclear,0.650,"General framing about reproducibility issues, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40820507,2026,Alarm,misclassification,generative,0.820,"LLM therapy quality scored/rated against human benchmark, assessing performance accuracy",q7_failuremode_v1,claude-sonnet-4-6
+39059040,2024,Alarm,confabulation,generative,0.900,"LLMs fabricated incorrect helplines, dangerous disinformation, and false medical advice",q7_failuremode_v1,claude-sonnet-4-6
+41660250,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated for predictive accuracy/calibration in cardiovascular risk scoring, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39120016,2024,Alarm,both,generative,0.970,LLMs gave wrong surgical recommendations (misclassification) and 55% of references were fictitious (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+38366690,2025,Alarm,misclassification,generative,0.850,"ChatGPT produced wrong clinical assessments and over-triage decisions, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+37823416,2024,Alarm,misclassification,generative,0.850,"LLM evaluated for incorrect diagnoses and inadequate treatment plans, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+33722847,2021,Alarm,none_or_unclear,unclear,0.850,"General AI bias/equity framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+39528596,2024,Alarm,misclassification,generative,0.720,"LLMs making biased resource allocation decisions — wrong/unjust predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37864012,2023,Alarm,confabulation,generative,0.820,"LLMs generate false race-based medical content, propagating debunked misconceptions as plausible facts",q7_failuremode_v1,claude-sonnet-4-6
+36062807,2022,Alarm,misclassification,both,0.850,Diagnostic accuracy/AUC compared for discriminative AI and generative-adjacent resident decisions; classification errors assessed,q7_failuremode_v1,claude-sonnet-4-6
+40108444,2025,Alarm,confabulation,generative,0.900,LLM reviews show fabricated/inaccurate citations and lower authenticity in references,q7_failuremode_v1,claude-sonnet-4-6
+40549899,2025,Alarm,confabulation,generative,0.800,"LLM misinformation implies fabricated/false content generation, not classification errors",q7_failuremode_v1,claude-sonnet-4-6
+38400777,2024,Alarm,misclassification,generative,0.900,"LLM evaluated for classification accuracy of transfusion reactions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39423004,2024,Alarm,misclassification,both,0.920,Compares classification accuracy of generative LLM vs discriminative BERT for specialty prediction,q7_failuremode_v1,claude-sonnet-4-6
+41360694,2026,Alarm,misclassification,generative,0.820,"AI image generators produce biased/incorrect gender representations, a systematic output error",q7_failuremode_v1,claude-sonnet-4-6
+38124357,2024,Alarm,both,generative,0.850,ChatGPT missed correct recommendations (misclassification) and gave harmful/incorrect references (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+40553002,2025,Alarm,misclassification,discriminative,0.970,"AI false-negative detection errors on mammograms, classification/detection model",q7_failuremode_v1,claude-sonnet-4-6
+38295336,2025,Alarm,confabulation,generative,0.820,"Comment on ChatGPT providing patient information, likely addressing fabricated or inaccurate content",q7_failuremode_v1,claude-sonnet-4-6
+40869701,2025,Alarm,misclassification,generative,0.850,"Evaluates LLM accuracy on orthopaedic questions; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39437384,2024,Alarm,misclassification,generative,0.850,"GPT-4 risk assessment accuracy/bias evaluated, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41612211,2026,Alarm,misclassification,generative,0.900,LLM diagnostic accuracy evaluated; wrong ECG interpretations are misclassification errors,q7_failuremode_v1,claude-sonnet-4-6
+38585462,2024,Alarm,confabulation,generative,0.820,"ChatGPT produces unreliable/fabricated evaluations of journal quality, suggesting confabulation",q7_failuremode_v1,claude-sonnet-4-6
+37579574,2023,Alarm,none_or_unclear,unclear,0.850,"General commentary on power/bias framing, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41868387,2026,Alarm,none_or_unclear,both,0.700,"Audit of transparency/disclosure gaps, not specific failure mechanisms like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+39547871,2025,Alarm,misclassification,generative,0.850,"LLM produces wrong clinical recommendations/risk assessments, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+41980236,2026,Alarm,misclassification,discriminative,0.920,"AI segmentation model evaluated on accuracy metrics DSC/HD95, wrong delineations",q7_failuremode_v1,claude-sonnet-4-6
+37286665,2023,Alarm,misclassification,both,0.820,Radiologists following incorrect AI suggestions leads to wrong diagnoses; AI acts as discriminative classifier with explainability outputs,q7_failuremode_v1,claude-sonnet-4-6
+40998694,2026,Alarm,misclassification,generative,0.720,"Study measures diagnostic accuracy/advice-taking behavior of ChatGPT, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38382193,2024,Alarm,misclassification,generative,0.900,"LLMs scored on exam accuracy; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39321356,2025,Alarm,confabulation,generative,0.820,"ChatGPT generated inaccurate/superficial medical content requiring correction, not classification errors",q7_failuremode_v1,claude-sonnet-4-6
+41063142,2025,Alarm,misclassification,generative,0.950,Generative AI models producing wrong severity classifications compared to orthodontist ground truth,q7_failuremode_v1,claude-sonnet-4-6
+39235364,2024,Alarm,misclassification,discriminative,0.900,"Reviews classification/diagnostic AI models for Parkinson's; focuses on accuracy inflation, data leakage, generalization issues.",q7_failuremode_v1,claude-sonnet-4-6
+33542191,2021,Alarm,misclassification,discriminative,0.820,ML treatment recommendation model produces wrong selections; clinician accuracy/concordance measured,q7_failuremode_v1,claude-sonnet-4-6
+39322838,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated for diagnostic accuracy in classifying scar types; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38199797,2025,Alarm,misclassification,generative,0.920,"GPT-4 evaluated for diagnostic accuracy/classification errors in histopathology, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41459577,2025,Alarm,misclassification,generative,0.820,"LLMs generate inconsistent/unreliable reference interval values, a consistency/accuracy failure not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38284363,2024,Alarm,misclassification,generative,0.850,"LLM accuracy compared to guidelines; wrong answers, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+41740881,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated for diagnostic accuracy/agreement in clinical sign detection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41551752,2026,Alarm,confabulation,generative,0.850,GenAI models prompted to produce fabricated/inaccurate CVD prevention information,q7_failuremode_v1,claude-sonnet-4-6
+40269240,2025,Alarm,misclassification,both,0.850,Triage accuracy/consistency compared across generative LLM and discriminative DRP tool vs doctors,q7_failuremode_v1,claude-sonnet-4-6
+34778732,2021,Alarm,misclassification,discriminative,0.950,Deep learning detection/classification model compared on accuracy for corneal disease diagnosis,q7_failuremode_v1,claude-sonnet-4-6
+35463778,2022,Alarm,misclassification,discriminative,0.950,"DL segmentation model shows biased performance (Dice scores, errors) across racial/sex groups",q7_failuremode_v1,claude-sonnet-4-6
+39860325,2025,Alarm,misclassification,generative,0.950,"LLM evaluated on diagnostic accuracy, sensitivity/specificity — classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39890777,2025,Alarm,confabulation,generative,0.820,"Prompt injection causes VLMs to generate harmful/unfaithful outputs, a fabrication/generation failure mode",q7_failuremode_v1,claude-sonnet-4-6
+39860582,2025,Alarm,misclassification,generative,0.950,LLM image interpretation evaluated via accuracy/AUC against gold standard diagnoses,q7_failuremode_v1,claude-sonnet-4-6
+38445975,2024,Alarm,misclassification,generative,0.920,"ChatGPT evaluated for predictive accuracy of TBI outcomes; poor specificity/AUC, no fabrication mentioned",q7_failuremode_v1,claude-sonnet-4-6
+40373001,2025,Alarm,misclassification,both,0.900,Compares classification/extraction accuracy of LLMs vs rule-based systems; no fabrication discussed,q7_failuremode_v1,claude-sonnet-4-6
+42005092,2026,Alarm,misclassification,generative,0.850,LLM recommendations failed to correctly predict/classify which students took research years,q7_failuremode_v1,claude-sonnet-4-6
+38764485,2024,Alarm,misclassification,generative,0.720,"LLM accuracy/quality scoring evaluated; poor accuracy reflects wrong answers, not fabrication specifically",q7_failuremode_v1,claude-sonnet-4-6
+40715822,2026,Alarm,misclassification,discriminative,0.970,AI classification models evaluated for sensitivity/specificity/AUC in nodule malignancy detection,q7_failuremode_v1,claude-sonnet-4-6
+33635801,2021,Alarm,misclassification,both,0.850,BERT vs CNN/attention models compared on clinical document classification accuracy,q7_failuremode_v1,claude-sonnet-4-6
+41314475,2026,Alarm,misclassification,generative,0.900,"LLMs evaluated on accuracy of carbohydrate estimation, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39133388,2024,Alarm,misclassification,generative,0.820,"LLM evaluated for incorrect treatment recommendations, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+37263772,2024,Alarm,misclassification,generative,0.820,"ChatGPT gives wrong/false drug answers; accuracy evaluated, not fabricated citations specifically",q7_failuremode_v1,claude-sonnet-4-6
+35050343,2022,Alarm,misclassification,discriminative,0.820,"AI systems predict/label diagnosis and treatment plans; evaluated on precision, recall, accuracy scores",q7_failuremode_v1,claude-sonnet-4-6
+38626142,2024,Alarm,misclassification,generative,0.880,LLM produces inconsistent/wrong risk scores compared to validated clinical tools,q7_failuremode_v1,claude-sonnet-4-6
+40210509,2025,Alarm,confabulation,generative,0.900,"ChatGPT fabricated inaccurate literature synthesis, misrepresenting evidence in scholarly implant treatment planning",q7_failuremode_v1,claude-sonnet-4-6
+35391864,2022,Alarm,misclassification,discriminative,0.900,Predictive models compared on RMSE and calibration for continuous outcome prediction,q7_failuremode_v1,claude-sonnet-4-6
+42062131,2026,Alarm,misclassification,generative,0.900,"LLM image recognition evaluated for detection accuracy, sensitivity, specificity—classification errors",q7_failuremode_v1,claude-sonnet-4-6
+41494445,2026,Alarm,misclassification,both,0.950,Diagnostic accuracy/classification errors compared between LLM and discriminative AI-CAD system,q7_failuremode_v1,claude-sonnet-4-6
+40351113,2026,Alarm,confabulation,generative,0.990,Study explicitly measures fabricated/hallucinated references and bibliographic accuracy across LLMs,q7_failuremode_v1,claude-sonnet-4-6
+39450689,2025,Alarm,misclassification,generative,0.850,Evaluating diagnostic accuracy of a generative AI on oral disease classification,q7_failuremode_v1,claude-sonnet-4-6
+40658983,2025,Alarm,misclassification,generative,0.870,"LLMs scored/benchmarked on accuracy of medical Q&A answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41695324,2026,Alarm,misclassification,both,0.900,"Compares predictive accuracy of LLMs vs Cox regression; wrong risk predictions, not fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+39814217,2025,Alarm,misclassification,discriminative,0.820,ML prediction models with insufficient sample sizes lead to overfitting and poor generalization,q7_failuremode_v1,claude-sonnet-4-6
+39034382,2024,Alarm,misclassification,discriminative,0.970,Commercial AI detection tool shows biased false positives/negatives across sociodemographic groups,q7_failuremode_v1,claude-sonnet-4-6
+39985409,2025,Alarm,misclassification,generative,0.900,LLM ratings compared to expert consensus; wrong label/score alignment measured,q7_failuremode_v1,claude-sonnet-4-6
+39006799,2024,Alarm,misclassification,generative,0.820,"LLM answers rated for accuracy/similarity to expert consensus, not fabrication per se",q7_failuremode_v1,claude-sonnet-4-6
+37532773,2023,Alarm,misclassification,discriminative,0.950,AI detection system shows false negatives/lower sensitivity for LVO classification,q7_failuremode_v1,claude-sonnet-4-6
+39157995,2025,Alarm,misclassification,generative,0.850,"LLM selection decisions show biased/incorrect ranking patterns, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41914067,2026,Alarm,misclassification,generative,0.900,"LLMs evaluated on diagnostic accuracy and clinical scoring, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37702018,2023,Alarm,misclassification,generative,0.920,"LLM evaluated for classification accuracy in detecting contamination, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+42031418,2026,Alarm,both,generative,0.950,Explicitly measures both hallucinated guidelines (confabulation) and omissions/inconsistencies (misclassification) in LLM outputs,q7_failuremode_v1,claude-sonnet-4-6
+34761828,2022,Alarm,misclassification,discriminative,0.850,AI ultrasound algorithms show poor generalization/performance differences in pediatric vs adult patients,q7_failuremode_v1,claude-sonnet-4-6
+39299957,2025,Alarm,misclassification,discriminative,0.970,"Segmentation model produces poor Dice scores on pediatric CT — classification/detection errors, no fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+41447465,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on classification accuracy, sensitivity, specificity for BI-RADS subcategories; no fabrication assessed",q7_failuremode_v1,claude-sonnet-4-6
+40390563,2026,Alarm,none_or_unclear,unclear,0.850,Parody/critique piece; no specific AI failure mechanism described or evaluated,q7_failuremode_v1,claude-sonnet-4-6
+40668069,2025,Alarm,both,generative,0.900,Generative models show both misclassification (diagnostic accuracy) and biased/unfaithful image generation (skin tone),q7_failuremode_v1,claude-sonnet-4-6
+41330046,2025,Alarm,misclassification,discriminative,0.970,"Classification models fail to generalize; false predictions, overfitting, poor sensitivity/specificity on clinical data",q7_failuremode_v1,claude-sonnet-4-6
+39348189,2024,Alarm,misclassification,generative,0.850,"LLM triage accuracy measured; wrong START codes assigned, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+39502485,2024,Alarm,misclassification,generative,0.950,GPT-4O evaluated for wrong cell type identification/classification accuracy vs experts,q7_failuremode_v1,claude-sonnet-4-6
+38721744,2024,Alarm,misclassification,generative,0.900,LLM accuracy on diagnostic/knowledge questions compared to clinicians,q7_failuremode_v1,claude-sonnet-4-6
+38550977,2024,Alarm,none_or_unclear,generative,0.500,Commentary/opinion piece; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+39448515,2025,Alarm,misclassification,discriminative,0.820,CAD detection system producing false positives/negatives; human decision accuracy studied,q7_failuremode_v1,claude-sonnet-4-6
+41137795,2026,Alarm,confabulation,generative,0.820,"ChatGPT produced factually wrong/incorrect information in pharmacotherapy responses, indicating fabrication",q7_failuremode_v1,claude-sonnet-4-6
+33958703,2021,Alarm,misclassification,discriminative,0.950,Classification model miscalibration/overestimation due to small sample sizes in neuroimaging studies,q7_failuremode_v1,claude-sonnet-4-6
+40218041,2025,Alarm,confabulation,generative,0.820,Evaluates factual consistency and fabricated/inaccurate content in LLM clinical responses,q7_failuremode_v1,claude-sonnet-4-6
+41897193,2026,Alarm,misclassification,generative,0.850,"LLMs produce incorrect/biased nutritional values and guideline deviations, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+41331203,2026,Alarm,none_or_unclear,unclear,0.550,General framing about AI inconsistency; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38780839,2024,Alarm,confabulation,generative,0.920,AI generates anatomically fabricated/incorrect medical images and wrong text labels,q7_failuremode_v1,claude-sonnet-4-6
+41761913,2026,Alarm,misclassification,generative,0.820,"LLM accuracy on multiple-choice questions evaluated; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38798194,2024,Alarm,misclassification,generative,0.850,"Evaluates LLM answer accuracy/correctness on clinical questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39425100,2024,Alarm,misclassification,discriminative,0.920,AI landmark detection/measurement errors compared to human expert ground truth,q7_failuremode_v1,claude-sonnet-4-6
+39813897,2025,Alarm,both,generative,0.820,ChatGPT failed accuracy on anatomy questions and generated unfaithful/fabricated content,q7_failuremode_v1,claude-sonnet-4-6
+37339863,2023,Alarm,confabulation,generative,0.820,ChatGPT drug information context implies fabricated/unfaithful content risks,q7_failuremode_v1,claude-sonnet-4-6
+33038139,2021,Alarm,misclassification,discriminative,0.950,ML classifiers predicting readmission/death with poor AUC; classification accuracy focus,q7_failuremode_v1,claude-sonnet-4-6
+38271993,2024,Alarm,misclassification,discriminative,0.950,Deep-learning BA software underestimates/miscalibrates bone age predictions in Korean children,q7_failuremode_v1,claude-sonnet-4-6
+39706600,2024,Alarm,misclassification,generative,0.820,"LLMs scored/evaluated on cognitive tests; wrong answers are classification/prediction errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38911166,2024,Alarm,misclassification,both,0.900,LLMs and RNN/SVM compared on prediction accuracy for AMP activity/toxicity classification,q7_failuremode_v1,claude-sonnet-4-6
+39423850,2025,Alarm,misclassification,both,0.850,"NLP extraction accuracy compared; wrong labels/scores, rule-based and LLM models evaluated",q7_failuremode_v1,claude-sonnet-4-6
+36811011,2021,Alarm,misclassification,discriminative,0.920,Adversarial attacks cause DL classifiers to misclassify COVID-19 diagnostic outputs,q7_failuremode_v1,claude-sonnet-4-6
+39971004,2025,Alarm,misclassification,generative,0.920,"GPT-4 accuracy evaluated on ECG classification tasks; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37881016,2024,Alarm,confabulation,generative,0.900,"Describes LLMs fabricating facts, nonsense, and fabricated sources as misinformation",q7_failuremode_v1,claude-sonnet-4-6
+41499578,2026,Alarm,misclassification,generative,0.920,"LLM evaluated on classification accuracy of lung sounds; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41145883,2025,Alarm,misclassification,generative,0.820,"LLMs evaluated on accuracy/quality of recommendations, including biases and prompt instability, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41939177,2026,Alarm,none_or_unclear,generative,0.750,General risk framing about chatbot harms; no specific confabulation or misclassification mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+40021654,2025,Alarm,misclassification,discriminative,0.950,Deep learning model misclassifies pathogenic vs benign missense variants; low precision/recall,q7_failuremode_v1,claude-sonnet-4-6
+41228088,2025,Alarm,misclassification,generative,0.720,"LLMs giving inappropriate clinical responses; wrong outputs in therapeutic contexts, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+34117018,2021,Alarm,misclassification,discriminative,0.980,Deep learning classifier evaluated for false positives/negatives in fracture detection,q7_failuremode_v1,claude-sonnet-4-6
+41947588,2026,Alarm,misclassification,both,0.900,LLMs and humans scored adhesion grades; wrong scores=misclassification; both generative LLMs and discriminative scoring evaluated,q7_failuremode_v1,claude-sonnet-4-6
+39409537,2024,Alarm,misclassification,discriminative,0.750,Review of predictive/classification algorithms for vital sign monitoring; discrepancy in capability claims vs. actual performance,q7_failuremode_v1,claude-sonnet-4-6
+40472563,2025,Alarm,misclassification,generative,0.850,"LLM produces inaccurate measurements/predictions on MRI images, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+41521823,2026,Alarm,none_or_unclear,generative,0.600,"Discusses bias influence on decision-making, no specific fabrication or misclassification mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41598221,2026,Alarm,both,generative,0.970,Explicitly measures both diagnostic accuracy (misclassification) and hallucinations (confabulation) in VLLMs,q7_failuremode_v1,claude-sonnet-4-6
+40490558,2025,Alarm,misclassification,generative,0.720,"LLMs scored/rated poorly on evidence-based standards; quality/compliance assessment, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41675260,2025,Alarm,misclassification,both,0.920,Accuracy of nodule detection evaluated; both generative LLMs and discriminative VLMs tested,q7_failuremode_v1,claude-sonnet-4-6
+40074209,2025,Alarm,misclassification,generative,0.850,"LLM produces inaccurate nutrient calculations/prescriptions, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+40063849,2025,Alarm,misclassification,generative,0.820,"LLM accuracy/correctness on medical questions evaluated, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41513919,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated on prediction accuracy for IVF outcomes; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37130197,2023,Alarm,confabulation,generative,0.980,"ChatGPT fabricated references, false study details, and invented data in clinical response",q7_failuremode_v1,claude-sonnet-4-6
+37272686,2023,Alarm,misclassification,discriminative,0.950,"AI ECG interpretation producing wrong diagnoses/labels, classic classification errors",q7_failuremode_v1,claude-sonnet-4-6
+32931808,2021,Alarm,misclassification,discriminative,0.950,Deep learning skin cancer diagnosis systems with clinical vulnerabilities implying classification errors,q7_failuremode_v1,claude-sonnet-4-6
+37898461,2024,Alarm,none_or_unclear,discriminative,0.600,Describes open science practices in ML prognostic models; no specific failure mechanism discussed,q7_failuremode_v1,claude-sonnet-4-6
+39637580,2025,Alarm,misclassification,discriminative,0.850,Biased predictions and differential diagnostic/prognostic accuracy across racial groups,q7_failuremode_v1,claude-sonnet-4-6
+41717521,2025,Alarm,misclassification,generative,0.820,"LLM accuracy scored on correctness of answers, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+38661379,2024,Alarm,misclassification,generative,0.850,LLM evaluated on correct identification and interpretation accuracy of medical images,q7_failuremode_v1,claude-sonnet-4-6
+41250649,2025,Alarm,none_or_unclear,unclear,0.700,Study analyzes retracted AI papers broadly; no specific AI failure mechanism evaluated,q7_failuremode_v1,claude-sonnet-4-6
+39536965,2025,Alarm,misclassification,generative,0.850,"LLMs scored lower than surgeons on clinical scenarios; wrong answers/critical failures, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39612523,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated for accuracy/concordance with clinical guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40195448,2025,Alarm,misclassification,generative,0.900,"LLMs produce biased/wrong clinical recommendations based on sociodemographic labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40319392,2025,Alarm,misclassification,generative,0.870,"LLMs fail to accurately predict MCQ difficulty/psychometric indices, a prediction/scoring error",q7_failuremode_v1,claude-sonnet-4-6
+37477707,2024,Alarm,misclassification,generative,0.720,"Evaluates ChatGPT reliability/accuracy for mental health support, inconsistencies in responses",q7_failuremode_v1,claude-sonnet-4-6
+38329525,2024,Alarm,misclassification,generative,0.900,"GPT-4V used for image classification; accuracy/diagnostic metrics evaluated, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40536141,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on accuracy/correctness of clinical guideline responses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40271108,2025,Alarm,both,generative,0.880,LLM showed both fabricated information and low accuracy/misclassification in radiograph interpretation,q7_failuremode_v1,claude-sonnet-4-6
+39106482,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on diagnostic accuracy/sensitivity/specificity for melanoma detection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39430700,2024,Alarm,misclassification,generative,0.820,"LLM responses graded for accuracy/correctness, not fabrication of citations or entities",q7_failuremode_v1,claude-sonnet-4-6
+39420246,2024,Alarm,misclassification,generative,0.920,"LLM chatbots evaluated on triage accuracy; wrong category assignments, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41287196,2026,Alarm,misclassification,generative,0.850,"LLMs scored on accuracy/alignment with guidelines; wrong answers, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+41161297,2026,Alarm,confabulation,generative,0.970,"ChatGPT-4o fabricated unsupported/inaccurate clinical information, explicit hallucination described",q7_failuremode_v1,claude-sonnet-4-6
+38897175,2024,Alarm,none_or_unclear,unclear,0.850,"General ethical/bias framing, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+33762434,2021,Alarm,none_or_unclear,unclear,0.850,"Focuses on reproducibility metrics, not specific failure mechanisms like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+41681694,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated on diagnostic accuracy/detection rates for CXR findings, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41945149,2026,Alarm,misclassification,generative,0.920,LLMs predicting ISUP grade groups from text reports; accuracy/classification errors measured,q7_failuremode_v1,claude-sonnet-4-6
+38307617,2024,Alarm,both,generative,0.850,LLMs gave wrong treatment recommendations (misclassification) and generated misleading/fabricated statements (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+39587148,2024,Alarm,misclassification,discriminative,0.920,"CNN models make spurious predictions via shortcut learning, a miscalibration/generalization failure",q7_failuremode_v1,claude-sonnet-4-6
+37222684,2023,Alarm,both,generative,0.720,Title implies fabrication and accuracy issues in clinical ChatGPT use,q7_failuremode_v1,claude-sonnet-4-6
+40043742,2025,Alarm,misclassification,generative,0.870,LLMs evaluated on diagnostic accuracy/scoring vs surgeons; wrong predictions not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+39613295,2025,Alarm,misclassification,generative,0.920,"LLMs assigned wrong risk ratings/labels for drug interactions, accuracy below 50%",q7_failuremode_v1,claude-sonnet-4-6
+36325476,2023,Alarm,misclassification,discriminative,0.920,CNN/RNN prediction models underpredict worsening visual fields; systematic miscalibration/bias in forecasting.,q7_failuremode_v1,claude-sonnet-4-6
+41654787,2026,Alarm,misclassification,discriminative,0.920,"AI measurement models show systematic bias and poor precision, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41780263,2026,Alarm,misclassification,generative,0.900,"LLMs fail to detect hazardous scenarios—false negatives/missed classifications, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40800006,2025,Alarm,misclassification,generative,0.920,LLMs produce wrong age estimates/predictions compared to chronological age; accuracy evaluation,q7_failuremode_v1,claude-sonnet-4-6
+37505265,2023,Alarm,misclassification,generative,0.850,"Evaluates LLM diagnostic accuracy, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+38592470,2024,Alarm,misclassification,generative,0.920,"ChatGPT evaluated on accuracy of dosing recommendations, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41060417,2026,Alarm,none_or_unclear,discriminative,0.700,"Focus is on labelling/transparency gaps, not a specific AI failure mechanism like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+39863417,2025,Alarm,misclassification,generative,0.920,"LLM accuracy on USMLE ethics questions measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41688581,2026,Alarm,misclassification,discriminative,0.820,"Re-identification via image matching is a classification/detection error mechanism, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34242437,2021,Alarm,misclassification,discriminative,0.920,AI diagnostic accuracy assessed for rare skin cancer detection/classification errors,q7_failuremode_v1,claude-sonnet-4-6
+40849634,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on accuracy/wrong answers in MCQ exam, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38273152,2024,Alarm,misclassification,generative,0.870,"LLM accuracy in diagnosis and triage assessed; wrong labels/diagnoses, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+34969610,2022,Alarm,misclassification,discriminative,0.850,"Audit of FDA-regulated imaging AI validation; concerns about generalizability, bias, classification performance",q7_failuremode_v1,claude-sonnet-4-6
+33369050,2021,Alarm,misclassification,discriminative,0.550,"Focuses on bias in AI predictions/inferences from mHealth data, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40730644,2025,Alarm,both,generative,0.900,Evaluates both hallucinations (confabulation) and accuracy/performance scores (misclassification) in LLMs,q7_failuremode_v1,claude-sonnet-4-6
+39325705,2024,Alarm,misclassification,generative,0.920,LLM accuracy on exam questions compared to trainees; performance/scoring evaluation,q7_failuremode_v1,claude-sonnet-4-6
+36165796,2023,Alarm,misclassification,discriminative,0.950,DL prediction model evaluated for bias and generalizability errors in bone age estimation,q7_failuremode_v1,claude-sonnet-4-6
+35470133,2022,Alarm,misclassification,discriminative,0.950,Classification bias with higher false negative rates for females in liver disease prediction models,q7_failuremode_v1,claude-sonnet-4-6
+40961357,2025,Alarm,misclassification,both,0.900,Compares classification accuracy of LLMs and dedicated ECG AI for MI detection; wrong predictions are the focus.,q7_failuremode_v1,claude-sonnet-4-6
+40605830,2025,Alarm,misclassification,generative,0.820,"generative image model produces biased/inaccurate demographic representations, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+41486195,2026,Alarm,misclassification,generative,0.950,LLM diagnostic accuracy on multiple-choice questions compared to expert clinicians,q7_failuremode_v1,claude-sonnet-4-6
+40404499,2025,Alarm,misclassification,discriminative,0.950,"Deep learning prediction model shows degraded performance due to selection bias, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40844612,2025,Alarm,misclassification,both,0.720,AI report quality/accuracy evaluated; involves generative preliminary reports and discriminative EDX interpretation,q7_failuremode_v1,claude-sonnet-4-6
+37812411,2023,Alarm,none_or_unclear,unclear,0.700,"Policy/regulatory critique, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+38789133,2024,Alarm,misclassification,generative,0.850,LLM evaluated for diagnostic accuracy/classification errors in ophthalmic image interpretation,q7_failuremode_v1,claude-sonnet-4-6
+38910941,2024,Alarm,misclassification,generative,0.850,"ChatGPT diagnostic inconsistency/inaccuracy for AD/MCI stages, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40230830,2025,Alarm,misclassification,generative,0.850,"LLM responses scored for accuracy/concordance with guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40725794,2025,Alarm,misclassification,generative,0.820,LLM accuracy evaluated on correct vs incorrect clinical recommendations; some inconsistency noted but primary focus is correctness/accuracy,q7_failuremode_v1,claude-sonnet-4-6
+37679532,2023,Alarm,confabulation,generative,0.970,ChatGPT generates erroneous/non-existent fabricated references in scientific writing,q7_failuremode_v1,claude-sonnet-4-6
+35568691,2022,Alarm,misclassification,discriminative,0.600,Bias/miscalibration in predictive health models across racial groups implied,q7_failuremode_v1,claude-sonnet-4-6
+37820865,2024,Alarm,misclassification,discriminative,0.900,AI algorithms rank/classify embryo quality; poor agreement reflects prediction/classification errors,q7_failuremode_v1,claude-sonnet-4-6
+37024020,2023,Alarm,misclassification,discriminative,0.820,focuses on supervised ML prediction/diagnostic models and their reporting/validation issues,q7_failuremode_v1,claude-sonnet-4-6
+40665345,2025,Alarm,misclassification,generative,0.820,"LLMs produce biased predictions/recommendations based on sociodemographic attributes, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40367652,2025,Alarm,misclassification,generative,0.900,"LLMs assigned wrong CPT codes; accuracy/correctness evaluated, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39230409,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on staging accuracy/classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40047903,2025,Alarm,misclassification,generative,0.800,"LLM evaluated for accuracy/guideline adherence, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41515664,2026,Alarm,misclassification,both,0.900,LLMs evaluated for diagnostic accuracy on trichoscopic images vs. human dermatologists; classification errors measured,q7_failuremode_v1,claude-sonnet-4-6
+41436330,2025,Alarm,misclassification,both,0.820,Wrong shade predictions (misclassification) evaluated across generative AI and discriminative digital tools,q7_failuremode_v1,claude-sonnet-4-6
+40864898,2025,Alarm,misclassification,discriminative,0.950,ML predictive models show inflated/misleading classification performance due to EHR diagnostic misclassification bias,q7_failuremode_v1,claude-sonnet-4-6
+39318971,2024,Alarm,misclassification,generative,0.820,"GPT-4 gives incorrect/incomplete guideline-based recommendations, wrong clinical decisions, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+41160724,2025,Alarm,both,generative,0.920,Both hallucinated citations and inaccurate/misclassified supplement effectiveness claims explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+41569828,2026,Alarm,none_or_unclear,unclear,0.950,Philosophical/ethical argument about AI nature; no failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+41091603,2025,Alarm,both,generative,0.920,Explicitly measures hallucination rate and diagnostic accuracy/correctness in LLMs,q7_failuremode_v1,claude-sonnet-4-6
+39532254,2025,Alarm,misclassification,discriminative,0.850,Scoping review of biased predictions/classifications in clinical ML models across demographic groups,q7_failuremode_v1,claude-sonnet-4-6
+40958411,2026,Alarm,misclassification,generative,0.950,"LLMs evaluated for detection accuracy; false positives/negatives, poor specificity reported",q7_failuremode_v1,claude-sonnet-4-6
+36877519,2023,Alarm,misclassification,discriminative,0.900,"Evaluates diagnostic AI models for psychiatric classification bias, poor calibration, false predictions",q7_failuremode_v1,claude-sonnet-4-6
+37814369,2024,Alarm,misclassification,generative,0.880,"LLM accuracy evaluated against expert answers; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41909033,2026,Alarm,misclassification,generative,0.820,"LLMs produce incorrect nutrient calculations/predictions, systematic underestimation errors",q7_failuremode_v1,claude-sonnet-4-6
+41208202,2026,Alarm,confabulation,generative,0.820,"AI video generators produced inaccurate, missing, or irrelevant content—fabricated/unfaithful outputs",q7_failuremode_v1,claude-sonnet-4-6
+35175575,2022,Alarm,misclassification,discriminative,0.720,"Concerns about opaque predictive models' performance, generalisability, and utility in sports medicine",q7_failuremode_v1,claude-sonnet-4-6
+41265113,2026,Alarm,misclassification,generative,0.920,"LLM accuracy on image-based radiology MCQs measured; wrong answer selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40639839,2025,Alarm,misclassification,discriminative,0.900,"ML models predicting race/ethnicity from vitals, evaluating classification bias and accuracy",q7_failuremode_v1,claude-sonnet-4-6
+41213177,2026,Alarm,confabulation,generative,0.950,ChatGPT hallucinations in medical literature searches; fabricated references explicitly described,q7_failuremode_v1,claude-sonnet-4-6
+39719573,2024,Alarm,both,generative,0.950,Fabricated citations and factual errors (confabulation) plus wrong calculations/predictions (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+37517980,2023,Alarm,misclassification,generative,0.900,"LLM accuracy on exam questions evaluated; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39837727,2025,Alarm,none_or_unclear,discriminative,0.600,"Focuses on gender representation gaps in auto-segmentation tools, not a specific failure mechanism",q7_failuremode_v1,claude-sonnet-4-6
+38070128,2024,Alarm,misclassification,generative,0.900,"LLMs evaluated on decision accuracy/correctness, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41615479,2026,Alarm,misclassification,both,0.870,ChatGPT prediction accuracy compared to classical discriminative scoring systems for stone-free outcomes,q7_failuremode_v1,claude-sonnet-4-6
+39532572,2025,Alarm,misclassification,generative,0.870,"Evaluates LLM accuracy/correctness on dental exam questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40119714,2025,Alarm,both,generative,0.880,LLMs gave incorrect recommendations (misclassification) and potentially fabricated references (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+38638404,2024,Alarm,misclassification,generative,0.920,"LLM safety classifications compared against Micromedex; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41537664,2026,Alarm,none_or_unclear,generative,0.600,"General feasibility/safety framing for foundation models in ICU, no specific mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41968951,2026,Alarm,misclassification,generative,0.880,ChatGPT evaluated for classification accuracy of DDIs; false negatives dominate errors,q7_failuremode_v1,claude-sonnet-4-6
+39050145,2024,Alarm,misclassification,generative,0.850,"LLM accuracy evaluated on clinical pharmacy questions; wrong/incomplete answers, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+37827111,2023,Alarm,misclassification,discriminative,0.950,Deep learning models predicting MGMT methylation status from MRI; poor predictive performance evaluated,q7_failuremode_v1,claude-sonnet-4-6
+39965220,2025,Alarm,confabulation,generative,0.820,"AI chatbots providing inaccurate/fabricated medical information, misinformation framing",q7_failuremode_v1,claude-sonnet-4-6
+38417624,2024,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy and management correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37523918,2023,Alarm,misclassification,discriminative,0.950,MRI-based classification models show biased/poor diagnostic accuracy due to dataset confounders,q7_failuremode_v1,claude-sonnet-4-6
+40273637,2025,Alarm,misclassification,discriminative,0.950,"AI triage tool produces wrong urgency classifications, over/undertriage errors",q7_failuremode_v1,claude-sonnet-4-6
+39930399,2025,Alarm,misclassification,generative,0.900,"LLM accuracy on exam questions measured; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37100503,2023,Alarm,misclassification,discriminative,0.920,"Classification models overestimate accuracy due to data inflation effects, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+33940578,2022,Alarm,misclassification,discriminative,0.850,AI detection/characterization system fails to correctly predict resection status,q7_failuremode_v1,claude-sonnet-4-6
+39477547,2024,Alarm,misclassification,generative,0.850,"ChatGPT evaluated for accuracy in identifying positioning errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37686504,2023,Alarm,misclassification,discriminative,0.970,adversarial pixel attacks causing wrong classification in DNN medical image models,q7_failuremode_v1,claude-sonnet-4-6
+40941678,2025,Alarm,misclassification,both,0.920,Compares diagnostic accuracy of discriminative AI (S-Detect) and elastography for thyroid nodule classification,q7_failuremode_v1,claude-sonnet-4-6
+40056436,2025,Alarm,misclassification,both,0.950,"Compares LLM vs discriminative ML prediction accuracy, calibration, fairness—no fabrication involved",q7_failuremode_v1,claude-sonnet-4-6
+40353026,2025,Alarm,misclassification,generative,0.720,ChatGPT gives wrong clinical answers influencing student decisions; accuracy/correctness focus,q7_failuremode_v1,claude-sonnet-4-6
+40916988,2025,Alarm,none_or_unclear,unclear,0.850,General AI risk framing about AGI threats; no specific mechanism evaluated empirically,q7_failuremode_v1,claude-sonnet-4-6
+40690274,2026,Alarm,both,generative,0.820,ChatGPT produces incorrect/insufficient info (misclassification) and factual inaccuracies/misinformation (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+36001408,2022,Alarm,misclassification,discriminative,0.950,AI detection system failed to improve adenoma detection; false negatives/missed polyps implied,q7_failuremode_v1,claude-sonnet-4-6
+39473094,2024,Alarm,confabulation,generative,0.700,Focus on LLM output variability/stochasticity affecting reliability of generated medical content,q7_failuremode_v1,claude-sonnet-4-6
+39155667,2024,Alarm,misclassification,generative,0.820,"LLMs evaluated for accuracy of clinical management recommendations, not fabrication of references",q7_failuremode_v1,claude-sonnet-4-6
+39123282,2024,Alarm,misclassification,generative,0.920,"Evaluating diagnostic accuracy of LLMs on dermatology cases, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37754934,2023,Alarm,misclassification,discriminative,0.820,"Reconstruction model produces poor-quality images; evaluated via PSNR/SSIM, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40550134,2025,Alarm,confabulation,generative,0.900,"LLMs instructed to generate fabricated, false health information as disinformation",q7_failuremode_v1,claude-sonnet-4-6
+37972444,2024,Alarm,misclassification,both,0.820,Generative AI fakes reviews; discriminative classifiers misclassify real vs AI-generated content,q7_failuremode_v1,claude-sonnet-4-6
+41276667,2026,Alarm,misclassification,generative,0.920,"GPT-4.1 evaluated for diagnostic accuracy; wrong labels/false negatives, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38764369,2024,Alarm,misclassification,generative,0.880,"Evaluates ChatGPT accuracy on medical questions; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40958374,2025,Alarm,misclassification,generative,0.900,LLM evaluated for incorrect bias risk classifications vs human expert judgments,q7_failuremode_v1,claude-sonnet-4-6
+39433263,2025,Alarm,misclassification,discriminative,0.950,ML classifiers show reduced predictive accuracy/discrimination in minority racial groups,q7_failuremode_v1,claude-sonnet-4-6
+41740457,2026,Alarm,confabulation,generative,0.820,LLMs fabricate unprompted cost warnings based on name-race signals; termed 'hallucinating financial scarcity',q7_failuremode_v1,claude-sonnet-4-6
+38203101,2023,Alarm,misclassification,discriminative,0.820,"CNN classification of glaucoma from fundus images; saliency maps evaluate decision regions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38470976,2024,Alarm,misclassification,both,0.850,"Compares ML vs conventional predictive models; poor discrimination/calibration, no fabrication involved",q7_failuremode_v1,claude-sonnet-4-6
+38049432,2023,Alarm,none_or_unclear,discriminative,0.500,"Focus is on memorization/privacy leakage, not confabulation or misclassification per se",q7_failuremode_v1,claude-sonnet-4-6
+39773383,2025,Alarm,misclassification,generative,0.850,"LLM evaluated for accuracy of antibiotic recommendations, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41401013,2026,Alarm,misclassification,generative,0.870,"LLM fails to correctly classify low-quality posts, rating them favorably vs expert standard",q7_failuremode_v1,claude-sonnet-4-6
+41870191,2026,Alarm,misclassification,generative,0.850,"LLMs giving wrong dosing recommendations — accuracy/correctness errors, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+37458761,2023,Alarm,misclassification,generative,0.820,ChatGPT gave wrong therapy recommendations for HER2 patients; classification errors not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+39287535,2024,Alarm,misclassification,generative,0.920,GPT-4V diagnostic accuracy evaluated on retinal image classification tasks,q7_failuremode_v1,claude-sonnet-4-6
+40715862,2026,Alarm,misclassification,generative,0.850,LLM produces inaccurate/unreliable numerical measurements compared to radiologist ground truth,q7_failuremode_v1,claude-sonnet-4-6
+36788769,2023,Alarm,misclassification,discriminative,0.950,AI-CAD detection accuracy evaluated via sensitivity and false-positive rates for chest radiograph diagnosis,q7_failuremode_v1,claude-sonnet-4-6
+40670886,2025,Alarm,none_or_unclear,generative,0.700,Discusses alignment faking/regulatory failure framing; no specific confabulation or misclassification mechanism measured,q7_failuremode_v1,claude-sonnet-4-6
+37306147,2023,Alarm,misclassification,generative,0.870,"ChatGPT diagnostic accuracy evaluated; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41773215,2026,Alarm,misclassification,generative,0.880,"GPT-4 diagnostic accuracy evaluated against cardiologist diagnoses; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40278718,2025,Alarm,misclassification,generative,0.780,"LLM generates unsafe/inappropriate exercise plans, evaluated for quality and safety errors",q7_failuremode_v1,claude-sonnet-4-6
+38713028,2024,Alarm,misclassification,generative,0.850,"GPT-4V evaluated on detection accuracy (PPV, TPR, F1) for radiologic findings, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41577988,2026,Alarm,misclassification,both,0.850,EF estimation errors (worse for females) in a model pretrained on reports and finetuned for prediction,q7_failuremode_v1,claude-sonnet-4-6
+38000671,2024,Alarm,misclassification,generative,0.720,"Evaluates accuracy and quality of LLM responses, not fabrication; scoring/classification of information quality",q7_failuremode_v1,claude-sonnet-4-6
+40917271,2025,Alarm,misclassification,generative,0.950,"GPT-4o evaluated for diagnostic accuracy in DR grading; classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41677994,2025,Alarm,misclassification,generative,0.820,"AI image generator produces biased/inaccurate demographic representations, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+41310564,2025,Alarm,misclassification,generative,0.920,"LLM age predictions evaluated for accuracy/error vs chronological age, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39937452,2025,Alarm,misclassification,generative,0.720,"LLM evaluated for accuracy/usefulness scores and readability achievement, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37335851,2023,Alarm,misclassification,generative,0.850,"Evaluates LLM accuracy on multiple-choice exam questions, measuring correct/incorrect performance",q7_failuremode_v1,claude-sonnet-4-6
+39476977,2025,Alarm,misclassification,generative,0.900,"Evaluating diagnostic accuracy of ChatGPT across skin phototypes, not fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+40013839,2025,Alarm,misclassification,generative,0.920,"GPT-4 evaluated on diagnostic accuracy/classification of seizure types, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41015910,2025,Alarm,none_or_unclear,unclear,0.850,Philosophical argument about empathy limitations; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38530460,2024,Alarm,misclassification,generative,0.720,LLM accuracy/quality assessed via scoring instruments; omissions reflect poor output quality not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+37498609,2023,Alarm,confabulation,generative,0.950,Explicitly measures hallucinated/fabricated references and unverifiable content from AI chatbots,q7_failuremode_v1,claude-sonnet-4-6
+34245310,2022,Alarm,misclassification,discriminative,0.920,ML models predicting MCID attainment; classification accuracy compared via AUC,q7_failuremode_v1,claude-sonnet-4-6
+40459826,2025,Alarm,misclassification,discriminative,0.600,automated decision-making systems misrecognizing/misclassifying disabled people's needs or identities,q7_failuremode_v1,claude-sonnet-4-6
+37888113,2023,Alarm,misclassification,generative,0.870,LLM treatment recommendations compared against expert board; concordance/accuracy evaluated,q7_failuremode_v1,claude-sonnet-4-6
+41861953,2026,Alarm,misclassification,generative,0.850,LLMs produce wrong predictions by defaulting to population-level rather than individual reasoning,q7_failuremode_v1,claude-sonnet-4-6
+40927810,2025,Alarm,misclassification,both,0.900,VLMs evaluated on classification accuracy of optic disc swelling; generative+discriminative task measured,q7_failuremode_v1,claude-sonnet-4-6
+33895561,2021,Alarm,none_or_unclear,unclear,0.550,"Title describes absence of AI methods, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+38241075,2024,Alarm,none_or_unclear,discriminative,0.600,"Focuses on reporting quality/transparency of ML studies, not a specific failure mechanism",q7_failuremode_v1,claude-sonnet-4-6
+38394317,2024,Alarm,misclassification,discriminative,0.950,"Classification models fail on imbalanced small clinical dataset, poor predictive performance",q7_failuremode_v1,claude-sonnet-4-6
+38364587,2024,Alarm,misclassification,discriminative,0.850,"DL classification model for cancer detection evaluated on accuracy, recall, precision; XAI localization errors",q7_failuremode_v1,claude-sonnet-4-6
+38663993,2024,Alarm,none_or_unclear,generative,0.700,"Systematic review of bias/quality issues in image translation models, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40220270,2025,Alarm,confabulation,generative,0.800,Chatbot-generated drug information may contain fabricated or inaccurate content causing adverse events,q7_failuremode_v1,claude-sonnet-4-6
+41883541,2026,Alarm,misclassification,generative,0.820,"Evaluates accuracy/reliability scores of LLM responses, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+40214230,2025,Alarm,misclassification,generative,0.870,"LLMs producing wrong CPT codes/modifiers — incorrect label assignment, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+39443664,2024,Alarm,confabulation,generative,0.900,LLMs injected with false biomedical facts propagate fabricated/incorrect information in outputs,q7_failuremode_v1,claude-sonnet-4-6
+39042425,2024,Alarm,misclassification,both,0.920,"Diagnostic accuracy (sensitivity/specificity) of AI symptom checkers evaluated; classification errors, no fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+41889427,2026,Alarm,none_or_unclear,generative,0.700,General risk framing of chatbots in mental health; no specific mechanism tested,q7_failuremode_v1,claude-sonnet-4-6
+39332706,2025,Alarm,misclassification,generative,0.870,"LLM evaluated on diagnostic accuracy and clinical decision correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40605845,2025,Alarm,misclassification,generative,0.900,"LLMs producing incorrect/unsafe dose calculations — wrong numeric outputs, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+39433158,2025,Alarm,misclassification,discriminative,0.970,AI auscultation platform evaluated for sensitivity/specificity in VHD detection; classification errors measured.,q7_failuremode_v1,claude-sonnet-4-6
+37952634,2024,Alarm,confabulation,generative,0.850,Chatbots producing inaccurate/harmful information implies fabricated or unfaithful content generation,q7_failuremode_v1,claude-sonnet-4-6
+39392690,2025,Alarm,confabulation,generative,0.820,"LLM generates inaccurate, omitted, or misleading patient information — fabricated/unfaithful content",q7_failuremode_v1,claude-sonnet-4-6
+38180398,2024,Alarm,misclassification,discriminative,0.950,ML algorithm predicts wrong triage acuity scores; over/undertriage classification errors,q7_failuremode_v1,claude-sonnet-4-6
+37301051,2023,Alarm,misclassification,discriminative,0.970,"AI detection tool shows false positives/negatives, low sensitivity in pediatric nodule detection",q7_failuremode_v1,claude-sonnet-4-6
+39214893,2025,Alarm,misclassification,generative,0.820,GPT-4V accuracy evaluated on radiology image classification tasks; wrong labels/predictions,q7_failuremode_v1,claude-sonnet-4-6
+40429531,2025,Alarm,misclassification,generative,0.820,LLM treatment recommendations evaluated for accuracy/concordance with expert tumor board decisions,q7_failuremode_v1,claude-sonnet-4-6
+39394122,2024,Alarm,misclassification,generative,0.900,"LLMs evaluated on diagnostic accuracy/correctness rates, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40358604,2025,Alarm,misclassification,generative,0.920,"LLM diagnostic accuracy evaluated against correct labels; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39992569,2025,Alarm,both,generative,0.920,GPT-4 showed false positives/negatives (misclassification) and hallucinations (confabulation) in mammography interpretation,q7_failuremode_v1,claude-sonnet-4-6
+41606485,2026,Alarm,misclassification,generative,0.850,"LLMs generating dietary plans evaluated for inaccurate nutrient values and guideline non-adherence, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40273525,2025,Alarm,misclassification,generative,0.950,"ChatGPT-4o evaluated for classification accuracy on KL grading; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41506371,2026,Alarm,misclassification,generative,0.880,"LLMs evaluated on detection accuracy/sensitivity of drug interactions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38991693,2024,Alarm,none_or_unclear,generative,0.550,"General critique of LLMs in clinical practice, no specific mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40992950,2026,Alarm,confabulation,generative,0.850,Letter about ChatGPT trustworthiness for scholarly articles implies fabrication/hallucination concerns,q7_failuremode_v1,claude-sonnet-4-6
+41389104,2026,Alarm,misclassification,discriminative,0.950,"Deep learning algorithm produces inaccurate Cobb angle measurements, especially in extreme scoliosis cases.",q7_failuremode_v1,claude-sonnet-4-6
+39102765,2024,Alarm,misclassification,generative,0.820,"LLMs evaluated on accuracy of meeting nutritional targets, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37901112,2023,Alarm,misclassification,generative,0.820,"Diagnostic accuracy of ChatGPT evaluated, focusing on correct/incorrect diagnoses",q7_failuremode_v1,claude-sonnet-4-6
+40821958,2025,Alarm,misclassification,generative,0.820,"LLM accuracy evaluated against expert consensus; wrong answers, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+39730155,2024,Alarm,misclassification,generative,0.850,"LLM scored lower than doctors on medical exam; accuracy/performance comparison, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40553457,2025,Alarm,misclassification,generative,0.820,LLM produces biased/wrong medical recommendations; cognitive bias as systematic reasoning error,q7_failuremode_v1,claude-sonnet-4-6
+41298111,2025,Alarm,misclassification,discriminative,0.970,AI detection tool evaluated on sensitivity/specificity for aneurysm detection vs neuroradiologists,q7_failuremode_v1,claude-sonnet-4-6
+38951256,2024,Alarm,misclassification,generative,0.920,"ChatGPT accuracy in classifying periodontitis stage/grade evaluated, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41594062,2025,Alarm,misclassification,generative,0.850,"LLM antibiotic recommendations compared for accuracy/agreement, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40210433,2025,Alarm,misclassification,generative,0.850,Evaluating accuracy of LLM treatment recommendations against established clinical guidelines,q7_failuremode_v1,claude-sonnet-4-6
+37967485,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on triage accuracy/correctness, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+34798287,2022,Alarm,misclassification,discriminative,0.800,Focus on prediction model bias/accuracy loss from poor missing data handling,q7_failuremode_v1,claude-sonnet-4-6
+40413255,2025,Alarm,misclassification,discriminative,0.950,Adversarial attacks manipulate classification predictions of skin cancer detection DNNs,q7_failuremode_v1,claude-sonnet-4-6
+41585449,2026,Alarm,both,generative,0.950,LLMs hallucinated surgeon names (confabulation) and misidentified inappropriate surgeons (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+39971639,2025,Alarm,misclassification,generative,0.880,"LLM chatbots evaluated on diagnostic accuracy/classification of dysphonia types, poor agreement with experts",q7_failuremode_v1,claude-sonnet-4-6
+40927103,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on accuracy of treatment classification decisions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41538516,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated for diagnostic accuracy: false positives, poor specificity, wrong tooth localization",q7_failuremode_v1,claude-sonnet-4-6
+40462054,2025,Alarm,misclassification,generative,0.820,"Evaluates adequacy/accuracy of chatbot responses via scoring, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41547002,2026,Alarm,misclassification,generative,0.880,"LLM accuracy/calibration for mortality prediction; classification performance, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37423349,2023,Alarm,misclassification,generative,0.900,"LLMs scored on correct imaging modality selection; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40136111,2025,Alarm,misclassification,generative,0.750,LLMs evaluated on accuracy of treatment plan recommendations vs expert benchmark,q7_failuremode_v1,claude-sonnet-4-6
+38729608,2025,Alarm,misclassification,generative,0.720,"ChatGPT accuracy assessed via checklist scoring; inaccurate medication info, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+41464219,2025,Alarm,misclassification,generative,0.920,LLMs produce wrong classifications/predictions for Lenke system and fusion-level surgical planning,q7_failuremode_v1,claude-sonnet-4-6
+40513204,2025,Alarm,misclassification,discriminative,0.950,Deep learning model predicts scores with poor agreement; classification/prediction errors described,q7_failuremode_v1,claude-sonnet-4-6
+41882417,2026,Alarm,misclassification,generative,0.900,"LLMs evaluated for false positive/negative malpractice determinations, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38965432,2024,Alarm,misclassification,generative,0.850,"LLMs evaluated on diagnostic accuracy, guideline adherence, wrong diagnoses vs physicians",q7_failuremode_v1,claude-sonnet-4-6
+41008719,2025,Alarm,misclassification,discriminative,0.950,Discriminative DL classifiers for AD diagnosis show inflated accuracy due to data leakage/poor validation,q7_failuremode_v1,claude-sonnet-4-6
+40311171,2025,Alarm,misclassification,generative,0.920,"LLM diagnostic accuracy on histology slides measured; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41858292,2026,Alarm,misclassification,discriminative,0.870,ML models fail to generalize treatment effect predictions; poor validity/calibration across datasets,q7_failuremode_v1,claude-sonnet-4-6
+40078449,2025,Alarm,misclassification,generative,0.900,LLM accuracy in ECG classification compared to cardiologists; wrong predictions not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+40226679,2024,Alarm,misclassification,discriminative,0.950,ML classifier predicts MDD diagnosis with accuracy/sensitivity/specificity metrics,q7_failuremode_v1,claude-sonnet-4-6
+41908035,2026,Alarm,misclassification,discriminative,0.950,"Deep learning models misidentify cephalometric landmarks, producing inaccurate measurements/predictions",q7_failuremode_v1,claude-sonnet-4-6
+39809759,2025,Alarm,misclassification,generative,0.820,"LLMs miscalibrated confidence, fail to recognize knowledge limits; accuracy/calibration errors",q7_failuremode_v1,claude-sonnet-4-6
+38180108,2024,Alarm,misclassification,generative,0.720,LLM responses rated lower quality/accuracy than physicians; no explicit fabrication described,q7_failuremode_v1,claude-sonnet-4-6
+41475300,2026,Alarm,misclassification,generative,0.820,"LLM responses scored for accuracy/reliability, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+39176994,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on classification accuracy for risk-of-bias labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39317205,2025,Alarm,misclassification,discriminative,0.950,AI detection/classification system for ESCC with false negative/detection rate outcomes,q7_failuremode_v1,claude-sonnet-4-6
+41054023,2025,Alarm,misclassification,generative,0.820,"ChatGPT diet plans evaluated for accuracy/adequacy errors, not fabrication of references",q7_failuremode_v1,claude-sonnet-4-6
+36793398,2023,Alarm,misclassification,discriminative,0.950,"Segmentation models show reduced accuracy on anatomical edge cases, classic misclassification/poor generalization",q7_failuremode_v1,claude-sonnet-4-6
+38574939,2024,Alarm,misclassification,generative,0.850,"LLMs scored on accuracy of clinical decisions; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40644430,2025,Alarm,none_or_unclear,unclear,0.850,Policy/advocacy paper about DEI restrictions; no specific AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38206389,2024,Alarm,confabulation,generative,0.970,LLMs fabricated/invented references and provided inaccurate citations in otolaryngology,q7_failuremode_v1,claude-sonnet-4-6
+38279999,2024,Alarm,misclassification,generative,0.820,"LLM gives wrong/contradictory clinical recommendations compared to guideline, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41030829,2026,Alarm,misclassification,generative,0.950,Evaluates diagnostic accuracy/sensitivity/specificity of MLLMs classifying DR severity from images,q7_failuremode_v1,claude-sonnet-4-6
+38423890,2024,Alarm,misclassification,discriminative,0.900,ML prediction models show poor accuracy/calibration for surgical outcome classification,q7_failuremode_v1,claude-sonnet-4-6
+40626371,2025,Alarm,misclassification,discriminative,0.750,Focuses on prediction model AUC manipulation and misleading performance reporting in discriminative models,q7_failuremode_v1,claude-sonnet-4-6
+37889368,2023,Alarm,misclassification,generative,0.850,"ChatGPT-4 recommendations misaligned with expert opinions; wrong surgical decisions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38903839,2024,Alarm,misclassification,generative,0.900,"LLM accuracy on exam questions measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40355787,2025,Alarm,misclassification,discriminative,0.750,"Risk-scoring/prediction tool with concerns about bias, reliability, and false classifications",q7_failuremode_v1,claude-sonnet-4-6
+40523223,2025,Alarm,misclassification,generative,0.850,"LLMs show inconsistent accuracy, biases, and poor DDI detection—classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39710586,2025,Alarm,none_or_unclear,unclear,0.850,"General ethical/philosophical concerns about AI opacity and authority, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41968599,2026,Alarm,misclassification,generative,0.820,"LLM evaluated for incorrect clinical interventions and wrong recommendations, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+40466030,2025,Alarm,misclassification,generative,0.850,"LLM accuracy vs expert consensus; wrong/omitted recommendations, not fabricated references",q7_failuremode_v1,claude-sonnet-4-6
+41406757,2026,Alarm,misclassification,generative,0.950,"LLM evaluated for diagnostic accuracy on radiograph classification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38221727,2024,Alarm,none_or_unclear,generative,0.600,Commentary on LLM responses to patient questions; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+34133034,2022,Alarm,misclassification,discriminative,0.970,DL classification algorithm shows degraded performance/accuracy on new equipment domain shift,q7_failuremode_v1,claude-sonnet-4-6
+34214626,2021,Alarm,misclassification,discriminative,0.800,Prognostic prediction models producing risk scores/predictions; reporting quality evaluation,q7_failuremode_v1,claude-sonnet-4-6
+41874300,2026,Alarm,misclassification,both,0.850,Detection accuracy of radiologists and LLMs classifying synthetic vs authentic images,q7_failuremode_v1,claude-sonnet-4-6
+36503715,2022,Alarm,misclassification,discriminative,0.950,DL classification/detection model with accuracy and false prediction errors vs human experts,q7_failuremode_v1,claude-sonnet-4-6
+39603351,2025,Alarm,misclassification,generative,0.920,LLM evaluated on diagnostic accuracy/correct labeling of imaging findings,q7_failuremode_v1,claude-sonnet-4-6
+39359001,2024,Alarm,misclassification,generative,0.920,"LLM evaluated for DDI prediction accuracy; false negatives/low sensitivity, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+35026997,2022,Alarm,none_or_unclear,discriminative,0.600,Reviews reporting quality of ML prediction models; no specific failure mechanism analyzed,q7_failuremode_v1,claude-sonnet-4-6
+38443209,2024,Alarm,misclassification,generative,0.850,"LLM accuracy on medical Q&A scored correct/incorrect, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39455195,2024,Alarm,misclassification,discriminative,0.800,Biased/poor-quality datasets leading to biased AI predictions; classification/diagnostic models implied,q7_failuremode_v1,claude-sonnet-4-6
+40467886,2025,Alarm,misclassification,generative,0.850,"LLMs produce biased/inferior treatment recommendations based on race—wrong outputs, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40648826,2025,Alarm,misclassification,generative,0.870,LLM treatment recommendations compared against clinical decisions; accuracy/concordance measured,q7_failuremode_v1,claude-sonnet-4-6
+41767866,2026,Alarm,misclassification,generative,0.820,"LLMs give wrong ethical judgments/labels in forced-choice scenarios, not fabricating content",q7_failuremode_v1,claude-sonnet-4-6
+39589253,2024,Alarm,misclassification,generative,0.920,"GPT-4V evaluated on diagnostic accuracy, sensitivity, specificity — classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39866564,2025,Alarm,misclassification,generative,0.720,"Evaluates accuracy/quality/reliability scores of chatbot responses, not fabrication per se",q7_failuremode_v1,claude-sonnet-4-6
+39120501,2024,Alarm,confabulation,generative,0.950,"Fabricated citations, summaries, and factual inaccuracies explicitly described in both LLMs",q7_failuremode_v1,claude-sonnet-4-6
+41411218,2026,Alarm,misclassification,both,0.920,"GPT-4o vs specialised neural networks compared on classification accuracy, sensitivity, specificity",q7_failuremode_v1,claude-sonnet-4-6
+40288807,2025,Alarm,none_or_unclear,unclear,0.850,"General AI risk framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40480310,2025,Alarm,misclassification,generative,0.900,"LLMs evaluated on screening accuracy, precision, sensitivity—classification performance metrics",q7_failuremode_v1,claude-sonnet-4-6
+41735669,2026,Alarm,misclassification,both,0.900,Benchmarks diagnostic accuracy of LLMs and traditional tools; wrong diagnosis = misclassification,q7_failuremode_v1,claude-sonnet-4-6
+37643659,2023,Alarm,misclassification,generative,0.900,"Evaluates diagnostic accuracy/correctness of LLM-generated differential diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37980431,2023,Alarm,misclassification,discriminative,0.900,Speech-based stress scoring tool shown to have poor validity and repeatability,q7_failuremode_v1,claude-sonnet-4-6
+40029234,2025,Alarm,misclassification,discriminative,0.950,AI classification tool evaluated for false positives/negatives in dental parameter detection,q7_failuremode_v1,claude-sonnet-4-6
+41203492,2025,Alarm,misclassification,generative,0.900,"LLMs evaluated for diagnostic accuracy/wrong labels on laryngeal images, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+33427680,2021,Alarm,misclassification,generative,0.720,"VAs gave clinically inappropriate/inaccurate advice, evaluated as wrong outputs not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38363256,2024,Alarm,misclassification,discriminative,0.970,AI image analysis evaluated for sensitivity/specificity in detecting oral hygiene conditions,q7_failuremode_v1,claude-sonnet-4-6
+40437254,2025,Alarm,misclassification,generative,0.820,"LLMs making errors in clinical calculations implies wrong outputs/scores, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41617842,2026,Alarm,misclassification,generative,0.870,"LLMs give wrong clinical answers under misleading prompts; accuracy/miscalibration focus, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39776758,2025,Alarm,misclassification,generative,0.720,LLM accuracy graded on correctness of responses; some incorrect/false answers but no explicit fabrication focus,q7_failuremode_v1,claude-sonnet-4-6
+38687483,2024,Alarm,none_or_unclear,generative,0.700,"Study about patient perception/identification of chatbots, not AI failure mechanisms",q7_failuremode_v1,claude-sonnet-4-6
+41828047,2026,Alarm,misclassification,discriminative,0.950,Predictive classification models show poor discrimination/AUC for tracheostomy prediction,q7_failuremode_v1,claude-sonnet-4-6
+37983846,2024,Alarm,both,generative,0.850,ChatGPT evaluated for inaccuracy/misinformation and potential to fabricate/mislead patients,q7_failuremode_v1,claude-sonnet-4-6
+41764031,2026,Alarm,misclassification,generative,0.920,"LLM accuracy evaluated via estimation errors, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41980240,2026,Alarm,misclassification,generative,0.720,"AI image generators inaccurately depict depression—wrong/stereotyped representation, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+33674865,2021,Alarm,none_or_unclear,unclear,0.850,"Policy/regulatory commentary, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40947358,2026,Alarm,misclassification,generative,0.920,"LLMs evaluated on ECG diagnostic accuracy; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40988623,2025,Alarm,none_or_unclear,both,0.550,General risk framing covering multiple AI types; no single failure mechanism specified,q7_failuremode_v1,claude-sonnet-4-6
+40445459,2025,Alarm,misclassification,generative,0.870,"LLM evaluated for diagnostic accuracy/classification of LNM and iENE, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41628673,2026,Alarm,misclassification,generative,0.880,"LLM accuracy evaluated on classification of infection surveillance cases, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41663592,2026,Alarm,misclassification,generative,0.850,"LLMs fail to correctly identify conditions/dispositions; accuracy/prediction errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39379357,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on accuracy of clinical classification tasks, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41785426,2026,Alarm,misclassification,generative,0.950,"LLMs evaluated for diagnostic accuracy/sensitivity in fracture classification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40960827,2025,Alarm,misclassification,generative,0.720,AI translation quality/accuracy evaluated against professional standard; poor output fidelity not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+40866537,2025,Alarm,misclassification,generative,0.820,"Chatbots fail to detect/respond to suicidal risk correctly; classification/detection errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38584922,2024,Alarm,misclassification,generative,0.720,Evaluates accuracy/quality scores of LLM responses; inaccurate answers rather than fabricated content,q7_failuremode_v1,claude-sonnet-4-6
+40817014,2025,Alarm,misclassification,generative,0.850,"LLM surgical recommendations evaluated against clinical decisions; wrong procedure selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41266194,2025,Alarm,both,generative,0.970,Explicitly measures both fabricated citations/statistics and clinical accuracy/misclassification across LLM architectures,q7_failuremode_v1,claude-sonnet-4-6
+39907718,2025,Alarm,misclassification,generative,0.750,"LLM producing biased/stereotyped predictions about healthcare groups, not fabricating content",q7_failuremode_v1,claude-sonnet-4-6
+42073489,2026,Alarm,misclassification,generative,0.920,"Evaluates diagnostic accuracy of LLMs on ECG classification tasks, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+36044603,2022,Alarm,misclassification,discriminative,0.900,ML risk-scoring model evaluated for prediction accuracy and identification of high-risk patients,q7_failuremode_v1,claude-sonnet-4-6
+35940638,2022,Alarm,none_or_unclear,unclear,0.700,"General commentary on AI risks in healthcare, no specific mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+37160371,2023,Alarm,none_or_unclear,unclear,0.850,"General AI risk/policy framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+36572246,2023,Alarm,misclassification,both,0.900,Compares ML and Cox predictive models on discrimination/calibration for graft failure prediction,q7_failuremode_v1,claude-sonnet-4-6
+38499716,2024,Alarm,misclassification,generative,0.720,"Evaluates accuracy/quality of ChatGPT responses, not fabrication; scoring-based assessment of information quality",q7_failuremode_v1,claude-sonnet-4-6
+40550012,2025,Alarm,misclassification,generative,0.720,"LLM accuracy evaluated against evidence-based standards; incomplete/wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41594258,2026,Alarm,misclassification,discriminative,0.970,DL detection tool evaluated for false positives/negatives in ICH classification,q7_failuremode_v1,claude-sonnet-4-6
+38407629,2024,Alarm,confabulation,generative,0.750,ChatGPT quality of information analysis implies fabrication/accuracy of generated content,q7_failuremode_v1,claude-sonnet-4-6
+37934568,2023,Alarm,misclassification,generative,0.850,LLM evaluated for correct/incorrect answers on medical biochemistry questions,q7_failuremode_v1,claude-sonnet-4-6
+39495556,2025,Alarm,misclassification,generative,0.820,"LLM accuracy/correctness evaluated via Likert scale; inaccurate medical responses, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39430359,2024,Alarm,misclassification,generative,0.850,"Evaluating accuracy/correctness of LLM chatbot answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40293869,2025,Alarm,none_or_unclear,generative,0.750,"General governance/regulatory framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+33856518,2021,Alarm,misclassification,discriminative,0.700,Discusses ML/radiomics predictive models with poor evidence and methodological quality issues,q7_failuremode_v1,claude-sonnet-4-6
+36501801,2022,Alarm,misclassification,discriminative,0.880,CNN segmentation models show poor clinical accuracy; classification errors in retinal disease diagnosis,q7_failuremode_v1,claude-sonnet-4-6
+38573489,2024,Alarm,misclassification,discriminative,0.950,DL classifiers show inflated accuracy and poor generalization due to improper patient-wise data splitting,q7_failuremode_v1,claude-sonnet-4-6
+38648098,2024,Alarm,misclassification,generative,0.850,LLM accuracy evaluated against ACLS guidelines; wrong steps scored as incorrect predictions,q7_failuremode_v1,claude-sonnet-4-6
+40825182,2025,Alarm,misclassification,generative,0.820,"Chatbots incorrectly endorsed harmful proposals—wrong judgment/label, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41661201,2026,Alarm,confabulation,generative,0.850,LLMs produced hallucinations and unreliable outputs when answering clinical questions,q7_failuremode_v1,claude-sonnet-4-6
+40898608,2025,Alarm,none_or_unclear,unclear,0.950,Study examines psychological impacts of job displacement; no AI model failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+40180985,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated for correctness of BLS guidance responses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40917954,2025,Alarm,none_or_unclear,generative,0.700,Survey of attitudes toward ChatGPT; no AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+37266657,2023,Alarm,misclassification,discriminative,0.850,Study examines incorrect AI detection results causing radiologist false positives/negatives in lung cancer detection,q7_failuremode_v1,claude-sonnet-4-6
+39529104,2024,Alarm,misclassification,generative,0.850,Text-to-image models misrepresent demographic proportions vs real-world workforce data,q7_failuremode_v1,claude-sonnet-4-6
+39036542,2024,Alarm,misclassification,generative,0.920,"LLM evaluated for classification accuracy of LI-RADS scores, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39229462,2024,Alarm,misclassification,generative,0.720,"LLM responses evaluated for accuracy/appropriateness, not fabrication specifically",q7_failuremode_v1,claude-sonnet-4-6
+40222163,2025,Alarm,misclassification,discriminative,0.950,AI mammography reader missed cancers and had false negatives/positives vs human readers,q7_failuremode_v1,claude-sonnet-4-6
+39035269,2024,Alarm,misclassification,generative,0.900,"LLM accuracy on dental exam questions measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40138420,2025,Alarm,misclassification,both,0.870,Biased underdiagnosis (false negatives) in vision-language models evaluated as classifiers/detectors,q7_failuremode_v1,claude-sonnet-4-6
+38323521,2024,Alarm,none_or_unclear,generative,0.500,Comment/opinion piece; no specific failure mechanism described explicitly,q7_failuremode_v1,claude-sonnet-4-6
+39068484,2024,Alarm,misclassification,generative,0.920,"ChatGPT-4 evaluated on diagnostic accuracy for osteosarcoma X-rays, wrong predictions not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41153289,2025,Alarm,misclassification,generative,0.900,"LLM evaluated for wrong classification of ultrasound features vs expert, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40790276,2026,Alarm,confabulation,generative,0.850,Generative models reproduce/memorize real patient data instead of novel synthetic samples,q7_failuremode_v1,claude-sonnet-4-6
+41749771,2026,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy, false positives, low specificity in radiograph classification",q7_failuremode_v1,claude-sonnet-4-6
+38239905,2023,Alarm,misclassification,generative,0.800,"LLM produces inappropriate/dangerous treatment recommendations, wrong clinical judgments",q7_failuremode_v1,claude-sonnet-4-6
+41973428,2026,Alarm,misclassification,generative,0.750,"LLM diagnostic reasoning accuracy evaluated; likely wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41107408,2025,Alarm,confabulation,generative,0.920,"LLMs generate false medical information by complying with illogical requests, a fabrication/sycophancy mechanism",q7_failuremode_v1,claude-sonnet-4-6
+37593450,2023,Alarm,misclassification,generative,0.900,ChatGPT underestimates suicide risk scores compared to professional norms — miscalibration/false negatives,q7_failuremode_v1,claude-sonnet-4-6
+40997070,2025,Alarm,misclassification,generative,0.870,"LLM diagnostic accuracy evaluated on neurology cases; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39472597,2024,Alarm,none_or_unclear,unclear,0.700,"Focuses on perceived disrespect/dignity in AI evaluations, not fabrication or classification errors",q7_failuremode_v1,claude-sonnet-4-6
+37506587,2023,Alarm,misclassification,generative,0.880,"ChatGPT accuracy in differential diagnosis compared to pediatricians, classification task",q7_failuremode_v1,claude-sonnet-4-6
+40696111,2025,Alarm,misclassification,both,0.720,Re-identification and demographic prediction are classification tasks; foundation models (generative+discriminative) evaluated,q7_failuremode_v1,claude-sonnet-4-6
+38230359,2024,Alarm,misclassification,generative,0.850,ChatGPT accuracy compared to clinical diagnosis for DR risk assessment,q7_failuremode_v1,claude-sonnet-4-6
+37332185,2023,Alarm,misclassification,both,0.820,DL denoising causes biased quantitative estimates; both generative U-nets and discriminative quantification networks evaluated,q7_failuremode_v1,claude-sonnet-4-6
+41135437,2026,Alarm,misclassification,generative,0.850,"LLMs fail to meet nutritional targets accurately; wrong calorie/protein outputs, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39779928,2025,Alarm,confabulation,generative,0.900,"Poisoned LLMs propagate false medical knowledge—fabricated/misinformation outputs, not classification errors",q7_failuremode_v1,claude-sonnet-4-6
+39565733,2024,Alarm,misclassification,generative,0.850,"LLM accuracy on medical questions evaluated; wrong answers, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+38128256,2024,Alarm,misclassification,both,0.820,DL classifier accuracy evaluated plus GAN image reconstruction quality assessed,q7_failuremode_v1,claude-sonnet-4-6
+38570273,2024,Alarm,misclassification,generative,0.870,"Evaluating correctness/accuracy of LLM chatbot answers to clinical questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41688533,2026,Alarm,misclassification,generative,0.820,"LLMs rated on safety/accuracy of medical advice; wrong/unsafe answers, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+40597368,2025,Alarm,none_or_unclear,generative,0.650,"General concern about inequality, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+37222278,2023,Alarm,confabulation,generative,0.850,"ChatGPT generated inaccurate/contradictory medical information, consistent with fabrication/unfaithful content",q7_failuremode_v1,claude-sonnet-4-6
+38972166,2024,Alarm,misclassification,generative,0.880,Evaluates diagnostic accuracy/scoring of ChatGPT vs residents; no fabrication mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38162317,2023,Alarm,misclassification,discriminative,0.950,DenseNet classifier shows poor generalization/dataset shift in COVID-19 detection from CXRs,q7_failuremode_v1,claude-sonnet-4-6
+41649035,2026,Alarm,none_or_unclear,generative,0.600,General harms framing; no specific confabulation or misclassification mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+41745066,2026,Alarm,misclassification,generative,0.870,"LLMs evaluated on accuracy/correctness of aptitude test answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41563136,2026,Alarm,misclassification,discriminative,0.950,CAD system evaluated on sensitivity/specificity for polyp classification vs histopathology,q7_failuremode_v1,claude-sonnet-4-6
+40934153,2025,Alarm,misclassification,discriminative,0.950,Meta-analysis of ML predictive accuracy for suicide/self-harm classification models,q7_failuremode_v1,claude-sonnet-4-6
+38386789,2024,Alarm,misclassification,generative,0.720,"LLM accuracy/correctness of urological answers evaluated; wrong/incomplete info, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39230022,2024,Alarm,misclassification,both,0.850,Predictive accuracy comparison of deep learning vs conventional regression models for landmark prediction,q7_failuremode_v1,claude-sonnet-4-6
+37140902,2023,Alarm,misclassification,discriminative,0.850,"CNNs classifying race from retinal images, evaluating biased predictive performance across subgroups",q7_failuremode_v1,claude-sonnet-4-6
+40279575,2025,Alarm,none_or_unclear,generative,0.600,General risk/harm framing of chatbots; no specific confabulation or misclassification mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38290289,2024,Alarm,misclassification,discriminative,0.950,Segmentation models produce biased/poor predictions for darker skin tones — classification/detection errors,q7_failuremode_v1,claude-sonnet-4-6
+41045397,2026,Alarm,misclassification,both,0.850,LLMs produce inaccurate/irreproducible measurements compared to radiologist ground truth; both generative LLMs and radiologist discriminative task evaluated,q7_failuremode_v1,claude-sonnet-4-6
+39276611,2024,Alarm,misclassification,generative,0.900,"LLMs evaluated on accuracy/correctness of medical code QA, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38102068,2024,Alarm,confabulation,generative,0.900,AI generated inaccurate/fabricated medical claims and omitted key facts in summary,q7_failuremode_v1,claude-sonnet-4-6
+40803966,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on prediction accuracy (MAE/RMSE) for bone age estimation, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41731097,2026,Alarm,misclassification,generative,0.920,"LLM triage tool producing wrong urgency labels, undertriage, and miscalibrated crisis responses",q7_failuremode_v1,claude-sonnet-4-6
+41085353,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on diagnostic accuracy, sensitivity, specificity for lesion classification",q7_failuremode_v1,claude-sonnet-4-6
+41445760,2025,Alarm,misclassification,generative,0.850,"LLM produces biased/incorrect risk attributions across demographic groups, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39327587,2024,Alarm,misclassification,generative,0.820,"LLM accuracy/conformity with guidelines assessed; incorrect statements, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39593799,2024,Alarm,misclassification,discriminative,0.970,CNN classification model evaluated on sensitivity/specificity for glaucoma detection,q7_failuremode_v1,claude-sonnet-4-6
+39860006,2025,Alarm,misclassification,generative,0.850,"ChatGPT-4 evaluated as classifier selecting optimal reconstruction; wrong choices, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37683226,2023,Alarm,confabulation,generative,0.990,"LLM fabricated references, false PMIDs, invented facts, and contradictory clinical claims",q7_failuremode_v1,claude-sonnet-4-6
+41370655,2026,Alarm,misclassification,generative,0.870,"VLMs evaluated on diagnostic accuracy/top-5 accuracy; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+36548993,2023,Alarm,misclassification,discriminative,0.920,"ML seizure prediction models show inflated accuracy due to data labelling confound, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40753316,2025,Alarm,confabulation,generative,0.980,LLMs fabricate/elaborate on planted false clinical details; explicit hallucination mechanism tested,q7_failuremode_v1,claude-sonnet-4-6
+42050395,2026,Alarm,confabulation,generative,0.720,Chatbots reinforcing/amplifying distorted beliefs via agreeable fabricated responses,q7_failuremode_v1,claude-sonnet-4-6
+40648622,2025,Alarm,misclassification,generative,0.850,"LLM medication recommendations evaluated for accuracy, errors, contraindications—wrong outputs not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37190181,2023,Alarm,misclassification,discriminative,0.950,Deep learning models fail to correctly predict MGMT methylation status from MRI scans,q7_failuremode_v1,claude-sonnet-4-6
+40131528,2025,Alarm,misclassification,generative,0.900,"LLMs evaluated on accuracy of answering image-based diagnostic questions; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+35835437,2022,Alarm,misclassification,discriminative,0.950,Evaluates sentiment classification tools producing wrong labels on social media datasets,q7_failuremode_v1,claude-sonnet-4-6
+37882509,2024,Alarm,misclassification,discriminative,0.900,AI landmark detection and measurement errors compared to expert orthodontists,q7_failuremode_v1,claude-sonnet-4-6
+41270301,2026,Alarm,misclassification,generative,0.820,"LLM accuracy evaluated against CPG recommendations; wrong answers, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39732434,2025,Alarm,misclassification,generative,0.820,"LLM scored on quality/accuracy of nutrition advice across languages, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40543265,2025,Alarm,misclassification,both,0.720,Readability scoring/benchmarking failure; evaluates both websites and ChatGPT-generated content quality,q7_failuremode_v1,claude-sonnet-4-6
+41674096,2026,Alarm,misclassification,generative,0.920,Evaluates diagnostic accuracy (sensitivity/specificity) of multimodal LLMs for pneumothorax detection,q7_failuremode_v1,claude-sonnet-4-6
+38413400,2024,Alarm,misclassification,discriminative,0.970,AI detection algorithm evaluated on sensitivity/specificity for fracture classification errors,q7_failuremode_v1,claude-sonnet-4-6
+40705814,2025,Alarm,misclassification,generative,0.900,GPT-4 evaluated for accuracy in ECG interpretation and clinical management decisions,q7_failuremode_v1,claude-sonnet-4-6
+38663992,2024,Alarm,misclassification,discriminative,0.920,"AI classification models evaluated for detection/diagnosis accuracy on NCCT scans, poor generalization",q7_failuremode_v1,claude-sonnet-4-6
+39602554,2025,Alarm,misclassification,discriminative,0.850,AI embryo selection model failed to outperform morphology grading in predicting pregnancy outcomes,q7_failuremode_v1,claude-sonnet-4-6
+39535651,2024,Alarm,misclassification,generative,0.720,"Evaluates accuracy/quality scores of chatbot outputs, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+38771177,2024,Alarm,misclassification,discriminative,0.970,AI classification algorithm produces biased false-positive rates across patient demographic groups,q7_failuremode_v1,claude-sonnet-4-6
+39390731,2025,Alarm,misclassification,generative,0.820,ChatGPT answers scored for accuracy/correctness vs guidelines; wrong outputs not fabrication per se,q7_failuremode_v1,claude-sonnet-4-6
+41575020,2026,Alarm,misclassification,both,0.820,Data poisoning causes wrong predictions/diagnoses across discriminative and generative architectures,q7_failuremode_v1,claude-sonnet-4-6
+40078035,2025,Alarm,both,generative,0.950,LLMs gave wrong answers (misclassification) and 55% citations were hallucinated (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+40610221,2025,Alarm,both,generative,0.900,LLMs showed confabulations and poor clinical judgment/misclassification in anesthesia scenarios,q7_failuremode_v1,claude-sonnet-4-6
+39118057,2024,Alarm,misclassification,generative,0.820,"Evaluates accuracy/quality scores of LLM responses across languages, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39236508,2024,Alarm,misclassification,generative,0.720,"LLMs evaluated for quality/reliability of treatment info, not fabrication specifically",q7_failuremode_v1,claude-sonnet-4-6
+33315263,2021,Alarm,misclassification,discriminative,0.850,"Discriminative algorithms misclassify/underestimate risk for minority patients, causing biased predictions",q7_failuremode_v1,claude-sonnet-4-6
+37698612,2023,Alarm,misclassification,discriminative,0.950,CAD detection model evaluated on sensitivity/PPV; false positives/negatives across dose levels,q7_failuremode_v1,claude-sonnet-4-6
+40951327,2025,Alarm,misclassification,generative,0.920,LLMs evaluated on classification accuracy of medical images; wrong labels produced,q7_failuremode_v1,claude-sonnet-4-6
+39658658,2024,Alarm,misclassification,discriminative,0.950,"Predictive model accuracy comparison for surgical outcome classification, no fabrication involved",q7_failuremode_v1,claude-sonnet-4-6
+38112824,2023,Alarm,none_or_unclear,unclear,0.650,"General risk framing about automation bias, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+37707522,2023,Alarm,misclassification,generative,0.750,"Evaluates ChatGPT accuracy/performance in thoracic surgery domain, likely testing correctness",q7_failuremode_v1,claude-sonnet-4-6
+36939953,2023,Alarm,misclassification,both,0.850,DL software aids radiologist classification; both discriminative DL and generative-adjacent scoring evaluated,q7_failuremode_v1,claude-sonnet-4-6
+41673142,2026,Alarm,misclassification,discriminative,0.920,Performance degradation of predictive/segmentation/detection models on paediatric vs adult populations,q7_failuremode_v1,claude-sonnet-4-6
+41216185,2025,Alarm,misclassification,generative,0.920,"GPT-4o image-based diagnostic accuracy evaluated; wrong labels assigned, no fabrication described",q7_failuremode_v1,claude-sonnet-4-6
+38041797,2024,Alarm,misclassification,generative,0.900,"LLM accuracy on board-style pathology questions, wrong answers not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37940155,2023,Alarm,misclassification,discriminative,0.950,"AI detection software shows false positives/negatives, poor sensitivity/PPV for nodule detection",q7_failuremode_v1,claude-sonnet-4-6
+38546736,2024,Alarm,misclassification,generative,0.900,"Evaluates LLM accuracy/correctness on exam questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37208850,2023,Alarm,misclassification,discriminative,0.950,AI software evaluated for detection accuracy of arterial occlusion on CTA scans,q7_failuremode_v1,claude-sonnet-4-6
+37176706,2023,Alarm,misclassification,discriminative,0.850,Adversarial attacks causing wrong diagnoses/misclassification in ophthalmic image classification models,q7_failuremode_v1,claude-sonnet-4-6
+41386318,2026,Alarm,misclassification,generative,0.900,LLMs evaluated for accuracy of treatment recommendations vs. guidelines; wrong scores/predictions,q7_failuremode_v1,claude-sonnet-4-6
+33969523,2021,Alarm,misclassification,discriminative,0.800,Bias/poor generalization of diagnostic AI models for darker skin tones,q7_failuremode_v1,claude-sonnet-4-6
+41365739,2025,Alarm,misclassification,both,0.900,Accuracy of LLM and human image classification compared; no fabrication described,q7_failuremode_v1,claude-sonnet-4-6
+41417655,2025,Alarm,both,generative,0.920,Measures both fabricated/fake references (confabulation) and inaccurate drug information responses (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+41632159,2025,Alarm,misclassification,discriminative,0.920,"Label leakage inflates performance metrics in predictive/classification models, not fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+41987670,2026,Alarm,confabulation,generative,0.990,LLMs generating false/hallucinated references in dermatology literature retrieval task,q7_failuremode_v1,claude-sonnet-4-6
+39201195,2024,Alarm,misclassification,generative,0.920,"LLM accuracy on medical exam questions measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40187408,2025,Alarm,none_or_unclear,generative,0.550,Letter/commentary on LLM antibiotic prescribing; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38954323,2024,Alarm,misclassification,generative,0.800,"LLM accuracy/quality scored on medical questions; wrong answers, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+37629452,2023,Alarm,misclassification,generative,0.820,"ChatGPT accuracy vs meta-analyses measured; wrong/inconclusive answers, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+40397927,2025,Alarm,misclassification,generative,0.720,LLM chatbots evaluated for inappropriate/incorrect therapeutic responses vs human therapists,q7_failuremode_v1,claude-sonnet-4-6
+39394537,2025,Alarm,misclassification,generative,0.920,"LLMs evaluated on classification accuracy of thyroid nodules; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40839146,2025,Alarm,misclassification,generative,0.950,"LLMs evaluated on classification accuracy of CTG traces, wrong labels produced",q7_failuremode_v1,claude-sonnet-4-6
+37934094,2023,Alarm,misclassification,discriminative,0.950,DL model diagnostic disparities across race/ethnicity groups; false negatives/underdiagnosis bias,q7_failuremode_v1,claude-sonnet-4-6
+40816301,2025,Alarm,misclassification,discriminative,0.850,AI polyp detection model; study measures downstream false-negative/detection rate changes in endoscopists,q7_failuremode_v1,claude-sonnet-4-6
+38123252,2024,Alarm,misclassification,generative,0.850,"LLM produces biased/wrong diagnoses and recommendations, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39308261,2024,Alarm,none_or_unclear,unclear,0.850,"General AI security/cybercrime framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+38207039,2024,Alarm,misclassification,discriminative,0.950,Predictive models fail to generalize out-of-sample; poor cross-trial performance/miscalibration.,q7_failuremode_v1,claude-sonnet-4-6
+41931690,2026,Alarm,misclassification,generative,0.920,"VLMs evaluated for diagnostic accuracy on nail images; wrong labels, false negatives measured",q7_failuremode_v1,claude-sonnet-4-6
+40653382,2026,Alarm,misclassification,generative,0.820,"LLM accuracy evaluated on transfusion questions; wrong answers scored, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+41392300,2025,Alarm,misclassification,discriminative,0.970,AI detection/classification errors on dental features; false positives/negatives in radiograph analysis,q7_failuremode_v1,claude-sonnet-4-6
+39899928,2025,Alarm,misclassification,generative,0.820,"LLM accuracy evaluated on patient queries; wrong answers scored, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+34374441,2022,Alarm,none_or_unclear,unclear,0.700,"General semantic/opacity framing, no specific fabrication or misclassification mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+42051679,2026,Alarm,misclassification,generative,0.850,"LLM accuracy on prosthodontics questions evaluated; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41464772,2025,Alarm,misclassification,generative,0.900,LLM evaluated for numeric prediction accuracy vs validated formula; wrong predictions not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+40618549,2025,Alarm,both,generative,0.950,LLMs gave wrong guideline recommendations (misclassification) and DeepSeek provided unverifiable fabricated references (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+38341993,2024,Alarm,misclassification,generative,0.920,"ChatGPT evaluated on triage classification accuracy, wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41278370,2025,Alarm,misclassification,generative,0.900,"ChatGPT evaluated for eligibility classification accuracy; sensitivity/specificity measured, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40664863,2026,Alarm,misclassification,both,0.920,Detection accuracy errors in deep learning tool and radiologists; no fabrication involved,q7_failuremode_v1,claude-sonnet-4-6
+35560254,2022,Alarm,misclassification,discriminative,0.950,DL model shows poor generalization/dataset shift when predicting EF and segmenting LV on POCUS images,q7_failuremode_v1,claude-sonnet-4-6
+39122964,2024,Alarm,misclassification,discriminative,0.950,Deep learning embryo selection algorithm compared on prediction/classification accuracy vs morphology,q7_failuremode_v1,claude-sonnet-4-6
+38185250,2024,Alarm,misclassification,discriminative,0.950,ML classification/detection models produce false positives/negatives due to tissue contaminants,q7_failuremode_v1,claude-sonnet-4-6
+38903829,2024,Alarm,misclassification,generative,0.870,"LLM accuracy on exam questions measured; wrong answers are classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39269615,2025,Alarm,both,generative,0.950,Fabricated/inaccurate references (confabulation) and diagnostic errors/misclassification both explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+40190132,2025,Alarm,both,generative,0.920,Evaluates both hallucination (confabulation) and task accuracy/misclassification in biomedical LLMs,q7_failuremode_v1,claude-sonnet-4-6
+37750493,2024,Alarm,none_or_unclear,unclear,0.850,"Philosophical/ethical discussion, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41700218,2026,Alarm,none_or_unclear,generative,0.700,"Focus is reidentification risk via face reconstruction, not AI failure modes per se",q7_failuremode_v1,claude-sonnet-4-6
+39723845,2025,Alarm,misclassification,generative,0.920,"LLM evaluated for prediction accuracy/sensitivity/specificity, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38775367,2024,Alarm,both,generative,0.900,LLM scored poorly (misclassification) and generated fictional answers/citations (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+37266983,2023,Alarm,misclassification,discriminative,0.850,"Evaluates triage/diagnostic accuracy of symptom checkers — classification/prediction errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+42062420,2026,Alarm,misclassification,both,0.920,Compares discriminative ML classifiers vs LLMs on survival prediction accuracy/AUC,q7_failuremode_v1,claude-sonnet-4-6
+41033798,2025,Alarm,confabulation,generative,0.850,LLMs fabricating citations or references in literature search context,q7_failuremode_v1,claude-sonnet-4-6
+42072797,2026,Alarm,misclassification,generative,0.920,MLLMs evaluated for diagnostic accuracy in fracture detection and classification tasks,q7_failuremode_v1,claude-sonnet-4-6
+40117574,2025,Alarm,none_or_unclear,unclear,0.850,"Study examines publication/disclosure rates of AI research, not AI failure mechanisms",q7_failuremode_v1,claude-sonnet-4-6
+42039940,2026,Alarm,misclassification,generative,0.880,"LLM accuracy on ethics questions evaluated; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40259576,2025,Alarm,misclassification,generative,0.900,"LLM-based tools evaluated on detection accuracy and BI-RADS scoring, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34648114,2022,Alarm,misclassification,discriminative,0.970,CNN classifier shows poor generalization/dataset shift on external pediatric pneumonia data,q7_failuremode_v1,claude-sonnet-4-6
+36271229,2022,Alarm,misclassification,discriminative,0.920,GNN phenotype prediction models evaluated on classification accuracy for AD diagnosis,q7_failuremode_v1,claude-sonnet-4-6
+39802674,2025,Alarm,misclassification,both,0.900,"LLMs and XGB classifier compared on diagnostic probability accuracy/calibration, no fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39709300,2025,Alarm,misclassification,generative,0.920,"LLM diagnostic accuracy evaluated against pathologist ground truth; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40081807,2025,Alarm,misclassification,generative,0.900,"LLM treatment recommendations scored against expert criteria; wrong scores/labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41645283,2026,Alarm,misclassification,generative,0.820,"Focus is miscalibration—overconfident outputs misrepresenting actual accuracy, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34111976,2021,Alarm,misclassification,discriminative,0.950,CNN fusion model evaluated on malignancy classification accuracy vs human observers,q7_failuremode_v1,claude-sonnet-4-6
+39652180,2024,Alarm,confabulation,generative,0.900,"ChatGPT generated incorrect/fabricated anatomical information, confusing distinct anatomical structures",q7_failuremode_v1,claude-sonnet-4-6
+41123303,2025,Alarm,none_or_unclear,generative,0.600,General risk/ethics framing; no specific AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38545660,2024,Alarm,misclassification,discriminative,0.850,AI incorrectly mounts/classifies radiograph positions; accuracy errors in detection/placement task,q7_failuremode_v1,claude-sonnet-4-6
+39096711,2024,Alarm,misclassification,generative,0.920,LLMs evaluated on ECG diagnostic accuracy compared to specialists; wrong predictions measured,q7_failuremode_v1,claude-sonnet-4-6
+40451163,2026,Alarm,misclassification,discriminative,0.950,AI caries detection program evaluated for sensitivity/specificity vs histological ground truth,q7_failuremode_v1,claude-sonnet-4-6
+41735814,2026,Alarm,both,generative,0.920,Measures diagnostic accuracy (misclassification) and hallucinations (confabulation) in multimodal LLMs,q7_failuremode_v1,claude-sonnet-4-6
+35137490,2022,Alarm,misclassification,discriminative,0.970,CNN classification models evaluated on false positive/negative error rates for radiograph labels,q7_failuremode_v1,claude-sonnet-4-6
+37295794,2024,Alarm,confabulation,generative,0.880,"ChatGPT produced inaccuracies, omissions, and fabricated/unfaithful references in medical review",q7_failuremode_v1,claude-sonnet-4-6
+40199631,2025,Alarm,misclassification,generative,0.820,"LLMs evaluated for validity/accuracy of answers, not fabrication of citations or entities",q7_failuremode_v1,claude-sonnet-4-6
+39255797,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on gene prediction accuracy; wrong gene predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41024005,2025,Alarm,misclassification,generative,0.820,"LLMs evaluated on diagnostic accuracy, safety errors, bias—wrong outputs, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40025001,2025,Alarm,misclassification,generative,0.820,"Image generators misrepresent survivor demographics/experience; biased outputs, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+38611686,2024,Alarm,misclassification,generative,0.850,"LLMs evaluated on diagnostic accuracy/detection tasks, wrong labels and angle measurements",q7_failuremode_v1,claude-sonnet-4-6
+40081979,2025,Alarm,misclassification,discriminative,0.820,Supervised ML classification/prediction models with sex bias causing biased/unfair predictions,q7_failuremode_v1,claude-sonnet-4-6
+41402616,2025,Alarm,misclassification,generative,0.950,"LLM vision model evaluated on staging accuracy; wrong classifications, low sensitivity/AUC reported",q7_failuremode_v1,claude-sonnet-4-6
+37979201,2024,Alarm,misclassification,generative,0.920,"ChatGPT diagnostic accuracy compared to clinicians; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41975912,2026,Alarm,misclassification,generative,0.850,LLMs evaluated on accuracy of remedy recommendations vs. practitioner gold standard,q7_failuremode_v1,claude-sonnet-4-6
+41284135,2026,Alarm,none_or_unclear,generative,0.750,Philosophical/conceptual analysis of AI scribes; no specific failure mechanism evaluated,q7_failuremode_v1,claude-sonnet-4-6
+39232303,2024,Alarm,misclassification,generative,0.820,"LLM produces biased/skewed outputs by gender, a systematic prediction/generation error not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41583822,2025,Alarm,misclassification,generative,0.820,"LLM treatment recommendations compared against surgeon consensus; wrong/inconsistent outputs, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39481125,2024,Alarm,misclassification,generative,0.850,LLM treatment recommendations evaluated for accuracy/alignment with clinical guidelines,q7_failuremode_v1,claude-sonnet-4-6
+41925458,2026,Alarm,misclassification,generative,0.900,LLM rated imaging appropriateness incorrectly vs ACR guidelines; wrong scores/labels,q7_failuremode_v1,claude-sonnet-4-6
+40423504,2025,Alarm,misclassification,generative,0.720,LLM output quality scored/rated; accuracy subscale reflects wrong/inferior content generation,q7_failuremode_v1,claude-sonnet-4-6
+39827300,2025,Alarm,none_or_unclear,generative,0.750,General governance/ethics framing; sycophancy mentioned but no specific failure mechanism studied,q7_failuremode_v1,claude-sonnet-4-6
+39080210,2025,Alarm,misclassification,generative,0.880,"LLMs evaluated on diagnostic accuracy/decision-making correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37231330,2023,Alarm,misclassification,discriminative,0.950,"AI diagnostic accuracy, sensitivity, specificity evaluated — classification errors, no fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41506813,2026,Alarm,both,generative,0.850,Title references both accuracy (misclassification) and implied fabrication issues in ChatGPT responses,q7_failuremode_v1,claude-sonnet-4-6
+38940314,2024,Alarm,misclassification,generative,0.720,"AI image generation reproduces biased stereotypes, a form of biased/miscalibrated output not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39205556,2024,Alarm,misclassification,discriminative,0.950,Meta-analysis of AI diagnostic accuracy with sensitivity/specificity/false positives/negatives for OSCC detection,q7_failuremode_v1,claude-sonnet-4-6
+41904237,2026,Alarm,none_or_unclear,generative,0.700,General risk framing about automated empathy; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+37717420,2023,Alarm,misclassification,discriminative,0.950,AI detection model evaluated for false negatives/positives in recurrence detection,q7_failuremode_v1,claude-sonnet-4-6
+40920790,2025,Alarm,both,generative,0.920,LLMs evaluated for hallucination/accuracy errors and bias/misclassification in clinical responses,q7_failuremode_v1,claude-sonnet-4-6
+41660287,2026,Alarm,misclassification,both,0.820,ChatGPT-4o used as quality scorer/classifier; poor agreement with experts indicates miscalibration,q7_failuremode_v1,claude-sonnet-4-6
+39881674,2025,Alarm,misclassification,generative,0.820,"LLM responses scored for accuracy/completeness; wrong answers, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+40554500,2025,Alarm,misclassification,discriminative,0.950,Meta-analysis of AI diagnostic accuracy (sensitivity/specificity) for meniscal injury detection,q7_failuremode_v1,claude-sonnet-4-6
+39088019,2024,Alarm,misclassification,generative,0.820,"LLM responses scored for accuracy/inaccuracy on medical questions, not fabrication specifically",q7_failuremode_v1,claude-sonnet-4-6
+40514273,2025,Alarm,confabulation,generative,0.850,"LLMs fabricated/unreliable content, couldn't access real literature, produced inconsistent inaccurate guideline updates",q7_failuremode_v1,claude-sonnet-4-6
+39330944,2025,Alarm,none_or_unclear,generative,0.720,"Study measures readability level, not fabrication or classification accuracy errors",q7_failuremode_v1,claude-sonnet-4-6
+40272185,2025,Alarm,misclassification,generative,0.820,"GAI produces biased/stereotyped ratings and predictions about BPD patients, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+37962570,2024,Alarm,misclassification,generative,0.820,"Evaluates ChatGPT diagnostic accuracy/correctness on clinical cases, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40554303,2025,Alarm,misclassification,generative,0.820,"LLMs evaluated for accuracy/concordance with clinical guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39639068,2024,Alarm,misclassification,generative,0.900,"GPT-4o diagnostic accuracy compared to ophthalmologists; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41270992,2026,Alarm,misclassification,both,0.920,Compares discriminative DNN and generative LLMs on ECG classification accuracy/AUROC for OMI detection,q7_failuremode_v1,claude-sonnet-4-6
+41345316,2025,Alarm,confabulation,generative,0.850,AI models generated inaccurate/fabricated claims during persuasive political dialogues,q7_failuremode_v1,claude-sonnet-4-6
+40557933,2025,Alarm,none_or_unclear,generative,0.700,Philosophical critique of empathic AI chatbots; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38901270,2024,Alarm,misclassification,discriminative,0.950,"CNN diagnostic accuracy for ICH detection; false positives/negatives, sensitivity/specificity evaluation",q7_failuremode_v1,claude-sonnet-4-6
+40982758,2025,Alarm,misclassification,generative,0.900,"LLM diagnostic accuracy vs neurologists; wrong labels/predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39538110,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on exam accuracy/diagnostic correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38816071,2024,Alarm,misclassification,discriminative,0.600,Mental health diagnosis ML implies classification/prediction models; focuses on bias and injustice.,q7_failuremode_v1,claude-sonnet-4-6
+40926110,2025,Alarm,both,generative,0.850,LLMs misalign with expert recommendations (misclassification) and produce unverified/fabricated citations (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+40506239,2025,Alarm,misclassification,discriminative,0.950,ML models predicting survival outcomes; evaluation of prediction/classification performance errors,q7_failuremode_v1,claude-sonnet-4-6
+39938624,2025,Alarm,none_or_unclear,unclear,0.650,"General commentary on AI in healthcare gaps, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+36651954,2023,Alarm,misclassification,discriminative,0.950,Segmentation and classification model shows poor generalization/reduced accuracy on external validation,q7_failuremode_v1,claude-sonnet-4-6
+39978248,2025,Alarm,misclassification,discriminative,0.950,AI landmark detection produces inaccurate coordinate predictions compared to expert ground truth,q7_failuremode_v1,claude-sonnet-4-6
+39496149,2024,Alarm,both,generative,0.850,Measures factual inaccuracy/dangerous content (confabulation) and accuracy/completeness scores (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+38584026,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on accuracy of treatment recommendations, wrong proposals including harmful ones",q7_failuremode_v1,claude-sonnet-4-6
+38345809,2024,Alarm,none_or_unclear,unclear,0.700,"General framing of AI risks in clinical settings, no specific mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+38087912,2024,Alarm,misclassification,both,0.800,Bias/misrepresentation in generated images and LLM outputs depicting surgeons demographically,q7_failuremode_v1,claude-sonnet-4-6
+34257363,2021,Alarm,misclassification,discriminative,0.850,CAD systems for CRC diagnosis/detection from WSI; classification performance limitations discussed,q7_failuremode_v1,claude-sonnet-4-6
+36892545,2023,Alarm,misclassification,discriminative,0.950,CADe detection system evaluated for polyp detection accuracy and false positive/negative rates,q7_failuremode_v1,claude-sonnet-4-6
+40532180,2025,Alarm,none_or_unclear,unclear,0.850,"Study measures patient trust/preferences, not AI failure mechanisms like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+34619566,2022,Alarm,none_or_unclear,unclear,0.850,Survey about career perceptions; no AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+42021533,2026,Alarm,misclassification,generative,0.950,LLMs evaluated on correct identification/classification of dental implant systems from images,q7_failuremode_v1,claude-sonnet-4-6
+40895061,2025,Alarm,misclassification,discriminative,0.970,CNN classifier evaluated on sensitivity/specificity/accuracy for melanoma detection,q7_failuremode_v1,claude-sonnet-4-6
+39172870,2024,Alarm,misclassification,discriminative,0.900,Reviews predictive/classification models for surgical outcomes; focuses on AUC performance and generalizability.,q7_failuremode_v1,claude-sonnet-4-6
+39032380,2024,Alarm,misclassification,generative,0.800,"Evaluating ChatGPT diagnostic accuracy in histopathology, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41594208,2026,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy; false negatives/sensitivity errors, no fabrication mentioned",q7_failuremode_v1,claude-sonnet-4-6
+40424107,2025,Alarm,misclassification,both,0.900,Risk prediction accuracy compared across discriminative NLP models and LLMs; no fabrication discussed,q7_failuremode_v1,claude-sonnet-4-6
+39948824,2025,Alarm,misclassification,generative,0.850,"ChatGPT survival time predictions compared to actual outcomes; wrong numeric estimates, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39564507,2024,Alarm,misclassification,generative,0.900,"LLM accuracy on exam questions measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37010001,2023,Alarm,misclassification,discriminative,0.850,DL denoising model degrades defect detection accuracy; classification/detection performance evaluated via ROC/AUC,q7_failuremode_v1,claude-sonnet-4-6
+36841335,2023,Alarm,none_or_unclear,discriminative,0.600,Discusses commercialization gap in AI diagnostics; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+33947006,2021,Alarm,misclassification,discriminative,0.850,"Reviews predictive/diagnostic AI models with bias, poor validation, and classification errors",q7_failuremode_v1,claude-sonnet-4-6
+39058798,2024,Alarm,both,generative,0.950,Fabricated citations and inaccurate/incomplete responses both explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+41943726,2026,Alarm,misclassification,generative,0.850,"LLMs produce biased/wrong clinical decisions based on protected attributes, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40139461,2025,Alarm,misclassification,generative,0.950,LLM evaluated for accuracy in classifying TI-RADS features; sensitivity/specificity errors measured,q7_failuremode_v1,claude-sonnet-4-6
+39920508,2025,Alarm,misclassification,discriminative,0.950,AI classification system for thyroid nodules evaluated on diagnostic accuracy and false predictions,q7_failuremode_v1,claude-sonnet-4-6
+40482575,2025,Alarm,misclassification,both,0.950,Diagnostic accuracy/classification errors evaluated for both LLMs and CNNs,q7_failuremode_v1,claude-sonnet-4-6
+41660542,2026,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy/sensitivity/specificity on fracture detection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38846970,2024,Alarm,misclassification,discriminative,0.970,CADe/x system classification accuracy compared to experts; sensitivity/specificity evaluation,q7_failuremode_v1,claude-sonnet-4-6
+41758431,2026,Alarm,misclassification,discriminative,0.920,AI landmark detection produces systematic bias and poor precision in cephalometric measurements,q7_failuremode_v1,claude-sonnet-4-6
+35654428,2022,Alarm,none_or_unclear,unclear,0.850,Historical ethics commentary on decision-support systems; no specific AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+40696098,2025,Alarm,misclassification,generative,0.750,"LLMs produce wrong/biased reasoning outputs in ethics scenarios, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41219270,2025,Alarm,both,generative,0.900,"LLMs show misclassification (wrong answers, overconfidence) and hallucination (fabricated reasoning)",q7_failuremode_v1,claude-sonnet-4-6
+41722730,2026,Alarm,none_or_unclear,generative,0.700,"Study measures readability complexity, not fabrication or classification errors",q7_failuremode_v1,claude-sonnet-4-6
+41063191,2025,Alarm,misclassification,generative,0.920,"LLMs scored lower accuracy on diagnostic classification tasks, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+42025214,2026,Alarm,misclassification,generative,0.920,LLM produces wrong scores/labels with calibration bias and poor agreement with human ratings,q7_failuremode_v1,claude-sonnet-4-6
+38305909,2024,Alarm,misclassification,generative,0.820,"ChatGPT gave wrong diagnosis (missed TIA), leading to delayed treatment; classification error",q7_failuremode_v1,claude-sonnet-4-6
+40348690,2025,Alarm,misclassification,generative,0.950,"GPT-4o accuracy measured on diagnostic classification task; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39608761,2025,Alarm,both,generative,0.920,LLMs show both hallucinated codes and misclassification/wrong code extraction errors,q7_failuremode_v1,claude-sonnet-4-6
+38742754,2024,Alarm,misclassification,generative,0.870,"LLMs evaluated for accuracy of yes/no answers against correct guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41355748,2025,Alarm,misclassification,generative,0.820,"LLM outputs systematically vary by sociodemographics, producing biased/inequitable care recommendations, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41988159,2026,Alarm,confabulation,generative,0.850,LLMs inappropriately generate/include fabricated or leaked third-party private content in clinical notes,q7_failuremode_v1,claude-sonnet-4-6
+35568690,2022,Alarm,misclassification,discriminative,0.850,Deep learning models predicting race from images; bias/disparate performance in classification tasks,q7_failuremode_v1,claude-sonnet-4-6
+39333444,2025,Alarm,misclassification,discriminative,0.700,"focuses on AI model reliability, data leakage, poor generalization in clinical radiology models",q7_failuremode_v1,claude-sonnet-4-6
+41774170,2026,Alarm,misclassification,generative,0.900,"LLMs evaluated on MCQ accuracy; wrong answer selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+42052564,2026,Alarm,none_or_unclear,generative,0.750,General equity/policy framing; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38969055,2024,Alarm,misclassification,generative,0.720,"LLM accuracy/quality scored lower than reference; reliability/accuracy deficits, not fabrication per se",q7_failuremode_v1,claude-sonnet-4-6
+42000932,2026,Alarm,both,generative,0.920,Covers both demographic bias/misclassification and anatomical hallucinations/fabricated content in image generation,q7_failuremode_v1,claude-sonnet-4-6
+38051578,2023,Alarm,misclassification,generative,0.820,"LLM accuracy on clinical questions evaluated; lower medical adequacy scores, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+40628018,2025,Alarm,confabulation,generative,0.750,"Students observed ChatGPT unreliability/inaccuracy in drug information, implying fabricated or unfaithful content",q7_failuremode_v1,claude-sonnet-4-6
+38738492,2024,Alarm,misclassification,generative,0.850,"LLM evaluated on accuracy of surgical reconstruction selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39768733,2024,Alarm,misclassification,generative,0.820,"LLMs evaluated on accuracy/correctness of nutritional advice against guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41085335,2026,Alarm,misclassification,discriminative,0.920,ML models predicting seizure probability evaluated for classification performance vs baseline,q7_failuremode_v1,claude-sonnet-4-6
+40876725,2026,Alarm,misclassification,discriminative,0.950,"CNN classification models produce wrong embryo rankings, false predictions, and high critical error rates",q7_failuremode_v1,claude-sonnet-4-6
+38648636,2024,Alarm,both,generative,0.850,omissions/additions=confabulation; incorrect facts/accuracy metrics=misclassification; LLM generating notes,q7_failuremode_v1,claude-sonnet-4-6
+37566133,2023,Alarm,misclassification,generative,0.720,"LLM evaluated for accuracy of drug causality assessments; wrong/imprecise answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39186324,2024,Alarm,misclassification,discriminative,0.950,ML classifiers show sex-based false negative/positive rate disparities in cardiac disease prediction,q7_failuremode_v1,claude-sonnet-4-6
+37626010,2024,Alarm,misclassification,generative,0.820,"LLM scored/evaluated on accuracy of clinical pharmacy responses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40208160,2025,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy/classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40776565,2025,Alarm,confabulation,generative,0.750,Deepfakes involve AI generating fabricated/unfaithful audio-visual content attributed to real people,q7_failuremode_v1,claude-sonnet-4-6
+39319150,2024,Alarm,misclassification,generative,0.850,"LLM diagnostic accuracy evaluated against clinicians; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39494686,2025,Alarm,none_or_unclear,generative,0.700,"Study examines patient adherence behavior, not AI failure mechanisms like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+40447186,2025,Alarm,misclassification,generative,0.820,"ChatGPT evaluated on dermatologic image analysis accuracy, classification performance focus",q7_failuremode_v1,claude-sonnet-4-6
+39549204,2024,Alarm,none_or_unclear,generative,0.650,"General call for validation, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40657035,2025,Alarm,misclassification,generative,0.850,"LLM produces wrong treatment recommendations/labels, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+40845324,2025,Alarm,misclassification,discriminative,0.900,"Diagnostic prediction models with bias, poor generalization, miscalibration in primary care EHR settings",q7_failuremode_v1,claude-sonnet-4-6
+40345017,2025,Alarm,misclassification,generative,0.920,"GPT-4o evaluated for diagnostic accuracy on ECG classification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41546380,2026,Alarm,confabulation,generative,0.970,"LLMs fabricating wrong author names, erroneous DOIs, inaccurate bibliographic references",q7_failuremode_v1,claude-sonnet-4-6
+36240037,2023,Alarm,misclassification,discriminative,0.900,Adversarial attacks causing wrong predictions/labels in medical image classification models,q7_failuremode_v1,claude-sonnet-4-6
+38020045,2023,Alarm,misclassification,generative,0.820,"Measures LLM answer accuracy/correctness on medical questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38771247,2024,Alarm,confabulation,generative,0.950,Evaluates hallucinated/fake citations and fabricated references from ChatGPT and Bing AI,q7_failuremode_v1,claude-sonnet-4-6
+37611187,2023,Alarm,misclassification,generative,0.720,"Evaluates chatbot response quality/correctness scores, not fabrication; accuracy/completeness ratings dominate",q7_failuremode_v1,claude-sonnet-4-6
+40991747,2025,Alarm,confabulation,generative,0.700,LLM systematic reviews likely focus on hallucination/fabrication as key limitation,q7_failuremode_v1,claude-sonnet-4-6
+40555406,2025,Alarm,misclassification,generative,0.820,"LLMs scored/evaluated for accuracy of answers, wrong/inaccurate responses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41681742,2026,Alarm,misclassification,generative,0.870,"LLMs evaluated on fracture detection accuracy; wrong labels/predictions, not fabricated text",q7_failuremode_v1,claude-sonnet-4-6
+41910833,2026,Alarm,misclassification,both,0.850,Evaluates diagnostic accuracy/detection performance of AI and human-AI combined readings,q7_failuremode_v1,claude-sonnet-4-6
+38516933,2025,Alarm,misclassification,both,0.900,Discriminative detectors produce false positives/negatives; generative chatbots produce the test texts,q7_failuremode_v1,claude-sonnet-4-6
+40659356,2026,Alarm,misclassification,generative,0.920,Chatbots misclassify triage urgency levels; false negatives and poor sensitivity measured,q7_failuremode_v1,claude-sonnet-4-6
+36607623,2023,Alarm,misclassification,discriminative,0.950,"CNN classification models failed to predict microbiologic positivity, near-random AUC",q7_failuremode_v1,claude-sonnet-4-6
+35461690,2022,Alarm,misclassification,discriminative,0.950,"Classification accuracy, false positives, dataset shift, and out-of-distribution misclassification evaluated",q7_failuremode_v1,claude-sonnet-4-6
+33742148,2021,Alarm,none_or_unclear,unclear,0.700,"General regulatory/oversight framing, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+39744068,2024,Alarm,none_or_unclear,generative,0.600,"General policy/ownership framing, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41894589,2026,Alarm,misclassification,generative,0.720,"LLMs fail to reproduce expert documentation patterns; style/content mismatch, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37572190,2023,Alarm,misclassification,discriminative,0.900,CADe detection system evaluated on sensitivity/specificity/accuracy for CXR abnormalities,q7_failuremode_v1,claude-sonnet-4-6
+38502844,2024,Alarm,none_or_unclear,generative,0.550,Response letter about ChatGPT rhinoplasty consultations; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+39668220,2025,Alarm,misclassification,generative,0.720,"Evaluates AI output quality/accuracy scores, not fabrication; generative LLMs assessed",q7_failuremode_v1,claude-sonnet-4-6
+39543236,2024,Alarm,misclassification,generative,0.850,"LLMs produce wrong answers on comprehension tasks, performing at chance accuracy",q7_failuremode_v1,claude-sonnet-4-6
+39284250,2024,Alarm,misclassification,generative,0.870,"Evaluating LLM accuracy/correctness on exam questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40053915,2025,Alarm,misclassification,generative,0.920,"ChatGPT-4o evaluated for grading accuracy, false negatives, and miscalibration in OA severity scoring",q7_failuremode_v1,claude-sonnet-4-6
+37926396,2023,Alarm,misclassification,generative,0.820,"ChatGPT failed to correctly identify cognitive impairment pattern, a classification/diagnostic error",q7_failuremode_v1,claude-sonnet-4-6
+41368579,2025,Alarm,misclassification,generative,0.850,"LLMs producing wrong/unsafe medication recommendations; errors scored by clinicians, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37491780,2024,Alarm,none_or_unclear,discriminative,0.550,Philosophical/epistemic critique of statistical AI; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+40697891,2025,Alarm,misclassification,generative,0.900,"LLM accuracy on orthopaedic questions measured; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39137403,2024,Alarm,misclassification,generative,0.900,"LLM produces wrong appropriateness scores compared to clinical benchmark, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41632124,2025,Alarm,confabulation,generative,0.820,Injection attacks manipulate LLMs to generate fabricated/unsafe medical content via evidence-fabrication injections,q7_failuremode_v1,claude-sonnet-4-6
+40706476,2025,Alarm,none_or_unclear,generative,0.550,General limitations framing; no specific mechanism explicitly described in title,q7_failuremode_v1,claude-sonnet-4-6
+40537498,2025,Alarm,both,generative,0.850,Fabricated/inaccurate references plus wrong answers to clinical questions both described,q7_failuremode_v1,claude-sonnet-4-6
+39256622,2024,Alarm,misclassification,generative,0.820,"LLMs generating biased predictions/scores for hospitalization, cost, mortality — prediction errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34984485,2022,Alarm,misclassification,discriminative,0.950,Classification models predicting LOS outcome; comparing prediction accuracy metrics,q7_failuremode_v1,claude-sonnet-4-6
+37516804,2024,Alarm,misclassification,generative,0.820,"LLM accuracy evaluated on diagnosis/treatment correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38355517,2024,Alarm,misclassification,generative,0.920,"Evaluates ChatGPT accuracy on exam questions; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41928854,2026,Alarm,misclassification,discriminative,0.920,Deep learning models misclassify embryo developmental stages; classification accuracy evaluated,q7_failuremode_v1,claude-sonnet-4-6
+41517540,2025,Alarm,misclassification,generative,0.920,"LLM evaluated for classification accuracy of ERM staging, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37788063,2023,Alarm,misclassification,both,0.920,Evaluates diagnostic/triage accuracy (wrong labels) across LLMs and symptom-checker discriminative tools,q7_failuremode_v1,claude-sonnet-4-6
+41521112,2026,Alarm,misclassification,both,0.900,"LLMs and radiologists compared on PI-RADS scoring accuracy; low specificity/PPV classification errors, no fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38641744,2024,Alarm,misclassification,discriminative,0.970,Classification models show demographic performance disparities/biases in pathology prediction tasks,q7_failuremode_v1,claude-sonnet-4-6
+38832125,2024,Alarm,misclassification,generative,0.720,"Evaluates accuracy and quality of LLM responses, focusing on incorrect/poor information rather than fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37955873,2024,Alarm,confabulation,generative,0.950,"LLM generates fabricated testimonials, fake citations, and health disinformation content",q7_failuremode_v1,claude-sonnet-4-6
+37410674,2023,Alarm,misclassification,generative,0.850,"LLM scored below pass rate on orthopaedic exam; wrong answers, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+36539106,2023,Alarm,none_or_unclear,unclear,0.750,"Paper critiques benchmark coverage gaps, no specific AI failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+40033723,2025,Alarm,misclassification,generative,0.850,"LLM accuracy measured against clinical guidelines; wrong/nonconcordant responses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37902018,2024,Alarm,misclassification,generative,0.820,LLM response quality/accuracy evaluated against physician standard; no fabrication focus,q7_failuremode_v1,claude-sonnet-4-6
+39547661,2024,Alarm,misclassification,generative,0.820,"LLM scored on accuracy/clinical relevance of diagnostic descriptions, not fabrication per se",q7_failuremode_v1,claude-sonnet-4-6
+37831553,2024,Alarm,misclassification,generative,0.900,"Evaluates diagnostic accuracy of LLM chatbots, measuring correct/incorrect diagnoses",q7_failuremode_v1,claude-sonnet-4-6
+40120387,2025,Alarm,misclassification,generative,0.920,"LLM triage accuracy compared via ROC, sensitivity/specificity; wrong urgency labels assigned",q7_failuremode_v1,claude-sonnet-4-6
+36933065,2023,Alarm,misclassification,discriminative,0.920,"ML classifiers show inflated performance due to flawed/irrelevant training datasets, not true disease features",q7_failuremode_v1,claude-sonnet-4-6
+38228809,2025,Alarm,misclassification,generative,0.820,"LLM accuracy/correctness evaluated against guidelines; wrong answers scored, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+38195060,2024,Alarm,confabulation,generative,0.870,ChatGPT generated false claims and fabricated/unfaithful medical content about clear aligners,q7_failuremode_v1,claude-sonnet-4-6
+41254805,2025,Alarm,misclassification,generative,0.820,LLMs produce biased/skewed demographic outputs deviating from real-world distributions; systematic misprediction not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+41565212,2026,Alarm,misclassification,generative,0.820,LLM output quality scored/rated lower than physicians; accuracy/quality evaluation not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+39437512,2024,Alarm,both,generative,0.950,Hallucinations (confabulation) in 40% of AI-DS plus content mistakes/quality mismatches (misclassification-like errors) both explicitly described,q7_failuremode_v1,claude-sonnet-4-6
+40196917,2025,Alarm,misclassification,generative,0.920,"VLMs evaluated on accuracy of image classification tasks; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41601756,2025,Alarm,misclassification,generative,0.920,"LLM tested on classification accuracy of anatomical origin prediction, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34470740,2021,Alarm,misclassification,discriminative,0.950,"Evaluates AI detection accuracy for breast cancer in mammography; false positives/negatives, specificity issues.",q7_failuremode_v1,claude-sonnet-4-6
+38354499,2024,Alarm,misclassification,discriminative,0.900,Systematic review of diagnostic/prognostic predictive models with bias affecting classification accuracy,q7_failuremode_v1,claude-sonnet-4-6
+37991333,2024,Alarm,misclassification,discriminative,0.950,CAD detection systems show reduced sensitivity/false negatives on pediatric vs adult data,q7_failuremode_v1,claude-sonnet-4-6
+34907229,2021,Alarm,misclassification,both,0.920,"Adversarial images cause wrong diagnosis predictions; GAN generates attacks, CAD discriminates",q7_failuremode_v1,claude-sonnet-4-6
+41230245,2025,Alarm,misclassification,generative,0.820,"LLMs produce biased/inconsistent ethical decisions based on demographic cues, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39422726,2025,Alarm,both,generative,0.970,Explicitly reports fabricated imaging findings (confabulation) and poor diagnostic accuracy/misidentification (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+36208841,2022,Alarm,misclassification,discriminative,0.700,Biased predictions and disparities in medical imaging AI classification models,q7_failuremode_v1,claude-sonnet-4-6
+40394319,2026,Alarm,misclassification,discriminative,0.920,"CNN classifiers exploit spurious correlations, causing poor generalization and biased predictions",q7_failuremode_v1,claude-sonnet-4-6
+41804240,2026,Alarm,misclassification,generative,0.850,"LLM accuracy for landmark/lesion detection measured; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+36303237,2022,Alarm,misclassification,discriminative,0.900,NER models fail to generalize/correctly detect disease entities on new data,q7_failuremode_v1,claude-sonnet-4-6
+40317970,2025,Alarm,misclassification,discriminative,0.950,AI detection platform evaluated for sensitivity/specificity in identifying radiolucent lesions,q7_failuremode_v1,claude-sonnet-4-6
+38268099,2024,Alarm,misclassification,generative,0.850,"LLM diagnostic accuracy evaluated; wrong diagnoses and management plans, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39878893,2025,Alarm,misclassification,discriminative,0.970,AI detection model with false positives/negatives for large vessel occlusion classification,q7_failuremode_v1,claude-sonnet-4-6
+39499794,2025,Alarm,both,generative,0.550,"Title suggests evaluation of accuracy and reliability, likely covering both error types",q7_failuremode_v1,claude-sonnet-4-6
+38804035,2024,Alarm,misclassification,generative,0.820,"Chatbots produce wrong/overestimated lab interpretations; erroneous responses, not fabricated citations",q7_failuremode_v1,claude-sonnet-4-6
+39083799,2024,Alarm,confabulation,generative,0.980,Explicitly measures fabricated/hallucinated references and citations from AI chatbots,q7_failuremode_v1,claude-sonnet-4-6
+42013455,2026,Alarm,misclassification,discriminative,0.620,"Interpretative drift erases rare pathologies, causing systematic misclassification; recursive training degrades predictive accuracy",q7_failuremode_v1,claude-sonnet-4-6
+39230402,2024,Alarm,misclassification,discriminative,0.950,"AI triage system evaluated for ICH detection accuracy, sensitivity, specificity — classification errors",q7_failuremode_v1,claude-sonnet-4-6
+39711253,2025,Alarm,misclassification,discriminative,0.900,"NER model evaluated on precision/recall/F1; wrong entity labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41884757,2026,Alarm,misclassification,generative,0.850,"LLM produces biased specialty recommendations/competitiveness scores, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+39142308,2024,Alarm,misclassification,generative,0.900,"LLMs evaluated on diagnostic accuracy against physician diagnoses; wrong predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40648874,2025,Alarm,misclassification,generative,0.900,"ChatGPT therapeutic recommendations compared against expert board; wrong treatment selections, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38967407,2024,Alarm,both,generative,0.950,Fabricated references (confabulation) and incorrect clinical information (misclassification) both explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+38470459,2024,Alarm,misclassification,generative,0.850,"Evaluating LLM accuracy on medical exam questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+35947158,2023,Alarm,misclassification,discriminative,0.950,"Predictive models for revision surgery risk show moderate accuracy, limited clinical utility",q7_failuremode_v1,claude-sonnet-4-6
+39136951,2024,Alarm,both,generative,0.950,Explicitly measures accuracy/consistency (misclassification) and hallucination (confabulation) in LLMs,q7_failuremode_v1,claude-sonnet-4-6
+39673022,2025,Alarm,confabulation,generative,0.970,ChatGPT fabricated 298 non-existent citations out of 350 generated publications,q7_failuremode_v1,claude-sonnet-4-6
+37506761,2023,Alarm,confabulation,generative,0.820,LLM generating clinical fertility information risks fabricated/unfaithful content,q7_failuremode_v1,claude-sonnet-4-6
+37966807,2024,Alarm,misclassification,generative,0.900,"Image generators produce biased/inaccurate demographic representations, a miscategorization/misprediction failure",q7_failuremode_v1,claude-sonnet-4-6
+39155793,2025,Alarm,misclassification,generative,0.900,"LLM evaluated on accuracy of image classification and abnormality detection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40554973,2025,Alarm,misclassification,both,0.850,NER entity extraction accuracy compared across encoder and generative models; poor recall/F1 scores,q7_failuremode_v1,claude-sonnet-4-6
+41068092,2025,Alarm,misclassification,generative,0.750,"Adversarial attacks cause wrong medical outputs; focus on manipulated predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39576636,2024,Alarm,none_or_unclear,discriminative,0.550,Study on burnout association with AI use; no failure mode mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+36767092,2023,Alarm,misclassification,discriminative,0.970,"DL model evaluated on diagnostic accuracy, sensitivity, specificity for adenomyosis detection",q7_failuremode_v1,claude-sonnet-4-6
+39129151,2024,Alarm,confabulation,generative,0.750,Chatbots providing inaccurate/fabricated treatment suggestions and center recommendations for rare cancer,q7_failuremode_v1,claude-sonnet-4-6
+39657649,2024,Alarm,none_or_unclear,unclear,0.700,"General AI risk framing, no specific mechanism of confabulation or misclassification described",q7_failuremode_v1,claude-sonnet-4-6
+39641156,2026,Alarm,misclassification,generative,0.920,"LLM diagnostic accuracy evaluated across imaging modalities; wrong labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39133401,2024,Alarm,misclassification,generative,0.920,"LLMs evaluated on diagnostic accuracy of radiology images, wrong labels/predictions",q7_failuremode_v1,claude-sonnet-4-6
+33746898,2021,Alarm,misclassification,generative,0.820,WFO treatment recommendations compared against guidelines; wrong recommendations = misclassification,q7_failuremode_v1,claude-sonnet-4-6
+38362238,2024,Alarm,confabulation,generative,0.700,Errors of omission and missing urgency reflect unfaithful/incomplete content generation,q7_failuremode_v1,claude-sonnet-4-6
+40117499,2025,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy in melanoma classification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38280946,2024,Alarm,misclassification,discriminative,0.950,DL classification models evaluated for diagnostic accuracy in breast cancer detection,q7_failuremode_v1,claude-sonnet-4-6
+38785493,2024,Alarm,misclassification,generative,0.720,"LLM responses scored/rated against guidelines; accuracy/quality assessment, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40524839,2025,Alarm,both,both,0.920,Fabricated references (confabulation) and diagnostic accuracy/misclassification both explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+39952316,2025,Alarm,both,generative,0.950,Fabricated/hallucinated references plus wrong/inaccurate answers both explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+40657647,2025,Alarm,misclassification,generative,0.820,"LLMs evaluated on accuracy/match rate against clinical guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38451324,2024,Alarm,confabulation,generative,0.970,LLM fabricated a full report on non-existing technique with invented references and equations,q7_failuremode_v1,claude-sonnet-4-6
+39035656,2024,Alarm,misclassification,generative,0.750,"ChatGPT diagnostic accuracy evaluated against specialist, classification performance focus",q7_failuremode_v1,claude-sonnet-4-6
+39743925,2024,Alarm,misclassification,generative,0.850,"LLMs evaluated for correctness/appropriateness of answers, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+38852711,2025,Alarm,misclassification,generative,0.870,"ChatGPT-4 scored videos inaccurately vs human observers; wrong quality labels, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38508682,2024,Alarm,confabulation,generative,0.920,"LLMs fabricated health disinformation, fake references, and fabricated testimonials",q7_failuremode_v1,claude-sonnet-4-6
+40289855,2025,Alarm,misclassification,generative,0.900,"LLMs evaluated on accuracy of clinical Q&A; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39096130,2024,Alarm,both,generative,0.970,ChatGPT produced inaccurate/incomplete answers (misclassification) and fabricated references (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+41991515,2026,Alarm,misclassification,generative,0.820,"LLMs evaluated on clinical competency accuracy, wrong answers not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39924377,2025,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy/classification errors vs radiologists, no fabrication mentioned",q7_failuremode_v1,claude-sonnet-4-6
+40596239,2025,Alarm,misclassification,generative,0.850,LLMs giving wrong/discordant clinical answers vs guidelines; accuracy evaluation not fabrication,q7_failuremode_v1,claude-sonnet-4-6
+41594289,2026,Alarm,misclassification,generative,0.920,"LLM misclassifies thyroid nodules via false positives and poor TI-RADS accuracy, no fabrication described",q7_failuremode_v1,claude-sonnet-4-6
+40041831,2025,Alarm,misclassification,generative,0.820,"LLM outputs evaluated for readability accuracy/performance, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40175645,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on accuracy/agreement with surgeons in treatment decisions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39162781,2025,Alarm,misclassification,generative,0.900,"GPT-4 accuracy and kappa evaluated for TNM classification correctness, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39805470,2025,Alarm,misclassification,both,0.920,Evaluates classification accuracy of ML models and ChatGPT-4; no fabrication described,q7_failuremode_v1,claude-sonnet-4-6
+37493324,2024,Alarm,misclassification,both,0.920,Compares detection/classification performance of discriminative AI and generative-adjacent tools; no fabrication involved,q7_failuremode_v1,claude-sonnet-4-6
+39935064,2025,Alarm,misclassification,generative,0.900,LLM missed/failed to detect clinically relevant drug-drug interactions; false negatives and inconsistent predictions,q7_failuremode_v1,claude-sonnet-4-6
+37269797,2023,Alarm,misclassification,discriminative,0.950,AI classification model compared on sensitivity/specificity for pulmonary edema detection,q7_failuremode_v1,claude-sonnet-4-6
+38353801,2024,Alarm,none_or_unclear,unclear,0.850,"Philosophical/ethical framing of AI black box problem, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+34951033,2022,Alarm,misclassification,discriminative,0.970,"CNNs misclassify COVID-19 due to dataset bias and shortcut learning, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38760650,2025,Alarm,misclassification,generative,0.850,"ChatGPT recommendations mismatched expert decisions; wrong technique selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40272814,2025,Alarm,confabulation,generative,0.950,LLM fabricates synthetic medical datasets with false statistical data to support fake evidence,q7_failuremode_v1,claude-sonnet-4-6
+34893776,2021,Alarm,misclassification,discriminative,0.970,Classification models produce false negatives (underdiagnosis) in underserved populations,q7_failuremode_v1,claude-sonnet-4-6
+36997411,2023,Alarm,misclassification,discriminative,0.920,AI classification model producing inconsistent GO/NO-GO predictions with poor repeatability and accuracy,q7_failuremode_v1,claude-sonnet-4-6
+40405178,2025,Alarm,misclassification,generative,0.850,"ChatGPT produces wrong diagnoses and treatment recommendations, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+40584686,2025,Alarm,misclassification,generative,0.820,"Evaluates accuracy/reliability of LLM responses against guidelines, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+39579604,2025,Alarm,misclassification,generative,0.820,"LLM accuracy/correctness evaluated via expert scoring, not fabrication of citations",q7_failuremode_v1,claude-sonnet-4-6
+38310152,2024,Alarm,misclassification,generative,0.820,ChatGPT accuracy and comprehensiveness scored against expert benchmarks; no fabrication focus,q7_failuremode_v1,claude-sonnet-4-6
+37211215,2023,Alarm,misclassification,discriminative,0.750,Focus on bias in predictive ML models due to missing demographic variables in training data,q7_failuremode_v1,claude-sonnet-4-6
+38319619,2024,Alarm,misclassification,generative,0.900,"ChatGPT accuracy on clinical vignettes measured; wrong answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40055537,2025,Alarm,none_or_unclear,generative,0.700,"Focus is on regulatory gap, not a specific failure mechanism like confabulation or misclassification",q7_failuremode_v1,claude-sonnet-4-6
+38447503,2024,Alarm,misclassification,generative,0.870,"LLMs evaluated on accuracy of medical score calculation, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40961147,2025,Alarm,misclassification,both,0.820,Evaluates classification accuracy of discriminative risk tools and LLMs in decision-making,q7_failuremode_v1,claude-sonnet-4-6
+38112814,2023,Alarm,misclassification,discriminative,0.900,Systematically biased AI diagnostic model causing wrong predictions/classifications in clinical diagnosis,q7_failuremode_v1,claude-sonnet-4-6
+38967219,2024,Alarm,confabulation,generative,0.850,Chatbot reliability implies fabricated/unfaithful content for patient information queries,q7_failuremode_v1,claude-sonnet-4-6
+41682830,2026,Alarm,misclassification,discriminative,0.900,"Vision-language model evaluated for classification accuracy; false positives, poor sensitivity/specificity reported",q7_failuremode_v1,claude-sonnet-4-6
+40726742,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on accuracy of answering clinical questions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41571141,2026,Alarm,misclassification,generative,0.870,"LLMs produce wrong triage/clinical decisions based on tone, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+36825452,2023,Alarm,misclassification,both,0.920,Predictive models compared for ploidy classification accuracy; both ML and logistic regression evaluated,q7_failuremode_v1,claude-sonnet-4-6
+36624227,2023,Alarm,misclassification,discriminative,0.950,AI detection/classification of CXR abnormalities with false negatives and poor sensitivity,q7_failuremode_v1,claude-sonnet-4-6
+37538021,2024,Alarm,confabulation,generative,0.820,ChatGPT generated care plan text with significant errors and fabricated/unfaithful clinical content,q7_failuremode_v1,claude-sonnet-4-6
+38545679,2024,Alarm,misclassification,generative,0.850,"Evaluates ChatGPT answer accuracy/correctness rates, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+42044823,2026,Alarm,confabulation,generative,0.820,"LLM summaries appear faithful/fluent but fail comprehension—unfaithful to true understanding, not misclassification",q7_failuremode_v1,claude-sonnet-4-6
+39999963,2025,Alarm,misclassification,discriminative,0.950,AI-CAD classification performance (sensitivity/specificity/AUC) evaluated on mammography images,q7_failuremode_v1,claude-sonnet-4-6
+37410672,2023,Alarm,none_or_unclear,generative,0.700,"General risk framing about educational harms, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+37220190,2023,Alarm,misclassification,generative,0.900,"LLM accuracy on multiple-choice exam questions; wrong answer selection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40831290,2025,Alarm,misclassification,generative,0.850,"LLMs generating wrong CPT codes; accuracy/agreement measured, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38244023,2024,Alarm,misclassification,discriminative,0.700,Skin cancer diagnosis AI likely involves classification/detection models and diagnostic accuracy concerns,q7_failuremode_v1,claude-sonnet-4-6
+38717102,2024,Alarm,none_or_unclear,generative,0.550,Commentary on ChatGPT rhinoplasty consultations; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+38701406,2024,Alarm,misclassification,generative,0.720,"Evaluating quality/accuracy of AI-generated care plans, not fabrication specifically",q7_failuremode_v1,claude-sonnet-4-6
+39466443,2024,Alarm,confabulation,generative,0.870,LLMs generating fabricated/inaccurate systematic review content on technical laser topics,q7_failuremode_v1,claude-sonnet-4-6
+40807198,2025,Alarm,misclassification,discriminative,0.950,ML algorithm for gingivitis detection shows poor classification agreement with clinical gold standard,q7_failuremode_v1,claude-sonnet-4-6
+39613920,2025,Alarm,misclassification,generative,0.950,"LLM evaluated for diagnostic accuracy/sensitivity/specificity, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40182256,2025,Alarm,misclassification,generative,0.720,"Evaluates accuracy/quality scores of LLM responses, not fabrication of content",q7_failuremode_v1,claude-sonnet-4-6
+41289564,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated on diagnostic/treatment accuracy, wrong recommendations rated as hazardous",q7_failuremode_v1,claude-sonnet-4-6
+38042605,2023,Alarm,FAILED,FAILED,0.000,ERROR: list index out of range,q7_failuremode_v1,claude-sonnet-4-6
+40959025,2025,Alarm,misclassification,generative,0.850,"LLMs evaluated for accuracy/concordance with clinical guidelines, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38217726,2024,Alarm,confabulation,generative,0.920,"ChatGPT produced inaccurate/fabricated references scored 0.25, explicit hallucinated citations mechanism",q7_failuremode_v1,claude-sonnet-4-6
+41161368,2026,Alarm,misclassification,discriminative,0.870,"Predictive model shows data leakage bias causing non-physiological, invariant power predictions—miscalibration/false accuracy.",q7_failuremode_v1,claude-sonnet-4-6
+41040620,2025,Alarm,misclassification,generative,0.920,"LLM accuracy on MCQ exam assessed; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38806794,2024,Alarm,misclassification,generative,0.920,"Diagnostic accuracy of LLMs vs radiologists measured; wrong diagnoses, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37994939,2024,Alarm,misclassification,generative,0.920,"Evaluates diagnostic accuracy of ChatGPT, measuring correct/incorrect diagnoses, not fabrication.",q7_failuremode_v1,claude-sonnet-4-6
+38459362,2024,Alarm,misclassification,generative,0.850,"GPT accuracy in descriptions and differential diagnoses evaluated, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39043988,2024,Alarm,both,generative,0.900,GPT-4V shows misclassification errors and flawed/fabricated rationales despite correct answers,q7_failuremode_v1,claude-sonnet-4-6
+38237878,2024,Alarm,both,generative,0.950,LLMs gave wrong treatment recommendations (misclassification) and fabricated non-existent journal citations (confabulation),q7_failuremode_v1,claude-sonnet-4-6
+39216786,2025,Alarm,misclassification,generative,0.820,LLMs underrepresent/mislabel disability prevalence and produce biased quality scores,q7_failuremode_v1,claude-sonnet-4-6
+38592758,2024,Alarm,misclassification,generative,0.920,Evaluates diagnostic accuracy (correct label prediction) of LLM-based multimodal system,q7_failuremode_v1,claude-sonnet-4-6
+40416675,2025,Alarm,none_or_unclear,generative,0.750,Descriptive regulatory/accessibility audit; no specific failure mechanism evaluated,q7_failuremode_v1,claude-sonnet-4-6
+40299004,2025,Alarm,misclassification,discriminative,0.920,AI algorithm produces inaccurate fetal weight predictions compared to actual birth weight,q7_failuremode_v1,claude-sonnet-4-6
+40019299,2025,Alarm,confabulation,generative,0.820,Focuses on misinformation/fabricated content from generative AI in healthcare context,q7_failuremode_v1,claude-sonnet-4-6
+40782043,2025,Alarm,confabulation,generative,0.820,LLM produces inaccurate/unfaithful medical content with lack of transparency about sources,q7_failuremode_v1,claude-sonnet-4-6
+37198691,2023,Alarm,misclassification,discriminative,0.850,"Models exploit acquisition-site bias, causing spurious predictions and poor generalization in classification tasks",q7_failuremode_v1,claude-sonnet-4-6
+41708525,2026,Alarm,misclassification,generative,0.850,"LLMs scored on multiple-choice accuracy; wrong answers are misclassification, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41038984,2025,Alarm,none_or_unclear,both,0.720,"Focus is on declining safety disclaimers, not fabrication or misclassification mechanisms",q7_failuremode_v1,claude-sonnet-4-6
+39211977,2025,Alarm,both,generative,0.950,Fabricated nonexistent references (confabulation) and incorrect answers 24% of time (misclassification),q7_failuremode_v1,claude-sonnet-4-6
+41828026,2026,Alarm,both,generative,0.950,Low specificity/misclassification plus explicit hallucinated lesions described,q7_failuremode_v1,claude-sonnet-4-6
+41004181,2025,Alarm,none_or_unclear,discriminative,0.600,Regulatory reporting gaps study; no specific AI failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+41162483,2025,Alarm,confabulation,generative,0.970,LLMs produced hallucinated and unfaithful citations; fabrication is the core mechanism studied,q7_failuremode_v1,claude-sonnet-4-6
+38751951,2024,Alarm,confabulation,generative,0.820,LLMs generate medically inaccurate/misinformation content; fabricated plausible-but-false medical advice identified,q7_failuremode_v1,claude-sonnet-4-6
+41167474,2025,Alarm,misclassification,generative,0.750,"LLMs evaluated for clinical accuracy and reliability in surgical decision-making, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+41797077,2026,Alarm,misclassification,generative,0.950,"LLMs evaluated on diagnostic accuracy, false positives/negatives in STEMI detection",q7_failuremode_v1,claude-sonnet-4-6
+38504411,2026,Alarm,misclassification,generative,0.820,"LLMs scored for content accuracy/completeness vs reference standard, not fabrication per se",q7_failuremode_v1,claude-sonnet-4-6
+40974068,2026,Alarm,none_or_unclear,unclear,0.950,"Paper is about robot-assisted gait training, not AI/ML models at all",q7_failuremode_v1,claude-sonnet-4-6
+39426042,2024,Alarm,none_or_unclear,generative,0.750,"General legal/ethical framing of GenAI risks, no specific failure mechanism described",q7_failuremode_v1,claude-sonnet-4-6
+41245704,2025,Alarm,misclassification,both,0.820,Compares AI accuracy/sensitivity/specificity vs surgeons across classification and generative tasks,q7_failuremode_v1,claude-sonnet-4-6
+40584716,2025,Alarm,confabulation,generative,0.850,ChatGPT models produced fabricated/inappropriate answers when tasked with systematic literature review,q7_failuremode_v1,claude-sonnet-4-6
+41225986,2025,Alarm,misclassification,generative,0.850,"ChatGPT produces inconsistent/wrong TIRADS classifications, not fabricated content",q7_failuremode_v1,claude-sonnet-4-6
+41118647,2025,Alarm,misclassification,both,0.870,LLMs evaluated on diagnostic classification accuracy; both generative LLMs and traditional ML classifiers compared,q7_failuremode_v1,claude-sonnet-4-6
+37309153,2023,Alarm,confabulation,generative,0.750,"Discusses deception/fabrication in publications via ChatGPT, a generative model",q7_failuremode_v1,claude-sonnet-4-6
+35737491,2022,Alarm,none_or_unclear,unclear,0.650,Ethical/policy framing about AI in clinical decisions; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6
+40355854,2025,Alarm,misclassification,generative,0.850,"LLM gives wrong diagnostic labels under social pressure; accuracy/classification errors, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+40772773,2025,Alarm,confabulation,generative,0.980,Explicitly measures fabricated/inaccurate references and citation hallucinations in LLM-generated text,q7_failuremode_v1,claude-sonnet-4-6
+38867035,2024,Alarm,misclassification,generative,0.950,Evaluates diagnostic accuracy/sensitivity/specificity of GPT-4V on CT image classification,q7_failuremode_v1,claude-sonnet-4-6
+37741773,2023,Alarm,misclassification,generative,0.920,"LLM accuracy on localization and diagnosis tasks, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38514657,2024,Alarm,misclassification,discriminative,0.850,AI-DSS produces probabilistic diagnoses and segmentations; wrong/ambiguous outputs cause diagnostic errors,q7_failuremode_v1,claude-sonnet-4-6
+40912058,2025,Alarm,misclassification,discriminative,0.970,DL-CNN classification model evaluated for diagnostic accuracy on rare skin tumors,q7_failuremode_v1,claude-sonnet-4-6
+40686449,2026,Alarm,misclassification,generative,0.920,"LLM evaluated for diagnostic accuracy/sensitivity in detecting hemorrhages, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+39428414,2024,Alarm,misclassification,discriminative,0.900,AI platforms produce inaccurate landmark/measurement predictions compared to orthodontist ground truth,q7_failuremode_v1,claude-sonnet-4-6
+39873040,2025,Alarm,misclassification,generative,0.900,"LLMs evaluated on accuracy/correctness of dental exam answers, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38696177,2024,Alarm,misclassification,generative,0.900,"VLM evaluated on diagnostic accuracy/feature detection, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+32335539,2021,Alarm,none_or_unclear,unclear,0.700,"Study evaluates web search quality, not AI failure mechanisms specifically",q7_failuremode_v1,claude-sonnet-4-6
+41672646,2026,Alarm,confabulation,generative,0.850,"LLMs accepting fabricated/false medical claims; misinformation absorption, not classification errors",q7_failuremode_v1,claude-sonnet-4-6
+39529938,2024,Alarm,misclassification,generative,0.820,"LLM accuracy/quality rated by experts; incomplete/incorrect answers, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+41381251,2025,Alarm,misclassification,generative,0.870,"LLMs evaluated on accuracy of treatment recommendations vs gold standard, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37217426,2023,Alarm,misclassification,discriminative,0.820,"Predictive models for blood transfusion with poor generalization, bias, miscalibration issues",q7_failuremode_v1,claude-sonnet-4-6
+39408030,2024,Alarm,both,generative,0.850,Measures accuracy/misclassification of guideline recommendations AND explicitly mentions hallucinations,q7_failuremode_v1,claude-sonnet-4-6
+38032062,2024,Alarm,misclassification,generative,0.850,"ChatGPT benchmarked on diagnostic accuracy vs pathologists; wrong diagnoses, not fabrication focus",q7_failuremode_v1,claude-sonnet-4-6
+38687216,2024,Alarm,misclassification,generative,0.920,"LLMs assigned wrong BI-RADS categories; accuracy/agreement evaluation, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+38646965,2026,Alarm,misclassification,generative,0.820,"LLMs scored on accuracy of protocol generation; wrong outputs are incorrect predictions, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+37467806,2023,Alarm,both,generative,0.920,Fabricated/incorrect citations plus misclassification of guideline-based clinical accuracy,q7_failuremode_v1,claude-sonnet-4-6
+38916508,2024,Alarm,misclassification,generative,0.750,"Accuracy/quality of ChatGPT responses compared to authoritative sources, not fabrication",q7_failuremode_v1,claude-sonnet-4-6
+34988593,2022,Alarm,misclassification,discriminative,0.970,DL detection model evaluated on false positives/negatives for ICH classification,q7_failuremode_v1,claude-sonnet-4-6
+40802099,2025,Alarm,misclassification,generative,0.720,LLMs scored/evaluated on quality metrics; no fabrication explicitly measured,q7_failuremode_v1,claude-sonnet-4-6
+33413181,2021,Alarm,misclassification,discriminative,0.950,DNNs misclassify medical images under adversarial perturbations; no fabrication involved,q7_failuremode_v1,claude-sonnet-4-6
+39560355,2025,Alarm,none_or_unclear,generative,0.700,General risk framing about trauma from AI content; no specific failure mechanism described,q7_failuremode_v1,claude-sonnet-4-6

@@ -50,6 +50,8 @@ output/*.log
 # Batch state files (transient submit/poll bookkeeping — not for commit)
 output/*batch_ids.txt
 output/*batch_processed.txt
+output/*batch_ids.txt.*
+output/*batch_processed.txt.*
 
 # Archived prior pipeline runs (preserved locally for diagnostics, never committed)
 output/archive_*/
