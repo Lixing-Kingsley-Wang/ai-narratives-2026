@@ -102,50 +102,87 @@ print(f"\nTotal confab-involved papers MISSED by the old gate: {total_missed} "
       f"{ac[(ac.confab_inv==1)&(ac.hallu_gate==1)].shape[0]}/{ac[ac.confab_inv==1].shape[0]} "
       f"= {ac[(ac.confab_inv==1)&(ac.hallu_gate==1)].shape[0]/ac[ac.confab_inv==1].shape[0]*100:.1f}%.")
 
-# ── Figure 1: gate composition ───────────────────────────────────────────────
+# ── Figure 1: gate composition (single enlarged panel) ───────────────────────
 from matplotlib.patches import Patch
-fig, (axL, axR) = plt.subplots(1, 2, figsize=(15, 6.4), gridspec_kw={"width_ratios":[1.25,1]})
-fig.subplots_adjust(top=0.84, bottom=0.20, wspace=0.22)
+import matplotlib.patheffects as pe
+HALO = [pe.withStroke(linewidth=1.8, foreground="white")]   # black text stays legible on any colour
+fig, axL = plt.subplots(figsize=(11, 7.2))
+fig.subplots_adjust(top=0.88, bottom=0.16, left=0.09, right=0.97)
 x = np.arange(len(YEARS))
 FM_COL = {"confabulation":"#d62728","both":"#9467bd",
           "misclassification":"#1f77b4","none_or_unclear":"#bcbd22"}
 order = ["confabulation","both","misclassification","none_or_unclear"]
+# stacked COUNTS: bar height = that year's gated n (∝ volume); segment
+# proportions still show the failure_mode composition. Labels give the % within
+# the year so composition stays readable.
+year_tot = np.array([int(ct[y].sum()) for y in YEARS])
 bottom = np.zeros(len(YEARS))
 for fm in order:
-    vals = pct.loc[fm, YEARS].values
-    axL.bar(x, vals, bottom=bottom, color=FM_COL[fm], width=0.7,
+    cnt = ct.loc[fm, YEARS].values.astype(float)
+    pc  = pct.loc[fm, YEARS].values
+    axL.bar(x, cnt, bottom=bottom, color=FM_COL[fm], width=0.7,
             edgecolor="white", linewidth=0.5, label=fm)
-    for j,v in enumerate(vals):
-        if v >= 5:
-            axL.text(j, bottom[j]+v/2, f"{v:.0f}", ha="center", va="center",
-                     fontsize=8, color="white" if fm!="none_or_unclear" else "black",
-                     fontweight="bold")
-    bottom += vals
-axL.axvline(2-0.5, color="black", ls="--", lw=1, alpha=0.6)
-axL.set_xticks(x); axL.set_xticklabels([f"{y}\n(n={int(ct[y].sum())})" for y in YEARS], fontsize=9)
-axL.set_ylim(0,105); axL.set_ylabel("% within year")
-axL.set_title("A. failure_mode composition INSIDE the old 'hallucination' gate\n"
-              "(heterogeneous gate: pre-2023 misclassification, post-2023 more confabulation)",
-              fontsize=10.5, loc="left")
+    for j in range(len(YEARS)):
+        # main bars: label % only for 2024–2026 (j>=3); 2021–2023 read from inset
+        if pc[j] >= 8 and j >= 3:
+            axL.text(j, bottom[j]+cnt[j]/2, f"{pc[j]:.0f}%", ha="center", va="center",
+                     fontsize=9, color="black", fontweight="bold", path_effects=HALO)
+    bottom += cnt
+YTOP = year_tot.max()*1.12
+# total-n label atop each bar
+for j in range(len(YEARS)):
+    axL.text(j, year_tot[j] + year_tot.max()*0.015, f"n={year_tot[j]}",
+             ha="center", va="bottom", fontsize=9, color="black", fontweight="bold")
+axL.set_xticks(x); axL.set_xticklabels(YEARS, fontsize=10)
+# 2026 is a partial year (corpus ends Apr 2026)
+axL.annotate("Jan–Apr only\n(2026.1–4 incl.)", xy=(5, 0), xytext=(0, -30),
+             textcoords="offset points", ha="center", va="top", fontsize=7.5,
+             color="0.4", style="italic", annotation_clip=False)
+axL.set_ylim(0, YTOP); axL.set_ylabel("# hallucination-gated papers", fontsize=11)
+axL.set_title("failure_mode composition INSIDE the old 'hallucination' gate\n"
+              "bar height ∝ gated n per year · segments = failure_mode share · labels = % within year",
+              fontsize=12, loc="left")
 for s in ("top","right"): axL.spines[s].set_visible(False)
 
-axR.bar(x, rec["n_confab"].values, color="#d62728", width=0.6, alpha=0.85)
-for j,(n,p) in enumerate(zip(rec["n_confab"].values, rec["pct_confab"].values)):
-    axR.text(j, n+0.4, f"{int(n)}\n({p:.0f}%)", ha="center", va="bottom", fontsize=8)
-axR.axvline(2-0.5, color="black", ls="--", lw=1, alpha=0.6)
-axR.set_xticks(x); axR.set_xticklabels([f"{y}\n(n_ng={int(rec['n_notgated'][y])})" for y in YEARS], fontsize=9)
-axR.set_ylabel("# confab-involved papers MISSED by gate")
-axR.set_ylim(0, max(rec["n_confab"].max()*1.25, 5))
-axR.set_title("B. Gate-recall miss: confab-involved papers\nthe old gate did NOT flag (by year)",
-              fontsize=10.5, loc="left")
-for s in ("top","right"): axR.spines[s].set_visible(False)
-# shared failure_mode legend BELOW panel A, outside the bars (no occlusion)
+# ── inset: zoom on the small early years so their composition is readable ─────
+ins = axL.inset_axes([0.045, 0.44, 0.40, 0.50])   # upper-left, clear of the 2024 bar
+zoom_years = ["2021", "2022", "2023"]
+zx = np.arange(len(zoom_years))
+zbottom = np.zeros(len(zoom_years))
+for fm in order:
+    zc = ct.loc[fm, zoom_years].values.astype(float)
+    zp = pct.loc[fm, zoom_years].values
+    ins.bar(zx, zc, bottom=zbottom, color=FM_COL[fm], width=0.72,
+            edgecolor="white", linewidth=0.5)
+    for j in range(len(zoom_years)):
+        if zp[j] >= 1.5:   # label ALL non-trivial segments (incl. the ~2% slices)
+            ins.text(j, zbottom[j]+zc[j]/2, f"{zp[j]:.0f}%", ha="center", va="center",
+                     fontsize=7, color="black", fontweight="bold", path_effects=HALO)
+    zbottom += zc
+ztot = np.array([int(ct[y].sum()) for y in zoom_years])
+for j in range(len(zoom_years)):
+    ins.text(j, ztot[j] + ztot.max()*0.02, f"n={ztot[j]}",
+             ha="center", va="bottom", fontsize=7.5, color="black", fontweight="bold")
+# call out that 2022's 2% slice is confabulation (too thin to read the colour)
+_conf22 = ct.loc["confabulation", "2022"]
+ins.annotate("2% = confabulation", xy=(1, _conf22/2), xytext=(0.05, 150),
+             fontsize=6.5, ha="left", va="center", color="#d62728", fontweight="bold",
+             path_effects=HALO,
+             arrowprops=dict(arrowstyle="->", color="#d62728", lw=1.0, shrinkB=2))
+ins.set_xticks(zx); ins.set_xticklabels(zoom_years, fontsize=8)
+ins.set_ylim(0, ztot.max()+20)
+ins.set_yticks([0, 100, 200])
+ins.tick_params(axis="y", labelsize=7.5)
+ins.set_title("Zoom: 2021–2023", fontsize=9, fontweight="bold")
+for s in ("top","right"): ins.spines[s].set_visible(False)
+
+# failure_mode legend BELOW the panel, outside the bars (no occlusion)
 handles = [Patch(facecolor=FM_COL[fm], label=fm) for fm in order]
-axL.legend(handles=handles, fontsize=9, frameon=False, ncol=4,
-           loc="upper center", bbox_to_anchor=(0.5, -0.12))
-fig.suptitle("Q7 Phase 3 · Part 1 — the 'hallucination' theme gate is heterogeneous and leaky",
-             fontsize=12, y=0.97)
-fig.text(0.5, 0.02,
+axL.legend(handles=handles, fontsize=10, frameon=False, ncol=4,
+           loc="upper center", bbox_to_anchor=(0.5, -0.09))
+fig.suptitle("Q7 Phase 3 · Part 1 — the 'hallucination' theme gate is heterogeneous",
+             fontsize=13, y=0.965)
+fig.text(0.5, 0.03,
          "Prompt: q7_failuremode_v1 · A+C (n=%d) · old gate from output/analysis/thematic_alarm.csv"%len(ac),
          ha="center", fontsize=8, style="italic", color="gray")
 f1 = os.path.join(FIGDIR, f"q7_gate_composition{SUF}.png")
