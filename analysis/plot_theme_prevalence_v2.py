@@ -124,7 +124,7 @@ def plot_main(df: pd.DataFrame) -> None:
     )
     ax.grid(axis="y", alpha=0.25, ls="--", lw=0.5)
 
-    leg = ax.legend(
+    ax.legend(
         handles=line_handles + [other_patch],
         loc="center left",
         bbox_to_anchor=(1.01, 0.5),
@@ -134,7 +134,14 @@ def plot_main(df: pd.DataFrame) -> None:
     )
 
     fig.tight_layout()
-    fig.subplots_adjust(right=0.72)
+    fig.subplots_adjust(right=0.72, bottom=0.18)
+    fig.text(
+        0.5, 0.04,
+        "Lines: point estimate; shaded bands: bootstrap 95% CI (n=1,000). "
+        "Themes can co-occur per paper. *2026 partial year (Jan–Apr).",
+        ha="center", va="top", fontsize=7.5, color="#444444",
+        wrap=True,
+    )
 
     out = FIGURES_DIR / "theme_prevalence.png"
     fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")
@@ -154,12 +161,8 @@ def plot_supplementary(df: pd.DataFrame) -> None:
 
     for t in MINOR_THEMES:
         c = MINOR_COLOURS[t]
-        yerr_lo = pt[t].values - lo[t].values
-        yerr_hi = hi[t].values - pt[t].values
         ax.plot(YEARS, pt[t], marker="o", lw=2, color=c,
-                label=f"{MINOR_LABELS[t]} ({overall[t]:.0f}%)", zorder=3)
-        ax.errorbar(YEARS, pt[t], yerr=[yerr_lo, yerr_hi],
-                    fmt="none", color=c, capsize=3, lw=1, alpha=0.7, zorder=2)
+                label=f"{MINOR_LABELS[t]} ({overall[t]:.0f}%)")
 
     ax.set_xticks(YEARS)
     ax.set_xticklabels([str(y) if y != 2026 else "2026*" for y in YEARS], fontsize=10)
@@ -181,7 +184,12 @@ def plot_supplementary(df: pd.DataFrame) -> None:
     ax.grid(axis="y", alpha=0.25, ls="--", lw=0.5)
 
     fig.tight_layout()
-    fig.subplots_adjust(right=0.72)
+    fig.subplots_adjust(right=0.72, bottom=0.18)
+    fig.text(
+        0.5, 0.04,
+        "Lines: point estimate. Themes can co-occur per paper. *2026 partial year (Jan–Apr).",
+        ha="center", va="top", fontsize=7.5, color="#444444",
+    )
 
     out = FIGURES_DIR / "theme_prevalence_sup.png"
     fig.savefig(out, dpi=300, bbox_inches="tight", facecolor="white")
