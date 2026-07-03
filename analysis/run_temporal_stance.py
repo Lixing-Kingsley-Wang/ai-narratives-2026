@@ -38,8 +38,8 @@ STANCE_COLOURS = {
     "Alarm": "#C0392B",
     "Caution": "#E67E22",
     "Neutral": "#95A5A6",
-    "Cautious Optimism": "#27AE60",
-    "Advocacy": "#2980B9",
+    "Cautious Optimism": "#2980B9",
+    "Advocacy": "#27AE60",
 }
 
 YEARS = list(range(2021, 2027))  # 2021–2026 inclusive
@@ -165,12 +165,16 @@ def main() -> None:
     axes[0].set_ylabel("% of records", fontsize=10)
     axes[-1].legend(loc="upper right", fontsize=8, framealpha=0.9)
     fig.suptitle(
-        "Stance distribution by year — Q1/Q2 medical journals, 2021–2026\n"
-        "(v1 bars with bootstrap 95% CI, n_boot=1000; v2 overlay as line). "
-        "* 2026 partial year (Jan–Apr).",
-        fontsize=11, fontweight="bold", y=1.05,
+        "Temporal Distribution of AI Stances in Medical Journals, 2021–2026 (n=16,747)",
+        fontsize=11, fontweight="bold", y=1.02,
     )
-    fig.tight_layout()
+    fig.tight_layout(rect=[0, 0.07, 1, 1])
+    fig.text(
+        0.5, 0.01,
+        "Bars: v1 point estimate with bootstrap 95% CI (n=1,000 iterations); "
+        "line overlay: v2 robustness check. *2026 partial year (Jan–Apr only).",
+        ha="center", va="bottom", fontsize=7.5, color="#444444",
+    )
     out_fig = FIGURES_DIR / "temporal_stance.png"
     fig.savefig(out_fig, dpi=300, bbox_inches="tight", facecolor="white")
     plt.close(fig)
