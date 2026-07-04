@@ -147,10 +147,6 @@ def main() -> None:
             yerr=yerr,
             error_kw={"lw": 1.0, "capsize": 3, "ecolor": "#333"},
         )
-        # v2 overlay
-        v2_pts = boot_v2["point"][stance].values
-        ax.plot(YEARS, v2_pts, "o-", color="#444", lw=1.0, ms=3.5, alpha=0.65,
-                label="v2 (robustness)")
         ax.set_title(stance, fontsize=11, fontweight="bold")
         ax.set_xticks(YEARS)
         ax.set_xticklabels([str(y) if y != 2026 else "2026*" for y in YEARS],
@@ -163,7 +159,6 @@ def main() -> None:
             ha="right", va="top", fontsize=9, color="#333",
         )
     axes[0].set_ylabel("% of records", fontsize=10)
-    axes[-1].legend(loc="upper right", fontsize=8, framealpha=0.9)
     fig.suptitle(
         "Temporal Distribution of AI Stances in Medical Journals, 2021–2026 (n=16,747)",
         fontsize=11, fontweight="bold", y=1.02,
@@ -171,8 +166,8 @@ def main() -> None:
     fig.tight_layout(rect=[0, 0.07, 1, 1])
     fig.text(
         0.5, 0.01,
-        "Bars: v1 point estimate with bootstrap 95% CI (n=1,000 iterations); "
-        "line overlay: v2 robustness check. *2026 partial year (Jan–Apr only).",
+        "Bars: point estimate with bootstrap 95% CI (n=1,000 iterations). "
+        "*2026 partial year (Jan–Apr only).",
         ha="center", va="bottom", fontsize=7.5, color="#444444",
     )
     out_fig = FIGURES_DIR / "temporal_stance.png"
