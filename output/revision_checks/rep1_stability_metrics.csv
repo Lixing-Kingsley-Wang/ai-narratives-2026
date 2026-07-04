@@ -1,0 +1,2 @@
+n_records_sample,n_evaluated_both_valid,n_failed_run_A,n_failed_run_B,raw_agreement,n_labels_shifted,quadratic_weighted_kappa,model,temperature
+300,300,0,0,0.9533333333333334,14,0.9740617105738001,claude-sonnet-4-6,provider_default_1.0

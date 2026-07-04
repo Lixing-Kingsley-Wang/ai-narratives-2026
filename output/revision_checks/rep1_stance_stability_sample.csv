@@ -1,0 +1,301 @@
+record_id,pmid,pub_year,v1_canonical_stance,rerun_A_stance,rerun_A_conf,rerun_B_stance,rerun_B_conf
+VAL_0001,35872988,2022,Advocacy,Advocacy,High,Advocacy,High
+VAL_0002,42013239,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0003,35329186,2022,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0004,40915468,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0005,37202591,2023,Neutral,Neutral,High,Neutral,High
+VAL_0006,38991503,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0007,41529243,2026,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0008,36267967,2022,Cautious Optimism,Neutral,High,Neutral,High
+VAL_0009,41206192,2026,Caution,Caution,High,Caution,High
+VAL_0010,40540146,2025,Advocacy,Advocacy,High,Cautious Optimism,High
+VAL_0011,37574841,2023,Advocacy,Advocacy,High,Advocacy,High
+VAL_0012,41814072,2026,Neutral,Neutral,High,Neutral,High
+VAL_0013,32985324,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0014,37969495,2023,Caution,Caution,High,Caution,High
+VAL_0015,40239236,2025,Neutral,Neutral,High,Neutral,High
+VAL_0016,40093709,2025,Neutral,Neutral,High,Neutral,High
+VAL_0017,38422082,2024,Cautious Optimism,Cautious Optimism,Medium,Cautious Optimism,Medium
+VAL_0018,40301823,2025,Neutral,Neutral,High,Neutral,High
+VAL_0019,34527076,2021,Advocacy,Advocacy,High,Advocacy,High
+VAL_0020,39405186,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0021,40405178,2025,Alarm,Alarm,High,Alarm,High
+VAL_0022,39748331,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0023,41754062,2026,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0024,39894601,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0025,34890271,2021,Cautious Optimism,Caution,High,Cautious Optimism,High
+VAL_0026,34397576,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0027,41694518,2026,Advocacy,Advocacy,High,Advocacy,High
+VAL_0028,41939087,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0029,37945100,2024,Advocacy,Advocacy,High,Advocacy,High
+VAL_0030,34082064,2021,Advocacy,Advocacy,High,Advocacy,High
+VAL_0031,41091584,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0032,41950508,2026,Caution,Caution,High,Caution,High
+VAL_0033,38323515,2024,Neutral,Neutral,High,Neutral,High
+VAL_0034,40275308,2025,Neutral,Neutral,High,Neutral,High
+VAL_0035,39692996,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0036,36900036,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0037,40079336,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0038,34288435,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0039,39409537,2024,Alarm,Alarm,High,Alarm,High
+VAL_0040,41946482,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0041,37231330,2023,Alarm,Alarm,High,Alarm,High
+VAL_0042,38259001,2023,Advocacy,Advocacy,High,Advocacy,High
+VAL_0043,38565004,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0044,38141549,2024,Caution,Caution,High,Caution,High
+VAL_0045,39106070,2024,Neutral,Alarm,High,Alarm,High
+VAL_0046,37750493,2024,Alarm,Alarm,High,Alarm,High
+VAL_0047,41838317,2026,Caution,Caution,High,Caution,High
+VAL_0048,39264624,2024,Caution,Caution,High,Caution,High
+VAL_0049,39932784,2025,Caution,Caution,High,Caution,High
+VAL_0050,37704332,2023,Neutral,Neutral,High,Neutral,High
+VAL_0051,41761913,2026,Alarm,Alarm,High,Alarm,High
+VAL_0052,34886244,2021,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0053,38269650,2024,Neutral,Neutral,High,Neutral,High
+VAL_0054,38667736,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0055,41525195,2025,Caution,Caution,High,Caution,High
+VAL_0056,33594897,2022,Neutral,Cautious Optimism,High,Cautious Optimism,High
+VAL_0057,36626192,2023,Caution,Caution,High,Caution,High
+VAL_0058,37754934,2023,Alarm,Alarm,High,Alarm,High
+VAL_0059,37604328,2023,Neutral,Neutral,High,Neutral,High
+VAL_0060,41203886,2025,Neutral,Neutral,High,Caution,Medium
+VAL_0061,39677375,2025,Caution,Caution,High,Caution,High
+VAL_0062,40818204,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0063,35124665,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0064,41347125,2025,Caution,Caution,High,Caution,High
+VAL_0065,38188345,2023,Caution,Caution,High,Caution,High
+VAL_0066,40089747,2025,Neutral,Cautious Optimism,High,Cautious Optimism,High
+VAL_0067,41489300,2026,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0068,39999963,2025,Alarm,Alarm,High,Alarm,High
+VAL_0069,40319039,2025,Neutral,Neutral,High,Neutral,High
+VAL_0070,39733797,2025,Neutral,Neutral,High,Neutral,High
+VAL_0071,40974075,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0072,40428096,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0073,41590902,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0074,32974930,2021,Advocacy,Advocacy,High,Advocacy,High
+VAL_0075,41197595,2025,Caution,Caution,High,Caution,High
+VAL_0076,41025382,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0077,33499405,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0078,41868387,2026,Alarm,Alarm,High,Alarm,High
+VAL_0079,41626985,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0080,41256318,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0081,40622614,2025,Neutral,Neutral,High,Neutral,High
+VAL_0082,38215455,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0083,40246249,2025,Advocacy,Advocacy,High,Cautious Optimism,High
+VAL_0084,40290269,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0085,34394982,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0086,40214219,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0087,39230022,2024,Alarm,Alarm,High,Alarm,High
+VAL_0088,35773557,2022,Neutral,Neutral,High,Neutral,High
+VAL_0089,37427110,2023,Neutral,Caution,High,Neutral,High
+VAL_0090,38554069,2024,Caution,Caution,High,Caution,High
+VAL_0091,37547540,2023,Caution,Caution,High,Caution,High
+VAL_0092,34537134,2021,Caution,Caution,High,Caution,High
+VAL_0093,34951033,2022,Alarm,Alarm,High,Alarm,High
+VAL_0094,35232784,2022,Neutral,Neutral,High,Neutral,High
+VAL_0095,38006614,2024,Caution,Caution,High,Caution,High
+VAL_0096,35691440,2022,Advocacy,Advocacy,High,Advocacy,High
+VAL_0097,38388516,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0098,41335521,2025,Caution,Caution,High,Caution,High
+VAL_0099,41672140,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0100,36171272,2022,Caution,Caution,High,Caution,High
+VAL_0101,38569639,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0102,37071280,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0103,33519433,2020,Neutral,Neutral,High,Neutral,High
+VAL_0104,39175590,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0105,38740469,2024,Neutral,Neutral,High,Neutral,High
+VAL_0106,40196962,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0107,41677994,2025,Alarm,Alarm,High,Alarm,High
+VAL_0108,40220179,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0109,41270992,2026,Alarm,Alarm,High,Alarm,High
+VAL_0110,39846075,2025,Caution,Caution,High,Cautious Optimism,High
+VAL_0111,41951858,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0112,41660542,2026,Alarm,Alarm,High,Alarm,High
+VAL_0113,40597031,2025,Caution,Caution,High,Caution,High
+VAL_0114,41340047,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0115,42037603,2026,Neutral,Neutral,High,Neutral,High
+VAL_0116,41406283,2025,Neutral,Neutral,Medium,Neutral,High
+VAL_0117,36670118,2023,Neutral,Neutral,High,Neutral,High
+VAL_0118,35749623,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0119,38133908,2023,Caution,Caution,High,Caution,High
+VAL_0120,41629059,2026,Caution,Caution,High,Caution,High
+VAL_0121,39543611,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0122,37224516,2023,Cautious Optimism,Cautious Optimism,Medium,Cautious Optimism,Medium
+VAL_0123,40095966,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0124,40361763,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0125,41493897,2026,Neutral,Neutral,High,Neutral,High
+VAL_0126,37155000,2023,Caution,Caution,High,Caution,High
+VAL_0127,38742754,2024,Alarm,Alarm,High,Alarm,High
+VAL_0128,37988149,2023,Caution,Caution,High,Caution,High
+VAL_0129,35385184,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0130,38897175,2024,Alarm,Alarm,High,Alarm,High
+VAL_0131,35680613,2022,Neutral,Neutral,High,Neutral,High
+VAL_0132,38576308,2024,Neutral,Neutral,High,Neutral,High
+VAL_0133,36731310,2023,Neutral,Neutral,High,Neutral,High
+VAL_0134,40764201,2026,Neutral,Neutral,High,Neutral,High
+VAL_0135,41023264,2025,Neutral,Neutral,High,Neutral,High
+VAL_0136,34155984,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0137,38909180,2024,Caution,Caution,High,Caution,High
+VAL_0138,33340123,2021,Caution,Caution,High,Caution,High
+VAL_0139,40665980,2025,Neutral,Neutral,High,Neutral,High
+VAL_0140,40371494,2026,Caution,Caution,High,Caution,High
+VAL_0141,36939696,2023,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0142,35916673,2022,Caution,Caution,High,Caution,High
+VAL_0143,38011011,2024,Caution,Caution,High,Caution,High
+VAL_0144,40687630,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0145,35278146,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0146,37698703,2024,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0147,40996509,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0148,38416482,2024,Caution,Caution,High,Caution,High
+VAL_0149,40631924,2025,Advocacy,Advocacy,High,Cautious Optimism,High
+VAL_0150,39711496,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0151,39322406,2024,Caution,Caution,High,Caution,High
+VAL_0152,40436614,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0153,37665729,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0154,38871349,2025,Caution,Caution,High,Caution,High
+VAL_0155,40648241,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0156,34464278,2022,Neutral,Neutral,High,Neutral,High
+VAL_0157,41224513,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0158,41311632,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0159,41276667,2026,Alarm,Alarm,High,Alarm,High
+VAL_0160,37831495,2023,Neutral,Neutral,High,Neutral,High
+VAL_0161,40454208,2025,Caution,Caution,High,Caution,High
+VAL_0162,41183651,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0163,40411724,2025,Caution,Caution,High,Caution,High
+VAL_0164,36878360,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0165,40335319,2025,Neutral,Cautious Optimism,High,Neutral,High
+VAL_0166,39186000,2024,Advocacy,Advocacy,High,Advocacy,High
+VAL_0167,41417777,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0168,41734929,2026,Caution,Caution,High,Caution,High
+VAL_0169,41807959,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0170,42040623,2026,Caution,Caution,High,Caution,High
+VAL_0171,40570257,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0172,39280147,2024,Caution,Caution,High,Caution,High
+VAL_0173,37750257,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0174,36278323,2023,Caution,Caution,High,Caution,High
+VAL_0175,41045018,2025,Caution,Caution,High,Caution,High
+VAL_0176,40196917,2025,Alarm,Alarm,High,Alarm,High
+VAL_0177,40482575,2025,Alarm,Alarm,High,Alarm,High
+VAL_0178,41982429,2026,Neutral,Neutral,High,Neutral,High
+VAL_0179,37459906,2023,Advocacy,Advocacy,High,Advocacy,High
+VAL_0180,36250788,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0181,35354505,2022,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0182,38365427,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0183,36811011,2021,Alarm,Alarm,High,Alarm,High
+VAL_0184,40859774,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0185,39325705,2024,Alarm,Alarm,High,Alarm,High
+VAL_0186,41673893,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0187,36001408,2022,Alarm,Alarm,High,Alarm,High
+VAL_0188,37966807,2024,Alarm,Alarm,High,Alarm,High
+VAL_0189,36228127,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0190,41601600,2025,Neutral,Neutral,High,Neutral,High
+VAL_0191,37863612,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0192,38903157,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0193,39805110,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0194,38931161,2024,Neutral,Neutral,High,Neutral,High
+VAL_0195,40465378,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0196,33731170,2021,Advocacy,Cautious Optimism,High,Advocacy,High
+VAL_0197,35162901,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0198,38247116,2024,Neutral,Neutral,High,Neutral,High
+VAL_0199,35469549,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0200,41642151,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0201,37524914,2024,Caution,Caution,High,Caution,High
+VAL_0202,33742148,2021,Alarm,Alarm,High,Alarm,High
+VAL_0203,36997411,2023,Alarm,Alarm,High,Alarm,High
+VAL_0204,38735565,2024,Caution,Caution,High,Caution,High
+VAL_0205,39093229,2024,Neutral,Neutral,High,Neutral,High
+VAL_0206,36913002,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0207,40869701,2025,Alarm,Alarm,High,Alarm,High
+VAL_0208,39448515,2025,Alarm,Alarm,High,Alarm,High
+VAL_0209,41554116,2026,Caution,Caution,High,Caution,High
+VAL_0210,41742002,2026,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0211,39593041,2024,Neutral,Neutral,High,Neutral,High
+VAL_0212,41713400,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0213,35381490,2022,Neutral,Neutral,High,Neutral,High
+VAL_0214,35326946,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0215,41462460,2025,Caution,Caution,High,Caution,High
+VAL_0216,41494128,2026,Caution,Neutral,High,Caution,High
+VAL_0217,41799031,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0218,40086938,2025,Caution,Caution,High,Caution,High
+VAL_0219,36093684,2022,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0220,40378129,2025,Cautious Optimism,Neutral,Medium,Neutral,High
+VAL_0221,40397947,2025,Caution,Caution,High,Caution,High
+VAL_0222,38967407,2024,Alarm,Alarm,High,Alarm,High
+VAL_0223,36140543,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0224,36477347,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0225,39137403,2024,Alarm,Alarm,High,Alarm,High
+VAL_0226,41667642,2026,Advocacy,Advocacy,High,Advocacy,High
+VAL_0227,40563050,2025,Cautious Optimism,Caution,High,Cautious Optimism,High
+VAL_0228,39473198,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0229,41828006,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0230,40524839,2025,Alarm,Alarm,High,Alarm,High
+VAL_0231,40773435,2025,Neutral,Neutral,High,Neutral,High
+VAL_0232,40273439,2025,Caution,Caution,High,Caution,High
+VAL_0233,36146414,2022,Neutral,Neutral,High,Neutral,High
+VAL_0234,36040575,2023,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0235,41771212,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0236,38124357,2024,Alarm,Alarm,High,Alarm,High
+VAL_0237,40680990,2025,Cautious Optimism,Advocacy,High,Advocacy,High
+VAL_0238,38866891,2024,Neutral,Neutral,High,Neutral,High
+VAL_0239,39847582,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0240,35969467,2023,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0241,38975200,2024,Caution,Caution,High,Caution,High
+VAL_0242,39170856,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0243,39373853,2024,Neutral,Cautious Optimism,High,Cautious Optimism,High
+VAL_0244,41816214,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0245,39278360,2025,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0246,38133626,2024,Caution,Caution,High,Caution,High
+VAL_0247,41845047,2026,Caution,Caution,High,Caution,High
+VAL_0248,40216451,2025,Caution,Caution,High,Caution,High
+VAL_0249,38318798,2024,Caution,Caution,High,Caution,High
+VAL_0250,39276594,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0251,38585462,2024,Alarm,Alarm,High,Alarm,High
+VAL_0252,40857549,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0253,40342137,2025,Caution,Caution,High,Caution,High
+VAL_0254,35070384,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0255,41506371,2026,Alarm,Alarm,High,Alarm,High
+VAL_0256,35031822,2022,Advocacy,Advocacy,High,Advocacy,High
+VAL_0257,41092593,2026,Neutral,Neutral,High,Neutral,High
+VAL_0258,41183160,2025,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0259,38512017,2024,Caution,Caution,High,Caution,High
+VAL_0260,34387234,2022,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0261,39992569,2025,Alarm,Alarm,High,Alarm,High
+VAL_0262,40912058,2025,Alarm,Alarm,High,Alarm,High
+VAL_0263,39147901,2024,Advocacy,Advocacy,High,Advocacy,High
+VAL_0264,34927595,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0265,34156338,2021,Neutral,Neutral,High,Caution,High
+VAL_0266,39311453,2024,Caution,Caution,High,Caution,High
+VAL_0267,38453035,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0268,37510967,2023,Neutral,Cautious Optimism,High,Cautious Optimism,High
+VAL_0269,39110973,2024,Neutral,Neutral,High,Neutral,High
+VAL_0270,39895671,2024,Advocacy,Advocacy,High,Advocacy,High
+VAL_0271,37047950,2023,Neutral,Cautious Optimism,Medium,Cautious Optimism,Medium
+VAL_0272,41055082,2025,Neutral,Neutral,High,Neutral,High
+VAL_0273,39960745,2025,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0274,38724317,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0275,38421392,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0276,35302963,2022,Advocacy,Advocacy,High,Cautious Optimism,High
+VAL_0277,41870191,2026,Alarm,Alarm,High,Alarm,High
+VAL_0278,35357976,2022,Neutral,Neutral,High,Neutral,High
+VAL_0279,41266935,2025,Caution,Caution,High,Caution,High
+VAL_0280,39259925,2024,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0281,38593386,2024,Neutral,Neutral,Medium,Neutral,Medium
+VAL_0282,39873040,2025,Alarm,Alarm,High,Alarm,High
+VAL_0283,40194867,2025,Alarm,Alarm,High,Alarm,High
+VAL_0284,38421272,2024,Caution,Caution,High,Caution,High
+VAL_0285,40508883,2025,Caution,Caution,High,Caution,High
+VAL_0286,34000598,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0287,38284287,2024,Advocacy,Advocacy,High,Advocacy,High
+VAL_0288,38759427,2024,Caution,Caution,High,Caution,High
+VAL_0289,39851128,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0290,33835032,2021,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0291,42081524,2026,Cautious Optimism,Cautious Optimism,High,Cautious Optimism,High
+VAL_0292,39532572,2025,Alarm,Alarm,High,Alarm,High
+VAL_0293,34972616,2022,Advocacy,Advocacy,High,Advocacy,High
+VAL_0294,34479396,2021,Neutral,Neutral,High,Neutral,High
+VAL_0295,41674096,2026,Alarm,Alarm,High,Alarm,High
+VAL_0296,37055885,2023,Advocacy,Advocacy,High,Advocacy,High
+VAL_0297,40516520,2025,Advocacy,Advocacy,High,Advocacy,High
+VAL_0298,41563136,2026,Alarm,Alarm,High,Alarm,High
+VAL_0299,39105746,2025,Neutral,Neutral,High,Neutral,High
+VAL_0300,35700021,2022,Neutral,Cautious Optimism,High,Neutral,High

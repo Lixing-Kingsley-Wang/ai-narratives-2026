@@ -1,0 +1,2 @@
+test,N,n_opinion,n_research,table_rows,table_cols,min_r1_c1,chi2_recomputed,chi2_reported,dof,p_value,cramers_v_recomputed,cramers_v_from_reported_chi2
+opinion(Ed+Com+Let) vs Research Article x 5 stances (v1),11303,988,10315,5,2,1,430.53210472342465,430.5,4,7.016647693001303e-92,0.1951667846989428,0.19515950778232083
