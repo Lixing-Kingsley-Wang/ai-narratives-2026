@@ -1,0 +1,88 @@
+
+[PHASE 1] 2026-06-30T15:15:57
+  model=claude-sonnet-4-6 temperature=0.0 max_tokens=700
+  concurrency=5 seed=20260630 system_prompt_sha256_16=fda7d3fe251cbadd
+  input=/Users/kingslywang/repos/ai-narratives-2026/output/analyses/prophecy/prophecy_panel_candidates_2021_2023.csv n_candidates=92
+  flag_confirmed_yes=84 flag_precision=0.913 tiers(T1,T2,T3)=(9,33,42) title_only=27 api_failures=0
+  output=/Users/kingslywang/repos/ai-narratives-2026/output/analyses/prophecy/phase1_signature_claims_for_review.csv
+
+[PHASE 1 ENV] 2026-06-30T19:17:44Z
+  python: Python 3.12.3
+  git_branch: prompt-revision-v2 git_head: 1076f78
+  evidence_cutoff: 2026-04 (corpus fetched 2026-05-09)
+  --- pip freeze ---
+  aiohappyeyeballs==2.6.1
+  aiohttp==3.13.5
+  aiosignal==1.4.0
+  annotated-types==0.7.0
+  anthropic==0.100.0
+  anyio==4.13.0
+  attrs==26.1.0
+  certifi==2026.4.22
+  charset-normalizer==3.4.7
+  contourpy==1.3.3
+  cycler==0.12.1
+  distro==1.9.0
+  docstring_parser==0.18.0
+  et_xmlfile==2.0.0
+  fonttools==4.62.1
+  frozenlist==1.8.0
+  geopandas==1.1.3
+  h11==0.16.0
+  httpcore==1.0.9
+  httpx==0.28.1
+  idna==3.13
+  jiter==0.14.0
+  joblib==1.5.3
+  kiwisolver==1.5.0
+  matplotlib==3.10.9
+  multidict==6.7.1
+  numpy==2.4.4
+  openpyxl==3.1.5
+  packaging==26.2
+  pandas==3.0.2
+  pillow==12.2.0
+  propcache==0.4.1
+  pydantic==2.13.4
+  pydantic_core==2.46.4
+  pyogrio==0.12.1
+  pyparsing==3.3.2
+  pyproj==3.7.2
+  python-dateutil==2.9.0.post0
+  python-dotenv==1.2.2
+  requests==2.33.1
+  scikit-learn==1.8.0
+  scipy==1.17.1
+  seaborn==0.13.2
+  shapely==2.1.2
+  six==1.17.0
+  sniffio==1.3.1
+  threadpoolctl==3.6.0
+  tqdm==4.68.3
+  typing-inspection==0.4.2
+  typing_extensions==4.15.0
+  urllib3==2.7.0
+  yarl==1.23.0
+
+[PROTOCOL AMENDMENT] 2026-06-30T21:53:33Z
+  Phase 1 system prompt Tier-1 wording aligned to pre-registration A3:
+  "claimed to generalize" -> "predicted to generalize". Cosmetic; does not change tier logic.
+  Applies to future re-runs only; phase1_signature_claims_for_review.csv was produced with prior wording (logged SHA above).
+
+[PHASE 1 FREEZE] 2026-06-30T18:36:51
+  papers_kept=74 deleted=18 claims=78 tiers(T1,T2,T3)=(7,36,35)
+  split_papers=['33731170', '34602525', '36143468', '37686619']
+  restore=33937332(33529363 mis-paste) merged=[32767299,37489981] T1-superiority-kept
+  output=/Users/kingslywang/repos/ai-narratives-2026/output/analyses/prophecy/phase1_signature_claims_FROZEN.csv
+
+[PHASE 2a EMBED/RETRIEVE] 2026-06-30T20:12:47
+  query_model=ncbi/MedCPT-Query-Encoder@d83a36cc6b8e3a5c5e9d9d6ba156808c1643dcbc article_model=ncbi/MedCPT-Article-Encoder@d05a736da4bb84ee4057b7f7999485be6ed85465
+  pooling=CLS(last_hidden_state[:,0,:]) q_maxlen=64 a_maxlen=512 similarity=dot_product seed=20260630 device=mps
+  evidence_rows=58203 years=['2024', '2025', '2026'] cutoff=2026-04 top_k=20 claims=78
+  note=similarity metric not stated on model card; dot product chosen per MedCPT contrastive training + NCBI retrieval examples; raw embeds cached for recompute
+  embeds=/Users/kingslywang/repos/ai-narratives-2026/output/analyses/prophecy/embeddings/evidence_article_embeds.npy
+
+[PHASE 2b SUMMARIZE] 2026-06-30T20:19:15
+  model=claude-sonnet-4-6 temperature=0.0 claims=78 corpus_silent=9 api_failures=0
+  silence=model_judgment OR top_score<p10(63.7); maps to too_early/unfalsifiable, never not_borne_out
+  output=/Users/kingslywang/repos/ai-narratives-2026/output/analyses/prophecy/phase2_prophecy_verdicts_worksheet.csv
