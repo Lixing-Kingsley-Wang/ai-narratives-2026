@@ -139,9 +139,7 @@ axL.annotate("Jan–Apr only\n(2026.1–4 incl.)", xy=(5, 0), xytext=(0, -30),
              textcoords="offset points", ha="center", va="top", fontsize=7.5,
              color="0.4", style="italic", annotation_clip=False)
 axL.set_ylim(0, YTOP); axL.set_ylabel("# hallucination-gated papers", fontsize=11)
-axL.set_title("failure_mode composition INSIDE the old 'hallucination' gate\n"
-              "bar height ∝ gated n per year · segments = failure_mode share · labels = % within year",
-              fontsize=12, loc="left")
+axL.set_title("")
 for s in ("top","right"): axL.spines[s].set_visible(False)
 
 # ── inset: zoom on the small early years so their composition is readable ─────
@@ -180,11 +178,17 @@ for s in ("top","right"): ins.spines[s].set_visible(False)
 handles = [Patch(facecolor=FM_COL[fm], label=fm) for fm in order]
 axL.legend(handles=handles, fontsize=10, frameon=False, ncol=4,
            loc="upper center", bbox_to_anchor=(0.5, -0.09))
-fig.suptitle("Q7 Phase 3 · Part 1 — the 'hallucination' theme gate is heterogeneous",
-             fontsize=13, y=0.965)
-fig.text(0.5, 0.03,
-         "Prompt: q7_failuremode_v1 · A+C (n=%d) · old gate from output/analysis/thematic_alarm.csv"%len(ac),
-         ha="center", fontsize=8, style="italic", color="gray")
+fig.suptitle(
+    "Heterogeneity of Hallucination-Flagged Papers by Underlying Failure Mode,\n"
+    "2021–2026 (n=%d)" % int(year_tot.sum()),
+    fontsize=12, fontweight="bold", y=0.975,
+)
+fig.text(
+    0.5, 0.01,
+    "Bar height: count of hallucination-flagged papers per year; "
+    "segments: failure-mode share (% within year). *2026 partial year (Jan–Apr only).",
+    ha="center", va="bottom", fontsize=7.5, color="#444444",
+)
 f1 = os.path.join(FIGDIR, f"q7_gate_composition{SUF}.png")
 fig.savefig(f1, dpi=300, bbox_inches="tight"); plt.close(fig)
 print(f"\nSaved → {f1}")
