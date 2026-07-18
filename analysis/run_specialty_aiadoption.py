@@ -432,23 +432,17 @@ def make_figure(keep, counts, boot, fda_counts, rep_a) -> None:
     fig, ax = plt.subplots(figsize=(10, 7))
     ax.scatter(x_plot, y, s=sizes, color="#2C7FB8", alpha=0.75, edgecolor="white", zorder=3)
 
-    annotate = {
-        "Dermatology",
-        "Radiology / Diagnostic Imaging",
-        "Ophthalmology",
-        "Cardiology",
-    }
     for s, xp, yp in zip(keep, x_plot, y):
         label = s.split(" / ")[0]
-        weight = "bold" if s in annotate else "normal"
         ax.annotate(
             label,
             (xp, yp),
-            xytext=(5, 4),
+            xytext=(0, 6),
             textcoords="offset points",
             fontsize=8,
-            fontweight=weight,
-            color="#222" if s in annotate else "#666",
+            fontweight="normal",
+            color="#444",
+            ha="center",
         )
 
     # rank/regression line in log space over the mapped (non-zero) points.
@@ -466,12 +460,17 @@ def make_figure(keep, counts, boot, fda_counts, rep_a) -> None:
     ax.set_xlabel("FDA AI/ML-enabled device count (log scale; 0 plotted at 0.5)", fontsize=10)
     ax.set_ylabel("% Critical (Alarm + Caution)", fontsize=10)
     ax.set_title(
-        "AI clinical adoption vs critical stance by specialty\n"
-        "Q1/Q2 medical, 2021-2026; point size proportional to n papers",
+        "Cleared-Device Availability and Critical Stance Across Specialty/Domain Categories, 2021–2026",
         fontsize=11, fontweight="bold",
     )
     ax.grid(True, which="both", ls=":", alpha=0.4)
-    fig.tight_layout()
+    fig.tight_layout(rect=[0, 0.07, 1, 1])
+    fig.text(
+        0.5, 0.01,
+        "Point size proportional to n papers per specialty. "
+        "Zero FDA-device count plotted at x=0.5 on log scale.",
+        ha="center", va="bottom", fontsize=7.5, color="#444444",
+    )
     out_fig = FIGURES_DIR / "specialty_aiadoption_vs_critical.png"
     fig.savefig(out_fig, dpi=300, bbox_inches="tight", facecolor="white")
     plt.close(fig)
