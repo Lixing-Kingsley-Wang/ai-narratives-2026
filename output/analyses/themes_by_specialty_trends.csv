@@ -1,0 +1,9 @@
+specialty,n_total,hallucination_rho,hallucination_p,hallucination_21,hallucination_26,hallucination_delta,regulation_rho,regulation_p,regulation_21,regulation_26,regulation_delta,safety_clinical_rho,safety_clinical_p,safety_clinical_21,safety_clinical_26,safety_clinical_delta
+Medical Informatics / Digital Health,1949,1.0,0.0,13.5,46.2,32.6,-1.0,0.0,66.2,49.1,-17.1,0.829,0.0416,48.9,63.6,14.8
+Radiology / Diagnostic Imaging,441,0.829,0.0416,50.0,73.8,23.8,-0.657,0.1562,32.1,31.2,-0.9,0.486,0.3287,85.7,95.0,9.3
+Surgery,417,0.6,0.208,44.4,67.1,22.7,-0.771,0.0724,66.7,22.9,-43.8,0.714,0.1108,66.7,81.4,14.8
+Medical Education,378,0.58,0.2278,0.0,23.6,23.6,-0.429,0.3965,20.0,16.7,-3.3,0.6,0.208,0.0,12.5,12.5
+Oncology,280,0.943,0.0048,22.2,69.8,47.6,-0.771,0.0724,33.3,20.8,-12.6,0.029,0.9572,100.0,90.6,-9.4
+Internal Medicine / Primary Care,251,0.657,0.1562,55.6,71.4,15.9,-0.714,0.1108,44.4,24.5,-20.0,0.754,0.0835,66.7,83.7,17.0
+Mental Health / Psychiatry,249,0.771,0.0724,9.1,43.4,34.3,-0.543,0.2657,36.4,26.4,-9.9,0.771,0.0724,45.5,84.9,39.5
+Dentistry,188,0.943,0.0048,33.3,81.4,48.1,-0.486,0.3287,100.0,14.0,-86.0,0.2,0.704,33.3,69.8,36.4

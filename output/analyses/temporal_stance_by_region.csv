@@ -1,0 +1,31 @@
+region,year,critical_pct,ci_lower,ci_upper
+North America,2021,29.8413,25.2738,35.03
+North America,2022,27.4809,23.3664,31.8397
+North America,2023,35.9091,32.1099,39.5601
+North America,2024,37.4077,34.7271,40.1144
+North America,2025,35.3121,32.969,37.627
+North America,2026,36.6216,33.0252,40.1508
+Western Europe,2021,32.5648,27.7193,37.4252
+Western Europe,2022,32.9384,28.0,37.3753
+Western Europe,2023,34.5486,30.7682,38.3213
+Western Europe,2024,36.1053,33.3333,39.0546
+Western Europe,2025,34.3348,31.8396,36.8502
+Western Europe,2026,38.4743,34.5118,42.4155
+East Asia,2021,10.5,6.3631,15.2635
+East Asia,2022,8.7912,5.7249,12.3139
+East Asia,2023,15.4856,11.9048,19.1103
+East Asia,2024,20.9003,17.7778,23.925
+East Asia,2025,19.9021,17.7839,22.1411
+East Asia,2026,22.5806,19.0645,26.2667
+Middle East / North Africa,2021,20.5128,8.8172,35.1351
+Middle East / North Africa,2022,16.0714,6.8182,26.0022
+Middle East / North Africa,2023,27.619,19.7759,36.5385
+Middle East / North Africa,2024,29.7125,24.7319,34.9843
+Middle East / North Africa,2025,31.5204,28.2526,34.794
+Middle East / North Africa,2026,33.3333,29.1016,38.2027
+South/Southeast Asia,2021,6.6667,0.0,14.2857
+South/Southeast Asia,2022,19.697,10.1695,28.7879
+South/Southeast Asia,2023,23.7624,15.1491,32.5605
+South/Southeast Asia,2024,28.6486,22.7968,35.4389
+South/Southeast Asia,2025,25.8687,20.7541,31.3729
+South/Southeast Asia,2026,25.3968,17.966,32.8252

@@ -1,0 +1,11 @@
+specialty,n_review,n_research,review_critical_pct,research_critical_pct,delta_review_minus_research
+Internal Medicine / Primary Care,442,591,12.67,28.93,-16.26
+Surgery,411,938,17.03,32.84,-15.8
+Dentistry,216,528,15.28,28.22,-12.94
+Oncology,643,710,14.0,24.51,-10.51
+Medical Informatics / Digital Health,1423,2533,38.09,47.45,-9.37
+Cardiology,286,320,12.59,19.38,-6.79
+Ophthalmology,233,501,14.16,20.36,-6.2
+Medical Education,145,874,37.24,33.98,3.26
+Radiology / Diagnostic Imaging,521,1487,23.42,19.64,3.78
+Mental Health / Psychiatry,161,291,54.66,50.17,4.49

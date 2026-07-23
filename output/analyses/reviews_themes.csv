@@ -1,0 +1,11 @@
+theme,rev_pct,res_pct,delta_pp
+hallucination,30.16,54.34,-24.19
+safety_clinical,65.78,64.74,1.04
+regulation,57.43,26.95,30.48
+ethics_bias,43.98,29.4,14.58
+data_privacy,10.94,6.07,4.87
+education,5.54,10.28,-4.74
+cognitive,4.43,6.57,-2.13
+replacement,2.66,3.86,-1.2
+existential,3.92,5.13,-1.21
+other,3.25,1.74,1.51

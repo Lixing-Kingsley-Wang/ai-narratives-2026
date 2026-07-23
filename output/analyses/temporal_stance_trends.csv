@@ -1,0 +1,7 @@
+label,spearman_rho,p_value,direction,y_2021,y_2026,delta_pp_2021_to_2026
+Alarm,0.7714,0.0724,rising,2.73,6.21,3.48
+Caution,0.7714,0.0724,rising,22.67,26.44,3.77
+Neutral,-0.8857,0.01885,falling,7.34,4.31,-3.02
+Cautious Optimism,-0.4857,0.32872,falling,64.35,62.4,-1.94
+Advocacy,-1.0,0.0,falling,2.92,0.63,-2.28
+Critical (Alarm+Caution),0.7714,0.0724,rising,25.4,32.65,7.25
