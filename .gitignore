@@ -9,6 +9,12 @@ output/raw_legal_*.csv
 output/raw_medical_all.csv
 output/raw_legal_all.csv
 
+# Cached MedCPT embeddings (too big for GitHub; reproducible from frozen claims + corpus)
+output/analyses/prophecy/embeddings/*.npy
+
+# Excel lock files
+**/~$*.xlsx
+
 # Intermediate filtered files (regeneratable from scripts)
 output/filtered_medical_all_Q1Q2.csv
 output/filtered_medical_all_Q3.csv
