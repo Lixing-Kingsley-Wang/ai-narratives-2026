@@ -1,11 +1,11 @@
 """
 Publication-grade world map of critical (Alarm + Caution) stance by country.
 
-Country = first author, resolved from first_affiliation by reusing the
-affiliation->country vocabulary in analyse_geography.COUNTRY_REGION (the region
-parser) promoted to country level, plus its US-state fallback. Per the S4-3
-decision, Taiwan and Hong Kong are treated as SEPARATE entities (the region
-parser collapses them into China).
+Country = first author, resolved from first_affiliation by its own local
+CANON vocabulary (below) promoted to country level, plus a US-state
+fallback. Per the S4-3 decision, Taiwan and Hong Kong are treated as
+SEPARATE entities (analysis/extract_geography.py's region parser collapses
+them into China).
 
 Per country: n papers, critical (A+C) rate, bootstrap 95% CI (reuse
 analysis.robustness.bootstrap_ci; n=1000, seed=42, percentile). Cutoff is
@@ -43,7 +43,6 @@ from matplotlib.lines import Line2D
 from pyproj import Transformer
 
 from analysis.robustness import DATA_DIR, bootstrap_ci
-from analyse_geography import COUNTRY_REGION  # reuse the existing vocabulary
 
 WORKTREE = Path(__file__).resolve().parents[1]
 ANALYSES_DIR = WORKTREE / "output" / "analyses"
