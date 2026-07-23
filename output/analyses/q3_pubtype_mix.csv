@@ -1,0 +1,7 @@
+pub_type,q3_n,q12_n,q3_share_pct,q12_share_pct,q3_critical_pct,q12_critical_pct
+Research Article,663,10315,62.84,61.59,30.47,32.91
+Editorial,31,404,2.94,2.41,29.03,38.37
+Review,344,5444,32.61,32.51,18.9,24.85
+Commentary,4,104,0.38,0.62,50.0,53.85
+Letter,13,480,1.23,2.87,15.38,42.08
+ALL,1055,16747,100.0,100.0,26.54,30.82
