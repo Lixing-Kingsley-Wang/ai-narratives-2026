@@ -1,0 +1,31 @@
+subtype,PubMed tag,records carrying tag,of subtype N
+Systematic Review,Journal Article,980,980
+Systematic Review,Systematic Review,980,980
+Systematic Review,Meta-Analysis,262,980
+Systematic Review,"Research Support, Non-U.S. Gov't",130,980
+Systematic Review,Review,61,980
+Systematic Review,"Research Support, N.I.H., Extramural",23,980
+Systematic Review,Comparative Study,23,980
+Systematic Review,"Research Support, U.S. Gov't, Non-P.H.S.",4,980
+Systematic Review,Network Meta-Analysis,4,980
+Systematic Review,Scoping Review,4,980
+Systematic Review,"Research Support, U.S. Gov't, P.H.S.",1,980
+Systematic Review,Retracted Publication,1,980
+Systematic Review,Historical Article,1,980
+Review (narrative),Journal Article,4464,4464
+Review (narrative),Review,4122,4464
+Review (narrative),"Research Support, Non-U.S. Gov't",414,4464
+Review (narrative),Scoping Review,374,4464
+Review (narrative),"Research Support, N.I.H., Extramural",136,4464
+Review (narrative),"Research Support, U.S. Gov't, Non-P.H.S.",25,4464
+Review (narrative),Historical Article,11,4464
+Review (narrative),Meta-Analysis,10,4464
+Review (narrative),Consensus Statement,9,4464
+Review (narrative),Comparative Study,8,4464
+Review (narrative),"Research Support, N.I.H., Intramural",7,4464
+Review (narrative),Retracted Publication,7,4464
+Review (narrative),"Research Support, U.S. Gov't, P.H.S.",6,4464
+Review (narrative),Practice Guideline,5,4464
+Review (narrative),Lecture,1,4464
+Review (narrative),Legal Case,1,4464
+Review (narrative),Video-Audio Media,1,4464
