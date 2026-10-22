@@ -1,0 +1,38 @@
+pmid,year,human,model,excluded_from_inscope_layer,record_id
+32974930,2021,Neutral,Advocacy,True,VAL_0074
+33731170,2021,Advocacy,Advocacy,False,VAL_0196
+34082064,2021,Advocacy,Advocacy,False,VAL_0030
+34527076,2021,Cautious Optimism,Advocacy,False,VAL_0019
+34972616,2022,Advocacy,Advocacy,False,VAL_0293
+35031822,2022,Neutral,Advocacy,True,VAL_0256
+35302963,2022,Cautious Optimism,Advocacy,False,VAL_0276
+35385184,2022,Advocacy,Cautious Optimism,False,VAL_0129
+35691440,2022,Cautious Optimism,Advocacy,False,VAL_0096
+35872988,2022,Advocacy,Advocacy,False,VAL_0001
+37055885,2023,Cautious Optimism,Advocacy,False,VAL_0296
+37459906,2023,Cautious Optimism,Advocacy,False,VAL_0179
+37574841,2023,Neutral,Advocacy,True,VAL_0011
+38259001,2023,Advocacy,Advocacy,False,VAL_0042
+37945100,2024,Advocacy,Advocacy,False,VAL_0029
+38284287,2024,Advocacy,Advocacy,False,VAL_0287
+39147901,2024,Advocacy,Advocacy,False,VAL_0263
+39175590,2024,Advocacy,Cautious Optimism,False,VAL_0104
+39186000,2024,Advocacy,Advocacy,False,VAL_0166
+39895671,2024,Advocacy,Advocacy,False,VAL_0270
+39473198,2025,Cautious Optimism,Advocacy,False,VAL_0228
+39847582,2025,Neutral,Advocacy,True,VAL_0239
+39851128,2025,Advocacy,Advocacy,False,VAL_0289
+39894601,2025,Advocacy,Advocacy,False,VAL_0024
+40095966,2025,Cautious Optimism,Advocacy,False,VAL_0123
+40214219,2025,Advocacy,Cautious Optimism,False,VAL_0086
+40246249,2025,Advocacy,Advocacy,False,VAL_0083
+40516520,2025,Advocacy,Advocacy,False,VAL_0297
+40540146,2025,Advocacy,Advocacy,False,VAL_0010
+40631924,2025,Cautious Optimism,Advocacy,False,VAL_0149
+40648241,2025,Advocacy,Cautious Optimism,False,VAL_0155
+40687630,2025,Advocacy,Cautious Optimism,False,VAL_0144
+40974075,2025,Advocacy,Advocacy,False,VAL_0071
+41256318,2025,Advocacy,Cautious Optimism,False,VAL_0080
+41667642,2026,Advocacy,Advocacy,False,VAL_0226
+41694518,2026,Cautious Optimism,Advocacy,False,VAL_0027
+41713400,2026,Advocacy,Cautious Optimism,False,VAL_0212

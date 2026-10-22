@@ -1,0 +1,6 @@
+model stratum,"sampling pool (valid stance, abstract present, all years)",sampled,sampling fraction,in-scope (layer A)
+Alarm,844,40,4.74%,40
+Caution,3905,60,1.54%,50
+Neutral,635,70,11.02%,23
+Cautious Optimism,10184,100,0.98%,86
+Advocacy,178,30,16.85%,26
