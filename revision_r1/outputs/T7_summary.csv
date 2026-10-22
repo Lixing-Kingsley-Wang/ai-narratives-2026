@@ -1,0 +1,7 @@
+definition,scope,records,records whose Q1/Q2 depends only on a non-medical category,%,  of which medical best = Q3,  of which medical best = Q4,  of which no medical category,journals (journal-title × any year),journals total
+D1 Medicine area (ASJC 27xx) categories,"eligible Q1/Q2 (97,492)",97492,26456,27.14,1392,5,25059,1219,4060
+D1 Medicine area (ASJC 27xx) categories,"analytic set (16,747)",16747,2781,16.61,205,2,2574,519,2465
+D2 D1 minus 'Medicine (miscellaneous)',"eligible Q1/Q2 (97,492)",97492,37483,38.45,1046,1,36436,1656,4060
+D2 D1 minus 'Medicine (miscellaneous)',"analytic set (16,747)",16747,4607,27.51,166,0,4441,748,2465
+"D3 broad health sciences (Medicine, Nursing, Dentistry, Health Professions, Neuroscience, Pharmacology, Immunology & Microbiology, Psychology)","eligible Q1/Q2 (97,492)",97492,21308,21.86,1217,4,20087,716,4060
+"D3 broad health sciences (Medicine, Nursing, Dentistry, Health Professions, Neuroscience, Pharmacology, Immunology & Microbiology, Psychology)","analytic set (16,747)",16747,1546,9.23,121,2,1423,217,2465

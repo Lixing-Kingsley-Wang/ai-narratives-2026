@@ -1,0 +1,284 @@
+category,rows_across_years,main_area (from single-area journals),D1,D2,D3,included_records
+Agricultural and Biological Sciences (miscellaneous),2338,Agricultural and Biological Sciences,False,False,False,644
+Agronomy and Crop Science,2401,Agricultural and Biological Sciences,False,False,False,61
+Animal Science and Zoology,2944,Agricultural and Biological Sciences,False,False,False,97
+Aquatic Science,1449,Agricultural and Biological Sciences,False,False,False,18
+"Ecology, Evolution, Behavior and Systematics",4337,Agricultural and Biological Sciences,False,False,False,396
+Food Science,2280,Agricultural and Biological Sciences,False,False,False,289
+Horticulture,670,Agricultural and Biological Sciences,False,False,False,1
+Insect Science,1107,Agricultural and Biological Sciences,False,False,False,19
+Plant Science,3198,Agricultural and Biological Sciences,False,False,False,173
+Arts and Humanities (miscellaneous),4043,Arts and Humanities,False,False,False,251
+History,10287,Arts and Humanities,False,False,False,7
+History and Philosophy of Science,1178,Arts and Humanities,False,False,False,53
+Music,1080,Arts and Humanities,False,False,False,2
+Philosophy,4609,Arts and Humanities,False,False,False,89
+Religious Studies,3908,Arts and Humanities,False,False,False,1
+Visual Arts and Performing Arts,3911,Arts and Humanities,False,False,False,29
+Aging,234,"Biochemistry, Genetics and Molecular Biology",False,False,False,349
+Biochemistry,2554,"Biochemistry, Genetics and Molecular Biology",False,False,False,6225
+"Biochemistry, Genetics and Molecular Biology (miscellaneous)",1841,"Biochemistry, Genetics and Molecular Biology",False,False,False,3783
+Biophysics,866,"Biochemistry, Genetics and Molecular Biology",False,False,False,2468
+Biotechnology,1835,"Biochemistry, Genetics and Molecular Biology",False,False,False,3326
+Cancer Research,1354,"Biochemistry, Genetics and Molecular Biology",False,False,False,4374
+Cell Biology,1717,"Biochemistry, Genetics and Molecular Biology",False,False,False,938
+Clinical Biochemistry,729,"Biochemistry, Genetics and Molecular Biology",False,False,False,2157
+Developmental Biology,469,"Biochemistry, Genetics and Molecular Biology",False,False,False,296
+Endocrinology,756,"Biochemistry, Genetics and Molecular Biology",False,False,False,591
+Genetics,2070,"Biochemistry, Genetics and Molecular Biology",False,False,False,2215
+Molecular Biology,2455,"Biochemistry, Genetics and Molecular Biology",False,False,False,6684
+Molecular Medicine,1035,"Biochemistry, Genetics and Molecular Biology",False,False,False,977
+Physiology,1141,"Biochemistry, Genetics and Molecular Biology",False,False,False,1080
+Structural Biology,278,"Biochemistry, Genetics and Molecular Biology",False,False,False,710
+Business and International Management,2619,"Business, Management and Accounting",False,False,False,6
+"Business, Management and Accounting (miscellaneous)",2285,"Business, Management and Accounting",False,False,False,17
+Management Information Systems,773,"Business, Management and Accounting",False,False,False,7
+Management of Technology and Innovation,1645,"Business, Management and Accounting",False,False,False,16
+Marketing,1295,"Business, Management and Accounting",False,False,False,1
+Organizational Behavior and Human Resource Management,1388,"Business, Management and Accounting",False,False,False,14
+Strategy and Management,2843,"Business, Management and Accounting",False,False,False,10
+"Tourism, Leisure and Hospitality Management",844,"Business, Management and Accounting",False,False,False,3
+Bioengineering,901,Chemical Engineering,False,False,False,1253
+Catalysis,375,Chemical Engineering,False,False,False,546
+Chemical Engineering (miscellaneous),2038,Chemical Engineering,False,False,False,485
+Chemical Health and Safety,95,Chemical Engineering,False,False,False,7
+Colloid and Surface Chemistry,119,Chemical Engineering,False,False,False,22
+Filtration and Separation,106,Chemical Engineering,False,False,False,1
+Fluid Flow and Transfer Processes,530,Chemical Engineering,False,False,False,86
+Process Chemistry and Technology,413,Chemical Engineering,False,False,False,96
+Analytical Chemistry,882,Chemistry,False,False,False,2833
+Chemistry (miscellaneous),2902,Chemistry,False,False,False,1289
+Electrochemistry,338,Chemistry,False,False,False,169
+Inorganic Chemistry,457,Chemistry,False,False,False,544
+Organic Chemistry,1146,Chemistry,False,False,False,873
+Physical and Theoretical Chemistry,1046,Chemistry,False,False,False,694
+Spectroscopy,453,Chemistry,False,False,False,754
+Artificial Intelligence,2003,Computer Science,False,False,False,1612
+Computational Theory and Mathematics,1000,Computer Science,False,False,False,463
+Computer Graphics and Computer-Aided Design,583,Computer Science,False,False,False,1873
+Computer Networks and Communications,2260,Computer Science,False,False,False,463
+Computer Science (miscellaneous),1967,Computer Science,False,False,False,422
+Computer Science Applications,4702,Computer Science,False,False,False,12540
+Computer Vision and Pattern Recognition,614,Computer Science,False,False,False,1942
+Hardware and Architecture,978,Computer Science,False,False,False,128
+Human-Computer Interaction,849,Computer Science,False,False,False,121
+Information Systems,2320,Computer Science,False,False,False,3531
+Signal Processing,689,Computer Science,False,False,False,134
+Software,2246,Computer Science,False,False,False,2269
+Decision Sciences (miscellaneous),407,Decision Sciences,False,False,False,271
+Information Systems and Management,883,Decision Sciences,False,False,False,47
+Management Science and Operations Research,1165,Decision Sciences,False,False,False,12
+"Statistics, Probability and Uncertainty",954,Decision Sciences,False,False,False,241
+Dental Assisting,19,Dentistry,False,False,True,17
+Dental Hygiene,39,Dentistry,False,False,True,23
+Dentistry (miscellaneous),1015,Dentistry,False,False,True,1243
+Oral Surgery,449,Dentistry,False,False,True,426
+Orthodontics,242,Dentistry,False,False,True,167
+Periodontics,154,Dentistry,False,False,True,97
+Atmospheric Science,829,Earth and Planetary Sciences,False,False,False,3
+Computers in Earth Sciences,400,Earth and Planetary Sciences,False,False,False,1
+Earth-Surface Processes,1010,Earth and Planetary Sciences,False,False,False,1
+Geochemistry and Petrology,867,Earth and Planetary Sciences,False,False,False,6
+Geology,1827,Earth and Planetary Sciences,False,False,False,2
+Geotechnical Engineering and Engineering Geology,1266,Earth and Planetary Sciences,False,False,False,1
+Oceanography,855,Earth and Planetary Sciences,False,False,False,3
+Paleontology,680,Earth and Planetary Sciences,False,False,False,96
+Space and Planetary Science,571,Earth and Planetary Sciences,False,False,False,96
+Economics and Econometrics,4306,"Economics, Econometrics and Finance",False,False,False,7
+"Economics, Econometrics and Finance (miscellaneous)",2809,"Economics, Econometrics and Finance",False,False,False,8
+Energy (miscellaneous),850,Energy,False,False,False,12
+Energy Engineering and Power Technology,1520,Energy,False,False,False,1
+"Renewable Energy, Sustainability and the Environment",1512,Energy,False,False,False,63
+Automotive Engineering,705,Engineering,False,False,False,1
+Biomedical Engineering,1705,Engineering,False,False,False,4759
+Civil and Structural Engineering,2078,Engineering,False,False,False,5
+Computational Mechanics,533,Engineering,False,False,False,77
+Control and Systems Engineering,1701,Engineering,False,False,False,194
+Electrical and Electronic Engineering,4393,Engineering,False,False,False,4743
+Engineering (miscellaneous),2842,Engineering,False,False,False,838
+Industrial and Manufacturing Engineering,2209,Engineering,False,False,False,13
+Mechanical Engineering,3725,Engineering,False,False,False,184
+Mechanics of Materials,2299,Engineering,False,False,False,114
+Media Technology,419,Engineering,False,False,False,102
+"Safety, Risk, Reliability and Quality",1163,Engineering,False,False,False,37
+Ecological Modeling,238,Environmental Science,False,False,False,103
+Ecology,2788,Environmental Science,False,False,False,217
+Environmental Chemistry,847,Environmental Science,False,False,False,309
+Environmental Engineering,1149,Environmental Science,False,False,False,382
+Environmental Science (miscellaneous),2547,Environmental Science,False,False,False,131
+Global and Planetary Change,661,Environmental Science,False,False,False,8
+"Health, Toxicology and Mutagenesis",876,Environmental Science,False,False,False,627
+"Management, Monitoring, Policy and Law",2338,Environmental Science,False,False,False,153
+Nature and Landscape Conservation,1254,Environmental Science,False,False,False,4
+Pollution,965,Environmental Science,False,False,False,691
+Waste Management and Disposal,794,Environmental Science,False,False,False,380
+Water Science and Technology,1573,Environmental Science,False,False,False,150
+Chiropractics,59,Health Professions,False,False,True,4
+Complementary and Manual Therapy,121,Health Professions,False,False,True,10
+Emergency Medical Services,82,Health Professions,False,False,True,17
+Health Information Management,326,Health Professions,False,False,True,3481
+Health Professions (miscellaneous),521,Health Professions,False,False,True,82
+Medical Laboratory Technology,233,Health Professions,False,False,True,251
+Occupational Therapy,173,Health Professions,False,False,True,17
+Optometry,77,Health Professions,False,False,True,68
+Pharmacy,278,Health Professions,False,False,True,146
+"Physical Therapy, Sports Therapy and Rehabilitation",1460,Health Professions,False,False,True,354
+Podiatry,51,Health Professions,False,False,True,7
+Speech and Hearing,397,Health Professions,False,False,True,144
+Sports Science,726,Health Professions,False,False,True,459
+Applied Microbiology and Biotechnology,758,Immunology and Microbiology,False,False,True,182
+Immunology,1388,Immunology and Microbiology,False,False,True,1481
+Immunology and Microbiology (miscellaneous),511,Immunology and Microbiology,False,False,True,0
+Microbiology,1058,Immunology and Microbiology,False,False,True,1574
+Parasitology,433,Immunology and Microbiology,False,False,True,81
+Virology,482,Immunology and Microbiology,False,False,True,159
+Biomaterials,766,Materials Science,False,False,False,546
+Ceramics and Composites,724,Materials Science,False,False,False,15
+"Electronic, Optical and Magnetic Materials",1493,Materials Science,False,False,False,128
+Materials Chemistry,1829,Materials Science,False,False,False,34
+Materials Science (miscellaneous),3746,Materials Science,False,False,False,785
+Metals and Alloys,992,Materials Science,False,False,False,7
+Nanoscience and Nanotechnology,417,Materials Science,False,False,False,421
+Polymers and Plastics,957,Materials Science,False,False,False,11
+"Surfaces, Coatings and Films",772,Materials Science,False,False,False,12
+Analysis,1132,Mathematics,False,False,False,4
+Applied Mathematics,3622,Mathematics,False,False,False,1189
+Computational Mathematics,1058,Mathematics,False,False,False,630
+Control and Optimization,760,Mathematics,False,False,False,57
+Discrete Mathematics and Combinatorics,528,Mathematics,False,False,False,1
+Geometry and Topology,643,Mathematics,False,False,False,11
+Mathematical Physics,454,Mathematics,False,False,False,80
+Mathematics (miscellaneous),2789,Mathematics,False,False,False,79
+Modeling and Simulation,1873,Mathematics,False,False,False,904
+Numerical Analysis,483,Mathematics,False,False,False,3
+Statistics and Probability,1581,Mathematics,False,False,False,542
+Theoretical Computer Science,731,Mathematics,False,False,False,42
+Anatomy,287,Medicine,True,True,True,229
+Anesthesiology and Pain Medicine,831,Medicine,True,True,True,600
+Biochemistry (medical),424,Medicine,True,True,True,415
+Cardiology and Cardiovascular Medicine,2177,Medicine,True,True,True,2845
+Complementary and Alternative Medicine,641,Medicine,True,True,True,123
+Critical Care and Intensive Care Medicine,682,Medicine,True,True,True,773
+Dermatology,876,Medicine,True,True,True,736
+Embryology,126,Medicine,True,True,True,48
+Emergency Medicine,638,Medicine,True,True,True,524
+"Endocrinology, Diabetes and Metabolism",1433,Medicine,True,True,True,1386
+Epidemiology,860,Medicine,True,True,True,564
+Family Practice,339,Medicine,True,True,True,190
+Gastroenterology,987,Medicine,True,True,True,1746
+Genetics (clinical),575,Medicine,True,True,True,581
+Geriatrics and Gerontology,705,Medicine,True,True,True,609
+Health Informatics,790,Medicine,True,True,True,14277
+Health Policy,1816,Medicine,True,True,True,2407
+Hematology,823,Medicine,True,True,True,721
+Hepatology,482,Medicine,True,True,True,633
+Histology,376,Medicine,True,True,True,373
+Immunology and Allergy,1314,Medicine,True,True,True,1474
+Infectious Diseases,2027,Medicine,True,True,True,973
+Internal Medicine,964,Medicine,True,True,True,1869
+Medicine (miscellaneous),14553,Medicine,True,False,True,26156
+Microbiology (medical),819,Medicine,True,True,True,553
+Nephrology,479,Medicine,True,True,True,431
+Neurology (clinical),2308,Medicine,True,True,True,3715
+Obstetrics and Gynecology,1225,Medicine,True,True,True,776
+Oncology,2344,Medicine,True,True,True,6462
+Ophthalmology,828,Medicine,True,True,True,1724
+Orthopedics and Sports Medicine,1912,Medicine,True,True,True,1725
+Otorhinolaryngology,733,Medicine,True,True,True,894
+Pathology and Forensic Medicine,1210,Medicine,True,True,True,948
+"Pediatrics, Perinatology and Child Health",1963,Medicine,True,True,True,891
+Pharmacology (medical),1627,Medicine,True,True,True,1122
+Physiology (medical),658,Medicine,True,True,True,780
+Psychiatry and Mental Health,3455,Medicine,True,True,True,2034
+"Public Health, Environmental and Occupational Health",3955,Medicine,True,True,True,2103
+Pulmonary and Respiratory Medicine,904,Medicine,True,True,True,837
+"Radiology, Nuclear Medicine and Imaging",1980,Medicine,True,True,True,14452
+Rehabilitation,945,Medicine,True,True,True,1164
+Reproductive Medicine,525,Medicine,True,True,True,380
+Reviews and References (medical),26,Medicine,True,True,True,120
+Rheumatology,409,Medicine,True,True,True,462
+Surgery,3248,Medicine,True,True,True,6274
+Transplantation,308,Medicine,True,True,True,168
+Urology,707,Medicine,True,True,True,1508
+Multidisciplinary,1070,Multidisciplinary,False,False,False,9299
+Behavioral Neuroscience,506,Neuroscience,False,False,True,309
+Biological Psychiatry,294,Neuroscience,False,False,True,437
+Cellular and Molecular Neuroscience,566,Neuroscience,False,False,True,898
+Cognitive Neuroscience,666,Neuroscience,False,False,True,668
+Developmental Neuroscience,214,Neuroscience,False,False,True,71
+Endocrine and Autonomic Systems,145,Neuroscience,False,False,True,123
+Neurology,1114,Neuroscience,False,False,True,3932
+Neuroscience (miscellaneous),978,Neuroscience,False,False,True,1959
+Sensory Systems,239,Neuroscience,False,False,True,456
+Advanced and Specialized Nursing,406,Nursing,False,False,True,161
+Assessment and Diagnosis,65,Nursing,False,False,True,177
+Care Planning,57,Nursing,False,False,True,16
+Community and Home Care,245,Nursing,False,False,True,39
+Critical Care Nursing,146,Nursing,False,False,True,44
+Emergency Nursing,181,Nursing,False,False,True,89
+Fundamentals and Skills,96,Nursing,False,False,True,36
+Gerontology,256,Nursing,False,False,True,631
+"Issues, Ethics and Legal Aspects",279,Nursing,False,False,True,206
+LPN and LVN,101,Nursing,False,False,True,66
+Leadership and Management,238,Nursing,False,False,True,236
+Maternity and Midwifery,249,Nursing,False,False,True,20
+Medical and Surgical Nursing,159,Nursing,False,False,True,37
+Nursing (miscellaneous),1025,Nursing,False,False,True,655
+Nutrition and Dietetics,828,Nursing,False,False,True,306
+Oncology (nursing),129,Nursing,False,False,True,79
+Pediatrics,165,Nursing,False,False,True,36
+Pharmacology (nursing),58,Nursing,False,False,True,17
+Research and Theory,102,Nursing,False,False,True,80
+Drug Discovery,925,"Pharmacology, Toxicology and Pharmaceutics",False,False,True,673
+Pharmaceutical Science,1129,"Pharmacology, Toxicology and Pharmaceutics",False,False,True,598
+Pharmacology,1937,"Pharmacology, Toxicology and Pharmaceutics",False,False,True,1785
+"Pharmacology, Toxicology and Pharmaceutics (miscellaneous)",706,"Pharmacology, Toxicology and Pharmaceutics",False,False,True,334
+Toxicology,771,"Pharmacology, Toxicology and Pharmaceutics",False,False,True,244
+Acoustics and Ultrasonics,253,Physics and Astronomy,False,False,False,262
+Astronomy and Astrophysics,512,Physics and Astronomy,False,False,False,2
+"Atomic and Molecular Physics, and Optics",1225,Physics and Astronomy,False,False,False,2516
+Condensed Matter Physics,2450,Physics and Astronomy,False,False,False,118
+Instrumentation,842,Physics and Astronomy,False,False,False,3197
+Nuclear and High Energy Physics,461,Physics and Astronomy,False,False,False,4
+Physics and Astronomy (miscellaneous),1734,Physics and Astronomy,False,False,False,1220
+Radiation,351,Physics and Astronomy,False,False,False,703
+Statistical and Nonlinear Physics,302,Physics and Astronomy,False,False,False,14
+Surfaces and Interfaces,333,Physics and Astronomy,False,False,False,5
+Applied Psychology,1540,Psychology,False,False,True,101
+Clinical Psychology,1874,Psychology,False,False,True,639
+Developmental and Educational Psychology,2163,Psychology,False,False,True,148
+Experimental and Cognitive Psychology,942,Psychology,False,False,True,84
+Neuropsychology and Physiological Psychology,425,Psychology,False,False,True,139
+Psychology (miscellaneous),1836,Psychology,False,False,True,171
+Social Psychology,1818,Psychology,False,False,True,44
+Anthropology,2971,Social Sciences,False,False,False,12
+Communication,2892,Social Sciences,False,False,False,26
+Cultural Studies,7771,Social Sciences,False,False,False,5
+Demography,775,Social Sciences,False,False,False,7
+Development,1743,Social Sciences,False,False,False,43
+E-learning,394,Social Sciences,False,False,False,5
+Education,8959,Social Sciences,False,False,False,1087
+Gender Studies,1146,Social Sciences,False,False,False,5
+"Geography, Planning and Development",4752,Social Sciences,False,False,False,28
+Health (social science),2169,Social Sciences,False,False,False,431
+Human Factors and Ergonomics,291,Social Sciences,False,False,False,80
+Law,5910,Social Sciences,False,False,False,193
+Library and Information Sciences,1619,Social Sciences,False,False,False,414
+Life-span and Life-course Studies,338,Social Sciences,False,False,False,13
+Linguistics and Language,7535,Social Sciences,False,False,False,74
+Political Science and International Relations,3950,Social Sciences,False,False,False,1
+Public Administration,1273,Social Sciences,False,False,False,5
+Safety Research,624,Social Sciences,False,False,False,13
+Social Sciences (miscellaneous),4801,Social Sciences,False,False,False,57
+Social Work,330,Social Sciences,False,False,False,9
+Sociology and Political Science,8438,Social Sciences,False,False,False,21
+Transportation,748,Social Sciences,False,False,False,6
+Urban Studies,1563,Social Sciences,False,False,False,1
+Equine,65,Veterinary,False,False,False,7
+Food Animals,240,Veterinary,False,False,False,15
+Small Animals,135,Veterinary,False,False,False,8
+Veterinary (miscellaneous),1332,Veterinary,False,False,False,260
+Medical Assisting and Transcription,10,unknown (only in multi-area journals),False,False,False,1
+Pathophysiology,17,unknown (only in multi-area journals),False,False,False,1
+Radiological and Ultrasound Technology,373,unknown (only in multi-area journals),False,False,False,4271
+Review and Exam Preparation,28,unknown (only in multi-area journals),False,False,False,35
