@@ -1,0 +1,9 @@
+ID,verbatim sentence,numbers,cites published literature in the same sentence,direct numeric comparison with literature
+D02,"The clearest change was the reduction of unqualified promotion: explicit Advocacy fell from 2.9% in 2021 to 0.6% in 2026 (Spearman ρ=−1.00), while qualified favourable framing remained the majority stance and explicit scrutiny increased only modestly.",2.9%; 0.6%; −1.00,no,no
+D04,"The boldest early claims fared worst: five of seven Tier-1 superiority-or-replacement claims were not borne out and none were confirmed, and only two of 78 claims were decisively borne out.",78,no,no
+D09,"We found an inverse association between critical stance and mapped FDA device counts (Spearman ρ=−0.65, two-sided p=0.004).",−0.65; 0.004,no,no
+D10,"The direction persisted after specialties with structural zeros were removed, but the reduced analysis was no longer statistically significant at n=11 (Multimedia Appendix 3, Table S6).",11,no,no
+D11,"One legible reason is theme emphasis: reviews foreground governance and ethics, whereas primary research foregrounds concrete error and safety, and within reviews the more favourable narrative subtype outnumbers the more critical systematic subtype (Multimedia Appendix 3, Tables S11 and S12).",12,no,no
+D14,"Agreement was substantial for stance (quadratic-weighted κ=0.79) and specialty (κ=0.75), almost perfect for model type (κ=0.84), and moderate for failure mode (κ=0.57) and the prefilter (κ=0.51).",0.79; 0.75; 0.84; 0.57; 0.51,no,no
+D15,"It also read only the first 300 characters of each abstract, so a paper whose engagement with AI is stated only in its conclusion could be missed, which is consistent with the moderate prefilter agreement.",300,no,no
+D17,"The corpus was restricted to English-language, PubMed-indexed Q1/Q2 journals.",1; 2,no,no
