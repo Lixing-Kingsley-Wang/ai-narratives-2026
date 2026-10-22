@@ -1,0 +1,21 @@
+stage,records in,records out,excluded/missing,reason,source
+"1. PubMed retrieval (monthly windows, Jan 2021–Apr 2026)",,129557,,,output/fetch.log
+2. PMID de-duplication,129557,116117,13440,same PMID retrieved in more than one monthly window,fetch.log; raw_medical_all.csv
+3. Conference proceedings / preprints,116117,112011,4106,journal on EXCLUDE_JOURNALS / EXCLUDE_KEYWORDS (sjr_filter.py),filtered_medical_all_excluded.csv
+4. SJR title matching,112011,104089,7922,normalised journal title not found in SCImago file for that year (unmatched),filtered_medical_all_unmatched.csv
+"4b. SJR quartile Q3 (comparison arm, not primary)",,5463,5463,best quartile Q3; analysed separately (pre-cutoff count),sjr.log; filtered_medical_all_Q3.csv
+5. April 2026 cover-date cutoff (Q1/Q2),98626,97492,1134,PubDate May 2026 or later (records not retained on disk; per-year counts = sjr.log Q1+Q2 minus post-cutoff file),sjr.log; filtered_medical_all_Q1Q2.csv
+5b. Q3 cutoff,5463,5433,30,same cutoff applied to Q3,filtered_medical_all_Q3.csv
+6. AI-engagement prefilter,97492,16759,80733,"classified application (AI as method), incl. failure-branch defaults",prefiltered_application.csv
+6a. of which: prefilter failures defaulted to application (T1),,,96,non-succeeded batch result (9) or synchronous-path failure after 3 retries (87); see T1,prefiltered_application.csv (type_confidence=Low)
+7. Stance classification,16759,16749,10,unparseable / empty response → FAILED,classified_medical_Q1Q2.csv
+8. Year window 2021–2026,16749,16747,2,pub_year 2020 (PubDate earlier than retrieval PDAT),classified_medical_Q1Q2.csv
+8b. Primary temporal window 2021–2025 (R1),16747,14058,2689,Jan–Apr 2026 partial year: descriptive only,
+9. Critical subset (Alarm or Caution),16747,5161,,theme and mechanism analyses run on critical records,thematic_alarm.csv
+10. Theme classification,5161,5161,0,no record dropped; 1 non-succeeded batch result defaulted to ['other'] (log). Records whose only theme is 'other': 51 (upper bound for fallbacks),themes_batch_poll.log; thematic_alarm.csv
+11. Mechanism classification,5161,5159,2,FAILED after 3 retries,q7_classified_ac.csv
+12. Title-only records within the parsed critical set,5159,4747,412,empty abstract (mechanism analyses restricted to abstract-present records),q7_classified_ac.csv + abstract
+13. Specialty classification (analytic set),16747,16734,13,specialty = FAILED (no JSON / outside vocabulary),specialty_classifications.csv
+14a. First-author country (Figure 4 / Table S7 resolver),16747,15119,1628,affiliation empty (274) or no country string matched (1354),analysis/run_country_critical_map.py::resolve_country
+14b. First-author region (Table S9; geography_classifications.csv),16747,16154,593,region 'Unknown' in geography_classifications.csv,geography_classifications.csv
+15. Publication type mapping,16747,16747,0,"no record unmapped: every record falls to a bucket. Default bucket 'Research Article' (no Editorial/Letter/Review/Comment/News tag) = 10,315; News folded into Research Article = 0; empty pub_type = 0",analysis/robustness.py::simplify_pubtype_7/5
