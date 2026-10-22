@@ -1,0 +1,28 @@
+{
+  "2021\u20132025": {
+    "n_abstract_present_critical": 3906,
+    "n_gated": 1775,
+    "gen_without_fab": 1446,
+    "gen_without_fab_pct": 37.01996927803379,
+    "fab_in_discriminative_only": 1,
+    "gate_recall_fab": "348/381",
+    "gate_recall_fab_pct": 91.33858267716536,
+    "fab_among_gated": "348/1775",
+    "fab_among_gated_pct": 19.605633802816904
+  },
+  "2021\u20132026 (submitted)": {
+    "n_abstract_present_critical": 4747,
+    "n_gated": 2226,
+    "gen_without_fab": 1858,
+    "gen_without_fab_pct": 39.140509795660414,
+    "fab_in_discriminative_only": 1,
+    "gate_recall_fab": "446/497",
+    "gate_recall_fab_pct": 89.738430583501,
+    "fab_among_gated": "446/2226",
+    "fab_among_gated_pct": 20.035938903863432
+  },
+  "counts": {
+    "q7_records": 5161,
+    "parsed": 5159
+  }
+}

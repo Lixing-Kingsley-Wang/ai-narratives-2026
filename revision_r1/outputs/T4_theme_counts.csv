@@ -1,0 +1,61 @@
+theme,year,n_papers,n_critical
+Patient safety,2021,160,270
+Patient safety,2022,210,333
+Patient safety,2023,385,624
+Patient safety,2024,813,1228
+Patient safety,2025,1187,1828
+Patient safety,2026,617,878
+Hallucination / errors,2021,64,270
+Hallucination / errors,2022,73,333
+Hallucination / errors,2023,263,624
+Hallucination / errors,2024,637,1228
+Hallucination / errors,2025,934,1828
+Hallucination / errors,2026,479,878
+Governance / regulation,2021,148,270
+Governance / regulation,2022,186,333
+Governance / regulation,2023,259,624
+Governance / regulation,2024,420,1228
+Governance / regulation,2025,580,1828
+Governance / regulation,2026,288,878
+Ethics & bias,2021,99,270
+Ethics & bias,2022,151,333
+Ethics & bias,2023,226,624
+Ethics & bias,2024,403,1228
+Ethics & bias,2025,604,1828
+Ethics & bias,2026,251,878
+Medical education,2021,10,270
+Medical education,2022,6,333
+Medical education,2023,58,624
+Medical education,2024,103,1228
+Medical education,2025,190,1828
+Medical education,2026,85,878
+Data privacy,2021,24,270
+Data privacy,2022,28,333
+Data privacy,2023,41,624
+Data privacy,2024,84,1228
+Data privacy,2025,148,1828
+Data privacy,2026,54,878
+Cognitive offloading,2021,21,270
+Cognitive offloading,2022,19,333
+Cognitive offloading,2023,35,624
+Cognitive offloading,2024,59,1228
+Cognitive offloading,2025,120,1828
+Cognitive offloading,2026,59,878
+Existential threat,2021,18,270
+Existential threat,2022,14,333
+Existential threat,2023,37,624
+Existential threat,2024,39,1228
+Existential threat,2025,102,1828
+Existential threat,2026,46,878
+Replacement fears,2021,17,270
+Replacement fears,2022,17,333
+Replacement fears,2023,27,624
+Replacement fears,2024,50,1228
+Replacement fears,2025,60,1828
+Replacement fears,2026,26,878
+Other,2021,13,270
+Other,2022,15,333
+Other,2023,14,624
+Other,2024,21,1228
+Other,2025,31,1828
+Other,2026,17,878
