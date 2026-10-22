@@ -1,0 +1,6 @@
+pub_year_i,batch (prefilter_batch.py),synchronous (prefilter.py),All
+2020,0,1,1
+2021,1,86,87
+2024,2,0,2
+2025,6,0,6
+All,9,87,96
