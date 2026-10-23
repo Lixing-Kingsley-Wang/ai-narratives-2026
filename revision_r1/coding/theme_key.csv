@@ -1,0 +1,201 @@
+row_id,pmid,year,journal,stance,model_themes,abstract_present
+1,38718518,2024,Asian journal of psychiatry,Caution,ethics_bias|regulation|safety_clinical,1
+2,35084342,2022,Journal of medical Internet research,Caution,replacement|ethics_bias,1
+3,37548259,2023,Clinical and translational medicine,Caution,regulation|safety_clinical|hallucination,0
+4,33890703,2021,Journal of evaluation in clinical practice,Caution,cognitive|existential,0
+5,39874229,2025,Annals of the rheumatic diseases,Caution,hallucination|safety_clinical,1
+6,32852320,2021,Academic medicine : journal of the Association of American Medical Colleges,Caution,replacement|cognitive,1
+7,41285603,2025,Annals of family medicine,Caution,cognitive|education,1
+8,38591653,2024,Nutrition in clinical practice : official publication of the American Society for Parenteral and Enteral Nutrition,Caution,ethics_bias|existential,1
+9,37717420,2023,European journal of radiology,Alarm,safety_clinical,1
+10,34176583,2021,Gastrointestinal endoscopy,Caution,safety_clinical|regulation,0
+11,39622569,2024,BMJ open,Caution,safety_clinical,1
+12,41446897,2025,Frontiers in artificial intelligence,Caution,hallucination|safety_clinical,1
+13,34838523,2022,Journal of endodontics,Caution,safety_clinical|hallucination|regulation,1
+14,39910518,2025,BMC medical informatics and decision making,Caution,ethics_bias,1
+15,40016039,2025,British journal of anaesthesia,Caution,safety_clinical|regulation,1
+16,41561161,2025,Frontiers in digital health,Caution,ethics_bias|hallucination,1
+17,40588252,2025,The bone & joint journal,Caution,regulation|safety_clinical,1
+18,38157771,2024,"Health policy (Amsterdam, Netherlands)",Caution,regulation,1
+19,38492430,2024,Oral oncology,Caution,safety_clinical|regulation,0
+20,33810937,2022,Clinical imaging,Caution,hallucination|safety_clinical,0
+21,37261453,2023,Clinical neuroradiology,Caution,safety_clinical|hallucination|regulation,1
+22,38153778,2023,JMIR medical education,Caution,ethics_bias|existential,1
+23,38394317,2024,PloS one,Alarm,safety_clinical|hallucination,1
+24,38231309,2024,Journal of robotic surgery,Caution,safety_clinical|ethics_bias|regulation,1
+25,34446266,2021,The Lancet. Digital health,Caution,ethics_bias|existential|data_privacy,1
+26,39236008,2024,PLOS digital health,Caution,education|ethics_bias,1
+27,40050981,2025,BMC proceedings,Caution,data_privacy|ethics_bias,1
+28,38447265,2024,International journal of pediatric otorhinolaryngology,Caution,hallucination|safety_clinical,1
+29,35094138,2022,Supportive care in cancer : official journal of the Multinational Association of Supportive Care in Cancer,Caution,cognitive|safety_clinical,1
+30,40604196,2025,Scientific reports,Caution,cognitive|ethics_bias|regulation,1
+31,40108444,2025,NPJ digital medicine,Alarm,hallucination|safety_clinical,1
+32,38960730,2024,Journal of the American Medical Informatics Association : JAMIA,Caution,data_privacy|ethics_bias,1
+33,35238882,2022,JAMA ophthalmology,Caution,regulation|safety_clinical,0
+34,37658749,2023,The Laryngoscope,Caution,regulation,1
+35,34599876,2021,Journal of the American College of Radiology : JACR,Caution,safety_clinical|regulation,1
+36,36503715,2022,Radiology and oncology,Alarm,safety_clinical,1
+37,35048782,2022,The American journal of bioethics : AJOB,Caution,regulation|ethics_bias,1
+38,35535958,2022,Bioethics,Caution,ethics_bias|regulation,0
+39,36001408,2022,The American journal of gastroenterology,Alarm,safety_clinical|hallucination,1
+40,38715383,2024,Journal of cosmetic dermatology,Caution,ethics_bias|regulation|safety_clinical,1
+41,34110297,2021,JMIR mental health,Caution,ethics_bias|data_privacy|regulation,1
+42,37540464,2024,Japanese journal of radiology,Caution,ethics_bias|regulation|safety_clinical,0
+43,39999009,2025,Interdisciplinary cardiovascular and thoracic surgery,Caution,ethics_bias|existential|regulation,1
+44,36388342,2022,Frontiers in public health,Caution,safety_clinical|regulation,1
+45,38851444,2024,American journal of kidney diseases : the official journal of the National Kidney Foundation,Caution,ethics_bias|regulation,1
+46,35391864,2022,International journal of sports physical therapy,Alarm,other,1
+47,37314848,2023,Journal of medical Internet research,Caution,cognitive|safety_clinical,1
+48,37624108,2023,"Tomography (Ann Arbor, Mich.)",Caution,regulation|ethics_bias,1
+49,37221381,2023,Nature medicine,Caution,ethics_bias|data_privacy|regulation,0
+50,37922149,2023,Translational vision science & technology,Caution,safety_clinical|hallucination,1
+51,38688841,2024,JMIR mHealth and uHealth,Caution,hallucination|safety_clinical,1
+52,34661658,2021,"Clinical science (London, England : 1979)",Caution,safety_clinical|ethics_bias,1
+53,40577783,2025,JMIR mental health,Caution,ethics_bias|safety_clinical|data_privacy,1
+54,35584620,2022,Cell reports. Medicine,Caution,ethics_bias|safety_clinical|regulation,1
+55,37150769,2023,"European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",Caution,replacement|safety_clinical,1
+56,34798287,2022,Journal of clinical epidemiology,Alarm,hallucination|safety_clinical,1
+57,39223538,2024,BMC medical ethics,Caution,education|ethics_bias,1
+58,34267077,2021,Current opinion in critical care,Caution,safety_clinical|regulation,1
+59,34534619,2022,The Canadian journal of cardiology,Caution,safety_clinical|regulation,1
+60,36049723,2022,World neurosurgery,Caution,ethics_bias|hallucination|regulation,1
+61,36648374,2023,Orthodontics & craniofacial research,Caution,safety_clinical|hallucination,1
+62,41381251,2025,European urology oncology,Alarm,safety_clinical|hallucination,1
+63,36093950,2023,The British journal of psychiatry : the journal of mental science,Caution,safety_clinical|ethics_bias,1
+64,38031481,2024,Journal of the American Medical Informatics Association : JAMIA,Caution,regulation|ethics_bias|safety_clinical,1
+65,36175413,2022,Nature communications,Caution,safety_clinical|regulation|hallucination,1
+66,37245525,2023,Clinical & experimental ophthalmology,Caution,safety_clinical|hallucination|regulation,1
+67,33148398,2021,Journal of gynecology obstetrics and human reproduction,Caution,replacement|ethics_bias|existential,1
+68,37231330,2023,BMC gastroenterology,Alarm,safety_clinical|hallucination,1
+69,38839426,2024,BMJ health & care informatics,Caution,safety_clinical|ethics_bias|regulation,0
+70,38227351,2024,JMIR medical education,Caution,education|hallucination,1
+71,39317205,2025,Endoscopy,Alarm,safety_clinical,1
+72,41632159,2025,JAMA network open,Alarm,safety_clinical|hallucination,1
+73,34822096,2022,"Medicine, health care, and philosophy",Caution,existential|ethics_bias|regulation,1
+74,36625218,2023,Clinical radiology,Caution,regulation,1
+75,39947693,2025,Medical care,Caution,ethics_bias,1
+76,40999782,2025,Journal of the American Medical Informatics Association : JAMIA,Caution,ethics_bias|regulation|data_privacy,1
+77,34711379,2021,The Lancet. Digital health,Caution,safety_clinical|ethics_bias|regulation,1
+78,34282762,2021,Cancers,Caution,hallucination|safety_clinical,1
+79,39810943,2025,AJOG global reports,Caution,hallucination|safety_clinical,1
+80,33037709,2021,Journal of the European Academy of Dermatology and Venereology : JEADV,Caution,safety_clinical,1
+81,37353146,2023,The Journal of pediatrics,Caution,ethics_bias|safety_clinical,1
+82,34527682,2021,Frontiers in medicine,Caution,safety_clinical|regulation,1
+83,41601756,2025,Frontiers in medicine,Alarm,hallucination|safety_clinical,1
+84,38219964,2024,Journal of pain and symptom management,Caution,hallucination|safety_clinical,1
+85,35523713,2022,Reproductive biomedicine online,Caution,safety_clinical|regulation|data_privacy,1
+86,36006692,2022,Journal of medical Internet research,Caution,regulation|safety_clinical,1
+87,37632558,2023,World journal of urology,Caution,hallucination|safety_clinical,1
+88,33358138,2021,The Lancet. Digital health,Caution,data_privacy|ethics_bias|regulation,1
+89,36981544,2023,"Healthcare (Basel, Switzerland)",Caution,other,1
+90,33006018,2021,European radiology,Caution,hallucination|safety_clinical,1
+91,34133034,2022,Journal of ultrasound in medicine : official journal of the American Institute of Ultrasound in Medicine,Alarm,safety_clinical|regulation,1
+92,34745242,2021,Computational intelligence and neuroscience,Caution,safety_clinical|ethics_bias,1
+93,37215063,2023,Frontiers in artificial intelligence,Caution,ethics_bias|hallucination|safety_clinical,1
+94,40163112,2025,Journal of medical Internet research,Caution,hallucination|safety_clinical,1
+95,34969668,2021,BMJ health & care informatics,Caution,regulation,1
+96,40931134,2025,"European spine journal : official publication of the European Spine Society, the European Spinal Deformity Society, and the European Section of the Cervical Spine Research Society",Caution,hallucination|safety_clinical,0
+97,37718876,2023,Journal of pediatric rehabilitation medicine,Caution,cognitive|education,1
+98,35084349,2022,Journal of medical Internet research,Caution,regulation|safety_clinical,1
+99,35470133,2022,BMJ health & care informatics,Alarm,ethics_bias,1
+100,38401700,2024,Clinics in dermatology,Caution,ethics_bias|safety_clinical|regulation,1
+101,36791660,2023,EBioMedicine,Caution,ethics_bias,1
+102,38656706,2024,Journal of pharmacokinetics and pharmacodynamics,Caution,hallucination|safety_clinical|education,1
+103,35249179,2022,Journal of medical systems,Caution,safety_clinical|regulation,1
+104,37190181,2023,Cancers,Alarm,safety_clinical|hallucination,1
+105,34982868,2022,Neurosurgery,Caution,safety_clinical|regulation|hallucination,1
+106,37659658,2023,Radiotherapy and oncology : journal of the European Society for Therapeutic Radiology and Oncology,Caution,hallucination|education,1
+107,37639719,2023,Annals of internal medicine,Caution,safety_clinical,1
+108,39806591,2024,BMJ open,Caution,ethics_bias|regulation,1
+109,38626142,2024,PloS one,Alarm,hallucination|safety_clinical,1
+110,41081347,2025,The European journal of general practice,Caution,replacement|safety_clinical,1
+111,34389014,2021,BMC health services research,Caution,replacement|cognitive,1
+112,38049432,2023,Scientific reports,Alarm,data_privacy|ethics_bias,1
+113,38624098,2024,Dermatologic surgery : official publication for American Society for Dermatologic Surgery [et al.],Caution,hallucination|safety_clinical,0
+114,37339863,2023,European journal of hospital pharmacy : science and practice,Alarm,hallucination|safety_clinical,0
+115,39514825,2024,JCO clinical cancer informatics,Caution,ethics_bias|regulation|safety_clinical,1
+116,40939167,2025,Journal of medical Internet research,Caution,regulation|ethics_bias,1
+117,41626932,2025,Research synthesis methods,Caution,hallucination|safety_clinical,1
+118,33860829,2021,European radiology,Caution,safety_clinical|regulation|hallucination,1
+119,37129947,2023,Journal of medical Internet research,Caution,regulation|safety_clinical,1
+120,40707330,2025,Diagnostic and interventional imaging,Caution,safety_clinical|regulation|hallucination,0
+121,35687700,2022,The British journal of radiology,Caution,safety_clinical,1
+122,39036542,2024,Frontiers in radiology,Alarm,hallucination|safety_clinical,1
+123,34236994,2021,Journal of medical Internet research,Caution,data_privacy,1
+124,35671575,2022,Neural networks : the official journal of the International Neural Network Society,Caution,regulation|ethics_bias,1
+125,37740080,2024,European radiology,Caution,regulation,1
+126,38241341,2024,"International journal of surgery (London, England)",Caution,hallucination|safety_clinical,0
+127,38997219,2024,Skin research and technology : official journal of International Society for Bioengineering and the Skin (ISBS) [and] International Society for Digital Imaging of Skin (ISDIS) [and] International Society for Skin Imaging (ISSI),Caution,hallucination|safety_clinical|regulation,0
+128,36597105,2023,World journal of emergency surgery : WJES,Caution,ethics_bias|regulation|safety_clinical,1
+129,38923826,2024,Cancer medicine,Caution,safety_clinical|regulation|hallucination,1
+130,40120387,2025,The American journal of emergency medicine,Alarm,safety_clinical|hallucination,1
+131,37749537,2023,BMC oral health,Caution,replacement|cognitive,1
+132,33629545,2021,Korean journal of radiology,Caution,regulation,1
+133,33393864,2021,The American journal of bioethics : AJOB,Caution,ethics_bias|data_privacy,1
+134,38398794,2024,Nutrients,Caution,hallucination|safety_clinical,1
+135,34811466,2021,Journal of public health policy,Caution,ethics_bias,1
+136,36764806,2023,Clinics in laboratory medicine,Caution,regulation|safety_clinical,1
+137,33801763,2021,"Sensors (Basel, Switzerland)",Caution,safety_clinical|hallucination,1
+138,40272185,2025,Personality and mental health,Alarm,ethics_bias|hallucination,1
+139,36599634,2023,BMJ open,Caution,ethics_bias|regulation|data_privacy,1
+140,36776958,2023,Journal of healthcare engineering,Caution,safety_clinical|regulation,1
+141,39164055,2024,Journal of Korean medical science,Caution,regulation|hallucination,1
+142,41330653,2025,Applied nursing research : ANR,Caution,replacement|ethics_bias,1
+143,37356354,2023,Computer methods and programs in biomedicine,Caution,safety_clinical|hallucination,1
+144,33480150,2021,Journal of evaluation in clinical practice,Caution,ethics_bias|cognitive|existential,1
+145,36001761,2022,Journal of cardiac surgery,Caution,safety_clinical|hallucination,1
+146,37516790,2023,NPJ digital medicine,Caution,hallucination|safety_clinical|regulation,1
+147,37547540,2023,Resuscitation plus,Caution,safety_clinical|regulation|hallucination,1
+148,38876453,2024,Journal of biomedical informatics,Caution,ethics_bias,1
+149,34168282,2021,"Modern pathology : an official journal of the United States and Canadian Academy of Pathology, Inc",Caution,safety_clinical|hallucination,1
+150,34003504,2021,Journal of advanced nursing,Caution,ethics_bias|regulation|safety_clinical,1
+151,34507093,2021,Epilepsy & behavior : E&B,Caution,safety_clinical|hallucination|regulation,1
+152,41123303,2025,International journal of psychiatry in medicine,Alarm,safety_clinical|ethics_bias,1
+153,40753316,2025,Communications medicine,Alarm,hallucination|safety_clinical,1
+154,33947063,2021,"Sensors (Basel, Switzerland)",Caution,regulation|other,1
+155,34252382,2021,The American journal of pathology,Caution,ethics_bias|regulation|data_privacy,1
+156,37104124,2023,"Radiographics : a review publication of the Radiological Society of North America, Inc",Caution,safety_clinical|regulation|hallucination,1
+157,37307079,2023,"Rheumatology (Oxford, England)",Caution,hallucination|regulation|safety_clinical,1
+158,37972444,2024,"Journal of plastic, reconstructive & aesthetic surgery : JPRAS",Alarm,hallucination|ethics_bias,1
+159,33793339,2021,Circulation research,Caution,hallucination|safety_clinical,1
+160,33872714,2021,Journal of the American Academy of Dermatology,Caution,safety_clinical|hallucination|regulation,0
+161,35970260,2022,Journal of the American Society of Echocardiography : official publication of the American Society of Echocardiography,Caution,safety_clinical|regulation|hallucination,0
+162,39718728,2024,Science and engineering ethics,Caution,ethics_bias|regulation|safety_clinical,1
+163,35396184,2022,The Lancet. Digital health,Caution,safety_clinical|regulation,1
+164,41417655,2025,American journal of health-system pharmacy : AJHP : official journal of the American Society of Health-System Pharmacists,Alarm,hallucination|safety_clinical,1
+165,34060359,2021,Journal of dental research,Caution,ethics_bias|regulation|data_privacy,1
+166,39657965,2025,"Human reproduction (Oxford, England)",Caution,ethics_bias|regulation|data_privacy,1
+167,40437254,2025,Pediatric research,Alarm,hallucination|safety_clinical,0
+168,40539754,2025,Advances in skin & wound care,Caution,hallucination|safety_clinical,1
+169,40773525,2025,PLOS digital health,Caution,hallucination|safety_clinical,1
+170,34470057,2021,Applied clinical informatics,Caution,safety_clinical|regulation,1
+171,35538267,2022,"Medicine, health care, and philosophy",Caution,cognitive|ethics_bias|regulation,1
+172,35994331,2022,Journal of medical Internet research,Caution,ethics_bias|regulation,1
+173,36010200,2022,"Diagnostics (Basel, Switzerland)",Caution,safety_clinical|regulation|other,1
+174,36043658,2022,Revista de saude publica,Caution,regulation|data_privacy,1
+175,33039891,2021,The Science of the total environment,Caution,other,1
+176,35190505,2022,Current opinion in nephrology and hypertension,Caution,safety_clinical,1
+177,33947006,2021,International journal of environmental research and public health,Alarm,safety_clinical|hallucination|regulation,1
+178,35688612,2022,Gut,Caution,ethics_bias,1
+179,37988948,2023,Gynecologic oncology,Caution,hallucination|safety_clinical,1
+180,36801459,2023,Gastrointestinal endoscopy,Caution,safety_clinical|regulation,1
+181,41350807,2025,NPJ digital medicine,Caution,cognitive|hallucination,1
+182,35803963,2022,Scientific reports,Caution,hallucination|safety_clinical|regulation,1
+183,38109173,2023,Journal of medical Internet research,Caution,hallucination|existential|ethics_bias,1
+184,40399429,2025,NPJ digital medicine,Caution,regulation|safety_clinical|ethics_bias,1
+185,38172408,2024,Journal of general internal medicine,Caution,ethics_bias|regulation,0
+186,39392461,2025,Medical teacher,Caution,education|hallucination,1
+187,35026997,2022,BMC medical research methodology,Alarm,regulation|safety_clinical,1
+188,41398461,2025,NPJ digital medicine,Caution,regulation|safety_clinical,1
+189,38184343,2024,Artificial intelligence in medicine,Caution,cognitive|regulation,1
+190,38860829,2024,Journal of patient safety,Caution,safety_clinical|ethics_bias|data_privacy,1
+191,38929784,2024,Journal of personalized medicine,Caution,hallucination|safety_clinical,1
+192,34346319,2021,Computers in biology and medicine,Caution,ethics_bias|regulation|data_privacy,1
+193,37995146,2024,Ophthalmic plastic and reconstructive surgery,Caution,hallucination|safety_clinical,0
+194,35592460,2022,Frontiers in digital health,Caution,safety_clinical|ethics_bias|regulation,1
+195,33785839,2021,NPJ digital medicine,Caution,cognitive|replacement,1
+196,34711955,2021,NPJ digital medicine,Caution,safety_clinical|regulation,1
+197,33743995,2021,The Journal of surgical research,Caution,safety_clinical|hallucination|regulation,1
+198,36010861,2022,Cancers,Caution,ethics_bias|safety_clinical,1
+199,40137413,2025,Journal of personalized medicine,Caution,hallucination|safety_clinical,1
+200,35848784,2022,Journal of the American Medical Informatics Association : JAMIA,Caution,safety_clinical|regulation,1
