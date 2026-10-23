@@ -1,0 +1,8 @@
+SYSTEM_PROMPT sha256 3fdfbbadbd5aeac5… identical to prefilter_batch.py
+Corpus: 97,492
+[2026-10-23 17:59:46] round 2
+  ...5MYAgJ2vvMxB in_progress succ=0 err=0 exp=0 canc=0 proc=10
+[2026-10-23 18:01:46] round 2
+  ...5MYAgJ2vvMxB ended       succ=10 err=0 exp=0 canc=0 proc=0
+    retrieved 5MYAgJ2vvMxB: 10 results, FAILED=0
+round 2: all batches retrieved

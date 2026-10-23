@@ -1,0 +1,84 @@
+SYSTEM_PROMPT sha256 3fdfbbadbd5aeac5… identical to prefilter_batch.py
+Corpus: 97,492
+[2026-10-23 17:29:07] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:31:07] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:33:08] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:35:09] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:37:10] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:39:12] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:41:12] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:43:13] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:45:14] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:47:15] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:49:16] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:51:16] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:53:17] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:55:18] round 1
+  ...9y5Ris5bNHA7 in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...Bs9SG1xxvfvL ended       succ=24,373 err=0 exp=0 canc=0 proc=0
+    retrieved Bs9SG1xxvfvL: 24,373 results, FAILED=0
+[2026-10-23 17:57:21] round 1
+  ...9y5Ris5bNHA7 ended       succ=24,373 err=0 exp=0 canc=0 proc=0
+    retrieved 9y5Ris5bNHA7: 24,373 results, FAILED=0
+  ...idP8CYDds6at in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+  ...tR1hkKadyogJ in_progress succ=0 err=0 exp=0 canc=0 proc=24,373
+[2026-10-23 17:59:23] round 1
+  ...idP8CYDds6at ended       succ=24,373 err=0 exp=0 canc=0 proc=0
+    retrieved idP8CYDds6at: 24,373 results, FAILED=0
+  ...tR1hkKadyogJ ended       succ=24,363 err=10 exp=0 canc=0 proc=0
+    retrieved tR1hkKadyogJ: 24,373 results, FAILED=10
+round 1: all batches retrieved

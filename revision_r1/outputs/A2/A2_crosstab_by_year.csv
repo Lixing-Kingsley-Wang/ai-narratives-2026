@@ -1,0 +1,22 @@
+year_band,label_production,discourse,evaluative,application,FAILED
+2021,application,133,143,9851,0
+2021,discourse,632,9,95,0
+2021,evaluative,4,249,75,0
+2022,application,158,173,11461,0
+2022,discourse,763,9,91,0
+2022,evaluative,8,363,110,0
+2023,application,206,195,11672,0
+2023,discourse,1102,31,134,0
+2023,evaluative,14,641,133,0
+2024,application,245,307,15116,0
+2024,discourse,1670,42,191,0
+2024,evaluative,27,1611,163,0
+2025,application,379,517,22078,0
+2025,discourse,2453,79,336,0
+2025,evaluative,61,2710,260,0
+2026,application,159,233,7674,0
+2026,discourse,1104,28,129,0
+2026,evaluative,14,1293,123,0
+other (2018/2020),application,2,0,31,0
+other (2018/2020),discourse,0,0,1,0
+other (2018/2020),evaluative,0,1,0,0

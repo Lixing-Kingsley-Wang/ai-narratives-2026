@@ -1,0 +1,4 @@
+SYSTEM_PROMPT sha256 3fdfbbadbd5aeac5… identical to prefilter_batch.py
+Corpus: 97,492
+round-1 FAILED: 10; spent so far $40.35
+  round 2 batch 1/1: 10 requests, status=in_progress

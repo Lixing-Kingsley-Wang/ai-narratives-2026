@@ -1,0 +1,11 @@
+pmid,year,label_fullabstract,type_confidence,failed,fail_reason,input_tokens,output_tokens,round
+39338233,2024,application,Medium,0,,810,24,2
+39862404,2025,application,Medium,0,,925,24,2
+39230696,2024,application,Medium,0,,643,24,2
+39587841,2025,application,Medium,0,,559,24,2
+39206580,2024,application,Medium,0,,770,24,2
+39705202,2025,application,Medium,0,,686,24,2
+40082786,2025,application,Medium,0,,899,24,2
+39435322,2024,application,Medium,0,,703,24,2
+40448917,2025,application,Medium,0,,749,24,2
+39615697,2025,application,Medium,0,,737,24,2
