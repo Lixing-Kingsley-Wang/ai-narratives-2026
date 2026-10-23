@@ -6,7 +6,7 @@ Branch `jmir-r1-major-revision` (from `31ed027`). Numbers only; no interpretatio
 
 - Worktree was clean at start. The main checkout (`~/Documents/科研/ai-narratives-2026`, branch `prompt-revision-v2`) has its own uncommitted changes; it was only read, never modified.
 - Gitignored inputs (`classified_medical_Q1Q2.csv`, pre-prefilter corpus, pilot files, logs) were read from the main checkout's `output/`. The pilot and classified files there are byte-identical to their last committed versions (`31ed027^`).
-- Inputs: the four submitted files were not in `revision_r1/inputs/`, so I copied them from `~/Documents/科研/Manuscripts/AI Review Dan/` (manuscript `Final Manuscript Submission LW jmir.docx`, md5 identical to `~/Downloads/109710-1557887-1-SM.docx`, plus Multimedia Appendices 1–3 dated 18 Aug). `revision_r1/inputs/` is in `.git/info/exclude`. **Peter: please confirm these are the submitted versions.**
+- Inputs: the four submitted files were not in `revision_r1/inputs/`, so I copied them from `~/Documents/科研/Manuscripts/AI Review Dan/` (manuscript `Final Manuscript Submission LW jmir.docx`, md5 identical to `~/Downloads/109710-1557887-1-SM.docx`, plus Multimedia Appendices 1–3 dated 18 Aug). `revision_r1/inputs/` is in `.git/info/exclude`. Confirmed by the author on 2026-10-23 as the submitted versions, so the T5 ledger stands as run.
 - Python: the project venv (no `statsmodels`). The logistic regressions are written in plain numpy (IRLS), with Wald CIs and likelihood-ratio P.
 
 ---
