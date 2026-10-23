@@ -1,0 +1,2 @@
+FAILED full-abstract labels (all years): 0; within 2021-2025: 0. These enter no frame.
+Pilot PMIDs excluded from EX-F/EX-S/RET frames: 200.
