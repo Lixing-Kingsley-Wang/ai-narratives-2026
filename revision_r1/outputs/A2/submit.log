@@ -1,0 +1,6 @@
+SYSTEM_PROMPT sha256 3fdfbbadbd5aeac5… identical to prefilter_batch.py
+Corpus: 97,492
+  round 1 batch 1/4: 24,373 requests, status=in_progress
+  round 1 batch 2/4: 24,373 requests, status=in_progress
+  round 1 batch 3/4: 24,373 requests, status=in_progress
+  round 1 batch 4/4: 24,373 requests, status=in_progress

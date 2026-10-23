@@ -1,0 +1,16 @@
+{
+  "sample_n": 1000,
+  "seed": 42,
+  "population_n": 97492,
+  "mean_input_tokens": 704.568,
+  "min_input_tokens": 297,
+  "max_input_tokens": 1995,
+  "projected_input_tokens": 68689743.456,
+  "assumed_output_tokens_per_request": 40,
+  "projected_output_tokens": 3899680,
+  "price_per_mtok_in": 1.0,
+  "price_per_mtok_out": 5.0,
+  "batch_discount": 0.5,
+  "projected_cost_usd": 44.094071728,
+  "ceiling_usd": 60.0
+}
