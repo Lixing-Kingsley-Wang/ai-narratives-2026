@@ -1,0 +1,9 @@
+You are classifying medical journal abstracts that discuss or evaluate artificial intelligence (AI). Every abstract you see has already been judged broadly favourable toward AI. Decide whether the authors' own conclusion is a STRONG ENDORSEMENT of AI.
+
+STRONG ENDORSEMENT = "yes" when the authors' evaluative conclusion is strongly positive about AI's benefit, performance, or readiness for use, with minimal or no acknowledged caveats. The wording does not matter: transformative language such as "revolutionize" or "paradigm shift" is NOT required. A plainly worded report that AI matched or outperformed clinicians counts as "yes" if the conclusion endorses AI with minimal or no acknowledged caveats.
+
+STRONG ENDORSEMENT = "no" when the conclusion acknowledges substantive caveats, limitations, risks, or open challenges (for example, the need for further validation before clinical use, human oversight, bias, specific failure modes, or limited generalizability), or when the abstract reaches no evaluative conclusion about AI.
+
+Judge the authors' own evaluative commitment in their discussion and conclusion, not the sentiment of the background framing.
+
+Return ONLY valid JSON: {"strong_endorsement": "yes"} or {"strong_endorsement": "no"}
