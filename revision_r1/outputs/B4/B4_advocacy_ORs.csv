@@ -1,0 +1,24 @@
+term,OR,lo,hi,P,model,variable,level
+"C(genre, Treatment(reference=""discourse""))[T.evaluative]",0.1654769695651241,0.10196610089929722,0.26854638173818546,3.292021265848933e-13,adjusted,genre,evaluative
+"C(pubtype, Treatment(reference=""Research Article""))[T.Editorial]",3.314235726887129,1.959658205580559,5.605139928021756,7.843620958065658e-06,adjusted,pubtype,Editorial
+"C(pubtype, Treatment(reference=""Research Article""))[T.Letter]",3.4755002478490917,2.181467749842855,5.537144417408523,1.5849303858707167e-07,adjusted,pubtype,Letter
+"C(pubtype, Treatment(reference=""Research Article""))[T.Other (<5 events)]",0.8053619449142289,0.16662072244019854,3.8927202620239485,0.7877187718753351,adjusted,pubtype,Other (<5 events)
+"C(pubtype, Treatment(reference=""Research Article""))[T.Review]",0.8970999703784182,0.6158871491568987,1.3067139945274893,0.5714771015441624,adjusted,pubtype,Review
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Cardiology]",1.4688980108985943,0.7943066397172082,2.716408573885301,0.22026721340838085,adjusted,specialty,Cardiology
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Dermatology]",1.0170457220260294,0.3986056816854812,2.5950006440390476,0.9717873295963302,adjusted,specialty,Dermatology
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Internal Medicine / Primary Care]",0.9464241942803101,0.5238771901420893,1.709787660875618,0.8552067869517279,adjusted,specialty,Internal Medicine / Primary Care
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Medical Education]",0.5720185901887903,0.3080757380130922,1.062093593062061,0.07686658671198583,adjusted,specialty,Medical Education
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Multidisciplinary / Other]",1.0201325917013329,0.41265787555136235,2.521872394318933,0.965570097946899,adjusted,specialty,Multidisciplinary / Other
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Neurology / Neuroscience]",1.339770263300712,0.5808838768109665,3.090091548554015,0.49271771996846403,adjusted,specialty,Neurology / Neuroscience
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Oncology]",1.0349546414853457,0.5996699415946379,1.786201101031872,0.9017959430613357,adjusted,specialty,Oncology
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Other (<5 events)]",0.359627885232146,0.2056928239481535,0.628763869123333,0.00033354122085407393,adjusted,specialty,Other (<5 events)
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Radiology / Diagnostic Imaging]",0.5134719231947138,0.2852646258874894,0.9242415356934759,0.026238435920304226,adjusted,specialty,Radiology / Diagnostic Imaging
+"C(specialty, Treatment(reference=""Medical Informatics / Digital Health""))[T.Surgery]",1.1607917195210398,0.6983145965510451,1.9295564245163503,0.5652552324035407,adjusted,specialty,Surgery
+"C(region, Treatment(reference=""North America""))[T.East Asia]",0.7774911551309651,0.49110338217875604,1.2308864451820332,0.2829445224590579,adjusted,region,East Asia
+"C(region, Treatment(reference=""North America""))[T.Latin America / Oceania]",0.6669917630182092,0.3179248673593131,1.3993180704274557,0.28406596386001715,adjusted,region,Latin America / Oceania
+"C(region, Treatment(reference=""North America""))[T.Middle East / North Africa]",1.6581440085706511,1.0017703763621044,2.7445826089839596,0.049201253326873695,adjusted,region,Middle East / North Africa
+"C(region, Treatment(reference=""North America""))[T.Other (<5 events)]",1.0562965006869875,0.46980251367912396,2.374960254311545,0.8945965779142491,adjusted,region,Other (<5 events)
+"C(region, Treatment(reference=""North America""))[T.South/Southeast Asia]",2.2499970977638912,1.3175262917230555,3.8424181526770402,0.002979306106175782,adjusted,region,South/Southeast Asia
+"C(region, Treatment(reference=""North America""))[T.Unknown]",1.351376269646663,0.7095355554599689,2.573821435883156,0.35963302590010426,adjusted,region,Unknown
+"C(region, Treatment(reference=""North America""))[T.Western Europe]",0.4546453714060482,0.2951840657452061,0.7002492265939677,0.00034773124969897346,adjusted,region,Western Europe
+year_c,0.8414498344634587,0.7539800276386746,0.9390670813072131,0.002052094619236441,adjusted,year_c,
