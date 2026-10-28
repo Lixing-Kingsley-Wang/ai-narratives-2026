@@ -1,0 +1,20 @@
+{
+  "job": "b3_endorsement",
+  "model": "claude-sonnet-4-6",
+  "sample_n": 1000,
+  "seed": 42,
+  "population_n": 10749,
+  "mean_input_tokens": 669.902,
+  "min_input_tokens": 293,
+  "max_input_tokens": 1503,
+  "projected_input_tokens": 7200776.598,
+  "assumed_output_tokens_per_request": 15,
+  "projected_output_tokens": 161235,
+  "price_per_mtok_in_out": [
+    3.0,
+    15.0
+  ],
+  "batch_discount": 0.5,
+  "projected_cost_usd": 12.010427396999999,
+  "ceiling_usd": 25.0
+}

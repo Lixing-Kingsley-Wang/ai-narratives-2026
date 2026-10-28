@@ -1,0 +1,324 @@
+--- classify_stance_batch.py.v1_backup	2026-10-21 21:49:19
++++ revision_r1/scripts/b2_stance_recovered_batch.py	2026-10-28 14:28:58
+@@ -1,46 +1,30 @@
+ """
+-Stance classification via Anthropic Message Batches API
+-========================================================
++B2 · v1 stance on the records recovered by the full-abstract prefilter re-run
++=============================================================================
++(JMIR R1 Batch 2b; D1, X2). Copy of classify_stance_batch.py.v1_backup, which
++is byte-identical to the production batch script at commit 9c79cd5. Kept
++verbatim from it: MODEL, MAX_TOKENS, VALID_*, SYSTEM_PROMPT (SHA-256 asserted
++equal to classify_stance.py and to 9c79cd5:classify_stance_batch.py),
++build_prompt and parse_response (which already returns FAILED on any parse
++failure; no default stance). Temperature not set. Changed: the frame (the
++2,850 records with production = application and full-abstract =
++discourse/evaluative), output location (revision_r1/outputs/B2/), one
++resubmission of FAILED records, and the token-count cost gate (ceiling USD 25),
++all via b_batch_engine.
+ 
+-Same prompt and rubric as classify_stance.py (Sonnet 4.6, no abstract
+-truncation), but uses the Batch endpoint:
+-  • 50% discount on input/output tokens
+-  • No per-minute rate limits
+-  • Async — submit returns, results in 1-24h
+-
+-Reads:  output/prefiltered_discourse_eval.csv  (16,759 records)
+-Writes: output/classified_medical_Q1Q2.csv
+-
+-State files:
+-  output/stance_batch_ids.txt        — submitted batch_ids
+-  output/stance_batch_processed.txt  — already-retrieved batch_ids
+-
+-Usage:
+-  python classify_stance_batch.py            # submit (if needed) or poll
+-  python classify_stance_batch.py force-submit
++Usage: python b2_stance_recovered_batch.py count|submit|poll|resubmit|poll2|finalize
+ """
+-import csv, json, time, os, sys, re, math
+-from anthropic import Anthropic
+-from dotenv import load_dotenv
+-# override=True forces .env to win over shell environment vars
+-load_dotenv(override=True)
++import ast, csv, hashlib, json, re, subprocess, sys
++from pathlib import Path
+ 
+-# ── constants (mirror classify_stance.py exactly) ─────────────────────────────
++import b_batch_engine as E
++
++# ── constants (verbatim from the production v1 batch script) ──────────────────
+ MODEL       = "claude-sonnet-4-6"
+ MAX_TOKENS  = 120
+ VALID_STANCES    = {"Alarm", "Caution", "Neutral", "Cautious Optimism", "Advocacy"}
+ VALID_CONFIDENCE = {"High", "Medium", "Low"}
+ 
+-BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+-OUTPUT_DIR  = os.path.join(BASE_DIR, "output")
+-BATCH_IDS_PATH       = os.path.join(OUTPUT_DIR, "stance_batch_ids.txt")
+-BATCH_PROCESSED_PATH = os.path.join(OUTPUT_DIR, "stance_batch_processed.txt")
+-
+-INPUT_PATH = os.path.join(OUTPUT_DIR, "prefiltered_discourse_eval.csv")
+-OUTPUT_PATH = os.path.join(OUTPUT_DIR, "classified_medical_Q1Q2.csv")
+-
+-N_BATCHES = int(os.environ.get("STANCE_N_BATCHES", "1"))
+-
+ SYSTEM_PROMPT = """Classify the stance of a medical AI article toward AI/LLM technology.
+ 
+ STANCES (Q1/Q2 journals use measured language — calibrate accordingly):
+@@ -76,88 +60,6 @@
+     return text
+ 
+ 
+-def extract_pub_year(s):
+-    m = re.search(r"\b(20\d{2})\b", s or "")
+-    return m.group(1) if m else ""
+-
+-
+-# ── load helpers ──────────────────────────────────────────────────────────────
+-def load_done_pmids():
+-    if not os.path.exists(OUTPUT_PATH):
+-        return set()
+-    done = set()
+-    with open(OUTPUT_PATH, encoding="utf-8") as f:
+-        for r in csv.DictReader(f):
+-            if r.get("stance") not in ("", "FAILED", None):
+-                done.add(r["pmid"])
+-    return done
+-
+-
+-def load_records():
+-    records_by_pmid = {}
+-    with open(INPUT_PATH, encoding="utf-8") as f:
+-        for r in csv.DictReader(f):
+-            records_by_pmid[r["pmid"]] = r
+-    return records_by_pmid
+-
+-
+-def load_batch_ids():
+-    if not os.path.exists(BATCH_IDS_PATH):
+-        return []
+-    with open(BATCH_IDS_PATH) as f:
+-        return [line.strip() for line in f if line.strip()]
+-
+-
+-def save_batch_ids(ids):
+-    with open(BATCH_IDS_PATH, "w") as f:
+-        for bid in ids:
+-            f.write(bid + "\n")
+-
+-
+-def load_processed_ids():
+-    if not os.path.exists(BATCH_PROCESSED_PATH):
+-        return set()
+-    with open(BATCH_PROCESSED_PATH) as f:
+-        return set(line.strip() for line in f if line.strip())
+-
+-
+-def mark_processed(bid):
+-    with open(BATCH_PROCESSED_PATH, "a") as f:
+-        f.write(bid + "\n")
+-
+-
+-# ── submit ────────────────────────────────────────────────────────────────────
+-def submit_in_chunks(client, pending, n_chunks):
+-    chunk_size = math.ceil(len(pending) / n_chunks)
+-    print(f"Splitting {len(pending):,} records into {n_chunks} chunk(s) of ~{chunk_size:,}")
+-
+-    batch_ids = []
+-    for i in range(n_chunks):
+-        chunk = pending[i * chunk_size : (i + 1) * chunk_size]
+-        if not chunk:
+-            break
+-
+-        requests = []
+-        for r in chunk:
+-            prompt = build_prompt(r.get("title", ""), r.get("abstract", ""))
+-            requests.append({
+-                "custom_id": r["pmid"],
+-                "params": {
+-                    "model": MODEL,
+-                    "max_tokens": MAX_TOKENS,
+-                    "system": SYSTEM_PROMPT,
+-                    "messages": [{"role": "user", "content": prompt}],
+-                },
+-            })
+-
+-        batch = client.messages.batches.create(requests=requests)
+-        batch_ids.append(batch.id)
+-        print(f"  Batch {i+1}/{n_chunks}: {batch.id} ({len(chunk):,} reqs, status={batch.processing_status})")
+-
+-    return batch_ids
+-
+-
+-# ── parse one Sonnet response ─────────────────────────────────────────────────
+ def parse_response(text):
+     raw = text.strip()
+     raw_orig = raw
+@@ -182,134 +84,47 @@
+     return stance, conf, pred, raw
+ 
+ 
+-# ── retrieve a batch and append to output ─────────────────────────────────────
+-def write_batch_results(client, batch_id, records_by_pmid, done_pmids):
+-    in_cols = list(next(iter(records_by_pmid.values())).keys())
+-    # Match classify_stance.py output schema exactly
+-    out_cols = in_cols + ["pub_year", "stance", "stance_model",
+-                          "confidence", "predictive_claim", "stance_raw"]
++# ── R1 wiring ─────────────────────────────────────────────────────────────────
++REPO = Path(__file__).resolve().parents[2]
++OUT = REPO / "revision_r1" / "outputs" / "B2"
++FIELDS = ["stance", "confidence", "predictive_claim", "stance_raw"]
+ 
+-    # Dedupe in_cols if pub_year is already in input (it is, from prefilter)
+-    if "pub_year" in in_cols:
+-        out_cols = in_cols + ["stance", "stance_model",
+-                              "confidence", "predictive_claim", "stance_raw"]
+ 
+-    mode = "a" if os.path.exists(OUTPUT_PATH) else "w"
++def _prompt_of(src):
++    for n in ast.parse(src).body:
++        if isinstance(n, ast.Assign) and any(getattr(t, "id", None) == "SYSTEM_PROMPT" for t in n.targets):
++            return ast.literal_eval(n.value)
+ 
+-    n_written = n_skip = n_fail = 0
+-    stance_dist = {}
+ 
+-    with open(OUTPUT_PATH, mode, newline="", encoding="utf-8") as f:
+-        writer = csv.DictWriter(f, fieldnames=out_cols)
+-        if mode == "w":
+-            writer.writeheader()
++def assert_prompt():
++    h = lambda s: hashlib.sha256(s.encode()).hexdigest()
++    ref1 = _prompt_of((REPO / "classify_stance.py").read_text())
++    ref2 = _prompt_of(subprocess.run(["git", "show", "9c79cd5:classify_stance_batch.py"], cwd=REPO,
++                                     capture_output=True, text=True, check=True).stdout)
++    assert h(SYSTEM_PROMPT) == h(ref1) == h(ref2), "v1 SYSTEM_PROMPT mismatch"
++    return h(SYSTEM_PROMPT)
+ 
+-        for result in client.messages.batches.results(batch_id):
+-            pmid = result.custom_id
+-            if pmid in done_pmids:
+-                n_skip += 1
+-                continue
+-            rec = records_by_pmid.get(pmid)
+-            if rec is None:
+-                continue
+ 
+-            if result.result.type != "succeeded":
+-                stance, conf, pred, raw = "FAILED", "Low", "no", "ERROR: batch result not succeeded"
+-                n_fail += 1
+-            else:
+-                msg = result.result.message
+-                # Defensively extract text — some succeeded responses have empty content arrays
+-                text = ""
+-                for block in (msg.content or []):
+-                    if getattr(block, "text", None):
+-                        text = block.text
+-                        break
+-                if not text:
+-                    stance, conf, pred, raw = "FAILED", "Low", "no", "ERROR: empty content"
+-                    n_fail += 1
+-                else:
+-                    stance, conf, pred, raw = parse_response(text)
+-                    if stance == "FAILED":
+-                        n_fail += 1
++def parse(text):
++    stance, conf, pred, raw = parse_response(text)
++    if stance == "FAILED":
++        return {}, raw
++    return {"stance": stance, "confidence": conf, "predictive_claim": pred, "stance_raw": raw}, ""
+ 
+-            stance_dist[stance] = stance_dist.get(stance, 0) + 1
+ 
+-            out_row = dict(rec)
+-            if "pub_year" not in out_row:
+-                out_row["pub_year"] = extract_pub_year(rec.get("pub_date", ""))
+-            out_row["stance"]           = stance
+-            out_row["stance_model"]     = "sonnet"
+-            out_row["confidence"]       = conf
+-            out_row["predictive_claim"] = pred
+-            out_row["stance_raw"]       = raw
++def frame():
++    lab = list(csv.DictReader(open(REPO / "revision_r1/outputs/A2/a2_fullabstract_labels.csv")))
++    rec = {r["pmid"] for r in lab if r["label_production"] == "application"
++           and r["label_fullabstract"] in ("discourse", "evaluative")}
++    corpus = E.MAIN / "output" / "filtered_medical_all_Q1Q2.csv"
++    rows = [r for r in csv.DictReader(open(corpus, encoding="utf-8")) if r["pmid"] in rec]
++    assert len(rows) == len(rec) == 2850, (len(rows), len(rec))
++    return rows
+ 
+-            writer.writerow(out_row)
+-            done_pmids.add(pmid)
+-            n_written += 1
+ 
+-    print(f"    wrote: {n_written:,}  skip(dup)={n_skip}  fails={n_fail}")
+-    print(f"    stance_dist: {stance_dist}")
+-    return n_written
+-
+-
+-# ── poll all; retrieve as each ends ───────────────────────────────────────────
+-def poll_and_retrieve(client, batch_ids, records_by_pmid, sleep_s=60):
+-    processed = load_processed_ids()
+-    pending = [b for b in batch_ids if b not in processed]
+-    print(f"Polling {len(pending)} batch(es), {len(processed)} already retrieved")
+-
+-    while pending:
+-        statuses = []
+-        for bid in list(pending):
+-            b = client.messages.batches.retrieve(bid)
+-            statuses.append((bid, b.processing_status, b.request_counts))
+-
+-        print(f"\n[poll @ {time.strftime('%H:%M:%S')}]")
+-        for bid, status, rc in statuses:
+-            short = bid[-14:]
+-            total = rc.succeeded + rc.errored + rc.canceled + rc.expired + rc.processing
+-            done_pct = ((rc.succeeded + rc.errored + rc.canceled + rc.expired) / total * 100) if total else 0
+-            print(f"  ...{short}: {status:<11}  succ={rc.succeeded:>6,}  "
+-                  f"proc={rc.processing:>6,}  err={rc.errored}  ({done_pct:.1f}%)")
+-
+-        done_pmids = load_done_pmids()
+-        for bid, status, rc in statuses:
+-            if status == "ended":
+-                print(f"  → retrieving {bid[-14:]}...")
+-                write_batch_results(client, bid, records_by_pmid, done_pmids)
+-                mark_processed(bid)
+-                pending.remove(bid)
+-
+-        if pending:
+-            time.sleep(sleep_s)
+-
+-    print("\nAll batches retrieved.")
+-
+-
+-# ── main ──────────────────────────────────────────────────────────────────────
+-def main():
+-    force_submit = len(sys.argv) > 1 and sys.argv[1] == "force-submit"
+-    client = Anthropic()
+-    records_by_pmid = load_records()
+-    done = load_done_pmids()
+-    pending = [r for pmid, r in records_by_pmid.items() if pmid not in done]
+-    print(f"Corpus: {len(records_by_pmid):,}  done: {len(done):,}  pending: {len(pending):,}")
+-
+-    existing_ids = load_batch_ids()
+-
+-    if not existing_ids or force_submit:
+-        if not pending:
+-            print("Nothing pending; nothing to submit.")
+-            return
+-        ids = submit_in_chunks(client, pending, N_BATCHES)
+-        save_batch_ids(ids)
+-        print(f"\nSubmitted {len(ids)} batch(es). Saved to {BATCH_IDS_PATH}")
+-        print("Re-run this script to poll & retrieve results.")
+-        return
+-
+-    print(f"Resuming from {len(existing_ids)} previously-submitted batch(es)")
+-    poll_and_retrieve(client, existing_ids, records_by_pmid)
+-
+-
+ if __name__ == "__main__":
+-    main()
++    print(f"v1 SYSTEM_PROMPT sha256 {assert_prompt()}", flush=True)
++    job = E.Job("b2_stance", OUT, MODEL, MAX_TOKENS, None, SYSTEM_PROMPT, frame(),
++                lambda r: build_prompt(r.get("title", ""), r.get("abstract", "")), parse,
++                ceiling=25.0, out_tokens_assumed=40)
++    E.run(job, FIELDS, sys.argv)

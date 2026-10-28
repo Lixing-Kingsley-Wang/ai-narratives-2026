@@ -1,0 +1,26 @@
+v1 SYSTEM_PROMPT sha256 b3949917159ea546ce7eb4c21224659be98c646aa937287d376f68c67992a39f
+  counted 200/1000
+  counted 400/1000
+  counted 600/1000
+  counted 800/1000
+  counted 1000/1000
+{
+  "job": "b2_stance",
+  "model": "claude-sonnet-4-6",
+  "sample_n": 1000,
+  "seed": 42,
+  "population_n": 2850,
+  "mean_input_tokens": 925.41,
+  "min_input_tokens": 522,
+  "max_input_tokens": 4177,
+  "projected_input_tokens": 2637418.5,
+  "assumed_output_tokens_per_request": 40,
+  "projected_output_tokens": 114000,
+  "price_per_mtok_in_out": [
+    3.0,
+    15.0
+  ],
+  "batch_discount": 0.5,
+  "projected_cost_usd": 4.81112775,
+  "ceiling_usd": 25.0
+}
