@@ -177,6 +177,7 @@ Let p_sy be the human KEEP proportion among coded records in stratum s, year y, 
 - 2026-10-26: A1 coded sheet returned (exported from Numbers as CSV; imported unchanged by `a4_import_theme_csv.py`, 200/200 titles and abstracts identical to the template). Primary scoring run with the frozen `a4_score_theme.py`. **Post-hoc addition (not pre-specified):** `a4_score_theme_posthoc.py` keeps the 13 records with no ticked theme as empty human sets, as a sensitivity analysis; the primary analysis follows §6 and excludes them.
 - 2026-10-26: **Amendment 1** (see §9): the A1 primary analysis becomes all 200 sampled records; the §6 rule that excludes records with no ticked theme is kept as a secondary analysis. The `a4_score_theme_posthoc.py` sensitivity analysis logged in the previous entry is superseded by `a4_score_theme_n200.py`, which gives identical estimates in the full report format.
 - 2026-10-26: A3 coded sheet returned as a Numbers file; a copy was exported to CSV with Numbers and imported unchanged by `a4_import_prefilter_csv.py` (370/370 titles and abstracts identical to the template; 1 unlabelled row, 9 borderline). **Amendment 2** (see §9). Secondary (pre-specified) analysis run with the frozen `a4_score_prefilter.py`.
+- 2026-10-28: **Amendment 3** (see §9): intervals for A3 that remain valid when a sampling cell has zero events.
 
 ## 9. Amendments
 
@@ -199,3 +200,14 @@ Let p_sy be the human KEEP proportion among coded records in stratum s, year y, 
 - **Reason.** Same principle as Amendment 1: every sampled record stands for records that the manuscript's corpus labels, so an unlabelled record must not be removed from the agreement estimate.
 - **Timing (disclosed).** The authors decided this when they returned the A3 sheet, before any A3 result was computed. It follows Amendment 1, which was made after the A1 results were known. Only 1 of 370 rows is unlabelled.
 - **Implementation.** `revision_r1/scripts/a4_score_prefilter_blankerror.py` reuses the frozen `a4_score_prefilter.py` functions unchanged; only the label assignment for unlabelled rows differs.
+
+### Amendment 3 (2026-10-28) — A3: intervals robust to zero-event cells
+
+- **Problem.** Five A3 cells have no variation: EX-S 2021 and 2024 (0/45), and RET 2021, 2024 and 2025 (10/10). The pre-specified within-cell percentile bootstrap (§6) cannot vary these cells, so it understates uncertainty.
+- **Change.** Added intervals, reported alongside the bootstrap (which is kept):
+  - single-cell proportions: exact Clopper–Pearson 95% CI, with the Wilson interval also shown;
+  - weighted combinations of cells (1−NPV by year, by period and pooled; missed records; pooled PPV among retained; pooled full-abstract precision; production-prefilter 2×2 metrics): the percentile interval from 10,000 draws of each cell's Jeffreys posterior Beta(k+½, n−k+½), seed 42.
+  - No exact interval exists for these weighted combinations.
+- **Limitation found on implementation.** The full-abstract 2×2 has to split RET cells by full-abstract label, which leaves sub-cells of n = 1–3. On those, the Jeffreys prior pulls the proportion strongly toward ½, and the intervals for full-abstract specificity and PPV exclude the point estimate. For the full-abstract 2×2 the bootstrap interval is therefore retained, and the Jeffreys interval is not used. All other Jeffreys intervals contain the point estimate.
+- **Timing (disclosed).** The change was made after the A3 primary results were known, at the authors' request, because of the degenerate intervals.
+- **Implementation.** `revision_r1/scripts/a4_prefilter_exact_ci.py`. Point estimates are recomputed at cell level and asserted equal to the frozen record-level estimator.
