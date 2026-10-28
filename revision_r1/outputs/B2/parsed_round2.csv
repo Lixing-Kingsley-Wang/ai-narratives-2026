@@ -1,0 +1,4 @@
+pmid,stance,confidence,predictive_claim,stance_raw,failed,fail_reason,input_tokens,output_tokens,round
+38236510,,,,,1,ERROR: The abstract is about SARS-CoV-2 effects on bone health. The final sentence mentions that this revie,923,120,2
+41011837,,,,,1,empty_response,816,0,2
+40300635,,,,,1,empty_response,804,0,2
