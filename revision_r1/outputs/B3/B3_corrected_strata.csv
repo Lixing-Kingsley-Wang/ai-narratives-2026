@@ -1,0 +1,9 @@
+stratum,validation n,human Advocacy in stratum,P(human Advocacy | stratum),flag (<10 validation records)
+"Advocacy, flag no",17,8,0.471,
+"Advocacy, flag yes",13,9,0.692,
+Alarm,40,0,0.000,
+Caution,60,0,0.000,
+"Cautious Optimism, flag FAILED",0,0,no records,<10
+"Cautious Optimism, flag no",95,6,0.063,
+"Cautious Optimism, flag yes",5,1,0.200,<10
+Neutral,70,0,0.000,

@@ -1,0 +1,15 @@
+B3 prompt sha256 27d28077cd7485fddcdfe4f0da3f4a3c13ad36a310bcd23f1544a5a89db50cf6; frame 10,749 = 10,749 corpus favourable + 0 validation-only
+[2026-10-28 14:32:52] b3_endorsement round 1
+  ...rMAowDXogA1H in_progress succ=0 err=0 exp=0 canc=0 proc=10,749
+[2026-10-28 14:34:52] b3_endorsement round 1
+  ...rMAowDXogA1H in_progress succ=0 err=0 exp=0 canc=0 proc=10,749
+[2026-10-28 14:36:52] b3_endorsement round 1
+  ...rMAowDXogA1H in_progress succ=0 err=0 exp=0 canc=0 proc=10,749
+[2026-10-28 14:38:53] b3_endorsement round 1
+  ...rMAowDXogA1H in_progress succ=0 err=0 exp=0 canc=0 proc=10,749
+[2026-10-28 14:40:53] b3_endorsement round 1
+  ...rMAowDXogA1H in_progress succ=0 err=0 exp=0 canc=0 proc=10,749
+[2026-10-28 14:42:53] b3_endorsement round 1
+  ...rMAowDXogA1H ended       succ=10,749 err=0 exp=0 canc=0 proc=0
+    retrieved rMAowDXogA1H: 10,749, FAILED=7
+b3_endorsement round 1: all retrieved
