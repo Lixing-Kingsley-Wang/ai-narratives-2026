@@ -1,0 +1,8 @@
+pmid,strong_endorsement,raw,failed,fail_reason,input_tokens,output_tokens,round
+41857202,,,1,json_parse_error: The abstract reports that AI reduced radiologist workload by 63.6% and improved ,690,30,2
+33429441,,,1,"json_parse_error: The conclusion states ENDOANGEL ""was an effective and robust system to improve t",787,30,2
+35622711,,,1,"json_parse_error: The conclusion presents the automated framework positively, highlighting its cap",790,30,2
+39112022,,,1,"json_parse_error: The abstract concludes with strong positive language (""revolutionize remote pati",646,30,2
+41015158,,,1,"json_parse_error: The conclusion states LLMs ""outperform experts"" and ""match or exceed them in cli",908,30,2
+41696043,no,"{""strong_endorsement"": ""no""}",0,,737,12,2
+39910272,,,1,"json_parse_error: The conclusion states that ""LLM assistance can improve physician management reas",671,30,2

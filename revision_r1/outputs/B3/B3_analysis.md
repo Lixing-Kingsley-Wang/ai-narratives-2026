@@ -1,6 +1,6 @@
 # B3 · Symmetric endorsement re-classification (X1, D2b)
 
-Favourable records classified: 10,749 (2021–Apr 2026); flag yes 1,356, no 9,386, FAILED 7 (model wrote prose before the JSON within max_tokens 30; resubmission was refused by the API for insufficient credit). FAILED records stay in denominators and are not counted as Strong endorsement.
+Favourable records classified: 10,749 (2021–Apr 2026); flag yes 1,356, no 9,387, FAILED 6. Round 1 left 7 FAILED (model wrote prose before the JSON within max_tokens 30); all 7 were resubmitted once with identical settings (first attempt refused for insufficient API credit; run after credit was added). FAILED records stay in denominators and are not counted as Strong endorsement. Round-1-only outputs: `outputs/B3/round1_only/`.
 
 ## 1. Symmetric scale distribution
 
@@ -12,7 +12,7 @@ Favourable records classified: 10,749 (2021–Apr 2026); flag yes 1,356, no 9,38
 | 2023 | 2054 | 4.7% (97) | 25.7% (527) | 6.3% (130) | 53.5% (1,098) | 9.8% (202) | 0.0% (0) |
 | 2024 | 3700 | 6.8% (253) | 26.4% (975) | 5.1% (189) | 53.7% (1,987) | 8.0% (295) | 0.0% (1) |
 | 2025 | 5898 | 5.7% (335) | 25.3% (1,493) | 3.7% (218) | 58.7% (3,460) | 6.6% (390) | 0.0% (2) |
-| Jan–Apr 2026 | 2689 | 6.2% (167) | 26.4% (711) | 4.3% (116) | 56.3% (1,515) | 6.6% (177) | 0.1% (3) |
+| Jan–Apr 2026 | 2689 | 6.2% (167) | 26.4% (711) | 4.3% (116) | 56.4% (1,516) | 6.6% (177) | 0.1% (2) |
 
 ## 2. Trend 2021–2025 (denominator: all analytic records in the year)
 
@@ -36,14 +36,14 @@ Annual %, bootstrap 95% CI (1000 joint resamples, seed 42), n/N.
 | Advocacy | 2024 | 17/54 | 31.5 | 19.5–45.6 | 0 |
 | Advocacy | 2025 | 28/66 | 42.4 | 30.3–55.2 | 0 |
 | Advocacy | 2026 | 8/17 | 47.1 | 23.0–72.2 | 0 |
-| Cautious Optimism | 2021–Apr 2026 | 1265/10514 | 12.0 | 11.4–12.7 | 7 |
+| Cautious Optimism | 2021–Apr 2026 | 1265/10514 | 12.0 | 11.4–12.7 | 6 |
 | Cautious Optimism | 2021–2025 | 1096/8836 | 12.4 | 11.7–13.1 | 4 |
 | Cautious Optimism | 2021 | 105/684 | 15.4 | 12.7–18.3 | 1 |
 | Cautious Optimism | 2022 | 165/877 | 18.8 | 16.3–21.6 | 0 |
 | Cautious Optimism | 2023 | 186/1260 | 14.8 | 12.8–16.8 | 0 |
 | Cautious Optimism | 2024 | 278/2229 | 12.5 | 11.1–13.9 | 1 |
 | Cautious Optimism | 2025 | 362/3786 | 9.6 | 8.6–10.5 | 2 |
-| Cautious Optimism | 2026 | 169/1678 | 10.1 | 8.7–11.6 | 3 |
+| Cautious Optimism | 2026 | 169/1678 | 10.1 | 8.7–11.6 | 2 |
 
 ## 4. Agreement with existing human labels (model-favourable validation records)
 

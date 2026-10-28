@@ -1,7 +1,7 @@
 pmid,strong_endorsement,raw,failed,fail_reason,round
 41157181,no,"{""strong_endorsement"": ""no""}",0,,1
 40505086,no,"{""strong_endorsement"": ""no""}",0,,1
-35622711,,,1,"json_parse_error: The conclusion presents the automated framework positively, highlighting its cap",1
+35622711,,,1,"json_parse_error: The conclusion presents the automated framework positively, highlighting its cap",2
 37530906,no,"{""strong_endorsement"": ""no""}",0,,1
 41140898,no,"{""strong_endorsement"": ""no""}",0,,1
 41571872,no,"{""strong_endorsement"": ""no""}",0,,1
@@ -741,7 +741,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 39879624,no,"{""strong_endorsement"": ""no""}",0,,1
 40384598,no,"{""strong_endorsement"": ""no""}",0,,1
 34459798,no,"{""strong_endorsement"": ""no""}",0,,1
-41015158,,,1,"json_parse_error: The conclusion states LLMs ""outperform experts"" and ""match or exceed them in cli",1
+41015158,,,1,"json_parse_error: The conclusion states LLMs ""outperform experts"" and ""match or exceed them in cli",2
 40013098,no,"{""strong_endorsement"": ""no""}",0,,1
 37230019,no,"{""strong_endorsement"": ""no""}",0,,1
 37399030,no,"{""strong_endorsement"": ""no""}",0,,1
@@ -1088,7 +1088,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 38738250,no,"{""strong_endorsement"": ""no""}",0,,1
 34942057,yes,"{""strong_endorsement"": ""yes""}",0,,1
 38960731,no,"{""strong_endorsement"": ""no""}",0,,1
-33429441,,,1,"json_parse_error: The conclusion states ENDOANGEL ""was an effective and robust system to improve t",1
+33429441,,,1,"json_parse_error: The conclusion states ENDOANGEL ""was an effective and robust system to improve t",2
 40126190,no,"{""strong_endorsement"": ""no""}",0,,1
 41958889,yes,"{""strong_endorsement"": ""yes""}",0,,1
 38388721,no,"{""strong_endorsement"": ""no""}",0,,1
@@ -1539,7 +1539,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 39359529,no,"{""strong_endorsement"": ""no""}",0,,1
 41937254,no,"{""strong_endorsement"": ""no""}",0,,1
 41136991,no,"{""strong_endorsement"": ""no""}",0,,1
-39112022,,,1,"json_parse_error: The abstract concludes with strong positive language (""revolutionize remote pati",1
+39112022,,,1,"json_parse_error: The abstract concludes with strong positive language (""revolutionize remote pati",2
 36274315,yes,"{""strong_endorsement"": ""yes""}",0,,1
 38012349,no,"{""strong_endorsement"": ""no""}",0,,1
 32585216,yes,"{""strong_endorsement"": ""yes""}",0,,1
@@ -2230,7 +2230,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 40376848,no,"{""strong_endorsement"": ""no""}",0,,1
 41180795,no,"{""strong_endorsement"": ""no""}",0,,1
 41132873,yes,"{""strong_endorsement"": ""yes""}",0,,1
-41857202,,,1,json_parse_error: The abstract reports that AI reduced radiologist workload by 63.6% and improved ,1
+41857202,,,1,json_parse_error: The abstract reports that AI reduced radiologist workload by 63.6% and improved ,2
 34796530,no,"{""strong_endorsement"": ""no""}",0,,1
 39820814,no,"{""strong_endorsement"": ""no""}",0,,1
 34375355,no,"{""strong_endorsement"": ""no""}",0,,1
@@ -3868,7 +3868,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 41064034,no,"{""strong_endorsement"": ""no""}",0,,1
 40456168,no,"{""strong_endorsement"": ""no""}",0,,1
 35835342,yes,"{""strong_endorsement"": ""yes""}",0,,1
-39910272,,,1,"json_parse_error: The conclusion states that ""LLM assistance can improve physician management reas",1
+39910272,,,1,"json_parse_error: The conclusion states that ""LLM assistance can improve physician management reas",2
 40275334,no,"{""strong_endorsement"": ""no""}",0,,1
 40459523,no,"{""strong_endorsement"": ""no""}",0,,1
 41089291,no,"{""strong_endorsement"": ""no""}",0,,1
@@ -8526,7 +8526,7 @@ pmid,strong_endorsement,raw,failed,fail_reason,round
 41010705,no,"{""strong_endorsement"": ""no""}",0,,1
 41609772,no,"{""strong_endorsement"": ""no""}",0,,1
 39405186,no,"{""strong_endorsement"": ""no""}",0,,1
-41696043,,,1,"json_parse_error: The conclusion states DL algorithms show ""high diagnostic performance"" comparabl",1
+41696043,no,"{""strong_endorsement"": ""no""}",0,,2
 39214695,no,"{""strong_endorsement"": ""no""}",0,,1
 41920800,yes,"{""strong_endorsement"": ""yes""}",0,,1
 39004592,no,"{""strong_endorsement"": ""no""}",0,,1

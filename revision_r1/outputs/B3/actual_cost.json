@@ -1,7 +1,7 @@
 {
-  "input_tokens": 7277701,
-  "output_tokens": 129114,
-  "cost_usd": 11.8849065,
+  "input_tokens": 7282930,
+  "output_tokens": 129306,
+  "cost_usd": 11.89419,
   "round1_failed": 7,
-  "final_failed": 7
+  "final_failed": 6
 }

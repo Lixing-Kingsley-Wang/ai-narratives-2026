@@ -1,0 +1,7 @@
+B3 prompt sha256 27d28077cd7485fddcdfe4f0da3f4a3c13ad36a310bcd23f1544a5a89db50cf6; frame 10,749 = 10,749 corpus favourable + 0 validation-only
+[2026-10-28 16:31:45] b3_endorsement round 2
+  ...mXCPD4mfLRge in_progress succ=0 err=0 exp=0 canc=0 proc=7
+[2026-10-28 16:32:46] b3_endorsement round 2
+  ...mXCPD4mfLRge ended       succ=7 err=0 exp=0 canc=0 proc=0
+    retrieved mXCPD4mfLRge: 7, FAILED=6
+b3_endorsement round 2: all retrieved

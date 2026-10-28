@@ -87,14 +87,16 @@ Output: [outputs/B3/B3_analysis.md](outputs/B3/B3_analysis.md)
 **Run details**
 - **Prompt:** SHA-256 `27d28077cd7485fddcdfe4f0da3f4a3c13ad36a310bcd23f1544a5a89db50cf6`, verbatim from the brief.
 - **Settings:** `claude-sonnet-4-6`, Batch API, temperature 0, `max_tokens` 30.
-- **Cost:** projected USD 12.01; actual **USD 11.88**.
-- **B2 + B3 total:** USD 16.35.
-- **Flags:** of 10,749 favourable records, 1,356 were flagged yes, 9,386 no, and **7 FAILED**.
+- **Cost:** projected USD 12.01; actual **USD 11.89** (round 1 USD 11.88 + resubmission < USD 0.01).
+- **B2 + B3 total:** USD 16.36.
+- **Flags:** of 10,749 favourable records, 1,356 were flagged yes, 9,387 no, and **6 FAILED**.
 
-**Why the 7 failed and were not resubmitted**
-- In all 7, the model wrote prose before the JSON, and `max_tokens` 30 ran out first.
-- The resubmission was refused with HTTP 400, "credit balance is too low".
-- The 7 stay FAILED. They remain in the denominators and are not counted as yes. An upper bound that counts them as yes is reported; it changes the 2021 value by 0.09 pp at most.
+**FAILED records and resubmission**
+- In all 7 round-1 failures, the model wrote prose before the JSON, and `max_tokens` 30 ran out first.
+- The first resubmission attempt was refused with HTTP 400, "credit balance is too low". After Peter added credit, the 7 were resubmitted once with identical settings (round 2; batch log `outputs/B3/poll_round2.log`).
+- Round 2 recovered 1 record (flag no; dated 2026). The other 6 failed again in the same way (temperature 0).
+- The 6 stay FAILED. They remain in the denominators and are not counted as yes. An upper bound that counts them as yes is reported; it changes the 2021 value by 0.09 pp at most.
+- **Effect of round 2:** only the Jan–Apr 2026 cells change (Cautious Optimism flag no 1,515 → 1,516; flag FAILED 3 → 2). Every 2021–2025 output (trend, upper bound, consistency, agreement, corrected prevalence) is identical to the round-1-only run. Round-1-only outputs are kept in `outputs/B3/round1_only/`; the rerun used a copy of the analysis script, `scripts/b3_analysis_after_resubmit.py`, whose only change is the description text.
 
 **Strong endorsement trend**, 2021–2025, with all records as the denominator:
 
@@ -257,7 +259,7 @@ Output: [outputs/B6/B6_terms.md](outputs/B6/B6_terms.md); figure: `figures/B6_te
 
 1. **Stance prompt mismatch.** Supplementary Note 2 and the Methods' Advocacy definition describe v2, not the v1 prompt that produced every stance label (see above).
 2. **B3 consistency.** Only 38.7% of production Advocacy records meet the B3 "strong endorsement" construct.
-3. **B3 incomplete.** Seven B3 records stayed FAILED because the resubmission was refused for API credit. Resubmitting them would cost under USD 0.01 once credit is added.
+3. **B3 FAILED.** Seven B3 records failed in round 1. After API credit was added, the single resubmission recovered 1; 6 stay FAILED.
 4. **B2 FAILED.** Three B2 records stayed FAILED after one resubmission.
 5. **Proportional odds** fails for most covariates (27/32 terms), mainly at the Advocacy cut point.
 6. **Lexicon directions.** For regulation and ethics/bias, the lexicon trend direction disagrees with the LLM theme trend.
@@ -283,4 +285,5 @@ Output: [outputs/B6/B6_terms.md](outputs/B6/B6_terms.md); figure: `figures/B6_te
 | `1dd03e5` | B7; B2 batch results |
 | `f5d33f0` | B2 analysis |
 | `b3e3d16` | B3 |
-| (final) | Report, protocol note, checksums |
+| `b00a8ce` | Report, protocol note, checksums |
+| (this) | B3 resubmission of the 7 FAILED records; B3 rerun; report update |
