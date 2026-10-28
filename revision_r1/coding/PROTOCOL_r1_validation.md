@@ -178,6 +178,7 @@ Let p_sy be the human KEEP proportion among coded records in stratum s, year y, 
 - 2026-10-26: **Amendment 1** (see §9): the A1 primary analysis becomes all 200 sampled records; the §6 rule that excludes records with no ticked theme is kept as a secondary analysis. The `a4_score_theme_posthoc.py` sensitivity analysis logged in the previous entry is superseded by `a4_score_theme_n200.py`, which gives identical estimates in the full report format.
 - 2026-10-26: A3 coded sheet returned as a Numbers file; a copy was exported to CSV with Numbers and imported unchanged by `a4_import_prefilter_csv.py` (370/370 titles and abstracts identical to the template; 1 unlabelled row, 9 borderline). **Amendment 2** (see §9). Secondary (pre-specified) analysis run with the frozen `a4_score_prefilter.py`.
 - 2026-10-28: **Amendment 3** (see §9): intervals for A3 that remain valid when a sampling cell has zero events.
+- 2026-10-28 (Batch 2b, B1): Amendment 3 restated for the record. It was made **after** the A3 results were seen, and it changes **only the CIs, not the point estimates**. Effect on width, primary analysis: 25 of 29 estimands have wider intervals than the bootstrap. All 1−NPV, missed-record and production-prefilter intervals widen. Four full-abstract quantities are slightly narrower (full-abstract sensitivity, NPV and κ, and pooled EX-F precision). The full-abstract 2×2 keeps its bootstrap interval. Comparison table: `revision_r1/outputs/B1/B1_old_vs_new_ci.csv`.
 
 ## 9. Amendments
 
