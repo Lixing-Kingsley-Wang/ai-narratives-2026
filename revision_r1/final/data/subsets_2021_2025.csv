@@ -1,0 +1,16 @@
+key,label,n,denominator
+critical,Critical records (Alarm or Caution),4283,14058
+theme_labelled,Critical records with a theme label,4283,4283
+mech_failed,Mechanism classification FAILED,2,4283
+mech_parsed,Critical records with a parsed mechanism label,4281,4283
+title_only_crit,Title-only records among parsed critical records,375,4281
+abstract_crit,Abstract-present critical records (mechanism analyses),3906,4283
+gated,"Hallucination-gated, abstract-present critical records",1775,3906
+specialty_valid,Records with a valid specialty label,14048,14058
+specialty_failed,Specialty classification FAILED,10,14058
+country_resolved,Records with a resolved first-author country,12745,14058
+country_unresolved,First-author country unresolved,1313,14058
+affil_empty,  of which first-author affiliation empty,239,14058
+region_known,Records with a known first-author region,13554,14058
+region_unknown,First-author region Unknown,504,14058
+title_only_all,Title-only records in the analytic set,892,14058

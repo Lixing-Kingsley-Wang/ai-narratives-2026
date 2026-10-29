@@ -1,0 +1,54 @@
+# Order of the supplementary units (JMIR R1 Batch 2c, C4).
+#
+# Supplementary numbering must follow the order of first citation in the REVISED
+# manuscript. This is a DEFAULT order (roughly Methods -> Results). To change it:
+#   1. reorder (do not rename) the unit IDs below; every unit must appear once;
+#   2. run:  ../.venv/bin/python assemble.py   (from revision_r1/final/ma/)
+# The assembler numbers figures S1, S2, ... in Multimedia Appendix 2 and tables
+# S1, S2, ... in Multimedia Appendix 3, resolves every {{F:id}} / {{T:id}}
+# cross-reference inside captions and footnotes, and rewrites the .docx/.md
+# appendices and ma_numbering_map.csv. Unit content lives in units/ and is
+# produced by ../scripts/c4_units.py.
+
+ma2_figures:
+  - within_genre_fig
+  - temporal_robustness_fig
+  - q3_fig
+  - other_themes_fig
+  - theme_counts_fig
+  - lexicon_vs_llm_fig
+  - terms_fig
+  - generative_share_fig
+  - country_map_20
+  - forward_validation_sankey
+
+ma3_tables:
+  - prefilter_validation
+  - stance_confusion
+  - run_to_run
+  - theme_validation
+  - mechanism_confusion
+  - specialty_definitions
+  - fda_mapping
+  - missing_data
+  - precision
+  - stance_trend
+  - within_genre
+  - keep_rate
+  - symmetric_endorsement
+  - corpus_sensitivity
+  - sjr_sensitivity
+  - q3_arm
+  - themes
+  - lexicon_and_terms
+  - fda_robustness
+  - country
+  - region
+  - ea_vs_nawe_within_specialty
+  - pubtype
+  - review_subtypes
+  - theme_by_format
+  - advocacy_by_specialty
+  - regression_full
+  - fv_tier_verdict
+  - update_2026

@@ -1,0 +1,153 @@
+{
+ "id": "specialty_definitions",
+ "kind": "table",
+ "caption": "The 18 specialty and domain categories with the verbatim definitions used in the classification prompt.",
+ "header": [
+  "#",
+  "Category (as in figures)",
+  "Verbatim definition text from SPECIALTY_PROMPT",
+  "Records, 2021-2025, n"
+ ],
+ "rows": [
+  [
+   "1",
+   "Radiology / Diagnostic Imaging",
+   "\"Radiology / Diagnostic Imaging\"",
+   "1769"
+  ],
+  [
+   "2",
+   "Pathology / Laboratory Medicine",
+   "\"Pathology / Laboratory Medicine\"",
+   "398"
+  ],
+  [
+   "3",
+   "Cardiology",
+   "\"Cardiology\"",
+   "542"
+  ],
+  [
+   "4",
+   "Oncology",
+   "\"Oncology\" — plus rule: \"Oncology (#4) takes priority over organ system EXCEPT when the paper is about a single non-cancer aspect of that organ system. \"AI for breast cancer detection\" → Oncology. \"AI for breast lesion characterization (benign and malignant)\" → Radiology if imaging-focused.\"",
+   "1211"
+  ],
+  [
+   "5",
+   "Surgery",
+   "\"Surgery (general and surgical subspecialties — orthopedic, ENT/otolaryngology, urology, neurosurgery, plastic, etc.)\" — plus rule: \"Surgical subspecialties all fold into Surgery (#5). Don't split out orthopedics, ENT, urology, plastic surgery as separate.\"",
+   "1191"
+  ],
+  [
+   "6",
+   "Ophthalmology",
+   "\"Ophthalmology\"",
+   "669"
+  ],
+  [
+   "7",
+   "Dermatology",
+   "\"Dermatology\"",
+   "265"
+  ],
+  [
+   "8",
+   "Neurology / Neuroscience",
+   "\"Neurology / Neuroscience (non-surgical)\"",
+   "290"
+  ],
+  [
+   "9",
+   "Mental Health / Psychiatry",
+   "\"Mental Health / Psychiatry\"",
+   "390"
+  ],
+  [
+   "10",
+   "Internal Medicine / Primary Care",
+   "\"Internal Medicine / Primary Care / Family Medicine (includes gastroenterology, endocrinology, rheumatology, nephrology, pulmonology, infectious disease — all non-surgical internal subspecialties)\"",
+   "936"
+  ],
+  [
+   "11",
+   "Emergency Medicine / Critical Care",
+   "\"Emergency Medicine / Critical Care\"",
+   "308"
+  ],
+  [
+   "12",
+   "Pediatrics",
+   "\"Pediatrics\" — plus rule: \"Pediatrics (#12) takes priority over organ system. \"AI for pediatric cardiology\" → Pediatrics.\"",
+   "303"
+  ],
+  [
+   "13",
+   "Obstetrics / Gynecology",
+   "\"Obstetrics / Gynecology\"",
+   "195"
+  ],
+  [
+   "14",
+   "Dentistry",
+   "\"Dentistry\"",
+   "581"
+  ],
+  [
+   "15",
+   "Medical Informatics / Digital Health",
+   "\"Medical Informatics / Digital Health / AI Methodology\" — plus rule: \"Medical Informatics (#15) is reserved for papers ABOUT AI itself — frameworks, taxonomies, methodology development, benchmarks not tied to a specific clinical specialty, or general \"AI in medicine\" overviews that don't focus on one clinical domain.\"",
+   "3701"
+  ],
+  [
+   "16",
+   "Nursing",
+   "\"Nursing\"",
+   "227"
+  ],
+  [
+   "17",
+   "Medical Education",
+   "\"Medical Education\"",
+   "876"
+  ],
+  [
+   "18",
+   "Multidisciplinary / Other",
+   "\"Multidisciplinary / Other\" — plus rule: \"Multidisciplinary / Other (#18) is for: Papers spanning 2+ specialties with no dominant focus; Bibliometric reviews across medicine; Veterinary medicine; Rehabilitation medicine, anesthesiology when not clearly fitting elsewhere; Public health when not clearly Internal Medicine; Any paper genuinely cross-cutting without a clinical anchor.\"",
+   "196"
+  ],
+  [
+   "",
+   "Total",
+   "",
+   "14,048"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Definitions are reproduced exactly as in the submitted Table S16 (from analysis/classify_specialty.py), including the disambiguation rules. The final column is updated to the 2021-2025 analytic corpus (records with a valid specialty label); the submitted column counted the retired 2021-April 2026 set."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "COR-SUB-08",
+  "RES-SPC-OBS-CARDIOLOGY",
+  "RES-SPC-OBS-DENTISTRY",
+  "RES-SPC-OBS-DERMATOLOGY",
+  "RES-SPC-OBS-EMERGENCYMEDICINECRITICA",
+  "RES-SPC-OBS-INTERNALMEDICINEPRIMARYC",
+  "RES-SPC-OBS-MEDICALEDUCATION",
+  "RES-SPC-OBS-MEDICALINFORMATICSDIGITA",
+  "RES-SPC-OBS-MENTALHEALTHPSYCHIATRY",
+  "RES-SPC-OBS-MULTIDISCIPLINARYOTHER",
+  "RES-SPC-OBS-NEUROLOGYNEUROSCIENCE",
+  "RES-SPC-OBS-NURSING",
+  "RES-SPC-OBS-OBSTETRICSGYNECOLOGY",
+  "RES-SPC-OBS-ONCOLOGY",
+  "RES-SPC-OBS-OPHTHALMOLOGY",
+  "RES-SPC-OBS-PATHOLOGYLABORATORYMEDIC",
+  "RES-SPC-OBS-PEDIATRICS",
+  "RES-SPC-OBS-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-SPC-OBS-SURGERY"
+ ]
+}

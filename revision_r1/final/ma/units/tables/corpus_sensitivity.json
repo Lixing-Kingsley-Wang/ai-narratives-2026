@@ -1,0 +1,228 @@
+{
+ "id": "corpus_sensitivity",
+ "kind": "table",
+ "caption": "Sensitivity of stance trends to the prefilter: recovered records and alternative corpora (B2), 2021-2025.",
+ "header": [
+  "Item",
+  "(a) Production corpus",
+  "(b) Augmented corpus",
+  "(c) Precision-weighted augmented",
+  "(d) Full-abstract corpus"
+ ],
+ "rows": [
+  [
+   "(a) Stance of recovered vs retained records, 2021-2025: % (95% CI); n/N"
+  ],
+  [
+   "Alarm",
+   "5.3 (5.0-5.7); 749/14,058",
+   "2.5 (2.0-3.1); 62/2453",
+   "",
+   ""
+  ],
+  [
+   "Caution",
+   "25.1 (24.4-25.9); 3534/14,058",
+   "10.1 (8.9-11.3); 248/2453",
+   "",
+   ""
+  ],
+  [
+   "Neutral",
+   "5.1 (4.8-5.5); 721/14,058",
+   "5.1 (4.2-6.0); 126/2453",
+   "",
+   ""
+  ],
+  [
+   "Cautious Optimism",
+   "62.9 (62.0-63.7); 8836/14,058",
+   "81.1 (79.6-82.6); 1990/2453",
+   "",
+   ""
+  ],
+  [
+   "Advocacy",
+   "1.6 (1.4-1.8); 218/14,058",
+   "1.1 (0.7-1.5); 27/2453",
+   "",
+   ""
+  ],
+  [
+   "Critical",
+   "30.5 (29.7-31.2); 4283/14,058",
+   "12.6 (11.3-13.9); 310/2453",
+   "",
+   ""
+  ],
+  [
+   "(b) Annual critical share by corpus: % (95% CI); n/N"
+  ],
+  [
+   "2021",
+   "25.4 (22.8-28.0); 270/1063",
+   "22.0 (19.7-24.2); 294/1339",
+   "22.7% (weighted 287.6/1265.4; 95% CI 20.5%-25.1%)",
+   "24.0 (21.6-26.6); 281/1169"
+  ],
+  [
+   "2022",
+   "24.8 (22.6-27.1); 333/1343",
+   "22.3 (20.4-24.3); 373/1674",
+   "22.7% (weighted 365.0/1607.8; 95% CI 20.8%-24.7%)",
+   "24.2 (21.9-26.3); 356/1473"
+  ],
+  [
+   "2023",
+   "30.4 (28.3-32.5); 624/2054",
+   "27.7 (25.9-29.6); 681/2455",
+   "28.5% (weighted 662.0/2321.3; 95% CI 26.6%-30.4%)",
+   "29.9 (27.9-31.8); 654/2188"
+  ],
+  [
+   "2024",
+   "33.2 (31.8-34.8); 1228/3700",
+   "30.7 (29.4-32.2); 1305/4251",
+   "31.3% (weighted 1284.5/4104.1; 95% CI 30.0%-32.8%)",
+   "32.9 (31.5-34.4); 1283/3897"
+  ],
+  [
+   "2025",
+   "31.0 (29.8-32.3); 1828/5898",
+   "28.6 (27.5-29.6); 1940/6792",
+   "28.7% (weighted 1932.5/6732.4; 95% CI 27.6%-29.8%)",
+   "30.7 (29.6-31.9); 1903/6197"
+  ],
+  [
+   "(c) Annual Advocacy share by corpus: % (95% CI); n/N"
+  ],
+  [
+   "2021",
+   "2.9 (1.9-4.0); 31/1063",
+   "2.5 (1.8-3.4); 33/1339",
+   "2.6% (weighted 32.5/1265.4; 95% CI 1.8%-3.5%)",
+   "2.7 (1.8-3.7); 31/1169"
+  ],
+  [
+   "2022",
+   "2.0 (1.3-2.8); 27/1343",
+   "1.7 (1.1-2.4); 29/1674",
+   "1.8% (weighted 28.6/1607.8; 95% CI 1.1%-2.4%)",
+   "1.8 (1.2-2.5); 26/1473"
+  ],
+  [
+   "2023",
+   "1.9 (1.4-2.6); 40/2054",
+   "1.8 (1.3-2.4); 45/2455",
+   "1.9% (weighted 43.3/2321.3; 95% CI 1.4%-2.4%)",
+   "1.8 (1.3-2.4); 39/2188"
+  ],
+  [
+   "2024",
+   "1.5 (1.1-1.8); 54/3700",
+   "1.3 (1.0-1.7); 57/4251",
+   "1.4% (weighted 56.2/4104.1; 95% CI 1.0%-1.7%)",
+   "1.3 (1.0-1.7); 52/3897"
+  ],
+  [
+   "2025",
+   "1.1 (0.9-1.4); 66/5898",
+   "1.2 (1.0-1.5); 81/6792",
+   "1.2% (weighted 80.0/6732.4; 95% CI 1.0%-1.5%)",
+   "1.0 (0.8-1.3); 64/6197"
+  ],
+  [
+   "(d) Trend by corpus"
+  ],
+  [
+   "Critical",
+   "ρ=+0.80 (P=.133); OR 1.077 per year (95% CI 1.046-1.108), P<.001",
+   "ρ=+0.90 (P=.083); OR 1.092 per year (95% CI 1.063-1.122), P<.001",
+   "ρ=+0.80 (P=.133); OR 1.082 per year (95% CI 1.053-1.111), P<.001",
+   "ρ=+0.90 (P=.083); OR 1.089 per year (95% CI 1.059-1.120), P<.001"
+  ],
+  [
+   "Advocacy",
+   "ρ=-1.00 (P=.017); OR 0.793 per year (95% CI 0.721-0.872), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.840 per year (95% CI 0.767-0.920), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.832 per year (95% CI 0.759-0.911), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.799 per year (95% CI 0.725-0.880), P<.001"
+  ]
+ ],
+ "group_rows": [
+  0,
+  7,
+  13,
+  19
+ ],
+ "notes": [
+  "Recovered records: 2850 records (all years) that the production prefilter labelled application but the full-abstract re-run labelled discourse or evaluative, stance-classified with the production v1 configuration; 3 stayed FAILED after one resubmission and 2453 with a valid stance are dated 2021-2025. In (a), columns 2 and 3 are retained and recovered records. Corpora: (a) production; (b) production plus recovered; (c) as (b) with recovered records weighted by the audit's full-abstract precision for their year; (d) the full-abstract prefilter's corpus (adds recovered records, drops 1587 production records whose full-abstract label is application). 95% percentile bootstrap CIs (1000 resamples, seed 42), joint resampling; (c) uses a frequency-weighted logistic model with HC0 SEs. Plotted in {{F:temporal_robustness_fig}}. Critical stance was Alarm or Caution."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "RES-B2ANN-A-ADVOCACY-2021",
+  "RES-B2ANN-A-ADVOCACY-2022",
+  "RES-B2ANN-A-ADVOCACY-2023",
+  "RES-B2ANN-A-ADVOCACY-2024",
+  "RES-B2ANN-A-ADVOCACY-2025",
+  "RES-B2ANN-A-CRITICAL-2021",
+  "RES-B2ANN-A-CRITICAL-2022",
+  "RES-B2ANN-A-CRITICAL-2023",
+  "RES-B2ANN-A-CRITICAL-2024",
+  "RES-B2ANN-A-CRITICAL-2025",
+  "RES-B2ANN-B-ADVOCACY-2021",
+  "RES-B2ANN-B-ADVOCACY-2022",
+  "RES-B2ANN-B-ADVOCACY-2023",
+  "RES-B2ANN-B-ADVOCACY-2024",
+  "RES-B2ANN-B-ADVOCACY-2025",
+  "RES-B2ANN-B-CRITICAL-2021",
+  "RES-B2ANN-B-CRITICAL-2022",
+  "RES-B2ANN-B-CRITICAL-2023",
+  "RES-B2ANN-B-CRITICAL-2024",
+  "RES-B2ANN-B-CRITICAL-2025",
+  "RES-B2ANN-C-ADVOCACY-2021",
+  "RES-B2ANN-C-ADVOCACY-2022",
+  "RES-B2ANN-C-ADVOCACY-2023",
+  "RES-B2ANN-C-ADVOCACY-2024",
+  "RES-B2ANN-C-ADVOCACY-2025",
+  "RES-B2ANN-C-CRITICAL-2021",
+  "RES-B2ANN-C-CRITICAL-2022",
+  "RES-B2ANN-C-CRITICAL-2023",
+  "RES-B2ANN-C-CRITICAL-2024",
+  "RES-B2ANN-C-CRITICAL-2025",
+  "RES-B2ANN-D-ADVOCACY-2021",
+  "RES-B2ANN-D-ADVOCACY-2022",
+  "RES-B2ANN-D-ADVOCACY-2023",
+  "RES-B2ANN-D-ADVOCACY-2024",
+  "RES-B2ANN-D-ADVOCACY-2025",
+  "RES-B2ANN-D-CRITICAL-2021",
+  "RES-B2ANN-D-CRITICAL-2022",
+  "RES-B2ANN-D-CRITICAL-2023",
+  "RES-B2ANN-D-CRITICAL-2024",
+  "RES-B2ANN-D-CRITICAL-2025",
+  "RES-B2RR-RECOVERE-ADVOCACY",
+  "RES-B2RR-RECOVERE-ALARM",
+  "RES-B2RR-RECOVERE-CAUTION",
+  "RES-B2RR-RECOVERE-CAUTIOUSOPTIMISM",
+  "RES-B2RR-RECOVERE-CRITICAL",
+  "RES-B2RR-RECOVERE-NEUTRAL",
+  "RES-B2RR-RETAINED-ADVOCACY",
+  "RES-B2RR-RETAINED-ALARM",
+  "RES-B2RR-RETAINED-CAUTION",
+  "RES-B2RR-RETAINED-CAUTIOUSOPTIMISM",
+  "RES-B2RR-RETAINED-CRITICAL",
+  "RES-B2RR-RETAINED-NEUTRAL",
+  "RES-SEN-B2-DROPPED",
+  "RES-SEN-B2-FAILED",
+  "RES-SEN-B2-FRAME",
+  "RES-SEN-B2-RECOVERED",
+  "RES-SEN-B2A-ADVOCACY",
+  "RES-SEN-B2A-CRITICAL",
+  "RES-SEN-B2B-ADVOCACY",
+  "RES-SEN-B2B-CRITICAL",
+  "RES-SEN-B2C-ADVOCACY",
+  "RES-SEN-B2C-CRITICAL",
+  "RES-SEN-B2D-ADVOCACY",
+  "RES-SEN-B2D-CRITICAL"
+ ]
+}

@@ -1,0 +1,10 @@
+{
+ "id": "forward_validation_sankey",
+ "kind": "figure",
+ "book_ids": [
+  "RES-FV-CAND",
+  "RES-FV-FP",
+  "RES-FV-SET"
+ ],
+ "note": "image reproduced from the submitted manuscript (word/media/image6.png)"
+}

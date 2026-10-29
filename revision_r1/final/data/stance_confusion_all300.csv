@@ -1,0 +1,6 @@
+,Alarm,Caution,Neutral,Cautious Optimism,Advocacy
+Alarm,31,4,0,1,0
+Caution,8,34,3,14,0
+Neutral,0,10,57,17,4
+Cautious Optimism,1,12,10,61,9
+Advocacy,0,0,0,7,17

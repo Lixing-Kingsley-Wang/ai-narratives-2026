@@ -1,0 +1,331 @@
+{
+ "id": "theme_validation",
+ "kind": "table",
+ "caption": "Validation of the concern-theme classifier, per theme.",
+ "header": [
+  "Theme",
+  "Human-positive records, n",
+  "Precision (95% CI)",
+  "Recall (95% CI)",
+  "F1, unweighted (95% CI)",
+  "F1, frame-weighted (95% CI)"
+ ],
+ "rows": [
+  [
+   "Primary analysis, all 200 sampled records (Amendment 1)"
+  ],
+  [
+   "safety_clinical",
+   "110",
+   "0.820 (0.752-0.882)",
+   "0.955 (0.913-0.991)",
+   "0.882 (0.834-0.921)",
+   "0.881 (0.826-0.927)"
+  ],
+  [
+   "hallucination",
+   "68",
+   "0.844 (0.757-0.919)",
+   "0.956 (0.901-1.000)",
+   "0.897 (0.839-0.942)",
+   "0.909 (0.851-0.954)"
+  ],
+  [
+   "regulation",
+   "85",
+   "0.872 (0.802-0.939)",
+   "0.965 (0.922-1.000)",
+   "0.916 (0.872-0.956)",
+   "0.897 (0.829-0.952)"
+  ],
+  [
+   "ethics_bias",
+   "70",
+   "0.901 (0.827-0.966)",
+   "0.914 (0.851-0.972)",
+   "0.908 (0.855-0.954)",
+   "0.922 (0.867-0.968)"
+  ],
+  [
+   "education (insufficient support)",
+   "8",
+   "0.875 (0.599-1.000)",
+   "0.875 (0.571-1.000)",
+   "0.875 (0.615-1.000)",
+   "0.903 (0.666-1.000)"
+  ],
+  [
+   "data_privacy",
+   "18",
+   "0.737 (0.524-0.941)",
+   "0.778 (0.550-0.947)",
+   "0.757 (0.571-0.897)",
+   "0.752 (0.505-0.912)"
+  ],
+  [
+   "cognitive",
+   "12",
+   "0.857 (0.643-1.000)",
+   "1.000 (1.000-1.000)",
+   "0.923 (0.783-1.000)",
+   "0.953 (0.834-1.000)"
+  ],
+  [
+   "existential (insufficient support)",
+   "9",
+   "0.778 (0.444-1.000)",
+   "0.778 (0.500-1.000)",
+   "0.778 (0.499-1.000)",
+   "0.801 (0.412-1.000)"
+  ],
+  [
+   "replacement (insufficient support)",
+   "6",
+   "0.667 (0.333-1.000)",
+   "1.000 (1.000-1.000)",
+   "0.800 (0.500-1.000)",
+   "0.678 (0.243-1.000)"
+  ],
+  [
+   "other (insufficient support)",
+   "3",
+   "0.400 (0.000-1.000)",
+   "0.667 (0.000-1.000)",
+   "0.500 (0.000-0.909)",
+   "0.436 (0.000-0.892)"
+  ],
+  [
+   "Micro-F1 (unweighted / weighted)",
+   "",
+   "",
+   "",
+   "0.885 (95% CI 0.855-0.914)",
+   "0.888 (95% CI 0.853-0.919)"
+  ],
+  [
+   "Macro-F1 (unweighted / weighted)",
+   "",
+   "",
+   "",
+   "0.824 (95% CI 0.747-0.881)",
+   "0.813 (95% CI 0.727-0.881)"
+  ],
+  [
+   "Pre-specified analysis, 187 records with at least one human theme"
+  ],
+  [
+   "safety_clinical",
+   "110",
+   "0.913 (0.865-0.959)",
+   "0.955 (0.911-0.991)",
+   "0.933 (0.899-0.962)",
+   "0.933 (0.892-0.967)"
+  ],
+  [
+   "hallucination",
+   "68",
+   "0.970 (0.922-1.000)",
+   "0.956 (0.895-1.000)",
+   "0.963 (0.924-0.993)",
+   "0.974 (0.935-0.996)"
+  ],
+  [
+   "regulation",
+   "85",
+   "0.943 (0.886-0.988)",
+   "0.965 (0.920-1.000)",
+   "0.953 (0.917-0.982)",
+   "0.942 (0.886-0.983)"
+  ],
+  [
+   "ethics_bias",
+   "70",
+   "0.914 (0.847-0.975)",
+   "0.914 (0.844-0.972)",
+   "0.914 (0.860-0.960)",
+   "0.931 (0.879-0.974)"
+  ],
+  [
+   "education (insufficient support)",
+   "8",
+   "0.875 (0.583-1.000)",
+   "0.875 (0.600-1.000)",
+   "0.875 (0.631-1.000)",
+   "0.901 (0.662-1.000)"
+  ],
+  [
+   "data_privacy",
+   "18",
+   "0.737 (0.533-0.917)",
+   "0.778 (0.571-1.000)",
+   "0.757 (0.585-0.889)",
+   "0.747 (0.505-0.911)"
+  ],
+  [
+   "cognitive",
+   "12",
+   "0.857 (0.647-1.000)",
+   "1.000 (1.000-1.000)",
+   "0.923 (0.786-1.000)",
+   "0.952 (0.839-1.000)"
+  ],
+  [
+   "existential (insufficient support)",
+   "9",
+   "0.778 (0.444-1.000)",
+   "0.778 (0.499-1.000)",
+   "0.778 (0.500-0.952)",
+   "0.799 (0.394-0.983)"
+  ],
+  [
+   "replacement (insufficient support)",
+   "6",
+   "0.667 (0.333-1.000)",
+   "1.000 (1.000-1.000)",
+   "0.800 (0.500-1.000)",
+   "0.675 (0.218-1.000)"
+  ],
+  [
+   "other (insufficient support)",
+   "3",
+   "0.400 (0.000-1.000)",
+   "0.667 (0.000-1.000)",
+   "0.500 (0.000-0.858)",
+   "0.432 (0.000-0.883)"
+  ],
+  [
+   "Micro-F1 (unweighted / weighted)",
+   "",
+   "",
+   "",
+   "0.919 (95% CI 0.897-0.940)",
+   "0.926 (95% CI 0.901-0.948)"
+  ],
+  [
+   "Macro-F1 (unweighted / weighted)",
+   "",
+   "",
+   "",
+   "0.840 (95% CI 0.760-0.899)",
+   "0.829 (95% CI 0.742-0.895)"
+  ]
+ ],
+ "group_rows": [
+  0,
+  13
+ ],
+ "notes": [
+  "200 critical records 2021-2025, 40 per year by simple random sampling within year; codebook verbatim from the classifier prompt; one coder blinded to model labels (frozen protocol, Multimedia Appendix 1, Note 9). Set-based comparison per record. Weighted: each record weighted by frame size / sample size of its year. CIs: percentile bootstrap within year (1000, seed 42). Insufficient support: fewer than 10 human-positive records. In the primary analysis the 13 records with no human theme count as empty sets, so every model theme on them is a false positive (Amendment 1, made after the pre-specified analysis had been run)."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "VAL-TH-MACRO-187-UN",
+  "VAL-TH-MACRO-187-WE",
+  "VAL-TH-MACRO-200-UN",
+  "VAL-TH-MACRO-200-WE",
+  "VAL-TH-MICRO-187-UN",
+  "VAL-TH-MICRO-187-WE",
+  "VAL-TH-MICRO-200-UN",
+  "VAL-TH-MICRO-200-WE",
+  "VAL-TH-PT-187-COGNITIVE-F1UNWEIGHTED",
+  "VAL-TH-PT-187-COGNITIVE-F1WEIGHTED",
+  "VAL-TH-PT-187-COGNITIVE-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-COGNITIVE-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-COGNITIVE-SUPPORT",
+  "VAL-TH-PT-187-DATAPRIVACY-F1UNWEIGHTED",
+  "VAL-TH-PT-187-DATAPRIVACY-F1WEIGHTED",
+  "VAL-TH-PT-187-DATAPRIVACY-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-DATAPRIVACY-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-DATAPRIVACY-SUPPORT",
+  "VAL-TH-PT-187-EDUCATION-F1UNWEIGHTED",
+  "VAL-TH-PT-187-EDUCATION-F1WEIGHTED",
+  "VAL-TH-PT-187-EDUCATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-EDUCATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-EDUCATION-SUPPORT",
+  "VAL-TH-PT-187-ETHICSBIAS-F1UNWEIGHTED",
+  "VAL-TH-PT-187-ETHICSBIAS-F1WEIGHTED",
+  "VAL-TH-PT-187-ETHICSBIAS-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-ETHICSBIAS-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-ETHICSBIAS-SUPPORT",
+  "VAL-TH-PT-187-EXISTENTIAL-F1UNWEIGHTED",
+  "VAL-TH-PT-187-EXISTENTIAL-F1WEIGHTED",
+  "VAL-TH-PT-187-EXISTENTIAL-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-EXISTENTIAL-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-EXISTENTIAL-SUPPORT",
+  "VAL-TH-PT-187-HALLUCINATION-F1UNWEIGHTED",
+  "VAL-TH-PT-187-HALLUCINATION-F1WEIGHTED",
+  "VAL-TH-PT-187-HALLUCINATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-HALLUCINATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-HALLUCINATION-SUPPORT",
+  "VAL-TH-PT-187-OTHER-F1UNWEIGHTED",
+  "VAL-TH-PT-187-OTHER-F1WEIGHTED",
+  "VAL-TH-PT-187-OTHER-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-OTHER-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-OTHER-SUPPORT",
+  "VAL-TH-PT-187-REGULATION-F1UNWEIGHTED",
+  "VAL-TH-PT-187-REGULATION-F1WEIGHTED",
+  "VAL-TH-PT-187-REGULATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-REGULATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-REGULATION-SUPPORT",
+  "VAL-TH-PT-187-REPLACEMENT-F1UNWEIGHTED",
+  "VAL-TH-PT-187-REPLACEMENT-F1WEIGHTED",
+  "VAL-TH-PT-187-REPLACEMENT-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-REPLACEMENT-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-REPLACEMENT-SUPPORT",
+  "VAL-TH-PT-187-SAFETYCLINICAL-F1UNWEIGHTED",
+  "VAL-TH-PT-187-SAFETYCLINICAL-F1WEIGHTED",
+  "VAL-TH-PT-187-SAFETYCLINICAL-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-187-SAFETYCLINICAL-RECALLUNWEIGHTED",
+  "VAL-TH-PT-187-SAFETYCLINICAL-SUPPORT",
+  "VAL-TH-PT-200-COGNITIVE-F1UNWEIGHTED",
+  "VAL-TH-PT-200-COGNITIVE-F1WEIGHTED",
+  "VAL-TH-PT-200-COGNITIVE-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-COGNITIVE-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-COGNITIVE-SUPPORT",
+  "VAL-TH-PT-200-DATAPRIVACY-F1UNWEIGHTED",
+  "VAL-TH-PT-200-DATAPRIVACY-F1WEIGHTED",
+  "VAL-TH-PT-200-DATAPRIVACY-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-DATAPRIVACY-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-DATAPRIVACY-SUPPORT",
+  "VAL-TH-PT-200-EDUCATION-F1UNWEIGHTED",
+  "VAL-TH-PT-200-EDUCATION-F1WEIGHTED",
+  "VAL-TH-PT-200-EDUCATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-EDUCATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-EDUCATION-SUPPORT",
+  "VAL-TH-PT-200-ETHICSBIAS-F1UNWEIGHTED",
+  "VAL-TH-PT-200-ETHICSBIAS-F1WEIGHTED",
+  "VAL-TH-PT-200-ETHICSBIAS-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-ETHICSBIAS-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-ETHICSBIAS-SUPPORT",
+  "VAL-TH-PT-200-EXISTENTIAL-F1UNWEIGHTED",
+  "VAL-TH-PT-200-EXISTENTIAL-F1WEIGHTED",
+  "VAL-TH-PT-200-EXISTENTIAL-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-EXISTENTIAL-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-EXISTENTIAL-SUPPORT",
+  "VAL-TH-PT-200-HALLUCINATION-F1UNWEIGHTED",
+  "VAL-TH-PT-200-HALLUCINATION-F1WEIGHTED",
+  "VAL-TH-PT-200-HALLUCINATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-HALLUCINATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-HALLUCINATION-SUPPORT",
+  "VAL-TH-PT-200-OTHER-F1UNWEIGHTED",
+  "VAL-TH-PT-200-OTHER-F1WEIGHTED",
+  "VAL-TH-PT-200-OTHER-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-OTHER-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-OTHER-SUPPORT",
+  "VAL-TH-PT-200-REGULATION-F1UNWEIGHTED",
+  "VAL-TH-PT-200-REGULATION-F1WEIGHTED",
+  "VAL-TH-PT-200-REGULATION-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-REGULATION-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-REGULATION-SUPPORT",
+  "VAL-TH-PT-200-REPLACEMENT-F1UNWEIGHTED",
+  "VAL-TH-PT-200-REPLACEMENT-F1WEIGHTED",
+  "VAL-TH-PT-200-REPLACEMENT-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-REPLACEMENT-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-REPLACEMENT-SUPPORT",
+  "VAL-TH-PT-200-SAFETYCLINICAL-F1UNWEIGHTED",
+  "VAL-TH-PT-200-SAFETYCLINICAL-F1WEIGHTED",
+  "VAL-TH-PT-200-SAFETYCLINICAL-PRECISIONUNWEIGHTED",
+  "VAL-TH-PT-200-SAFETYCLINICAL-RECALLUNWEIGHTED",
+  "VAL-TH-PT-200-SAFETYCLINICAL-SUPPORT"
+ ]
+}

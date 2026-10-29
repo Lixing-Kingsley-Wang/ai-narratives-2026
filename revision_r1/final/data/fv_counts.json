@@ -1,0 +1,16 @@
+{
+  "candidates": 92,
+  "frozen_papers": 74,
+  "claims": 78,
+  "tier_counts": {
+    "1": 7,
+    "2": 36,
+    "3": 35
+  },
+  "verdicts": {
+    "partially": 54,
+    "too_early_unfalsifiable": 14,
+    "not_borne_out": 8,
+    "borne_out": 2
+  }
+}

@@ -1,0 +1,13 @@
+stage,2021,2022,2023,2024,2025,total_2021_2025
+3. Conference proceedings / preprints,409,438,615,1006,1429,3897
+4. SJR title matching,822,1190,1156,1598,2255,7021
+5. April 2026 cover-date cutoff (Q1/Q2),0,0,0,0,0,0
+6. AI-engagement prefilter,10127,11792,12073,15668,22974,72634
+6a. of which: prefilter failures defaulted to application (T1),87,0,0,2,6,95
+7. Stance classification,1,1,1,4,1,8
+8. Year window 2021–2026,0,0,0,0,0,0
+11. Mechanism classification,0,0,1,1,0,2
+12. Title-only records within the parsed critical set,25,48,80,151,71,375
+13. Specialty classification (analytic set),0,2,1,2,5,10
+14a. First-author country (Figure 4 / Table S7 resolver),80,99,207,396,531,1313
+14b. First-author region (Table S9; geography_classifications.csv),46,48,94,163,153,504

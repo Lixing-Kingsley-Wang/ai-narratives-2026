@@ -1,0 +1,110 @@
+{
+ "id": "region",
+ "kind": "table",
+ "caption": "Critical rate by first-author region, 2021-2025.",
+ "header": [
+  "Region",
+  "Records, n",
+  "Critical, % (95% CI); n/N",
+  "Adjusted AMP, % (95% CI)",
+  "Adjusted OR vs North America (95% CI), P"
+ ],
+ "rows": [
+  [
+   "North America",
+   "4221",
+   "34.9 (33.5-36.3); 1472/4221",
+   "33.9 (32.4-35.5)",
+   "1 (reference)"
+  ],
+  [
+   "Western Europe",
+   "3693",
+   "34.5 (33.0-36.1); 1274/3693",
+   "35.2 (33.1-37.5)",
+   "OR 1.06 (95% CI 0.95-1.19), P=.296"
+  ],
+  [
+   "East Asia",
+   "2702",
+   "17.7 (16.3-19.3); 478/2702",
+   "19.3 (17.3-21.6)",
+   "OR 0.44 (95% CI 0.38-0.51), P<.001"
+  ],
+  [
+   "Middle East / North Africa",
+   "1322",
+   "29.8 (27.1-32.3); 394/1322",
+   "29.3 (26.9-31.8)",
+   "OR 0.79 (95% CI 0.68-0.91), P=.001"
+  ],
+  [
+   "South/Southeast Asia",
+   "656",
+   "24.4 (21.4-27.8); 160/656",
+   "23.5 (20.4-27.0)",
+   "OR 0.57 (95% CI 0.46-0.71), P<.001"
+  ],
+  [
+   "Latin America / Oceania",
+   "639",
+   "38.3 (34.6-42.2); 245/639",
+   "36.2 (32.7-39.8)",
+   "OR 1.11 (95% CI 0.93-1.33), P=.237"
+  ],
+  [
+   "Eastern Europe",
+   "272",
+   "27.9 (22.6-33.6); 76/272",
+   "29.4 (24.7-34.7)",
+   "OR 0.80 (95% CI 0.61-1.04), P=.098"
+  ],
+  [
+   "Sub-Saharan Africa",
+   "49",
+   "42.9 (29.2-57.1); 21/49",
+   "36.2 (24.4-49.9)",
+   "OR 1.11 (95% CI 0.60-2.06), P=.731"
+  ],
+  [
+   "Unknown†",
+   "504",
+   "32.3 (28.5-36.2); 163/504",
+   "28.2 (23.5-33.3)",
+   "OR 0.74 (95% CI 0.57-0.98), P=.034"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Regions from the first-author country (geography_classifications.csv); n's are on the 14,058-record analytic corpus. 95% percentile bootstrap CIs (1000 resamples, seed 42), joint resampling of records. Adjusted values from the multivariable model in Table 2 (AMP: average marginal predicted probability). † Affiliation not resolvable to a country; kept for denominator completeness. Sub-Saharan Africa has few records and a correspondingly wide interval. Critical stance was Alarm or Caution."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "RES-GEO-AMP-EASTASIA",
+  "RES-GEO-AMP-EASTERNEUROPE",
+  "RES-GEO-AMP-LATINAMERICAOCEANIA",
+  "RES-GEO-AMP-MIDDLEEASTNORTHAFRICA",
+  "RES-GEO-AMP-NORTHAMERICA",
+  "RES-GEO-AMP-SOUTHSOUTHEASTASIA",
+  "RES-GEO-AMP-SUBSAHARANAFRICA",
+  "RES-GEO-AMP-UNKNOWN",
+  "RES-GEO-AMP-WESTERNEUROPE",
+  "RES-GEO-AOR-EASTASIA",
+  "RES-GEO-AOR-EASTERNEUROPE",
+  "RES-GEO-AOR-LATINAMERICAOCEANIA",
+  "RES-GEO-AOR-MIDDLEEASTNORTHAFRICA",
+  "RES-GEO-AOR-SOUTHSOUTHEASTASIA",
+  "RES-GEO-AOR-SUBSAHARANAFRICA",
+  "RES-GEO-AOR-UNKNOWN",
+  "RES-GEO-AOR-WESTERNEUROPE",
+  "RES-GEO-REG-EASTASIA",
+  "RES-GEO-REG-EASTERNEUROPE",
+  "RES-GEO-REG-LATINAMERICAOCEANIA",
+  "RES-GEO-REG-MIDDLEEASTNORTHAFRICA",
+  "RES-GEO-REG-NORTHAMERICA",
+  "RES-GEO-REG-SOUTHSOUTHEASTASIA",
+  "RES-GEO-REG-SUBSAHARANAFRICA",
+  "RES-GEO-REG-UNKNOWN",
+  "RES-GEO-REG-WESTERNEUROPE"
+ ]
+}

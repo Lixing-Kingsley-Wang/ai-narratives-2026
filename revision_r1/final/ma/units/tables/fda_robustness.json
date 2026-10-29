@@ -1,0 +1,62 @@
+{
+ "id": "fda_robustness",
+ "kind": "table",
+ "caption": "Robustness of the association between critical rate and FDA cleared-device count across specialty categories, 2021-2025.",
+ "header": [
+  "Relationship",
+  "Categories, n",
+  "Spearman ρ",
+  "P"
+ ],
+ "rows": [
+  [
+   "Critical rate vs FDA cleared-device count (zero-order)",
+   "18",
+   "-0.61",
+   "two-sided P=.007; one-sided P=.004; permutation one-sided P=.005"
+  ],
+  [
+   "Critical rate vs generative-model share",
+   "18",
+   "+0.01",
+   "two-sided P=.971"
+  ],
+  [
+   "FDA cleared-device count vs generative-model share",
+   "18",
+   "-0.03",
+   "two-sided P=.913"
+  ],
+  [
+   "Partial: critical rate vs FDA count, controlling generative-model share",
+   "18",
+   "-0.61",
+   "two-sided P=.010"
+  ],
+  [
+   "Critical rate vs FDA count, structural zeros dropped",
+   "11",
+   "-0.58",
+   "two-sided P=.062; one-sided P=.031; permutation one-sided P=.036"
+  ],
+  [
+   "(sensitivity) Critical rate vs in-corpus evaluation-share proxy",
+   "18",
+   "-0.48",
+   "two-sided P=.045; one-sided P=.022; permutation one-sided P=.023"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Spearman correlations across specialty or domain categories (category-level, ecological units). Critical rate per category from 2021-2025 records; FDA counts from the list of AI/ML-enabled devices cleared 1995-2025 mapped to review panels ({{T:fda_mapping}}). The two-sided P is primary; one-sided P (alternative ρ<0) and a one-sided pairing-permutation P (10,000 permutations, seed 42) are sensitivity variants. Generative-model share is computed among abstract-present critical records and is endogenous to criticality, so the partial correlation is a sensitivity analysis, not a confounder adjustment. Structural zeros: the 7 categories with no mapped FDA panel. This is an exploratory ecological association."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-SPC-EVAL-RHO",
+  "RES-SPC-FDA-PARTIAL",
+  "RES-SPC-FDA-RHO11",
+  "RES-SPC-FDA-RHO18",
+  "RES-SPC-FDAGEN-RHO",
+  "RES-SPC-GEN-RHO"
+ ]
+}

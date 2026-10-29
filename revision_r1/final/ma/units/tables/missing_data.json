@@ -1,0 +1,171 @@
+{
+ "id": "missing_data",
+ "kind": "table",
+ "caption": "Missing-data accounting for the 2021-2025 analytic corpus.",
+ "header": [
+  "Stage or variable",
+  "Records, n (by year)"
+ ],
+ "rows": [
+  [
+   "(a) Records lost at each stage, records dated 2021-2025"
+  ],
+  [
+   "Conference proceedings / preprints",
+   "3897 (2021: 409; 2022: 438; 2023: 615; 2024: 1006; 2025: 1429)"
+  ],
+  [
+   "SJR title matching",
+   "7021 (2021: 822; 2022: 1190; 2023: 1156; 2024: 1598; 2025: 2255)"
+  ],
+  [
+   "April 2026 cover-date cutoff (Q1/Q2)",
+   "0 (2021: 0; 2022: 0; 2023: 0; 2024: 0; 2025: 0)"
+  ],
+  [
+   "AI-engagement prefilter",
+   "72,634 (2021: 10127; 2022: 11792; 2023: 12073; 2024: 15668; 2025: 22974)"
+  ],
+  [
+   "of which: prefilter failures defaulted to application (T1)",
+   "95 (2021: 87; 2022: 0; 2023: 0; 2024: 2; 2025: 6)"
+  ],
+  [
+   "Stance classification",
+   "8 (2021: 1; 2022: 1; 2023: 1; 2024: 4; 2025: 1)"
+  ],
+  [
+   "Year window 2021–2026",
+   "0 (2021: 0; 2022: 0; 2023: 0; 2024: 0; 2025: 0)"
+  ],
+  [
+   "Mechanism classification",
+   "2 (2021: 0; 2022: 0; 2023: 1; 2024: 1; 2025: 0)"
+  ],
+  [
+   "Title-only records within the parsed critical set",
+   "375 (2021: 25; 2022: 48; 2023: 80; 2024: 151; 2025: 71)"
+  ],
+  [
+   "Specialty classification (analytic set)",
+   "10 (2021: 0; 2022: 2; 2023: 1; 2024: 2; 2025: 5)"
+  ],
+  [
+   "First-author country (Figure 4 / Table S7 resolver)",
+   "1313 (2021: 80; 2022: 99; 2023: 207; 2024: 396; 2025: 531)"
+  ],
+  [
+   "First-author region (Table S9; geography_classifications.csv)",
+   "504 (2021: 46; 2022: 48; 2023: 94; 2024: 163; 2025: 153)"
+  ],
+  [
+   "(b) Title-only (empty abstract) records at each stage, 2021-2025"
+  ],
+  [
+   "raw (116,117)",
+   "1.5% (1491/102,480)"
+  ],
+  [
+   "excluded conf/preprint",
+   "0.1% (2/3897)"
+  ],
+  [
+   "SJR unmatched",
+   "1.7% (118/7021)"
+  ],
+  [
+   "Q1/Q2 eligible (97,492)",
+   "1.5% (1291/86,700)"
+  ],
+  [
+   "prefilter: application",
+   "0.5% (399/72,634)"
+  ],
+  [
+   "prefilter: retained (16,759)",
+   "6.3% (892/14,066)"
+  ],
+  [
+   "stance valid, 2021–2026 (16,747)",
+   "6.3% (892/14,058)"
+  ],
+  [
+   "critical (5,161)",
+   "8.8% (375/4283)"
+  ],
+  [
+   "(c) Missing values in the analytic corpus (n=14,058)"
+  ],
+  [
+   "Mechanism classification FAILED",
+   "2 of 4283 (0.0%)"
+  ],
+  [
+   "Title-only records among parsed critical records",
+   "375 of 4281 (8.8%)"
+  ],
+  [
+   "Specialty classification FAILED",
+   "10 of 14,058 (0.1%)"
+  ],
+  [
+   "First-author country unresolved",
+   "1313 of 14,058 (9.3%)"
+  ],
+  [
+   "  of which first-author affiliation empty",
+   "239 of 14,058 (1.7%)"
+  ],
+  [
+   "First-author region Unknown",
+   "504 of 14,058 (3.6%)"
+  ],
+  [
+   "Title-only records in the analytic set",
+   "892 of 14,058 (6.3%)"
+  ],
+  [
+   "Handling",
+   "Complete-case: records with a FAILED or missing label for a variable are excluded from analyses of that variable only; no imputation. Unknown region is kept as its own level in regression (B4)."
+  ]
+ ],
+ "group_rows": [
+  0,
+  13,
+  22
+ ],
+ "notes": [
+  "Counts are restricted to records dated 2021-2025 (year as the first four-digit year in the PubMed date). Stage losses that are exclusions by design (for example, application records at the prefilter) are listed with the reasons in Figure 1. Title-only records were classified from the title alone except in the mechanism analyses, which used abstract-present records only."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "COR-SUB-03",
+  "COR-SUB-05",
+  "COR-SUB-09",
+  "COR-SUB-11",
+  "COR-SUB-12",
+  "COR-SUB-14",
+  "COR-SUB-15",
+  "MIS-01",
+  "MIS-02",
+  "MIS-03",
+  "MIS-04",
+  "MIS-05",
+  "MIS-06",
+  "MIS-07",
+  "MIS-08",
+  "MIS-09",
+  "MIS-10",
+  "MIS-11",
+  "MIS-12",
+  "MIS-NOTE-01",
+  "MIS-TO-01",
+  "MIS-TO-02",
+  "MIS-TO-03",
+  "MIS-TO-04",
+  "MIS-TO-05",
+  "MIS-TO-06",
+  "MIS-TO-07",
+  "MIS-TO-08"
+ ]
+}

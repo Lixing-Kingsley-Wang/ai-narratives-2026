@@ -1,0 +1,7 @@
+relationship,rho,p_two,p_one,p_perm_one,n
+Critical rate vs FDA cleared-device count (zero-order),-0.6084665680736073,0.007372767923006694,0.003686383961503347,0.004899510048995101,18
+Critical rate vs generative-model share,0.009287925696594427,0.9708223763257615,,,18
+FDA cleared-device count vs generative-model share,-0.02765757127607306,0.9132523219972197,,,18
+"Partial: critical rate vs FDA count, controlling generative-model share",-0.6084686880004521,0.00954585780057049,,,18
+"Critical rate vs FDA count, structural zeros dropped",-0.5785892004243207,0.06220729541054294,0.03110364770527147,0.036396360363963605,11
+(sensitivity) Critical rate vs in-corpus evaluation-share proxy,-0.47781217750258,0.04491215118822409,0.022456075594112047,0.0226977302269773,18

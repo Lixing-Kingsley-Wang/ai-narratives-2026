@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="700" viewBox="0 0 1180 700" font-family="Helvetica,Arial,sans-serif">
+<rect width="1180" height="700" fill="#ffffff"/>
+<text x="590" y="40" text-anchor="middle" font-size="20" font-weight="700" fill="#1a1a1a">Prophecy Panel: claim tier &#8594; adjudicated verdict (N = 78)</text>
+<text x="590" y="62" text-anchor="middle" font-size="12" fill="#666">Node height &#8733; number of claims; every ribbon width &#8733; its count. 2021&#8211;2023 Advocacy predictions vs the 2024&#8211;2026 record.</text>
+<path d="M 274.0 131.6 C 487.0 131.6 487.0 155.8 700.0 155.8 L 700.0 161.4 C 487.0 161.4 487.0 137.2 274.0 137.2 Z" fill="#CFA85A" fill-opacity="0.25"/>
+<path d="M 274.0 137.2 C 487.0 137.2 487.0 484.2 700.0 484.2 L 700.0 512.2 C 487.0 512.2 487.0 165.2 274.0 165.2 Z" fill="#C23B22" fill-opacity="0.8"/>
+<path d="M 274.0 165.2 C 487.0 165.2 487.0 555.0 700.0 555.0 L 700.0 560.6 C 487.0 560.6 487.0 170.8 274.0 170.8 Z" fill="#5F6C8A" fill-opacity="0.25"/>
+<path d="M 274.0 196.8 C 487.0 196.8 487.0 118.6 700.0 118.6 L 700.0 129.8 C 487.0 129.8 487.0 208.0 274.0 208.0 Z" fill="#2E7D32" fill-opacity="0.25"/>
+<path d="M 274.0 208.0 C 487.0 208.0 487.0 161.4 700.0 161.4 L 700.0 290.2 C 487.0 290.2 487.0 336.8 274.0 336.8 Z" fill="#CFA85A" fill-opacity="0.25"/>
+<path d="M 274.0 336.8 C 487.0 336.8 487.0 512.2 700.0 512.2 L 700.0 517.8 C 487.0 517.8 487.0 342.4 274.0 342.4 Z" fill="#C23B22" fill-opacity="0.25"/>
+<path d="M 274.0 342.4 C 487.0 342.4 487.0 560.6 700.0 560.6 L 700.0 616.6 C 487.0 616.6 487.0 398.4 274.0 398.4 Z" fill="#5F6C8A" fill-opacity="0.75"/>
+<path d="M 274.0 424.4 C 487.0 424.4 487.0 290.2 700.0 290.2 L 700.0 458.2 C 487.0 458.2 487.0 592.4 274.0 592.4 Z" fill="#CFA85A" fill-opacity="0.4"/>
+<path d="M 274.0 592.4 C 487.0 592.4 487.0 517.8 700.0 517.8 L 700.0 529.0 C 487.0 529.0 487.0 603.6 274.0 603.6 Z" fill="#C23B22" fill-opacity="0.25"/>
+<path d="M 274.0 603.6 C 487.0 603.6 487.0 616.6 700.0 616.6 L 700.0 633.4 C 487.0 633.4 487.0 620.4 274.0 620.4 Z" fill="#5F6C8A" fill-opacity="0.25"/>
+<text x="670.0" y="158.6" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">1</text>
+<text x="670.0" y="498.2" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">5</text>
+<text x="670.0" y="557.8" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">1</text>
+<text x="670.0" y="124.2" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">2</text>
+<text x="670.0" y="225.8" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">23</text>
+<text x="670.0" y="515.0" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">1</text>
+<text x="670.0" y="588.6" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">10</text>
+<text x="670.0" y="374.2" text-anchor="middle" dominant-baseline="middle" font-size="12" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">30</text>
+<text x="670.0" y="523.4" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">2</text>
+<text x="670.0" y="625.0" text-anchor="middle" dominant-baseline="middle" font-size="10" font-weight="700" fill="#111" stroke="#ffffff" stroke-width="2.5" paint-order="stroke">3</text>
+<rect x="250" y="131.6" width="24" height="39.2" rx="3" fill="#334155"/>
+<text x="238" y="137.2" text-anchor="end" font-size="13" font-weight="700" fill="#1a1a1a">Tier 1</text>
+<text x="238" y="151.2" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">Specific superiority /</text>
+<text x="238" y="165.2" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">replacement</text>
+<text x="238" y="179.2" text-anchor="end" font-size="11" font-weight="700" fill="#334155">n = 7</text>
+<rect x="250" y="196.8" width="24" height="201.6" rx="3" fill="#64748B"/>
+<text x="238" y="283.6" text-anchor="end" font-size="13" font-weight="700" fill="#1a1a1a">Tier 2</text>
+<text x="238" y="297.6" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">Capability</text>
+<text x="238" y="311.6" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">deployment</text>
+<text x="238" y="325.6" text-anchor="end" font-size="11" font-weight="700" fill="#64748B">n = 36</text>
+<rect x="250" y="424.4" width="24" height="196.0" rx="3" fill="#94A3B8"/>
+<text x="238" y="508.4" text-anchor="end" font-size="13" font-weight="700" fill="#1a1a1a">Tier 3</text>
+<text x="238" y="522.4" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">Diffuse</text>
+<text x="238" y="536.4" text-anchor="end" font-size="11" font-weight="400" fill="#1a1a1a">transformation</text>
+<text x="238" y="550.4" text-anchor="end" font-size="11" font-weight="700" fill="#94A3B8">n = 35</text>
+<rect x="700" y="118.6" width="24" height="11.2" rx="3" fill="#2E7D32"/>
+<text x="736" y="124.2" text-anchor="start" font-size="13" font-weight="600" fill="#1a1a1a">Borne out</text>
+<text x="736" y="138.2" text-anchor="start" font-size="11" font-weight="700" fill="#2E7D32">n = 2</text>
+<rect x="700" y="155.8" width="24" height="302.4" rx="3" fill="#CFA85A"/>
+<text x="736" y="307.0" text-anchor="start" font-size="13" font-weight="600" fill="#1a1a1a">Partially borne out</text>
+<text x="736" y="321.0" text-anchor="start" font-size="11" font-weight="700" fill="#CFA85A">n = 54</text>
+<rect x="700" y="484.2" width="24" height="44.8" rx="3" fill="#C23B22"/>
+<text x="736" y="506.6" text-anchor="start" font-size="13" font-weight="600" fill="#1a1a1a">Not borne out</text>
+<text x="736" y="520.6" text-anchor="start" font-size="11" font-weight="700" fill="#C23B22">n = 8</text>
+<rect x="700" y="555.0" width="24" height="78.4" rx="3" fill="#5F6C8A"/>
+<text x="736" y="587.2" text-anchor="start" font-size="13" font-weight="600" fill="#1a1a1a">Too early /</text>
+<text x="736" y="601.2" text-anchor="start" font-size="13" font-weight="600" fill="#1a1a1a">unfalsifiable</text>
+<text x="736" y="615.2" text-anchor="start" font-size="11" font-weight="700" fill="#5F6C8A">n = 14</text>
+<text x="250" y="676" font-size="11" fill="#888">Falsifiability gradient: Tier 1 (darkest) &#8594; Tier 3 (lightest).</text>
+</svg>

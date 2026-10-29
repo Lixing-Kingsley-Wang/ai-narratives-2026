@@ -1,0 +1,5 @@
+tier,borne_out,not_borne_out,partially,too_early_unfalsifiable,Total
+1,0,5,1,1,7
+2,2,1,23,10,36
+3,0,2,30,3,35
+Total,2,8,54,14,78

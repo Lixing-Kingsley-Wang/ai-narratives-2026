@@ -1,0 +1,62 @@
+{
+ "id": "update_2026",
+ "kind": "table",
+ "caption": "Stance distribution among records published January to April 2026 (descriptive only).",
+ "header": [
+  "Stance",
+  "n/N",
+  "% (95% CI)"
+ ],
+ "rows": [
+  [
+   "Alarm",
+   "167/2689",
+   "6.2 (5.2-7.1)"
+  ],
+  [
+   "Caution",
+   "711/2689",
+   "26.4 (24.8-28.1)"
+  ],
+  [
+   "Neutral",
+   "116/2689",
+   "4.3 (3.6-5.1)"
+  ],
+  [
+   "Cautious Optimism",
+   "1678/2689",
+   "62.4 (60.7-64.3)"
+  ],
+  [
+   "Advocacy",
+   "17/2689",
+   "0.6 (0.4-0.9)"
+  ],
+  [
+   "Critical (Alarm or Caution)",
+   "878/2689",
+   "32.7 (30.9-34.3)"
+  ],
+  [
+   "Favourable (Cautious Optimism or Advocacy)",
+   "1695/2689",
+   "63.0 (61.2-64.9)"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "January-April 2026 records with a valid stance (n=2689), classified with the same v1 prompt. These records are outside the 2021-2025 analytic window; they are reported descriptively and enter no trend statistic, figure or model. 95% percentile bootstrap CIs (1000 resamples, seed 42), resampling 2026 records only. Critical stance was Alarm or Caution. Favourable stance was Cautious Optimism or Advocacy."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "COR-2026-N",
+  "RES-2026-ADVOCACY",
+  "RES-2026-ALARM",
+  "RES-2026-CAUTION",
+  "RES-2026-CAUTIOUSOPTIMISM",
+  "RES-2026-CRITICALALARMCAUTION",
+  "RES-2026-FAVOURABLECOADVOCACY",
+  "RES-2026-NEUTRAL"
+ ]
+}

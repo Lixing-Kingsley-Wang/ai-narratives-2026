@@ -1,0 +1,6 @@
+# Packages added to revision_r1/.venv for Batch 2c (python-docx for real Word tables; PyYAML for ma_order.yaml).
+# All other pins: revision_r1/requirements_r1.txt (unchanged). Figure scripts c1_compute.py, c2_figures.py and
+# c4_units.py run with the project venv (geopandas 1.1.3), which was not modified.
+python-docx==1.2.0
+lxml==6.1.3
+PyYAML==6.0.3

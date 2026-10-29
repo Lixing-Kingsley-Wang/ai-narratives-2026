@@ -1,0 +1,24 @@
+step,set,statistic,point,lo,hi,n,k,ci
+stance,in-scope (n=225),quadratic-weighted Cohen κ,0.7886658530137964,0.7243854640992283,0.8410916915761381,225,152.0,"percentile bootstrap, 1000 record resamples, seed 42"
+stance,in-scope (n=225),unweighted Cohen κ,0.5601349722824777,0.4697416796917227,0.63661833494328,225,152.0,"percentile bootstrap, 1000 record resamples, seed 42"
+stance,in-scope (n=225),raw agreement %,67.55555555555556,61.01429320404622,73.6269191184417,225,152.0,Clopper-Pearson
+stance,all records (n=300),quadratic-weighted Cohen κ,0.7520064205457464,0.6847330267314667,0.8113332114990381,300,200.0,"percentile bootstrap, 1000 record resamples, seed 42"
+stance,all records (n=300),unweighted Cohen κ,0.5642068564787914,0.49427930197442727,0.63019962288802,300,200.0,"percentile bootstrap, 1000 record resamples, seed 42"
+stance,all records (n=300),raw agreement %,66.66666666666666,61.0207587060502,71.97951544704947,300,200.0,Clopper-Pearson
+"mechanism, failure mode",abstract-present (n=108),Cohen κ,0.5743461125044786,0.4597352172753691,0.6865265190198889,108,75.0,"percentile bootstrap, 1000 record resamples, seed 42"
+"mechanism, failure mode",abstract-present (n=108),Gwet AC1,0.5996929931297852,0.48692689378270637,0.7086351611562693,108,75.0,"percentile bootstrap, 1000 record resamples, seed 42"
+"mechanism, failure mode",abstract-present (n=108),raw agreement %,69.44444444444444,59.84448584167774,77.94603991769573,108,75.0,Clopper-Pearson
+"mechanism, failure mode",abstract-present (n=108),κ_max,0.7549265496237908,,,108,,not applicable (bound)
+"mechanism, model type",abstract-present (n=108),Cohen κ,0.843410178338408,0.7431501373853567,0.9279045934639131,108,98.0,"percentile bootstrap, 1000 record resamples, seed 42"
+"mechanism, model type",abstract-present (n=108),Gwet AC1,0.8846790411275828,0.8112177442619886,0.9440570309064411,108,98.0,"percentile bootstrap, 1000 record resamples, seed 42"
+"mechanism, model type",abstract-present (n=108),raw agreement %,90.74074074074075,83.63060266606578,95.47002094025167,108,98.0,Clopper-Pearson
+"mechanism, model type",abstract-present (n=108),κ_max,0.9843410178338408,,,108,,not applicable (bound)
+specialty,all coded (n=120),Cohen κ,0.7528684907325683,0.6639844343260871,0.8310995380984074,120,92.0,"percentile bootstrap, 1000 record resamples, seed 42"
+specialty,all coded (n=120),Gwet AC1,0.7537800141674199,0.6660054153062915,0.8329657412887396,120,92.0,"percentile bootstrap, 1000 record resamples, seed 42"
+specialty,all coded (n=120),raw agreement %,76.66666666666667,68.07225107199395,83.90083119035371,120,92.0,Clopper-Pearson
+specialty,all coded (n=120),κ_max,0.8499558693733452,,,120,,not applicable (bound)
+stance run-to-run,"300 validation records, two re-inferences",quadratic-weighted Cohen κ,0.9740617105738001,0.9555783670431802,0.9887694930740412,300,286.0,"percentile bootstrap, 1000 record resamples, seed 42"
+stance run-to-run,"300 validation records, two re-inferences",raw agreement %,95.33333333333334,92.29401618936413,97.4255350532769,300,286.0,Clopper-Pearson
+prefilter intra-rater,20 pilot records recoded,KEEP/DROP Cohen κ,0.7727272727272727,0.0,1.0,20,19.0,"percentile bootstrap, 1000 record resamples, seed 42"
+prefilter intra-rater,20 pilot records recoded,KEEP/DROP agreement %,95.0,75.12672372279722,99.87349105020502,20,19.0,Clopper-Pearson
+prefilter intra-rater,20 pilot records recoded,3-class agreement %,95.0,75.12672372279722,99.87349105020502,20,19.0,Clopper-Pearson

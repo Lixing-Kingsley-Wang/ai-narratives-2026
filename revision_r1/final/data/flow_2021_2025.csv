@@ -1,0 +1,26 @@
+key,label,n
+identified,"Records identified in PubMed (monthly windows, January 2021-April 2026)",129557
+dup,Excluded: duplicate PMIDs across monthly windows,13440
+unique,Unique records,116117
+conf,Excluded: conference proceedings or preprints,4106
+sjr_screened,Records screened for SJR quartile,112011
+unmatched,Excluded: not Q1/Q2 in SJR (unmatched),7922
+unmatched_notinsjr,  of which journal title not in SJR file,5092
+unmatched_noq,  of which listed with no quartile,1494
+unmatched_q4,  of which best quartile Q4,1336
+q3,Set aside: best quartile Q3 (comparison arm),5463
+q1q2,Q1/Q2 records,98626
+window_out,Excluded: outside the 2021-2025 window,11926
+window_after_apr26,  of which cover date May 2026 or later (not retained on disk),1134
+window_2026,  of which published January-April 2026,10757
+window_pre2021,  of which dated before 2021,35
+eligible,"Q1/Q2 records eligible, 2021-2025 (screened by the AI-engagement prefilter)",86700
+pref_excl,Excluded: application (AI used as a method),72634
+pref_fallback,  of which prefilter failures defaulted to application,95
+retained,AI-engaged records retained,14066
+retained_disc,  discourse,7637
+retained_eval,  evaluative,6429
+stance_failed,Excluded: stance unparseable (FAILED),8
+analytic,"Included in analysis (valid stance, 2021-2025)",14058
+analytic_disc,  discourse,7633
+analytic_eval,  evaluative,6425
