@@ -1,0 +1,31 @@
+stratum,target,period,k,n,pct,lo,hi,under10,P
+Alarm,Advocacy,2021-2023,0.0,7.0,0.0,0.0,40.96163972250034,True,
+Alarm,Advocacy,2024-2025,0.0,24.0,0.0,0.0,14.247359772252564,False,
+Alarm,Advocacy,Fisher exact P (period difference),,,,,,,1.0
+Alarm,Critical,2021-2023,7.0,7.0,100.0,59.038360277499656,100.0,True,
+Alarm,Critical,2024-2025,23.0,24.0,95.83333333333334,78.87983165430269,99.89456475545303,False,
+Alarm,Critical,Fisher exact P (period difference),,,,,,,1.0
+Caution,Advocacy,2021-2023,0.0,12.0,0.0,0.0,26.464846939705122,False,
+Caution,Advocacy,2024-2025,0.0,38.0,0.0,0.0,9.251276141587828,False,
+Caution,Advocacy,Fisher exact P (period difference),,,,,,,1.0
+Caution,Critical,2021-2023,7.0,12.0,58.333333333333336,27.66696856821058,84.83477701915699,False,
+Caution,Critical,2024-2025,26.0,38.0,68.42105263157895,51.34729455939784,82.49746610988731,False,
+Caution,Critical,Fisher exact P (period difference),,,,,,,0.7278057145915471
+Neutral,Advocacy,2021-2023,0.0,26.0,0.0,0.0,13.22746044977541,False,
+Neutral,Advocacy,2024-2025,0.0,33.0,0.0,0.0,10.576281007457927,False,
+Neutral,Advocacy,Fisher exact P (period difference),,,,,,,1.0
+Neutral,Critical,2021-2023,3.0,26.0,11.538461538461538,2.445807531796222,30.154040010756777,False,
+Neutral,Critical,2024-2025,0.0,33.0,0.0,0.0,10.576281007457927,False,
+Neutral,Critical,Fisher exact P (period difference),,,,,,,0.07997785228705898
+Cautious Optimism,Advocacy,2021-2023,1.0,33.0,3.0303030303030303,0.07669120750481087,15.759397227249682,False,
+Cautious Optimism,Advocacy,2024-2025,5.0,52.0,9.615384615384617,3.1964236376921646,21.029747193932533,False,
+Cautious Optimism,Advocacy,Fisher exact P (period difference),,,,,,,0.39746597695466346
+Cautious Optimism,Critical,2021-2023,7.0,33.0,21.21212121212121,8.980424454270132,38.90809196741135,False,
+Cautious Optimism,Critical,2024-2025,4.0,52.0,7.6923076923076925,2.1356586491383696,18.539660438341095,False,
+Cautious Optimism,Critical,Fisher exact P (period difference),,,,,,,0.0985226879471543
+Advocacy,Advocacy,2021-2023,5.0,13.0,38.46153846153847,13.857933889016063,68.4222397085937,False,
+Advocacy,Advocacy,2024-2025,11.0,15.0,73.33333333333333,44.89967589630295,92.21284537089564,False,
+Advocacy,Advocacy,Fisher exact P (period difference),,,,,,,0.12481715798447526
+Advocacy,Critical,2021-2023,0.0,13.0,0.0,0.0,24.705263800047092,False,
+Advocacy,Critical,2024-2025,0.0,15.0,0.0,0.0,21.8019360910534,False,
+Advocacy,Critical,Fisher exact P (period difference),,,,,,,1.0

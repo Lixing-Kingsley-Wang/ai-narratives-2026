@@ -1,0 +1,5 @@
+id,series,v1,v2,v1_P,v2_P,crosses_.05,CI_now_includes_1,CI_now_excludes_1
+RES-TMP-TH-PATIENTSAFETY-OR,Theme: Patient safety,"OR 1.055 per year (95% CI 1.002-1.111), P=.041","OR 1.055 per year (95% CI 0.995-1.118), P=.071",0.041,P=.071,True,True,False
+RES-SEN-B5D2-ETHICSANDBIAS,B5 D2: theme Ethics & bias,OR 0.938 per year (95% CI 0.883-0.996),"OR 0.938 per year (95% CI 0.871-1.009), P=.087",,P=.087,True,True,False
+RES-B5X-FULL-THEMETREND-PATIENTSAFETY,B5 FULL: theme Patient safety,OR 1.055 per year (95% CI 1.002-1.111),"OR 1.055 per year (95% CI 0.995-1.118), P=.071",,P=.071,True,True,False
+RES-B5X-D2-THEMETREND-ETHICSANDBIAS,B5 D2: theme Ethics & bias,OR 0.938 per year (95% CI 0.883-0.996),"OR 0.938 per year (95% CI 0.871-1.009), P=.087",,P=.087,True,True,False

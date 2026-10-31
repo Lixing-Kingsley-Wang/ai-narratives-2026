@@ -1,0 +1,70 @@
+{
+ "id": "within_genre",
+ "kind": "table",
+ "caption": "Annual critical share within each prefilter genre, 2021-2025.",
+ "header": [
+  "Year",
+  "Discourse: critical % (95% CI); n/N",
+  "Evaluative: critical % (95% CI); n/N",
+  "Discourse:evaluative ratio (n/n)"
+ ],
+ "rows": [
+  [
+   "2021",
+   "30.2 (26.8-33.6); 222/735",
+   "14.6 (10.7-18.6); 48/328",
+   "2.24 (735/328)"
+  ],
+  [
+   "2022",
+   "31.2 (28.0-34.4); 269/863",
+   "13.3 (10.6-16.5); 64/480",
+   "1.80 (863/480)"
+  ],
+  [
+   "2023",
+   "35.3 (32.7-38.0); 447/1267",
+   "22.5 (19.6-25.5); 177/787",
+   "1.61 (1267/787)"
+  ],
+  [
+   "2024",
+   "37.5 (35.2-39.6); 713/1901",
+   "28.6 (26.5-30.7); 515/1799",
+   "1.06 (1901/1799)"
+  ],
+  [
+   "2025",
+   "35.4 (33.7-37.3); 1016/2867",
+   "26.8 (25.2-28.4); 812/3031",
+   "0.95 (2867/3031)"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Critical share computed separately within discourse and evaluative records. 95% percentile bootstrap CIs (1000 resamples, deterministic seed 42 + cell index per genre-year cell, cells ordered by genre then year); point estimates are unchanged from the submitted Table S3. Discourse: Spearman ρ ρ=+0.90 (P=.083); OR 1.061 per year (95% CI 1.015-1.108), P=.008. Evaluative: Spearman ρ ρ=+0.80 (P=.133); OR 1.209 per year (95% CI 1.144-1.277), P<.001. Annual series are plotted in {{F:within_genre_fig}}. Critical stance was Alarm or Caution.",
+  "Version 2 (Batch 2d): every OR per year here comes from record-level logistic regression on publication year with journal cluster-robust SEs (95% CI and P from the cluster-robust covariance); point estimates are unchanged."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-TMP-GENDISC-2021",
+  "RES-TMP-GENDISC-2022",
+  "RES-TMP-GENDISC-2023",
+  "RES-TMP-GENDISC-2024",
+  "RES-TMP-GENDISC-2025",
+  "RES-TMP-GENDISC-OR",
+  "RES-TMP-GENDISC-RHO",
+  "RES-TMP-GENEVAL-2021",
+  "RES-TMP-GENEVAL-2022",
+  "RES-TMP-GENEVAL-2023",
+  "RES-TMP-GENEVAL-2024",
+  "RES-TMP-GENEVAL-2025",
+  "RES-TMP-GENEVAL-OR",
+  "RES-TMP-GENEVAL-RHO",
+  "RES-TMP-GENRATIO-2021",
+  "RES-TMP-GENRATIO-2022",
+  "RES-TMP-GENRATIO-2023",
+  "RES-TMP-GENRATIO-2024",
+  "RES-TMP-GENRATIO-2025"
+ ]
+}

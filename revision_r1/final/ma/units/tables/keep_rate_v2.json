@@ -1,0 +1,46 @@
+{
+ "id": "keep_rate",
+ "kind": "table",
+ "caption": "Annual prefilter keep rate, 2021-2025.",
+ "header": [
+  "Year",
+  "Kept, % (95% CI); kept/eligible"
+ ],
+ "rows": [
+  [
+   "2021",
+   "9.5 (8.9-10.0); 1064/11,191"
+  ],
+  [
+   "2022",
+   "10.2 (9.7-10.8); 1344/13,136"
+  ],
+  [
+   "2023",
+   "14.5 (14.0-15.1); 2055/14,128"
+  ],
+  [
+   "2024",
+   "19.1 (18.6-19.7); 3704/19,372"
+  ],
+  [
+   "2025",
+   "20.4 (20.0-20.9); 5899/28,873"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Proportion of eligible Q1/Q2 records retained by the AI-engagement prefilter as discourse or evaluative. Year is the first four-digit year in the PubMed date field. 95% percentile bootstrap CIs (1000 resamples, seed 42). Spearman ρ ρ=+1.00 (P=.017); OR 1.273 per year (95% CI 1.220-1.329), P<.001. The R1 prefilter audit estimates the false-negative rate among excluded records by year in {{T:prefilter_validation}}.",
+  "Version 2 (Batch 2d): every OR per year here comes from record-level logistic regression on publication year with journal cluster-robust SEs (95% CI and P from the cluster-robust covariance); point estimates are unchanged."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-TMP-KEEP-2021",
+  "RES-TMP-KEEP-2022",
+  "RES-TMP-KEEP-2023",
+  "RES-TMP-KEEP-2024",
+  "RES-TMP-KEEP-2025",
+  "RES-TMP-KEEP-OR",
+  "RES-TMP-KEEP-RHO"
+ ]
+}

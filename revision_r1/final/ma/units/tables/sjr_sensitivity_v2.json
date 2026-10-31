@@ -1,0 +1,582 @@
+{
+ "id": "sjr_sensitivity",
+ "kind": "table",
+ "caption": "Sensitivity of the main estimates to an SJR medical-category restriction (B5), 2021-2025.",
+ "header": [
+  "Item",
+  "Full corpus",
+  "D1 Medicine area (primary)",
+  "D2 D1 minus Medicine (miscellaneous)",
+  "D3 broad health sciences"
+ ],
+ "rows": [
+  [
+   "Stance distribution, 2021–2025"
+  ],
+  [
+   "Alarm",
+   "5.3% (749/14,058; 95% CI 5.0%-5.7%)",
+   "5.3% (625/11,733; 95% CI 5.0%-5.8%)",
+   "5.4% (549/10,180; 95% CI 5.0%-5.8%)",
+   "5.4% (684/12,711; 95% CI 5.0%-5.8%)"
+  ],
+  [
+   "Caution",
+   "25.1% (3534/14,058; 95% CI 24.4%-25.9%)",
+   "25.6% (3000/11,733; 95% CI 24.8%-26.4%)",
+   "25.7% (2612/10,180; 95% CI 24.8%-26.5%)",
+   "25.6% (3250/12,711; 95% CI 24.9%-26.4%)"
+  ],
+  [
+   "Neutral",
+   "5.1% (721/14,058; 95% CI 4.8%-5.5%)",
+   "5.0% (587/11,733; 95% CI 4.6%-5.4%)",
+   "4.8% (492/10,180; 95% CI 4.4%-5.3%)",
+   "4.9% (627/12,711; 95% CI 4.5%-5.3%)"
+  ],
+  [
+   "Cautious Optimism",
+   "62.9% (8836/14,058; 95% CI 62.0%-63.7%)",
+   "62.8% (7364/11,733; 95% CI 61.9%-63.6%)",
+   "62.9% (6402/10,180; 95% CI 61.9%-63.8%)",
+   "62.6% (7963/12,711; 95% CI 61.8%-63.4%)"
+  ],
+  [
+   "Advocacy",
+   "1.6% (218/14,058; 95% CI 1.4%-1.8%)",
+   "1.3% (157/11,733; 95% CI 1.1%-1.6%)",
+   "1.2% (125/10,180; 95% CI 1.0%-1.4%)",
+   "1.5% (187/12,711; 95% CI 1.3%-1.7%)"
+  ],
+  [
+   "Critical",
+   "30.5% (4283/14,058; 95% CI 29.7%-31.2%)",
+   "30.9% (3625/11,733; 95% CI 30.1%-31.7%)",
+   "31.1% (3161/10,180; 95% CI 30.1%-32.0%)",
+   "30.9% (3934/12,711; 95% CI 30.2%-31.7%)"
+  ],
+  [
+   "Favourable",
+   "64.4% (9054/14,058; 95% CI 63.6%-65.2%)",
+   "64.1% (7521/11,733; 95% CI 63.2%-65.0%)",
+   "64.1% (6527/10,180; 95% CI 63.2%-65.0%)",
+   "64.1% (8150/12,711; 95% CI 63.3%-64.9%)"
+  ],
+  [
+   "Trend 2021–2025"
+  ],
+  [
+   "Critical",
+   "ρ=+0.80 (P=.133); OR 1.077 per year (95% CI 1.038-1.116), P<.001",
+   "ρ=+0.70 (P=.233); OR 1.066 per year (95% CI 1.029-1.106), P<.001",
+   "ρ=+0.90 (P=.083); OR 1.085 per year (95% CI 1.043-1.128), P<.001",
+   "ρ=+0.90 (P=.083); OR 1.071 per year (95% CI 1.034-1.109), P<.001"
+  ],
+  [
+   "Advocacy",
+   "ρ=-1.00 (P=.017); OR 0.793 per year (95% CI 0.720-0.873), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.771 per year (95% CI 0.691-0.860), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.802 per year (95% CI 0.707-0.909), P<.001",
+   "ρ=-0.90 (P=.083); OR 0.782 per year (95% CI 0.707-0.866), P<.001"
+  ],
+  [
+   "Theme trend 2021–2025 (among critical)"
+  ],
+  [
+   "Patient safety",
+   "59.3% to 64.9% (change +5.7 percentage points); ρ=+0.80 (P=.133); OR 1.055 per year (95% CI 0.995-1.118), P=.071",
+   "59.1% to 66.7% (change +7.6 percentage points); ρ=+0.90 (P=.083); OR 1.080 per year (95% CI 1.014-1.151), P=.018",
+   "60.4% to 69.1% (change +8.7 percentage points); ρ=+0.90 (P=.083); OR 1.107 per year (95% CI 1.039-1.180), P=.002",
+   "59.0% to 65.5% (change +6.5 percentage points); ρ=+0.90 (P=.083); OR 1.066 per year (95% CI 1.002-1.134), P=.042"
+  ],
+  [
+   "Hallucination / errors",
+   "23.7% to 51.1% (change +27.4 percentage points); ρ=+0.80 (P=.133); OR 1.367 per year (95% CI 1.289-1.450), P<.001",
+   "23.0% to 50.7% (change +27.7 percentage points); ρ=+0.80 (P=.133); OR 1.386 per year (95% CI 1.300-1.478), P<.001",
+   "25.4% to 51.2% (change +25.8 percentage points); ρ=+0.80 (P=.133); OR 1.358 per year (95% CI 1.269-1.452), P<.001",
+   "23.4% to 51.4% (change +28.1 percentage points); ρ=+0.80 (P=.133); OR 1.391 per year (95% CI 1.306-1.482), P<.001"
+  ],
+  [
+   "Governance / regulation",
+   "54.8% to 31.7% (change -23.1 percentage points); ρ=-0.90 (P=.083); OR 0.765 per year (95% CI 0.719-0.814), P<.001",
+   "55.2% to 33.3% (change -21.9 percentage points); ρ=-0.90 (P=.083); OR 0.772 per year (95% CI 0.723-0.825), P<.001",
+   "55.3% to 34.0% (change -21.3 percentage points); ρ=-0.90 (P=.083); OR 0.779 per year (95% CI 0.725-0.836), P<.001",
+   "54.5% to 31.7% (change -22.8 percentage points); ρ=-0.90 (P=.083); OR 0.762 per year (95% CI 0.715-0.813), P<.001"
+  ],
+  [
+   "Ethics & bias",
+   "36.7% to 33.0% (change -3.6 percentage points); ρ=-0.80 (P=.133); OR 0.915 per year (95% CI 0.861-0.972), P=.004",
+   "37.0% to 33.1% (change -3.8 percentage points); ρ=-0.80 (P=.133); OR 0.912 per year (95% CI 0.853-0.976), P=.008",
+   "35.5% to 34.0% (change -1.5 percentage points); ρ=-0.60 (P=.350); OR 0.938 per year (95% CI 0.871-1.009), P=.087",
+   "37.7% to 33.1% (change -4.6 percentage points); ρ=-0.80 (P=.133); OR 0.905 per year (95% CI 0.848-0.966), P=.003"
+  ],
+  [
+   "Specialty, 2021–2025"
+  ],
+  [
+   "range (n≥30 categories)",
+   "Mental Health / Psychiatry 50.3% (196/390) to Cardiology 16.1% (87/542)",
+   "Mental Health / Psychiatry 49.6% (167/337) to Cardiology 16.4% (82/500)",
+   "Mental Health / Psychiatry 49.5% (153/309) to Cardiology 16.4% (73/445)",
+   "Mental Health / Psychiatry 50.0% (184/368) to Cardiology 16.3% (82/504)"
+  ],
+  [
+   "FDA Spearman ρ",
+   "-0.61 (two-sided P=.007, n=18)",
+   "-0.61 (two-sided P=.007, n=18)",
+   "-0.60 (two-sided P=.008, n=18)",
+   "-0.63 (two-sided P=.005, n=18)"
+  ],
+  [
+   "Specialty detail, 2021–2025"
+  ],
+  [
+   "Radiology / Diagnostic Imaging",
+   "20.4% (18.6-22.4)",
+   "21.0% (19.0-23.2)",
+   "21.2% (19.2-23.2)",
+   "21.1% (19.1-23.0)"
+  ],
+  [
+   "Pathology / Laboratory Medicine",
+   "20.4% (16.2-24.4)",
+   "20.2% (15.9-24.5)",
+   "20.7% (16.2-25.2)",
+   "20.2% (16.2-24.9)"
+  ],
+  [
+   "Cardiology",
+   "16.1% (12.8-19.2)",
+   "16.4% (13.5-19.7)",
+   "16.4% (13.1-19.7)",
+   "16.3% (13.3-19.4)"
+  ],
+  [
+   "Oncology",
+   "18.7% (16.5-21.0)",
+   "19.3% (16.9-21.7)",
+   "19.4% (16.9-21.7)",
+   "19.1% (16.8-21.5)"
+  ],
+  [
+   "Surgery",
+   "29.1% (26.4-31.8)",
+   "29.1% (26.5-31.8)",
+   "29.4% (26.8-32.3)",
+   "29.2% (26.5-31.9)"
+  ],
+  [
+   "Ophthalmology",
+   "18.5% (15.7-21.6)",
+   "18.9% (15.5-22.0)",
+   "19.0% (15.6-22.0)",
+   "18.8% (15.5-21.9)"
+  ],
+  [
+   "Dermatology",
+   "37.4% (31.7-43.1)",
+   "38.4% (32.1-45.0)",
+   "38.6% (32.5-45.1)",
+   "38.1% (32.1-44.3)"
+  ],
+  [
+   "Neurology / Neuroscience",
+   "23.8% (18.7-28.6)",
+   "24.5% (19.2-30.0)",
+   "24.6% (18.8-30.3)",
+   "23.2% (18.2-28.6)"
+  ],
+  [
+   "Mental Health / Psychiatry",
+   "50.3% (45.7-55.2)",
+   "49.6% (44.4-55.0)",
+   "49.5% (44.3-54.8)",
+   "50.0% (44.7-55.2)"
+  ],
+  [
+   "Internal Medicine / Primary Care",
+   "21.6% (19.0-24.3)",
+   "21.6% (18.8-24.4)",
+   "21.8% (18.8-24.7)",
+   "21.9% (19.4-24.9)"
+  ],
+  [
+   "Emergency Medicine / Critical Care",
+   "27.9% (23.2-33.2)",
+   "27.5% (22.4-32.6)",
+   "27.5% (21.6-32.6)",
+   "27.2% (22.8-32.2)"
+  ],
+  [
+   "Pediatrics",
+   "23.8% (19.0-28.4)",
+   "24.1% (19.4-29.2)",
+   "24.7% (19.4-29.7)",
+   "24.2% (19.3-29.2)"
+  ],
+  [
+   "Obstetrics / Gynecology",
+   "25.1% (19.2-31.5)",
+   "25.9% (19.1-32.2)",
+   "26.6% (19.6-33.3)",
+   "25.8% (19.9-31.6)"
+  ],
+  [
+   "Dentistry",
+   "25.0% (21.4-28.6)",
+   "21.9% (16.7-27.6)",
+   "20.9% (14.4-28.5)",
+   "25.9% (22.5-29.7)"
+  ],
+  [
+   "Medical Informatics / Digital Health",
+   "45.2% (43.6-46.9)",
+   "47.8% (46.1-49.4)",
+   "49.5% (47.6-51.5)",
+   "46.8% (45.1-48.5)"
+  ],
+  [
+   "Nursing",
+   "41.4% (34.5-47.5)",
+   "37.3% (26.9-47.8)",
+   "33.3% (19.2-47.4)",
+   "42.5% (36.0-48.9)"
+  ],
+  [
+   "Medical Education",
+   "34.9% (31.9-38.3)",
+   "36.8% (33.3-40.4)",
+   "40.3% (35.5-45.6)",
+   "36.2% (32.9-39.6)"
+  ],
+  [
+   "Multidisciplinary / Other",
+   "32.1% (25.3-39.0)",
+   "36.5% (27.8-45.5)",
+   "36.8% (27.1-46.4)",
+   "34.1% (25.7-42.1)"
+  ],
+  [
+   "Region, 2021–2025"
+  ],
+  [
+   "East Asia",
+   "17.7% (478/2702; 95% CI 16.3%-19.3%)",
+   "17.6% (389/2207; 95% CI 16.0%-19.2%)",
+   "18.4% (348/1896; 95% CI 16.7%-20.1%)",
+   "18.0% (428/2372; 95% CI 16.5%-19.7%)"
+  ],
+  [
+   "Eastern Europe",
+   "27.9% (76/272; 95% CI 22.6%-33.6%)",
+   "29.3% (63/215; 95% CI 23.4%-35.7%)",
+   "32.5% (50/154; 95% CI 25.2%-39.9%)",
+   "29.4% (70/238; 95% CI 23.8%-35.3%)"
+  ],
+  [
+   "Latin America / Oceania",
+   "38.3% (245/639; 95% CI 34.6%-42.2%)",
+   "39.3% (212/539; 95% CI 35.3%-43.5%)",
+   "39.3% (184/468; 95% CI 35.2%-43.8%)",
+   "38.9% (225/579; 95% CI 34.8%-43.0%)"
+  ],
+  [
+   "Middle East / North Africa",
+   "29.8% (394/1322; 95% CI 27.1%-32.3%)",
+   "30.4% (294/967; 95% CI 27.3%-33.3%)",
+   "30.0% (232/773; 95% CI 26.7%-33.2%)",
+   "30.8% (364/1181; 95% CI 28.2%-33.3%)"
+  ],
+  [
+   "North America",
+   "34.9% (1472/4221; 95% CI 33.5%-36.3%)",
+   "34.9% (1302/3727; 95% CI 33.4%-36.4%)",
+   "34.9% (1170/3348; 95% CI 33.3%-36.5%)",
+   "35.0% (1375/3926; 95% CI 33.6%-36.5%)"
+  ],
+  [
+   "South/Southeast Asia",
+   "24.4% (160/656; 95% CI 21.4%-27.8%)",
+   "26.5% (122/460; 95% CI 22.4%-30.5%)",
+   "27.7% (106/382; 95% CI 23.1%-32.0%)",
+   "25.2% (140/555; 95% CI 21.9%-29.0%)"
+  ],
+  [
+   "Sub-Saharan Africa",
+   "42.9% (21/49; 95% CI 29.2%-57.1%)",
+   "44.2% (19/43; 95% CI 29.5%-60.0%)",
+   "46.3% (19/41; 95% CI 29.7%-60.6%)",
+   "44.7% (21/47; 95% CI 31.1%-59.6%)"
+  ],
+  [
+   "Unknown",
+   "32.3% (163/504; 95% CI 28.5%-36.2%)",
+   "30.7% (127/414; 95% CI 26.1%-35.0%)",
+   "28.4% (97/341; 95% CI 24.1%-33.2%)",
+   "31.9% (145/454; 95% CI 27.7%-36.2%)"
+  ],
+  [
+   "Western Europe",
+   "34.5% (1274/3693; 95% CI 33.0%-36.1%)",
+   "34.7% (1097/3161; 95% CI 33.1%-36.3%)",
+   "34.4% (955/2777; 95% CI 32.6%-36.1%)",
+   "34.7% (1166/3359; 95% CI 33.1%-36.3%)"
+  ],
+  [
+   "Publication type, 2021–2025"
+  ],
+  [
+   "Research Article",
+   "32.7% (2799/8556; 95% CI 31.6%-33.7%)",
+   "32.9% (2321/7065; 95% CI 31.7%-33.9%)",
+   "32.5% (1995/6133; 95% CI 31.4%-33.7%)",
+   "33.2% (2541/7649; 95% CI 32.2%-34.3%)"
+  ],
+  [
+   "Review",
+   "24.3% (1120/4611; 95% CI 23.1%-25.5%)",
+   "25.0% (969/3873; 95% CI 23.6%-26.3%)",
+   "26.0% (872/3352; 95% CI 24.6%-27.4%)",
+   "24.7% (1048/4239; 95% CI 23.4%-26.1%)"
+  ],
+  [
+   "Letter",
+   "40.6% (174/429; 95% CI 36.1%-45.5%)",
+   "42.5% (156/367; 95% CI 37.6%-48.0%)",
+   "43.3% (142/328; 95% CI 38.1%-48.2%)",
+   "42.3% (159/376; 95% CI 37.2%-47.3%)"
+  ],
+  [
+   "Editorial",
+   "37.1% (135/364; 95% CI 32.1%-42.0%)",
+   "37.8% (125/331; 95% CI 32.3%-42.9%)",
+   "37.5% (106/283; 95% CI 31.8%-42.8%)",
+   "37.5% (131/349; 95% CI 32.4%-42.4%)"
+  ],
+  [
+   "Commentary",
+   "56.1% (55/98; 95% CI 45.9%-66.3%)",
+   "55.7% (54/97; 95% CI 46.4%-66.0%)",
+   "54.8% (46/84; 95% CI 44.0%-65.5%)",
+   "56.1% (55/98; 95% CI 45.9%-66.3%)"
+  ],
+  [
+   "Records removed from 2021-2025"
+  ],
+  [
+   "Removed (of 14,058)",
+   "—",
+   "2325 of 14,058",
+   "3878 of 14,058",
+   "1347 of 14,058"
+  ]
+ ],
+ "group_rows": [
+  0,
+  8,
+  11,
+  16,
+  19,
+  38,
+  48,
+  54
+ ],
+ "notes": [
+  "A record is kept only if its journal-year is Q1/Q2 in at least one SCImago category of the definition. D1 (primary): any Medicine-area (ASJC 27xx) category. D2: D1 without 'Medicine (miscellaneous)'. D3: broad health sciences (Medicine, Nursing, Dentistry, Health Professions, Neuroscience, Pharmacology, Immunology and Microbiology, Psychology). 95% percentile bootstrap CIs (1000 resamples, seed 42). Trend: Spearman ρ (exact P) over 5 annual values and OR per year. Annual series are plotted in {{F:temporal_robustness_fig}}. Critical stance was Alarm or Caution.",
+  "Version 2 (Batch 2d): every OR per year here comes from record-level logistic regression on publication year with journal cluster-robust SEs (95% CI and P from the cluster-robust covariance); point estimates are unchanged."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "RES-B5X-D1-PUBLICATIO-COMMENTARY",
+  "RES-B5X-D1-PUBLICATIO-EDITORIAL",
+  "RES-B5X-D1-PUBLICATIO-LETTER",
+  "RES-B5X-D1-PUBLICATIO-RESEARCHARTICLE",
+  "RES-B5X-D1-PUBLICATIO-REVIEW",
+  "RES-B5X-D1-REGION2021-EASTASIA",
+  "RES-B5X-D1-REGION2021-EASTERNEUROPE",
+  "RES-B5X-D1-REGION2021-LATINAMERICAOCEANIA",
+  "RES-B5X-D1-REGION2021-MIDDLEEASTNORTHAFRICA",
+  "RES-B5X-D1-REGION2021-NORTHAMERICA",
+  "RES-B5X-D1-REGION2021-SOUTHSOUTHEASTASIA",
+  "RES-B5X-D1-REGION2021-SUBSAHARANAFRICA",
+  "RES-B5X-D1-REGION2021-UNKNOWN",
+  "RES-B5X-D1-REGION2021-WESTERNEUROPE",
+  "RES-B5X-D1-SPECIALTY2-FDASPEARMAN",
+  "RES-B5X-D1-SPECIALTY2-RANGEN30CATEGORIES",
+  "RES-B5X-D1-SPECIALTYD-CARDIOLOGY",
+  "RES-B5X-D1-SPECIALTYD-DENTISTRY",
+  "RES-B5X-D1-SPECIALTYD-DERMATOLOGY",
+  "RES-B5X-D1-SPECIALTYD-EMERGENCYMEDICINECRITICA",
+  "RES-B5X-D1-SPECIALTYD-INTERNALMEDICINEPRIMARYC",
+  "RES-B5X-D1-SPECIALTYD-MEDICALEDUCATION",
+  "RES-B5X-D1-SPECIALTYD-MEDICALINFORMATICSDIGITA",
+  "RES-B5X-D1-SPECIALTYD-MENTALHEALTHPSYCHIATRY",
+  "RES-B5X-D1-SPECIALTYD-MULTIDISCIPLINARYOTHER",
+  "RES-B5X-D1-SPECIALTYD-NEUROLOGYNEUROSCIENCE",
+  "RES-B5X-D1-SPECIALTYD-NURSING",
+  "RES-B5X-D1-SPECIALTYD-OBSTETRICSGYNECOLOGY",
+  "RES-B5X-D1-SPECIALTYD-ONCOLOGY",
+  "RES-B5X-D1-SPECIALTYD-OPHTHALMOLOGY",
+  "RES-B5X-D1-SPECIALTYD-PATHOLOGYLABORATORYMEDIC",
+  "RES-B5X-D1-SPECIALTYD-PEDIATRICS",
+  "RES-B5X-D1-SPECIALTYD-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-B5X-D1-SPECIALTYD-SURGERY",
+  "RES-B5X-D1-STANCEDIST-ADVOCACY",
+  "RES-B5X-D1-STANCEDIST-ALARM",
+  "RES-B5X-D1-STANCEDIST-CAUTION",
+  "RES-B5X-D1-STANCEDIST-CAUTIOUSOPTIMISM",
+  "RES-B5X-D1-STANCEDIST-CRITICAL",
+  "RES-B5X-D1-STANCEDIST-FAVOURABLE",
+  "RES-B5X-D1-STANCEDIST-NEUTRAL",
+  "RES-B5X-D1-THEMETREND-ETHICSANDBIAS",
+  "RES-B5X-D1-THEMETREND-GOVERNANCEREGULATION",
+  "RES-B5X-D1-THEMETREND-HALLUCINATIONERRORS",
+  "RES-B5X-D1-THEMETREND-PATIENTSAFETY",
+  "RES-B5X-D1-TREND20212-ADVOCACY",
+  "RES-B5X-D1-TREND20212-CRITICAL",
+  "RES-B5X-D2-PUBLICATIO-COMMENTARY",
+  "RES-B5X-D2-PUBLICATIO-EDITORIAL",
+  "RES-B5X-D2-PUBLICATIO-LETTER",
+  "RES-B5X-D2-PUBLICATIO-RESEARCHARTICLE",
+  "RES-B5X-D2-PUBLICATIO-REVIEW",
+  "RES-B5X-D2-REGION2021-EASTASIA",
+  "RES-B5X-D2-REGION2021-EASTERNEUROPE",
+  "RES-B5X-D2-REGION2021-LATINAMERICAOCEANIA",
+  "RES-B5X-D2-REGION2021-MIDDLEEASTNORTHAFRICA",
+  "RES-B5X-D2-REGION2021-NORTHAMERICA",
+  "RES-B5X-D2-REGION2021-SOUTHSOUTHEASTASIA",
+  "RES-B5X-D2-REGION2021-SUBSAHARANAFRICA",
+  "RES-B5X-D2-REGION2021-UNKNOWN",
+  "RES-B5X-D2-REGION2021-WESTERNEUROPE",
+  "RES-B5X-D2-SPECIALTY2-FDASPEARMAN",
+  "RES-B5X-D2-SPECIALTY2-RANGEN30CATEGORIES",
+  "RES-B5X-D2-SPECIALTYD-CARDIOLOGY",
+  "RES-B5X-D2-SPECIALTYD-DENTISTRY",
+  "RES-B5X-D2-SPECIALTYD-DERMATOLOGY",
+  "RES-B5X-D2-SPECIALTYD-EMERGENCYMEDICINECRITICA",
+  "RES-B5X-D2-SPECIALTYD-INTERNALMEDICINEPRIMARYC",
+  "RES-B5X-D2-SPECIALTYD-MEDICALEDUCATION",
+  "RES-B5X-D2-SPECIALTYD-MEDICALINFORMATICSDIGITA",
+  "RES-B5X-D2-SPECIALTYD-MENTALHEALTHPSYCHIATRY",
+  "RES-B5X-D2-SPECIALTYD-MULTIDISCIPLINARYOTHER",
+  "RES-B5X-D2-SPECIALTYD-NEUROLOGYNEUROSCIENCE",
+  "RES-B5X-D2-SPECIALTYD-NURSING",
+  "RES-B5X-D2-SPECIALTYD-OBSTETRICSGYNECOLOGY",
+  "RES-B5X-D2-SPECIALTYD-ONCOLOGY",
+  "RES-B5X-D2-SPECIALTYD-OPHTHALMOLOGY",
+  "RES-B5X-D2-SPECIALTYD-PATHOLOGYLABORATORYMEDIC",
+  "RES-B5X-D2-SPECIALTYD-PEDIATRICS",
+  "RES-B5X-D2-SPECIALTYD-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-B5X-D2-SPECIALTYD-SURGERY",
+  "RES-B5X-D2-STANCEDIST-ADVOCACY",
+  "RES-B5X-D2-STANCEDIST-ALARM",
+  "RES-B5X-D2-STANCEDIST-CAUTION",
+  "RES-B5X-D2-STANCEDIST-CAUTIOUSOPTIMISM",
+  "RES-B5X-D2-STANCEDIST-CRITICAL",
+  "RES-B5X-D2-STANCEDIST-FAVOURABLE",
+  "RES-B5X-D2-STANCEDIST-NEUTRAL",
+  "RES-B5X-D2-THEMETREND-ETHICSANDBIAS",
+  "RES-B5X-D2-THEMETREND-GOVERNANCEREGULATION",
+  "RES-B5X-D2-THEMETREND-HALLUCINATIONERRORS",
+  "RES-B5X-D2-THEMETREND-PATIENTSAFETY",
+  "RES-B5X-D2-TREND20212-ADVOCACY",
+  "RES-B5X-D2-TREND20212-CRITICAL",
+  "RES-B5X-D3-PUBLICATIO-COMMENTARY",
+  "RES-B5X-D3-PUBLICATIO-EDITORIAL",
+  "RES-B5X-D3-PUBLICATIO-LETTER",
+  "RES-B5X-D3-PUBLICATIO-RESEARCHARTICLE",
+  "RES-B5X-D3-PUBLICATIO-REVIEW",
+  "RES-B5X-D3-REGION2021-EASTASIA",
+  "RES-B5X-D3-REGION2021-EASTERNEUROPE",
+  "RES-B5X-D3-REGION2021-LATINAMERICAOCEANIA",
+  "RES-B5X-D3-REGION2021-MIDDLEEASTNORTHAFRICA",
+  "RES-B5X-D3-REGION2021-NORTHAMERICA",
+  "RES-B5X-D3-REGION2021-SOUTHSOUTHEASTASIA",
+  "RES-B5X-D3-REGION2021-SUBSAHARANAFRICA",
+  "RES-B5X-D3-REGION2021-UNKNOWN",
+  "RES-B5X-D3-REGION2021-WESTERNEUROPE",
+  "RES-B5X-D3-SPECIALTY2-FDASPEARMAN",
+  "RES-B5X-D3-SPECIALTY2-RANGEN30CATEGORIES",
+  "RES-B5X-D3-SPECIALTYD-CARDIOLOGY",
+  "RES-B5X-D3-SPECIALTYD-DENTISTRY",
+  "RES-B5X-D3-SPECIALTYD-DERMATOLOGY",
+  "RES-B5X-D3-SPECIALTYD-EMERGENCYMEDICINECRITICA",
+  "RES-B5X-D3-SPECIALTYD-INTERNALMEDICINEPRIMARYC",
+  "RES-B5X-D3-SPECIALTYD-MEDICALEDUCATION",
+  "RES-B5X-D3-SPECIALTYD-MEDICALINFORMATICSDIGITA",
+  "RES-B5X-D3-SPECIALTYD-MENTALHEALTHPSYCHIATRY",
+  "RES-B5X-D3-SPECIALTYD-MULTIDISCIPLINARYOTHER",
+  "RES-B5X-D3-SPECIALTYD-NEUROLOGYNEUROSCIENCE",
+  "RES-B5X-D3-SPECIALTYD-NURSING",
+  "RES-B5X-D3-SPECIALTYD-OBSTETRICSGYNECOLOGY",
+  "RES-B5X-D3-SPECIALTYD-ONCOLOGY",
+  "RES-B5X-D3-SPECIALTYD-OPHTHALMOLOGY",
+  "RES-B5X-D3-SPECIALTYD-PATHOLOGYLABORATORYMEDIC",
+  "RES-B5X-D3-SPECIALTYD-PEDIATRICS",
+  "RES-B5X-D3-SPECIALTYD-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-B5X-D3-SPECIALTYD-SURGERY",
+  "RES-B5X-D3-STANCEDIST-ADVOCACY",
+  "RES-B5X-D3-STANCEDIST-ALARM",
+  "RES-B5X-D3-STANCEDIST-CAUTION",
+  "RES-B5X-D3-STANCEDIST-CAUTIOUSOPTIMISM",
+  "RES-B5X-D3-STANCEDIST-CRITICAL",
+  "RES-B5X-D3-STANCEDIST-FAVOURABLE",
+  "RES-B5X-D3-STANCEDIST-NEUTRAL",
+  "RES-B5X-D3-THEMETREND-ETHICSANDBIAS",
+  "RES-B5X-D3-THEMETREND-GOVERNANCEREGULATION",
+  "RES-B5X-D3-THEMETREND-HALLUCINATIONERRORS",
+  "RES-B5X-D3-THEMETREND-PATIENTSAFETY",
+  "RES-B5X-D3-TREND20212-ADVOCACY",
+  "RES-B5X-D3-TREND20212-CRITICAL",
+  "RES-B5X-FULL-PUBLICATIO-COMMENTARY",
+  "RES-B5X-FULL-PUBLICATIO-EDITORIAL",
+  "RES-B5X-FULL-PUBLICATIO-LETTER",
+  "RES-B5X-FULL-PUBLICATIO-RESEARCHARTICLE",
+  "RES-B5X-FULL-PUBLICATIO-REVIEW",
+  "RES-B5X-FULL-REGION2021-EASTASIA",
+  "RES-B5X-FULL-REGION2021-EASTERNEUROPE",
+  "RES-B5X-FULL-REGION2021-LATINAMERICAOCEANIA",
+  "RES-B5X-FULL-REGION2021-MIDDLEEASTNORTHAFRICA",
+  "RES-B5X-FULL-REGION2021-NORTHAMERICA",
+  "RES-B5X-FULL-REGION2021-SOUTHSOUTHEASTASIA",
+  "RES-B5X-FULL-REGION2021-SUBSAHARANAFRICA",
+  "RES-B5X-FULL-REGION2021-UNKNOWN",
+  "RES-B5X-FULL-REGION2021-WESTERNEUROPE",
+  "RES-B5X-FULL-SPECIALTY2-FDASPEARMAN",
+  "RES-B5X-FULL-SPECIALTY2-RANGEN30CATEGORIES",
+  "RES-B5X-FULL-SPECIALTYD-CARDIOLOGY",
+  "RES-B5X-FULL-SPECIALTYD-DENTISTRY",
+  "RES-B5X-FULL-SPECIALTYD-DERMATOLOGY",
+  "RES-B5X-FULL-SPECIALTYD-EMERGENCYMEDICINECRITICA",
+  "RES-B5X-FULL-SPECIALTYD-INTERNALMEDICINEPRIMARYC",
+  "RES-B5X-FULL-SPECIALTYD-MEDICALEDUCATION",
+  "RES-B5X-FULL-SPECIALTYD-MEDICALINFORMATICSDIGITA",
+  "RES-B5X-FULL-SPECIALTYD-MENTALHEALTHPSYCHIATRY",
+  "RES-B5X-FULL-SPECIALTYD-MULTIDISCIPLINARYOTHER",
+  "RES-B5X-FULL-SPECIALTYD-NEUROLOGYNEUROSCIENCE",
+  "RES-B5X-FULL-SPECIALTYD-NURSING",
+  "RES-B5X-FULL-SPECIALTYD-OBSTETRICSGYNECOLOGY",
+  "RES-B5X-FULL-SPECIALTYD-ONCOLOGY",
+  "RES-B5X-FULL-SPECIALTYD-OPHTHALMOLOGY",
+  "RES-B5X-FULL-SPECIALTYD-PATHOLOGYLABORATORYMEDIC",
+  "RES-B5X-FULL-SPECIALTYD-PEDIATRICS",
+  "RES-B5X-FULL-SPECIALTYD-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-B5X-FULL-SPECIALTYD-SURGERY",
+  "RES-B5X-FULL-STANCEDIST-ADVOCACY",
+  "RES-B5X-FULL-STANCEDIST-ALARM",
+  "RES-B5X-FULL-STANCEDIST-CAUTION",
+  "RES-B5X-FULL-STANCEDIST-CAUTIOUSOPTIMISM",
+  "RES-B5X-FULL-STANCEDIST-CRITICAL",
+  "RES-B5X-FULL-STANCEDIST-FAVOURABLE",
+  "RES-B5X-FULL-STANCEDIST-NEUTRAL",
+  "RES-B5X-FULL-THEMETREND-ETHICSANDBIAS",
+  "RES-B5X-FULL-THEMETREND-GOVERNANCEREGULATION",
+  "RES-B5X-FULL-THEMETREND-HALLUCINATIONERRORS",
+  "RES-B5X-FULL-THEMETREND-PATIENTSAFETY",
+  "RES-B5X-FULL-TREND20212-ADVOCACY",
+  "RES-B5X-FULL-TREND20212-CRITICAL",
+  "RES-SEN-B5D1-REMOVED",
+  "RES-SEN-B5D2-REMOVED",
+  "RES-SEN-B5D3-REMOVED"
+ ]
+}

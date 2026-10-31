@@ -1,0 +1,40 @@
+unit_id,appendix,number,title,files
+within_genre_fig,Multimedia Appendix 2,Figure S1,"Annual critical share within each prefilter genre, 2021-2025.",units/figures/within_genre_fig.png; units/figures/within_genre_fig.pdf
+temporal_robustness_fig,Multimedia Appendix 2,Figure S2,"Critical and Advocacy trends under alternative corpus definitions and a symmetric endorsement scale, 2021-2025.",units/figures/temporal_robustness_fig.png; units/figures/temporal_robustness_fig.pdf
+q3_fig,Multimedia Appendix 2,Figure S3,"Stance in the Q1/Q2 analytic corpus and the Q3 comparison arm, 2021-2025.",units/figures/q3_fig.png; units/figures/q3_fig.pdf
+other_themes_fig,Multimedia Appendix 2,Figure S4,"The six lower-prevalence concern themes among critical records, 2021-2025.",units/figures/other_themes_fig.png; units/figures/other_themes_fig.pdf
+theme_counts_fig,Multimedia Appendix 2,Figure S5,"Annual count and prevalence share of the ten concern themes, 2021-2025.",units/figures/theme_counts_fig.png; units/figures/theme_counts_fig.pdf
+lexicon_vs_llm_fig,Multimedia Appendix 2,Figure S6,"LLM theme prevalence and lexicon mention share for the four headline themes among critical records, 2021-2025.",units/figures/lexicon_vs_llm_fig.png; units/figures/lexicon_vs_llm_fig.pdf
+terms_fig,Multimedia Appendix 2,Figure S7,"MeSH and keyword terms most over-represented by period and by stance, 2021-2025.",units/figures/terms_fig.png; units/figures/terms_fig.pdf
+generative_share_fig,Multimedia Appendix 2,Figure S8,"Critical rate against generative-model share across the 18 specialty and domain categories, 2021-2025.",units/figures/generative_share_fig.png; units/figures/generative_share_fig.pdf
+country_map_20,Multimedia Appendix 2,Figure S9,"Critical rate by country of first authorship at the 20-record threshold, 2021-2025.",units/figures/country_map_20.png; units/figures/country_map_20.pdf
+forward_validation_sankey,Multimedia Appendix 2,Figure S10,Exploratory forward-validation of early Advocacy predictions (unchanged; exploratory and Advocacy-only).,units/figures/forward_validation_sankey.png; units/figures/forward_validation_sankey.pdf; units/figures/forward_validation_sankey.svg
+prefilter_validation,Multimedia Appendix 3,Table S1,Validation of the AI-engagement prefilter: development pilot and R1 audit.,units/tables/prefilter_validation.json
+stance_confusion,Multimedia Appendix 3,Table S2,"Human versus model stance labels in the validation sample, with per-class agreement.",units/tables/stance_confusion.json
+run_to_run,Multimedia Appendix 3,Table S3,Run-to-run stability of the stance classifier at the provider-default temperature (unchanged).,units/tables/run_to_run.json
+theme_validation,Multimedia Appendix 3,Table S4,"Validation of the concern-theme classifier, per theme.",units/tables/theme_validation.json
+mechanism_confusion,Multimedia Appendix 3,Table S5,Human versus model labels for the two mechanism axes.,units/tables/mechanism_confusion.json
+specialty_definitions,Multimedia Appendix 3,Table S6,The 18 specialty and domain categories with the verbatim definitions used in the classification prompt.,units/tables/specialty_definitions.json
+fda_mapping,Multimedia Appendix 3,Table S7,Mapping of FDA lead review panels to the 18 specialty and domain categories (unchanged).,units/tables/fda_mapping.json
+missing_data,Multimedia Appendix 3,Table S8,Missing-data accounting for the 2021-2025 analytic corpus.,units/tables/missing_data.json
+precision,Multimedia Appendix 3,Table S9,"Sample size and precision of the critical-share estimates, 2021-2025.",units/tables/precision.json
+stance_trend,Multimedia Appendix 3,Table S10,"Per-stance temporal trend under the canonical v1 rubric and the stricter v2 rubric, 2021-2025.",units/tables/stance_trend.json
+within_genre,Multimedia Appendix 3,Table S11,"Annual critical share within each prefilter genre, 2021-2025.",units/tables/within_genre.json
+keep_rate,Multimedia Appendix 3,Table S12,"Annual prefilter keep rate, 2021-2025.",units/tables/keep_rate.json
+symmetric_endorsement,Multimedia Appendix 3,Table S13,"Symmetric endorsement scale: re-classification of favourable records for strong endorsement (B3), 2021-2025.",units/tables/symmetric_endorsement.json
+corpus_sensitivity,Multimedia Appendix 3,Table S14,"Sensitivity of stance trends to the prefilter: recovered records and alternative corpora (B2), 2021-2025.",units/tables/corpus_sensitivity.json
+sjr_sensitivity,Multimedia Appendix 3,Table S15,"Sensitivity of the main estimates to an SJR medical-category restriction (B5), 2021-2025.",units/tables/sjr_sensitivity.json
+q3_arm,Multimedia Appendix 3,Table S16,"Stance in the Q1/Q2 analytic corpus and the Q3 comparison arm, 2021-2025.",units/tables/q3_arm.json
+themes,Multimedia Appendix 3,Table S17,"Prevalence and temporal trend of the ten concern themes among critical records, 2021-2025.",units/tables/themes.json
+lexicon_and_terms,Multimedia Appendix 3,Table S18,"MeSH and keyword triangulation of the theme trends (B6), 2021-2025.",units/tables/lexicon_and_terms.json
+fda_robustness,Multimedia Appendix 3,Table S19,"Robustness of the association between critical rate and FDA cleared-device count across specialty categories, 2021-2025.",units/tables/fda_robustness.json
+country,Multimedia Appendix 3,Table S20,"Critical rate by country of first authorship, countries with at least 20 records, 2021-2025.",units/tables/country.json
+region,Multimedia Appendix 3,Table S21,"Critical rate by first-author region, 2021-2025.",units/tables/region.json
+ea_vs_nawe_within_specialty,Multimedia Appendix 3,Table S22,"Critical rate within specialty, East Asian vs North American or Western European first authors, 2021-2025.",units/tables/ea_vs_nawe_within_specialty.json
+pubtype,Multimedia Appendix 3,Table S23,"Stance distribution by publication type, 2021-2025.",units/tables/pubtype.json
+review_subtypes,Multimedia Appendix 3,Table S24,"Stance distribution within the two review subtypes, 2021-2025.",units/tables/review_subtypes.json
+theme_by_format,Multimedia Appendix 3,Table S25,"Concern-theme prevalence among critical records, Reviews compared with Research Articles, 2021-2025.",units/tables/theme_by_format.json
+advocacy_by_specialty,Multimedia Appendix 3,Table S26,"Advocacy records by specialty or domain category, 2021 and 2025.",units/tables/advocacy_by_specialty.json
+regression_full,Multimedia Appendix 3,Table S27,"Multivariable models in full: Advocacy model, ordinal model and sensitivity models S1 to S4, 2021-2025.",units/tables/regression_full.json
+fv_tier_verdict,Multimedia Appendix 3,Table S28,Forward-validation of early Advocacy predictions: adjudicated verdicts by falsifiability tier (unchanged).,units/tables/fv_tier_verdict.json
+update_2026,Multimedia Appendix 3,Table S29,Stance distribution among records published January to April 2026 (descriptive only).,units/tables/update_2026.json

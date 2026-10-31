@@ -1,0 +1,5 @@
+theme,reproduces_B6_k_and_n,max_abs_pct_diff,a_equals_b_or_c
+Errors and hallucination,True,1.7763568394002505e-15,True
+Patient safety,True,0.0,True
+Regulation,True,0.0,True
+Ethics and bias,True,7.105427357601002e-15,True
