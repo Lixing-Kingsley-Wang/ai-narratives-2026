@@ -1,0 +1,59 @@
+# v3 numbering by first citation (Methods -> Results -> Discussion). Built by v3_numbering.py.
+# Three citations are proposed, not yet in the text: note_validation_protocol (Methods, Quality of
+# Measurements), temporal_robustness_fig and q3_fig (Results, critical-trend paragraph).
+ma1_notes:
+- note_data_code
+- note_prefilter_prompt
+- note_stance_prompts
+- note_endorsement_prompt
+- note_theme_prompt
+- note_mechanism_prompt
+- note_specialty_prompt
+- note_forward_validation
+- note_validation_protocol
+- note_correction_estimator
+- note_mesh_keywords
+ma2_tables:
+- sjr_sensitivity
+- update_2026
+- keep_rate
+- precision
+- run_to_run
+- specialty_definitions
+- fda_mapping
+- fv_tier_verdict
+- prefilter_validation
+- stance_confusion
+- corrected_prevalence
+- theme_validation
+- mechanism_confusion
+- missing_data
+- stance_trend
+- themes
+- regression_full
+- fda_robustness
+- ea_vs_nawe_within_specialty
+- corpus_sensitivity
+- symmetric_endorsement
+- q3_arm
+- within_genre
+- lexicon_and_terms
+- advocacy_by_specialty
+- lexicon_decomposition
+- country
+- region
+- pubtype
+- review_subtypes
+- theme_by_format
+ma3_figures:
+- country_map_20
+- forward_validation_sankey
+- lexicon_vs_llm_fig
+- terms_fig
+- temporal_robustness_fig
+- q3_fig
+- within_genre_fig
+- advocacy_measures_fig
+- other_themes_fig
+- theme_counts_fig
+- generative_share_fig

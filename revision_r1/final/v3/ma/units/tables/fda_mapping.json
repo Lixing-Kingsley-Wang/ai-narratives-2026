@@ -1,0 +1,153 @@
+{
+ "id": "fda_mapping",
+ "kind": "table",
+ "caption": "Mapping of FDA lead review panels to the 18 specialty and domain categories.",
+ "header": [
+  "Specialty category",
+  "Mapped FDA lead review panel(s)",
+  "Cleared-device count",
+  "Structural zero?"
+ ],
+ "rows": [
+  [
+   "Radiology / Diagnostic Imaging",
+   "Radiology",
+   "1094",
+   ""
+  ],
+  [
+   "Pathology / Laboratory Medicine",
+   "Pathology; Hematology; Clinical Chemistry; Immunology; Microbiology; Molecular Genetics; Clinical Toxicology",
+   "50",
+   ""
+  ],
+  [
+   "Cardiology",
+   "Cardiovascular",
+   "136",
+   ""
+  ],
+  [
+   "Oncology",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Surgery",
+   "General and Plastic Surgery; Orthopedic; Ear, Nose, and Throat",
+   "12",
+   ""
+  ],
+  [
+   "Ophthalmology",
+   "Ophthalmic",
+   "10",
+   ""
+  ],
+  [
+   "Dermatology",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Neurology / Neuroscience",
+   "Neurology",
+   "65",
+   ""
+  ],
+  [
+   "Mental Health / Psychiatry",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Internal Medicine / Primary Care",
+   "Gastroenterology-Urology",
+   "24",
+   ""
+  ],
+  [
+   "Emergency Medicine / Critical Care",
+   "Anesthesiology",
+   "26",
+   ""
+  ],
+  [
+   "Pediatrics",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Obstetrics / Gynecology",
+   "Obstetrics and Gynecology",
+   "4",
+   ""
+  ],
+  [
+   "Dentistry",
+   "Dental",
+   "5",
+   ""
+  ],
+  [
+   "Medical Informatics / Digital Health",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Nursing",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Medical Education",
+   "(none)",
+   "0",
+   "Yes"
+  ],
+  [
+   "Multidisciplinary / Other",
+   "General Hospital; Physical Medicine",
+   "4",
+   ""
+  ],
+  [
+   "Total",
+   "",
+   "1430",
+   ""
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Cleared-device counts from the FDA list of AI/ML-enabled medical devices cleared 1995-2025 (accessed 2 June 2026). A structural zero means that no FDA review panel maps to the category; it does not indicate an absence of clinically available AI in that field. Counts do not depend on the corpus."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-SPC-FDA-CARDIOLOGY",
+  "RES-SPC-FDA-DENTISTRY",
+  "RES-SPC-FDA-DERMATOLOGY",
+  "RES-SPC-FDA-EMERGENCYMEDICINECRITICA",
+  "RES-SPC-FDA-INTERNALMEDICINEPRIMARYC",
+  "RES-SPC-FDA-MEDICALEDUCATION",
+  "RES-SPC-FDA-MEDICALINFORMATICSDIGITA",
+  "RES-SPC-FDA-MENTALHEALTHPSYCHIATRY",
+  "RES-SPC-FDA-MULTIDISCIPLINARYOTHER",
+  "RES-SPC-FDA-NEUROLOGYNEUROSCIENCE",
+  "RES-SPC-FDA-NURSING",
+  "RES-SPC-FDA-OBSTETRICSGYNECOLOGY",
+  "RES-SPC-FDA-ONCOLOGY",
+  "RES-SPC-FDA-OPHTHALMOLOGY",
+  "RES-SPC-FDA-PATHOLOGYLABORATORYMEDIC",
+  "RES-SPC-FDA-PEDIATRICS",
+  "RES-SPC-FDA-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-SPC-FDA-SURGERY"
+ ],
+ "sub_rows": []
+}

@@ -1,0 +1,54 @@
+unit_id,appendix,number,title
+note_data_code,Multimedia Appendix 1,Note 1,
+note_prefilter_prompt,Multimedia Appendix 1,Note 2,
+note_stance_prompts,Multimedia Appendix 1,Note 3,
+note_endorsement_prompt,Multimedia Appendix 1,Note 4,
+note_theme_prompt,Multimedia Appendix 1,Note 5,
+note_mechanism_prompt,Multimedia Appendix 1,Note 6,
+note_specialty_prompt,Multimedia Appendix 1,Note 7,
+note_forward_validation,Multimedia Appendix 1,Note 8,
+note_validation_protocol,Multimedia Appendix 1,Note 9,
+note_correction_estimator,Multimedia Appendix 1,Note 10,
+note_mesh_keywords,Multimedia Appendix 1,Note 11,
+sjr_sensitivity,Multimedia Appendix 2,Table S1,"Sensitivity of the main estimates to an SJR medical-category restriction, 2021-2025."
+update_2026,Multimedia Appendix 2,Table S2,Stance distribution among records published January to April 2026 (descriptive only).
+keep_rate,Multimedia Appendix 2,Table S3,"Annual prefilter keep rate, 2021-2025."
+precision,Multimedia Appendix 2,Table S4,"Sample size and precision of the critical-share estimates, 2021-2025."
+run_to_run,Multimedia Appendix 2,Table S5,Run-to-run stability of the stance classifier at the provider-default temperature.
+specialty_definitions,Multimedia Appendix 2,Table S6,The 18 specialty and domain categories with the verbatim definitions used in the classification prompt.
+fda_mapping,Multimedia Appendix 2,Table S7,Mapping of FDA lead review panels to the 18 specialty and domain categories.
+fv_tier_verdict,Multimedia Appendix 2,Table S8,Forward-validation of early Advocacy predictions: adjudicated verdicts by falsifiability tier.
+prefilter_validation,Multimedia Appendix 2,Table S9,Validation of the AI-engagement prefilter: development pilot and audit.
+stance_confusion,Multimedia Appendix 2,Table S10,"Human versus model stance labels in the validation sample, with per-class agreement."
+corrected_prevalence,Multimedia Appendix 2,Table S11,"Misclassification-corrected prevalence of Advocacy and critical stance: prespecified constant-rate correction and post hoc period-specific correction, 2021-2025."
+theme_validation,Multimedia Appendix 2,Table S12,"Validation of the concern-theme classifier, per theme."
+mechanism_confusion,Multimedia Appendix 2,Table S13,Human versus model labels for the two mechanism axes.
+missing_data,Multimedia Appendix 2,Table S14,Missing-data accounting for the 2021-2025 analytic corpus.
+stance_trend,Multimedia Appendix 2,Table S15,"Per-stance temporal trend under the canonical v1 rubric and the stricter v2 rubric, 2021-2025."
+themes,Multimedia Appendix 2,Table S16,"Prevalence and temporal trend of the ten concern themes among critical records, 2021-2025."
+regression_full,Multimedia Appendix 2,Table S17,"Multivariable models in full: Advocacy model, ordinal model and sensitivity models S1 to S4, 2021-2025."
+fda_robustness,Multimedia Appendix 2,Table S18,"Robustness of the association between critical rate and FDA cleared-device count across specialty categories, 2021-2025."
+ea_vs_nawe_within_specialty,Multimedia Appendix 2,Table S19,"Critical rate within specialty, East Asian vs North American or Western European first authors, 2021-2025."
+corpus_sensitivity,Multimedia Appendix 2,Table S20,"Sensitivity of stance trends to the prefilter: recovered records and alternative corpora, 2021-2025."
+symmetric_endorsement,Multimedia Appendix 2,Table S21,"Symmetric endorsement scale: re-classification of favourable records for strong endorsement, 2021-2025."
+q3_arm,Multimedia Appendix 2,Table S22,"Stance in the Q1/Q2 analytic corpus and the Q3 comparison arm, 2021-2025."
+within_genre,Multimedia Appendix 2,Table S23,"Annual critical share within each prefilter genre, 2021-2025."
+lexicon_and_terms,Multimedia Appendix 2,Table S24,"MeSH and keyword triangulation of the theme trends, 2021-2025."
+advocacy_by_specialty,Multimedia Appendix 2,Table S25,"Advocacy records by specialty or domain category, 2021 and 2025."
+lexicon_decomposition,Multimedia Appendix 2,Table S26,"Post hoc source decomposition of the lexicon mention shares among critical records, 2021-2025."
+country,Multimedia Appendix 2,Table S27,"Critical rate by country of first authorship, countries with at least 20 records, 2021-2025."
+region,Multimedia Appendix 2,Table S28,"Critical rate by first-author region, 2021-2025."
+pubtype,Multimedia Appendix 2,Table S29,"Stance distribution by publication type, 2021-2025."
+review_subtypes,Multimedia Appendix 2,Table S30,"Stance distribution within the two review subtypes, 2021-2025."
+theme_by_format,Multimedia Appendix 2,Table S31,"Concern-theme prevalence among critical records, Reviews compared with Research Articles, 2021-2025."
+country_map_20,Multimedia Appendix 3,Figure S1,"Critical rate by country of first authorship at the 20-record threshold, 2021-2025."
+forward_validation_sankey,Multimedia Appendix 3,Figure S2,Exploratory forward-validation of early Advocacy predictions (Advocacy only).
+lexicon_vs_llm_fig,Multimedia Appendix 3,Figure S3,"LLM theme prevalence and lexicon mention share for the four headline themes among critical records, 2021-2025."
+terms_fig,Multimedia Appendix 3,Figure S4,"MeSH and keyword terms that differed most by period and by stance, 2021-2025."
+temporal_robustness_fig,Multimedia Appendix 3,Figure S5,"Critical and Advocacy trends under alternative corpus definitions and a symmetric endorsement scale, 2021-2025."
+q3_fig,Multimedia Appendix 3,Figure S6,"Stance in the Q1/Q2 analytic corpus and the Q3 comparison arm, 2021-2025."
+within_genre_fig,Multimedia Appendix 3,Figure S7,"Annual critical share within each prefilter genre, 2021-2025."
+advocacy_measures_fig,Multimedia Appendix 3,Figure S8,"Three measures of unqualified promotion, 2021-2025."
+other_themes_fig,Multimedia Appendix 3,Figure S9,"The six lower-prevalence concern themes among critical records, 2021-2025."
+theme_counts_fig,Multimedia Appendix 3,Figure S10,"Annual count and prevalence share of the ten concern themes, 2021-2025."
+generative_share_fig,Multimedia Appendix 3,Figure S11,"Critical rate against generative-model share across the 18 specialty and domain categories, 2021-2025."

@@ -1,0 +1,136 @@
+{
+ "id": "mechanism_confusion",
+ "kind": "table",
+ "caption": "Human versus model labels for the two mechanism axes.",
+ "header": [
+  "Human code \\ model label",
+  "Column 1",
+  "Column 2",
+  "Column 3",
+  "Column 4",
+  "Row total"
+ ],
+ "rows": [
+  [
+   "(a) Failure mode (n=108)"
+  ],
+  [
+   "Human: confabulation",
+   "7",
+   "1",
+   "2",
+   "0",
+   "10"
+  ],
+  [
+   "Human: misclassification",
+   "5",
+   "26",
+   "9",
+   "2",
+   "42"
+  ],
+  [
+   "Human: both",
+   "2",
+   "0",
+   "11",
+   "0",
+   "13"
+  ],
+  [
+   "Human: none or unclear",
+   "6",
+   "6",
+   "0",
+   "31",
+   "43"
+  ],
+  [
+   "(b) Model type (n=108)"
+  ],
+  [
+   "Human: generative",
+   "60",
+   "1",
+   "1",
+   "0",
+   "62"
+  ],
+  [
+   "Human: discriminative",
+   "0",
+   "23",
+   "0",
+   "4",
+   "27"
+  ],
+  [
+   "Human: both",
+   "0",
+   "1",
+   "3",
+   "0",
+   "4"
+  ],
+  [
+   "Human: unclear",
+   "1",
+   "2",
+   "0",
+   "12",
+   "15"
+  ]
+ ],
+ "group_rows": [
+  0,
+  5
+ ],
+ "notes": [
+  "Columns follow the row order within each panel: (a) confabulation (reported as fabrication), misclassification (factual error), both, none or unclear; (b) generative, discriminative, both, unclear. 120 stratified critical records; 12 title-only records excluded. Failure mode: Cohen κ 0.57 (95% CI 0.46-0.69), Gwet AC1 0.60 (95% CI 0.49-0.71), raw agreement 69.4% (75/108; 95% CI 59.8%-77.9%), κ_max 0.755. Model type: Cohen κ 0.84 (95% CI 0.74-0.93), Gwet AC1 0.88 (95% CI 0.81-0.94), raw agreement 90.7% (98/108; 95% CI 83.6%-95.5%). Fabrication-involved disagreements (model yes, human no vs the reverse): 20 vs 1 (model fabrication-involved 42/108; human 23/108)."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "VAL-CM-FM-BOTH-BOTH",
+  "VAL-CM-FM-BOTH-CONFABULAT",
+  "VAL-CM-FM-BOTH-MISCLASSIF",
+  "VAL-CM-FM-BOTH-NONEORUNCL",
+  "VAL-CM-FM-CONFABULAT-BOTH",
+  "VAL-CM-FM-CONFABULAT-CONFABULAT",
+  "VAL-CM-FM-CONFABULAT-MISCLASSIF",
+  "VAL-CM-FM-CONFABULAT-NONEORUNCL",
+  "VAL-CM-FM-MISCLASSIF-BOTH",
+  "VAL-CM-FM-MISCLASSIF-CONFABULAT",
+  "VAL-CM-FM-MISCLASSIF-MISCLASSIF",
+  "VAL-CM-FM-MISCLASSIF-NONEORUNCL",
+  "VAL-CM-FM-NONEORUNCL-BOTH",
+  "VAL-CM-FM-NONEORUNCL-CONFABULAT",
+  "VAL-CM-FM-NONEORUNCL-MISCLASSIF",
+  "VAL-CM-FM-NONEORUNCL-NONEORUNCL",
+  "VAL-CM-MT-BOTH-BOTH",
+  "VAL-CM-MT-BOTH-DISCRIMINA",
+  "VAL-CM-MT-BOTH-GENERATIVE",
+  "VAL-CM-MT-BOTH-UNCLEAR",
+  "VAL-CM-MT-DISCRIMINA-BOTH",
+  "VAL-CM-MT-DISCRIMINA-DISCRIMINA",
+  "VAL-CM-MT-DISCRIMINA-GENERATIVE",
+  "VAL-CM-MT-DISCRIMINA-UNCLEAR",
+  "VAL-CM-MT-GENERATIVE-BOTH",
+  "VAL-CM-MT-GENERATIVE-DISCRIMINA",
+  "VAL-CM-MT-GENERATIVE-GENERATIVE",
+  "VAL-CM-MT-GENERATIVE-UNCLEAR",
+  "VAL-CM-MT-UNCLEAR-BOTH",
+  "VAL-CM-MT-UNCLEAR-DISCRIMINA",
+  "VAL-CM-MT-UNCLEAR-GENERATIVE",
+  "VAL-CM-MT-UNCLEAR-UNCLEAR",
+  "VAL-MX-FABDIR",
+  "VAL-MX-FM-AC1",
+  "VAL-MX-FM-K",
+  "VAL-MX-FM-KMAX",
+  "VAL-MX-FM-RAW",
+  "VAL-MX-MT-AC1",
+  "VAL-MX-MT-K",
+  "VAL-MX-MT-RAW"
+ ],
+ "sub_rows": []
+}

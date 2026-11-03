@@ -1,0 +1,79 @@
+unit	field	old	new
+advocacy_by_specialty	rows	nan% of 0	N/A, no records
+corpus_sensitivity	caption	alternative corpora (B2), 2021-2025	alternative corpora, 2021-2025
+corpus_sensitivity	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+ea_vs_nawe_within_specialty	notes	 (run_east_asia_diagnose.py rule)	
+fda_mapping	caption	 (unchanged)	
+fda_mapping	notes	Counts are not corpus-dependent and are unchanged from the submission.	Counts do not depend on the corpus.
+fv_tier_verdict	caption	 (unchanged)	
+fv_tier_verdict	notes	 (the evidence window predates the 2021-2025 analytic decision and is unchanged)	
+keep_rate	notes	Spearman ρ ρ=	Spearman ρ=
+keep_rate	notes	The R1 prefilter audit estimates	The prefilter audit estimates
+keep_rate	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+lexicon_and_terms	caption	theme trends (B6), 2021-2025	theme trends, 2021-2025
+lexicon_and_terms	notes	re-fetched from PubMed for the analytic records (Multimedia Appendix 1, Note 10)	re-fetched from PubMed for the retained records ({{N:note_mesh_keywords}})
+lexicon_and_terms	notes	(verbatim in Note 10)	(verbatim in {{N:note_mesh_keywords}})
+lexicon_and_terms	notes	(c-d) Weighted log-odds ratio	(c-f) Weighted log-odds ratio
+lexicon_and_terms	notes	records = documents containing the term in each group.	records = documents containing the term in each group (2024-2025 vs 2021-2022 in (c) and (e); critical vs favourable in (d) and (f)); a negative z in (e) or (f) means the term was relatively more frequent in 2021-2022 or in favourable records.
+lexicon_and_terms	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+lexicon_and_terms	rows	append panel (e)	30 terms from RES-B6-EMERG-31..60
+lexicon_and_terms	rows	append panel (f)	30 terms from RES-B6-STANCE-31..60
+missing_data	rows	of which: prefilter failures defaulted to application (T1)	of which: prefilter failures defaulted to application
+missing_data	rows	First-author country (Figure 4 / Table S7 resolver)	First-author country
+missing_data	rows	First-author region (Table S9; geography_classifications.csv)	First-author region
+missing_data	rows	Unknown region is kept as its own level in regression (B4).	Unknown region is kept as its own level in regression.
+missing_data	rows	raw (116,117)	Raw records
+missing_data	rows	excluded conf/preprint	Conference proceedings or preprints
+missing_data	rows	SJR unmatched	Not matched in SJR
+missing_data	rows	Q1/Q2 eligible (97,492)	Q1/Q2 eligible
+missing_data	rows	prefilter: application	Prefilter: application
+missing_data	rows	prefilter: retained (16,759)	Prefilter: retained
+missing_data	rows	stance valid, 2021–2026 (16,747)	Valid stance
+missing_data	rows	critical (5,161)	Critical
+prefilter_validation	caption	development pilot and R1 audit.	development pilot and audit.
+prefilter_validation	rows	(b) R1 audit design	(b) Audit design
+prefilter_validation	rows	(c) R1 audit estimates	(c) Audit estimates
+prefilter_validation	notes	(b-f) R1 audit (frozen protocol, Multimedia Appendix 1, Note 9)	(b-f) Audit (frozen protocol, {{N:note_validation_protocol}})
+prefilter_validation	rows	insert 1 row(s) at 1	Human code \ model label | Discourse | Evaluative | Application | Row total
+q3_arm	notes	Spearman ρ ρ=	Spearman ρ=
+q3_arm	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+region	notes	Regions from the first-author country (geography_classifications.csv); 	Regions from the first-author country; 
+regression_full	rows	Year, per 1 year | OR 1.077 (95% CI 1.038-1.116), P<.001 | OR 1.103 per year (95% CI 1.066-1.141), P<.001 | 	Year, per 1 year: unadjusted OR | OR 1.077 (95% CI 1.038-1.116), P<.001 |  |  || Year, per 1 year: adjusted OR | OR 1.103 (95% CI 1.066-1.141), P<.001 |  | 
+regression_full	rows	pubtype: 	publication type: 
+regression_full	rows	country_g: 	country: 
+review_subtypes	rows	Review (narrative)	Review (non-systematic)
+review_subtypes	notes	Subtype rule: PubMed Publication Type substring precedence (analysis/robustness.py::simplify_pubtype_7): 	Subtype rule: PubMed Publication Type substring precedence: 
+review_subtypes	notes	= narrative subtype	= non-systematic subtype
+run_to_run	caption	 (unchanged)	
+run_to_run	notes	Clopper-Pearson for raw agreement (CIs added in R1).	Clopper-Pearson for raw agreement.
+sjr_sensitivity	caption	medical-category restriction (B5), 2021-2025	medical-category restriction, 2021-2025
+sjr_sensitivity	header	D1 Medicine area (primary)	Medicine area (primary)
+sjr_sensitivity	header	D2 D1 minus Medicine (miscellaneous)	Medicine area without Medicine (miscellaneous)
+sjr_sensitivity	header	D3 broad health sciences	Broad health sciences
+sjr_sensitivity	notes	D1 (primary): any Medicine-area (ASJC 27xx) category. D2: D1 without 'Medicine (miscellaneous)'. D3: broad health sciences	Medicine area (primary): any Medicine-area (ASJC 27xx) category. Medicine area without Medicine (miscellaneous): the primary definition without the 'Medicine (miscellaneous)' category. Broad health sciences
+sjr_sensitivity	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+specialty_definitions	header	Verbatim definition text from SPECIALTY_PROMPT	Verbatim definition text from the classification prompt
+specialty_definitions	notes	Definitions are reproduced exactly as in the submitted Table S16 (from analysis/classify_specialty.py), including the disambiguation rules. The final column is updated to the 2021-2025 analytic corpus (records with a valid specialty label); the submitted column counted the retired 2021-April 2026 set.	Definitions are reproduced exactly as in the specialty classification prompt ({{N:note_specialty_prompt}}), including the disambiguation rules. The final column counts records with a valid specialty label in the 2021-2025 analytic corpus.
+stance_trend	notes	(Multimedia Appendix 1, Note 2b)	({{N:note_stance_prompts}}, part b)
+stance_trend	notes	Version 2 (Batch 2d) note	(removed)
+symmetric_endorsement	caption	for strong endorsement (B3), 2021-2025	for strong endorsement, 2021-2025
+symmetric_endorsement	notes	(verbatim in Multimedia Appendix 1, Note 8)	(verbatim in {{N:note_endorsement_prompt}})
+symmetric_endorsement	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+theme_validation	notes	(frozen protocol, Multimedia Appendix 1, Note 9)	(frozen protocol, {{N:note_validation_protocol}})
+theme_validation	rows	safety_clinical	Patient safety (safety_clinical)
+theme_validation	rows	hallucination	Hallucination / errors (hallucination)
+theme_validation	rows	regulation	Governance / regulation (regulation)
+theme_validation	rows	ethics_bias	Ethics & bias (ethics_bias)
+theme_validation	rows	education	Medical education (education)
+theme_validation	rows	data_privacy	Data privacy (data_privacy)
+theme_validation	rows	cognitive	Cognitive offloading (cognitive)
+theme_validation	rows	existential	Existential threat (existential)
+theme_validation	rows	replacement	Replacement fears (replacement)
+theme_validation	rows	other	Other (other)
+themes	notes	Annual values with CIs for every year are in the R1 numbers book; the six lower-prevalence themes are plotted in {{F:other_themes_fig}} and annual counts in {{F:theme_counts_fig}}.	Annual values with 95% CIs are plotted in Figure 2 (headline themes) and {{F:other_themes_fig}} (other themes); annual counts are in {{F:theme_counts_fig}}.
+themes	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+within_genre	notes	Spearman ρ ρ=	Spearman ρ=
+within_genre	notes	; point estimates are unchanged from the submitted Table S3	
+within_genre	notes	Version 2 (Batch 2d) note	OR per year: record-level logistic regression on publication year with journal cluster-robust SEs.
+corrected_prevalence	new	Batch 2d D3 table + T2 constant-rate values	26 rows
+lexicon_decomposition	new	Batch 2d D2 table	54 rows, 5 groups

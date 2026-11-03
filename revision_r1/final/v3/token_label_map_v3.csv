@@ -1,0 +1,56 @@
+token,replace_with,first_cited_in,status
+[[MA:note_data_code]],"Multimedia Appendix 1, Note 1",Methods,in text
+[[MA:sjr_sensitivity]],"Multimedia Appendix 2, Table S1",Methods,in text
+[[MA:update_2026]],"Multimedia Appendix 2, Table S2",Methods,in text
+[[MA:note_prefilter_prompt]],"Multimedia Appendix 1, Note 2",Methods,in text
+[[MA:keep_rate]],"Multimedia Appendix 2, Table S3",Methods,in text
+[[MA:precision]],"Multimedia Appendix 2, Table S4",Methods,in text
+[[MA:note_stance_prompt_v1]],"Multimedia Appendix 1, Note 3(a)",Methods,in text
+[[MA:run_to_run]],"Multimedia Appendix 2, Table S5",Methods,in text
+[[MA:note_endorsement_prompt]],"Multimedia Appendix 1, Note 4",Methods,in text
+[[MA:note_stance_prompt_v2]],"Multimedia Appendix 1, Note 3(b)",Methods,in text
+[[MA:note_theme_prompt]],"Multimedia Appendix 1, Note 5",Methods,in text
+[[MA:note_mechanism_prompt]],"Multimedia Appendix 1, Note 6",Methods,in text
+[[MA:note_specialty_prompt]],"Multimedia Appendix 1, Note 7",Methods,in text
+[[MA:specialty_definitions]],"Multimedia Appendix 2, Table S6",Methods,in text
+[[MA:country_map_20]],"Multimedia Appendix 3, Figure S1",Methods,in text
+[[MA:fda_mapping]],"Multimedia Appendix 2, Table S7",Methods,in text
+[[MA:note_forward_validation]],"Multimedia Appendix 1, Note 8",Methods,in text
+[[MA:forward_validation_sankey]],"Multimedia Appendix 3, Figure S2",Methods,in text
+[[MA:fv_tier_verdict]],"Multimedia Appendix 2, Table S8",Methods,in text
+[[MA:prefilter_validation]],"Multimedia Appendix 2, Table S9",Methods,in text
+[[MA:note_validation_protocol]],"Multimedia Appendix 1, Note 9",Methods,PROPOSED: add this citation
+[[MA:stance_confusion]],"Multimedia Appendix 2, Table S10",Methods,in text
+[[MA:note_correction_estimator]],"Multimedia Appendix 1, Note 10",Methods,in text
+[[MA:period_correction]],"Multimedia Appendix 2, Table S11",Methods,in text
+[[MA:theme_validation]],"Multimedia Appendix 2, Table S12",Methods,in text
+[[MA:mechanism_confusion]],"Multimedia Appendix 2, Table S13",Methods,in text
+[[MA:missing_data]],"Multimedia Appendix 2, Table S14",Methods,in text
+[[MA:stance_trend]],"Multimedia Appendix 2, Table S15",Methods,in text
+[[MA:themes]],"Multimedia Appendix 2, Table S16",Methods,in text
+[[MA:regression_full]],"Multimedia Appendix 2, Table S17",Methods,in text
+[[MA:fda_robustness]],"Multimedia Appendix 2, Table S18",Methods,in text
+[[MA:ea_vs_nawe_within_specialty]],"Multimedia Appendix 2, Table S19",Methods,in text
+[[MA:corpus_sensitivity]],"Multimedia Appendix 2, Table S20",Methods,in text
+[[MA:symmetric_endorsement]],"Multimedia Appendix 2, Table S21",Methods,in text
+[[MA:q3_arm]],"Multimedia Appendix 2, Table S22",Methods,in text
+[[MA:within_genre]],"Multimedia Appendix 2, Table S23",Methods,in text
+[[MA:note_mesh_keywords]],"Multimedia Appendix 1, Note 11",Methods,in text
+[[MA:lexicon_vs_llm_fig]],"Multimedia Appendix 3, Figure S3",Methods,in text
+[[MA:terms_fig]],"Multimedia Appendix 3, Figure S4",Methods,in text
+[[MA:lexicon_and_terms]],"Multimedia Appendix 2, Table S24",Methods,in text
+[[MA:temporal_robustness_fig]],"Multimedia Appendix 3, Figure S5",Results,PROPOSED: add this citation
+[[MA:q3_fig]],"Multimedia Appendix 3, Figure S6",Results,PROPOSED: add this citation
+[[MA:corrected_prevalence]],"Multimedia Appendix 2, Table S11",Results,in text
+[[MA:within_genre_fig]],"Multimedia Appendix 3, Figure S7",Results,in text
+[[MA:advocacy_measures_fig]],"Multimedia Appendix 3, Figure S8",Results,in text
+[[MA:advocacy_by_specialty]],"Multimedia Appendix 2, Table S25",Results,in text
+[[MA:other_themes_fig]],"Multimedia Appendix 3, Figure S9",Results,in text
+[[MA:theme_counts_fig]],"Multimedia Appendix 3, Figure S10",Results,in text
+[[MA:lexicon_decomposition]],"Multimedia Appendix 2, Table S26",Results,in text
+[[MA:generative_share_fig]],"Multimedia Appendix 3, Figure S11",Results,in text
+[[MA:country]],"Multimedia Appendix 2, Table S27",Results,in text
+[[MA:region]],"Multimedia Appendix 2, Table S28",Results,in text
+[[MA:pubtype]],"Multimedia Appendix 2, Table S29",Results,in text
+[[MA:review_subtypes]],"Multimedia Appendix 2, Table S30",Results,in text
+[[MA:theme_by_format]],"Multimedia Appendix 2, Table S31",Results,in text

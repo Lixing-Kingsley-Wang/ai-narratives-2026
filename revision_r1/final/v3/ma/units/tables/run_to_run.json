@@ -1,0 +1,38 @@
+{
+ "id": "run_to_run",
+ "kind": "table",
+ "caption": "Run-to-run stability of the stance classifier at the provider-default temperature.",
+ "header": [
+  "Metric",
+  "Value"
+ ],
+ "rows": [
+  [
+   "Records (both runs valid)",
+   "300/300 (0 FAILED)"
+  ],
+  [
+   "Raw agreement",
+   "95.3% (286/300; 95% CI 92.3%-97.4%)"
+  ],
+  [
+   "Quadratic-weighted Cohen κ",
+   "0.974 (95% CI 0.956-0.989)"
+  ],
+  [
+   "Labels shifted",
+   "14 of 300 (all adjacent; no shift across the critical-favourable boundary)"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "The 300 stance-validation records were classified twice more with the production v1 configuration. Agreement is between the two re-inference runs, not against human coding; canonical labels and human codes were not altered. CIs: bootstrap over records (1000, seed 42) for κ; Clopper-Pearson for raw agreement."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "VAL-ST-RTR-QK",
+  "VAL-ST-RTR-RAW",
+  "VAL-ST-RTR-SHIFT"
+ ],
+ "sub_rows": []
+}

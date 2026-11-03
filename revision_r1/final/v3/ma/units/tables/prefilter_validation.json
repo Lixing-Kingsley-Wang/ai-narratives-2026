@@ -1,0 +1,425 @@
+{
+ "id": "prefilter_validation",
+ "kind": "table",
+ "caption": "Validation of the AI-engagement prefilter: development pilot and audit.",
+ "header": [
+  "Item",
+  "Value 1",
+  "Value 2",
+  "Value 3",
+  "Value 4"
+ ],
+ "rows": [
+  [
+   "(a) Development pilot (n=200): human (rows) vs model (columns)"
+  ],
+  [
+   "Human code \\ model label",
+   "Discourse",
+   "Evaluative",
+   "Application",
+   "Row total"
+  ],
+  [
+   "Human: discourse",
+   "14",
+   "1",
+   "7",
+   "22"
+  ],
+  [
+   "Human: evaluative",
+   "0",
+   "5",
+   "11",
+   "16"
+  ],
+  [
+   "Human: application",
+   "5",
+   "5",
+   "152",
+   "162"
+  ],
+  [
+   "3-class raw agreement",
+   "85.5% (171/200)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "3-class Cohen κ",
+   "0.511 (95% CI 0.345-0.646)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "KEEP sensitivity",
+   "52.6% (20/38; 95% CI 37.0%-67.6%)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "KEEP specificity",
+   "93.8% (152/162; 95% CI 89.8%-97.0%)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "PPV",
+   "66.7% (20/30; 95% CI 48.0%-82.4%)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "NPV",
+   "89.4% (152/170; 95% CI 84.8%-93.7%)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "KEEP/DROP Cohen κ",
+   "0.505 (95% CI 0.331-0.646)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "KEEP/DROP Gwet AC1",
+   "0.805 (95% CI 0.728-0.871)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "(b) Audit design: frame and sample per stratum and year"
+  ],
+  [
+   "Excluded by production, kept by full-abstract re-run, 2021",
+   "frame 275; sampled 15; sampling fraction 5.45%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by production, kept by full-abstract re-run, 2022",
+   "frame 330; sampled 15; sampling fraction 4.55%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by production, kept by full-abstract re-run, 2023",
+   "frame 401; sampled 15; sampling fraction 3.74%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by production, kept by full-abstract re-run, 2024",
+   "frame 551; sampled 15; sampling fraction 2.72%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by production, kept by full-abstract re-run, 2025",
+   "frame 892; sampled 15; sampling fraction 1.68%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by both, 2021",
+   "frame 9839; sampled 45; sampling fraction 0.46%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by both, 2022",
+   "frame 11,435; sampled 45; sampling fraction 0.39%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by both, 2023",
+   "frame 11,647; sampled 45; sampling fraction 0.39%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by both, 2024",
+   "frame 15,081; sampled 45; sampling fraction 0.30%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Excluded by both, 2025",
+   "frame 22,036; sampled 45; sampling fraction 0.20%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Retained by production, 2021",
+   "frame 1061; sampled 10; sampling fraction 0.94%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Retained by production, 2022",
+   "frame 1342; sampled 10; sampling fraction 0.75%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Retained by production, 2023",
+   "frame 2051; sampled 10; sampling fraction 0.49%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Retained by production, 2024",
+   "frame 3698; sampled 10; sampling fraction 0.27%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Retained by production, 2025",
+   "frame 5885; sampled 10; sampling fraction 0.17%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Pilot records recoded (intra-rater)",
+   "frame 200; sampled 20; sampling fraction 10.00%",
+   "",
+   "",
+   ""
+  ],
+  [
+   "(c) Audit estimates by year (primary analysis; Jeffreys 95% CI)"
+  ],
+  [
+   "2021",
+   "1-NPV 2.0% (95% CI 1.6%-7.3%)",
+   "missed 202 (95% CI 158-736)",
+   "PPV among retained 100.0% (10/10; exact Clopper-Pearson 69.2%-100.0%)",
+   "full-abstract precision 73.3% (11/15; exact Clopper-Pearson 44.9%-92.2%)"
+  ],
+  [
+   "2022",
+   "1-NPV 4.4% (95% CI 2.3%-11.9%)",
+   "missed 518 (95% CI 272-1404)",
+   "PPV among retained 90.0% (9/10; exact Clopper-Pearson 55.5%-99.7%)",
+   "full-abstract precision 80.0% (12/15; exact Clopper-Pearson 51.9%-95.7%)"
+  ],
+  [
+   "2023",
+   "1-NPV 6.7% (95% CI 3.2%-15.2%)",
+   "missed 812 (95% CI 391-1826)",
+   "PPV among retained 90.0% (9/10; exact Clopper-Pearson 55.5%-99.7%)",
+   "full-abstract precision 66.7% (10/15; exact Clopper-Pearson 38.4%-88.2%)"
+  ],
+  [
+   "2024",
+   "1-NPV 2.6% (95% CI 2.0%-7.6%)",
+   "missed 404 (95% CI 306-1182)",
+   "PPV among retained 100.0% (10/10; exact Clopper-Pearson 69.2%-100.0%)",
+   "full-abstract precision 73.3% (11/15; exact Clopper-Pearson 44.9%-92.2%)"
+  ],
+  [
+   "2025",
+   "1-NPV 7.9% (95% CI 4.4%-16.5%)",
+   "missed 1812 (95% CI 1003-3779)",
+   "PPV among retained 100.0% (10/10; exact Clopper-Pearson 69.2%-100.0%)",
+   "full-abstract precision 93.3% (14/15; exact Clopper-Pearson 68.1%-99.8%)"
+  ],
+  [
+   "(d) Population-weighted 2x2, production prefilter vs full-abstract re-run"
+  ],
+  [
+   "Sensitivity",
+   "production 78.5% (95% CI 66.8%-81.7%)",
+   "full abstract 82.0% (95% CI 72.1%-91.9%)",
+   "",
+   ""
+  ],
+  [
+   "Specificity",
+   "production 99.5% (95% CI 97.0%-99.6%)",
+   "full abstract 99.3% (95% CI 99.0%-99.6%)",
+   "",
+   ""
+  ],
+  [
+   "PPV",
+   "production 97.6% (95% CI 84.8%-98.1%)",
+   "full abstract 96.8% (95% CI 95.2%-98.2%)",
+   "",
+   ""
+  ],
+  [
+   "NPV",
+   "production 94.8% (95% CI 91.1%-95.9%)",
+   "full abstract 95.6% (95% CI 92.9%-98.1%)",
+   "",
+   ""
+  ],
+  [
+   "Cohen κ",
+   "production 0.842 (95% CI 0.713-0.856)",
+   "full abstract 0.862 (95% CI 0.785-0.931)",
+   "",
+   ""
+  ],
+  [
+   "Gwet AC1",
+   "production 0.933 (95% CI 0.873-0.941)",
+   "",
+   "",
+   ""
+  ],
+  [
+   "(e) Borderline sensitivity variants (Jeffreys 95% CI)"
+  ],
+  [
+   "Borderline coded as application",
+   "1-NPV 4.4% (95% CI 3.6%-7.9%)",
+   "missed 3217 (95% CI 2640-5729)",
+   "sensitivity 81.0% (95% CI 69.4%-83.3%)",
+   "κ 0.860 (95% CI 0.733-0.867)"
+  ],
+  [
+   "Borderline coded as KEEP",
+   "1-NPV 5.4% (95% CI 4.3%-9.2%)",
+   "missed 3897 (95% CI 3104-6674)",
+   "sensitivity 77.9% (95% CI 66.1%-81.0%)",
+   "κ 0.837 (95% CI 0.706-0.850)"
+  ],
+  [
+   "(f) Intra-rater agreement (20 pilot records recoded)"
+  ],
+  [
+   "KEEP/DROP",
+   "95.0% (19/20; 95% CI 75.1%-99.9%)",
+   "κ 0.773 (95% CI 0.000-1.000)",
+   "",
+   ""
+  ],
+  [
+   "3 classes",
+   "95.0% (19/20; 95% CI 75.1%-99.9%)",
+   "",
+   "",
+   ""
+  ]
+ ],
+ "group_rows": [
+  0,
+  13,
+  30,
+  36,
+  43,
+  46
+ ],
+ "notes": [
+  "(a) Pilot: sampling undocumented, unweighted, no written codebook; bootstrap CIs over records (1000, seed 42). (b-f) Audit (frozen protocol, {{N:note_validation_protocol}}): KEEP = discourse or evaluative. Estimates are weighted by frame size / sample size per stratum-year cell; Jeffreys intervals from 10,000 draws of each cell's Beta(k+1/2, n-k+1/2) posterior (seed 42; Amendment 3); single cells use the exact Clopper-Pearson interval. The full-abstract 2x2 uses the within-cell bootstrap because its sub-cells are too small for the Jeffreys prior (Amendment 3). The one unlabelled record counts as an error of the classifier being evaluated (Amendment 2). The intra-rater κ interval is wide because only 1 of 20 records disagreed."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "VAL-CM-PF3-HUMANAPPLI-MODELAPPLI",
+  "VAL-CM-PF3-HUMANAPPLI-MODELDISCO",
+  "VAL-CM-PF3-HUMANAPPLI-MODELEVALU",
+  "VAL-CM-PF3-HUMANDISCO-MODELAPPLI",
+  "VAL-CM-PF3-HUMANDISCO-MODELDISCO",
+  "VAL-CM-PF3-HUMANDISCO-MODELEVALU",
+  "VAL-CM-PF3-HUMANEVALU-MODELAPPLI",
+  "VAL-CM-PF3-HUMANEVALU-MODELDISCO",
+  "VAL-CM-PF3-HUMANEVALU-MODELEVALU",
+  "VAL-PF-AUDIT-FNRATE2021",
+  "VAL-PF-AUDIT-FNRATE2022",
+  "VAL-PF-AUDIT-FNRATE2023",
+  "VAL-PF-AUDIT-FNRATE2024",
+  "VAL-PF-AUDIT-FNRATE2025",
+  "VAL-PF-AUDIT-FULL2X2KAPPA",
+  "VAL-PF-AUDIT-FULL2X2NPV",
+  "VAL-PF-AUDIT-FULL2X2PPV",
+  "VAL-PF-AUDIT-FULL2X2SENSITIVITY",
+  "VAL-PF-AUDIT-FULL2X2SPECIFICITY",
+  "VAL-PF-AUDIT-MISSED2021",
+  "VAL-PF-AUDIT-MISSED2022",
+  "VAL-PF-AUDIT-MISSED2023",
+  "VAL-PF-AUDIT-MISSED2024",
+  "VAL-PF-AUDIT-MISSED2025",
+  "VAL-PF-AUDIT-PROD2X2AC1",
+  "VAL-PF-AUDIT-PROD2X2KAPPA",
+  "VAL-PF-AUDIT-PROD2X2NPV",
+  "VAL-PF-AUDIT-PROD2X2PPV",
+  "VAL-PF-AUDIT-PROD2X2SENSITIVITY",
+  "VAL-PF-AUDIT-PROD2X2SPECIFICITY",
+  "VAL-PF-CELL-PRIMARY-EX-F-2021-FA",
+  "VAL-PF-CELL-PRIMARY-EX-F-2022-FA",
+  "VAL-PF-CELL-PRIMARY-EX-F-2023-FA",
+  "VAL-PF-CELL-PRIMARY-EX-F-2024-FA",
+  "VAL-PF-CELL-PRIMARY-EX-F-2025-FA",
+  "VAL-PF-CELL-PRIMARY-RET-2021-PR",
+  "VAL-PF-CELL-PRIMARY-RET-2022-PR",
+  "VAL-PF-CELL-PRIMARY-RET-2023-PR",
+  "VAL-PF-CELL-PRIMARY-RET-2024-PR",
+  "VAL-PF-CELL-PRIMARY-RET-2025-PR",
+  "VAL-PF-INTRA-AGREE",
+  "VAL-PF-INTRA-AGREE3",
+  "VAL-PF-INTRA-K",
+  "VAL-PF-MAN-EX-F-2021",
+  "VAL-PF-MAN-EX-F-2022",
+  "VAL-PF-MAN-EX-F-2023",
+  "VAL-PF-MAN-EX-F-2024",
+  "VAL-PF-MAN-EX-F-2025",
+  "VAL-PF-MAN-EX-S-2021",
+  "VAL-PF-MAN-EX-S-2022",
+  "VAL-PF-MAN-EX-S-2023",
+  "VAL-PF-MAN-EX-S-2024",
+  "VAL-PF-MAN-EX-S-2025",
+  "VAL-PF-MAN-PILOT-any",
+  "VAL-PF-MAN-RET-2021",
+  "VAL-PF-MAN-RET-2022",
+  "VAL-PF-MAN-RET-2023",
+  "VAL-PF-MAN-RET-2024",
+  "VAL-PF-MAN-RET-2025",
+  "VAL-PF-PILOT-AC1",
+  "VAL-PF-PILOT-K3",
+  "VAL-PF-PILOT-KAPPA",
+  "VAL-PF-PILOT-NPV",
+  "VAL-PF-PILOT-PPV",
+  "VAL-PF-PILOT-RAW",
+  "VAL-PF-PILOT-SENSITIVITY",
+  "VAL-PF-PILOT-SPECIFICITY",
+  "VAL-PF-VAR-BORDERLINEAPPLICATION-FNRATEPOOLED",
+  "VAL-PF-VAR-BORDERLINEAPPLICATION-MISSEDTOTAL",
+  "VAL-PF-VAR-BORDERLINEAPPLICATION-PROD2X2KAPPA",
+  "VAL-PF-VAR-BORDERLINEAPPLICATION-PROD2X2SENSITIVITY",
+  "VAL-PF-VAR-BORDERLINEKEEP-FNRATEPOOLED",
+  "VAL-PF-VAR-BORDERLINEKEEP-MISSEDTOTAL",
+  "VAL-PF-VAR-BORDERLINEKEEP-PROD2X2KAPPA",
+  "VAL-PF-VAR-BORDERLINEKEEP-PROD2X2SENSITIVITY"
+ ],
+ "sub_rows": [
+  1
+ ]
+}
