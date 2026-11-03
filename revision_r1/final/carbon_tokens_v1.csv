@@ -1,0 +1,9 @@
+part,run,description,script,model,api_mode,input_tokens,output_tokens,total_tokens,cost_usd,kgCO2e_0.12,kgCO2e_0.45
+revision run,A2,"Full-abstract prefilter re-run (97,492 records; 10 resubmitted)",scripts/a2_prefilter_fullabstract_batch.py,claude-haiku-4-5-20251001,Message Batches API,68925231,2356458,71281689,40.3538,,
+revision run,B2,Stance (v1) of 2850 recovered records (3 resubmitted),scripts/b2_stance_recovered_batch.py (+ b_batch_engine.py),claude-sonnet-4-6,Message Batches API,2637329,68429,2705758,4.4692,,
+revision run,B3,"Symmetric-endorsement re-classification (10,749 records; 7 resubmitted)",scripts/b3_endorsement_batch.py (+ b_batch_engine.py),claude-sonnet-4-6,Message Batches API,7282930,129306,7412236,11.8942,,
+revision total,A2+B2+B3,input + output,,,,78845490,2554193,81399683,56.7172,9.8,36.6
+"revision total, input only",A2+B2+B3,input only,,,,78845490,,78845490,,9.5,35.5
+original analysis (as printed; source not found),submitted manuscript,definition (input-only vs input+output) unknown,,,,,,124500000,,14.9,56.0
+total: original + revision (input + output),,,,,,,,205899683,,24.7,92.7
+total: original + revision (input only),,,,,,,,203345490,,24.4,91.5
