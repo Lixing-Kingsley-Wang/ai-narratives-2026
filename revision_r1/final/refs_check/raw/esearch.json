@@ -1,0 +1,483 @@
+{
+ "E6": {
+  "title": "Survey of hallucination in natural language generation",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Survey of hallucination in natural language generation\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Survey of hallucination in natural language generation\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1145/3571730[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      "3571730"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "E11": {
+  "title": "Comprehensive bibliometric analysis of advancements in artificial intelligence applications in medicine",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Comprehensive bibliometric analysis of advancements in artificial intelligence applications in medicine\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Comprehensive bibliometric analysis of advancements in artificial intelligence applications in medicine\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1016/j.fraope.2025.100212[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      "j.fraope.2025.100212"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "E24": {
+  "title": "Reconfiguring reflexivity in the era of AI",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Reconfiguring reflexivity in the era of AI\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Reconfiguring reflexivity in the era of AI\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1177/10778004261445052[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      "10778004261445052"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "N4": {
+  "title": "ChatGPT: these are not hallucinations",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"ChatGPT: these are not hallucinations\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"ChatGPT: these are not hallucinations\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "37598184"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1038 s41537 023 00379 4\"[Publisher ID]"
+   }
+  }
+ },
+ "N9": {
+  "title": "Promotional Language (Hype) in Abstracts of Publications of NIH-Funded Research",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Promotional Language (Hype) in Abstracts of Publications of NIH-Funded Research\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Promotional Language (Hype) in Abstracts of Publications of NIH-Funded Research\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "38127350"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1001 jamanetworkopen 2023 48706\"[Publisher ID]"
+   }
+  }
+ },
+ "N14": {
+  "title": "An international survey on AI in radiology in 1,041 radiologists and radiology residents part 1: fear of replacement, knowledge, and attitude",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"An international survey on AI in radiology in 1,041 radiologists and radiology residents part 1: fear of replacement, knowledge, and attitude\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"An international survey on AI in radiology in 1,041 radiologists and radiology residents part 1: fear of replacement, knowledge, and attitude\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "33744991"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1007 s00330 021 07781 5\"[Publisher ID]"
+   }
+  }
+ },
+ "N15": {
+  "title": "How medical AI devices are evaluated: limitations and recommendations from an analysis of FDA approvals",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"How medical AI devices are evaluated: limitations and recommendations from an analysis of FDA approvals\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"How medical AI devices are evaluated: limitations and recommendations from an analysis of FDA approvals\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "1",
+    "retmax": "1",
+    "retstart": "0",
+    "idlist": [
+     "33820998"
+    ],
+    "translationset": [],
+    "querytranslation": "\"10 1038 s41591 021 01312 x\"[Publisher ID]"
+   }
+  }
+ },
+ "N16": {
+  "title": "Hedging and boosting in abstracts of applied linguistics articles",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Hedging and boosting in abstracts of applied linguistics articles\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Hedging and boosting in abstracts of applied linguistics articles\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1016/j.pragma.2011.04.007[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      "j.pragma.2011.04.007"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "N19": {
+  "title": "How Is ChatGPT's Behavior Changing over Time",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"How Is ChatGPT's Behavior Changing over Time\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"How Is ChatGPT's Behavior Changing over Time\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "10.1162/99608f92.5317da47[doi]",
+    "errorlist": {
+     "phrasesnotfound": [
+      "99608f92.5317da47"
+     ],
+     "fieldsnotfound": []
+    },
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  }
+ },
+ "N21": {
+  "title": "Journal article reporting standards for quantitative research in psychology",
+  "by_title": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "0",
+    "retmax": "0",
+    "retstart": "0",
+    "idlist": [],
+    "translationset": [],
+    "querytranslation": "\"Journal article reporting standards for quantitative research in psychology\"[Title]",
+    "warninglist": {
+     "phrasesignored": [],
+     "quotedphrasesnotfound": [
+      "\"Journal article reporting standards for quantitative research in psychology\"[Title]"
+     ],
+     "outputmessages": [
+      "No items found."
+     ]
+    }
+   }
+  },
+  "by_doi": {
+   "header": {
+    "type": "esearch",
+    "version": "0.3"
+   },
+   "esearchresult": {
+    "count": "2",
+    "retmax": "2",
+    "retstart": "0",
+    "idlist": [
+     "30284892",
+     "29345484"
+    ],
+    "translationset": [
+     {
+      "from": "Appelbaum M[Author]",
+      "to": "appelbaum m[Author]"
+     }
+    ],
+    "querytranslation": "appelbaum m[Author] AND \"Am Psychol\"[Journal] AND 2018/01/01:2018/12/31[Date - Publication] AND \"reporting standards\"[Title]"
+   }
+  }
+ }
+}

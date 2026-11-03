@@ -1,0 +1,558 @@
+{
+ "N21": {
+  "status": "ok",
+  "message-type": "work-list",
+  "message-version": "1.0.0",
+  "message": {
+   "facets": {},
+   "total-results": 960265,
+   "items": [
+    {
+     "indexed": {
+      "date-parts": [
+       [
+        2026,
+        10,
+        14
+       ]
+      ],
+      "date-time": "2026-10-14T11:03:36Z",
+      "timestamp": 1791975816801,
+      "version": "4.4.0"
+     },
+     "update-to": [
+      {
+       "DOI": "10.1037/amp0000191",
+       "type": "correction",
+       "label": "Correction",
+       "source": "publisher",
+       "updated": {
+        "date-parts": [
+         [
+          2018,
+          10,
+          4
+         ]
+        ],
+        "date-time": "2018-10-04T00:00:00Z",
+        "timestamp": 1538611200000
+       }
+      }
+     ],
+     "reference-count": 0,
+     "publisher": "American Psychological Association (APA)",
+     "issue": "7",
+     "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+     },
+     "short-container-title": [
+      "American Psychologist"
+     ],
+     "DOI": "10.1037/amp0000389",
+     "type": "journal-article",
+     "created": {
+      "date-parts": [
+       [
+        2018,
+        10,
+        4
+       ]
+      ],
+      "date-time": "2018-10-04T09:48:19Z",
+      "timestamp": 1538646499000
+     },
+     "page": "947-947",
+     "update-policy": "https://doi.org/10.1037/amp0000389",
+     "source": "Crossref",
+     "is-referenced-by-count": 36,
+     "title": [
+      "\u201cJournal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board Task Force Report\u201d: Correction to Appelbaum et al. (2018)."
+     ],
+     "prefix": "10.1037",
+     "volume": "73",
+     "member": "15",
+     "published-online": {
+      "date-parts": [
+       [
+        2018,
+        10
+       ]
+      ]
+     },
+     "container-title": [
+      "American Psychologist"
+     ],
+     "language": "en",
+     "link": [
+      {
+       "URL": "https://psycnet.apa.org/journals/amp/73/7/947.pdf",
+       "content-type": "unspecified",
+       "content-version": "vor",
+       "intended-application": "similarity-checking"
+      }
+     ],
+     "deposited": {
+      "date-parts": [
+       [
+        2025,
+        7,
+        9
+       ]
+      ],
+      "date-time": "2025-07-09T18:39:38Z",
+      "timestamp": 1752086378000
+     },
+     "score": 62.627464,
+     "resource": {
+      "primary": {
+       "URL": "https://doi.apa.org/doi/10.1037/amp0000389"
+      }
+     },
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        10
+       ]
+      ]
+     },
+     "references-count": 0,
+     "journal-issue": {
+      "issue": "7",
+      "published-online": {
+       "date-parts": [
+        [
+         2018,
+         10
+        ]
+       ]
+      }
+     },
+     "alternative-id": [
+      "2018-48461-011"
+     ],
+     "URL": "https://doi.org/10.1037/amp0000389",
+     "ISSN": [
+      "1935-990X",
+      "0003-066X"
+     ],
+     "issn-type": [
+      {
+       "value": "1935-990X",
+       "type": "electronic"
+      },
+      {
+       "value": "0003-066X",
+       "type": "print"
+      }
+     ],
+     "published": {
+      "date-parts": [
+       [
+        2018,
+        10
+       ]
+      ]
+     }
+    },
+    {
+     "indexed": {
+      "date-parts": [
+       [
+        2026,
+        11,
+        2
+       ]
+      ],
+      "date-time": "2026-11-02T23:56:11Z",
+      "timestamp": 1793663771377,
+      "version": "4.5.1"
+     },
+     "reference-count": 0,
+     "publisher": "American Psychological Association (APA)",
+     "issue": "1",
+     "license": [
+      {
+       "start": {
+        "date-parts": [
+         [
+          2018,
+          1,
+          18
+         ]
+        ],
+        "date-time": "2018-01-18T00:00:00Z",
+        "timestamp": 1516233600000
+       },
+       "content-version": "vor",
+       "delay-in-days": 17,
+       "URL": "http://www.apa.org/pubs/journals/resources/open-access.aspx"
+      }
+     ],
+     "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+     },
+     "short-container-title": [
+      "American Psychologist"
+     ],
+     "DOI": "10.1037/amp0000191",
+     "type": "journal-article",
+     "created": {
+      "date-parts": [
+       [
+        2018,
+        1,
+        18
+       ]
+      ],
+      "date-time": "2018-01-18T11:26:43Z",
+      "timestamp": 1516274803000
+     },
+     "page": "3-25",
+     "update-policy": "https://doi.org/10.1037/amp0000191",
+     "source": "Crossref",
+     "is-referenced-by-count": 1176,
+     "title": [
+      "Journal article reporting standards for quantitative research in psychology: The APA Publications and Communications Board task force report."
+     ],
+     "prefix": "10.1037",
+     "volume": "73",
+     "author": [
+      {
+       "given": "Mark",
+       "family": "Appelbaum",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-8021-6079",
+       "authenticated-orcid": false,
+       "given": "Harris",
+       "family": "Cooper",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Rex B.",
+       "family": "Kline",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0001-6126-2459",
+       "authenticated-orcid": false,
+       "given": "Evan",
+       "family": "Mayo-Wilson",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "given": "Arthur M.",
+       "family": "Nezu",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      },
+      {
+       "ORCID": "https://orcid.org/0000-0002-6463-7460",
+       "authenticated-orcid": false,
+       "given": "Stephen M.",
+       "family": "Rao",
+       "sequence": "additional",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "member": "15",
+     "published-online": {
+      "date-parts": [
+       [
+        2018,
+        1
+       ]
+      ]
+     },
+     "updated-by": [
+      {
+       "DOI": "10.1037/amp0000389",
+       "type": "correction",
+       "label": "Correction",
+       "source": "publisher",
+       "updated": {
+        "date-parts": [
+         [
+          2018,
+          10,
+          4
+         ]
+        ],
+        "date-time": "2018-10-04T00:00:00Z",
+        "timestamp": 1538611200000
+       }
+      }
+     ],
+     "container-title": [
+      "American Psychologist"
+     ],
+     "language": "en",
+     "link": [
+      {
+       "URL": "https://psycnet.apa.org/journals/amp/73/1/3.pdf",
+       "content-type": "unspecified",
+       "content-version": "vor",
+       "intended-application": "similarity-checking"
+      }
+     ],
+     "deposited": {
+      "date-parts": [
+       [
+        2025,
+        12,
+        1
+       ]
+      ],
+      "date-time": "2025-12-01T14:36:40Z",
+      "timestamp": 1764599800000
+     },
+     "score": 56.00933,
+     "resource": {
+      "primary": {
+       "URL": "https://doi.apa.org/doi/10.1037/amp0000191"
+      }
+     },
+     "issued": {
+      "date-parts": [
+       [
+        2018,
+        1
+       ]
+      ]
+     },
+     "references-count": 0,
+     "journal-issue": {
+      "issue": "1",
+      "published-online": {
+       "date-parts": [
+        [
+         2018,
+         1
+        ]
+       ]
+      }
+     },
+     "alternative-id": [
+      "2018-00750-002",
+      "29345484"
+     ],
+     "URL": "https://doi.org/10.1037/amp0000191",
+     "ISSN": [
+      "1935-990X",
+      "0003-066X"
+     ],
+     "issn-type": [
+      {
+       "value": "1935-990X",
+       "type": "electronic"
+      },
+      {
+       "value": "0003-066X",
+       "type": "print"
+      }
+     ],
+     "published": {
+      "date-parts": [
+       [
+        2018,
+        1
+       ]
+      ]
+     }
+    },
+    {
+     "indexed": {
+      "date-parts": [
+       [
+        2026,
+        10,
+        18
+       ]
+      ],
+      "date-time": "2026-10-18T02:20:05Z",
+      "timestamp": 1792290005703,
+      "version": "4.4.0"
+     },
+     "reference-count": 0,
+     "publisher": "American Psychological Association (APA)",
+     "issue": "9",
+     "content-domain": {
+      "domain": [],
+      "crossmark-restriction": false
+     },
+     "short-container-title": [
+      "American Psychologist"
+     ],
+     "DOI": "10.1037/0003-066x.63.9.839",
+     "type": "journal-article",
+     "created": {
+      "date-parts": [
+       [
+        2008,
+        12,
+        16
+       ]
+      ],
+      "date-time": "2008-12-16T11:56:48Z",
+      "timestamp": 1229428608000
+     },
+     "page": "839-851",
+     "source": "Crossref",
+     "is-referenced-by-count": 452,
+     "title": [
+      "Reporting standards for research in psychology: Why do we need them? What might they be?"
+     ],
+     "prefix": "10.1037",
+     "volume": "63",
+     "author": [
+      {
+       "name": "APA Publications and Communications Board Working Group on Journal Article Reporting Standards",
+       "sequence": "first",
+       "affiliation": [],
+       "role": [
+        {
+         "vocabulary": "crossref",
+         "role": "author"
+        }
+       ]
+      }
+     ],
+     "member": "15",
+     "published-online": {
+      "date-parts": [
+       [
+        2008,
+        12
+       ]
+      ]
+     },
+     "container-title": [
+      "American Psychologist"
+     ],
+     "language": "en",
+     "link": [
+      {
+       "URL": "http://psycnet.apa.org/journals/amp/63/9/839.pdf",
+       "content-type": "unspecified",
+       "content-version": "vor",
+       "intended-application": "similarity-checking"
+      }
+     ],
+     "deposited": {
+      "date-parts": [
+       [
+        2019,
+        2,
+        13
+       ]
+      ],
+      "date-time": "2019-02-13T00:56:52Z",
+      "timestamp": 1550019412000
+     },
+     "score": 46.53813,
+     "resource": {
+      "primary": {
+       "URL": "http://doi.apa.org/getdoi.cfm?doi=10.1037/0003-066X.63.9.839"
+      }
+     },
+     "issued": {
+      "date-parts": [
+       [
+        2008,
+        12
+       ]
+      ]
+     },
+     "references-count": 0,
+     "journal-issue": {
+      "issue": "9",
+      "published-online": {
+       "date-parts": [
+        [
+         2008,
+         12
+        ]
+       ]
+      }
+     },
+     "alternative-id": [
+      "2008-17400-001",
+      "19086746"
+     ],
+     "URL": "https://doi.org/10.1037/0003-066x.63.9.839",
+     "ISSN": [
+      "1935-990X",
+      "0003-066X"
+     ],
+     "issn-type": [
+      {
+       "value": "1935-990X",
+       "type": "electronic"
+      },
+      {
+       "value": "0003-066X",
+       "type": "print"
+      }
+     ],
+     "published": {
+      "date-parts": [
+       [
+        2008,
+        12
+       ]
+      ]
+     }
+    }
+   ],
+   "items-per-page": 3,
+   "query": {
+    "start-index": 0,
+    "search-terms": null
+   }
+  }
+ }
+}

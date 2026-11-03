@@ -1,0 +1,3980 @@
+{
+ "header": {
+  "type": "esummary",
+  "version": "0.3"
+ },
+ "result": {
+  "uids": [
+   "843571",
+   "2081237",
+   "12892569",
+   "19329408",
+   "20501928",
+   "26668206",
+   "29532063",
+   "29736848",
+   "30617339",
+   "32213531",
+   "32984550",
+   "33217947",
+   "33302942",
+   "33478929",
+   "35058619",
+   "36812645",
+   "36935090",
+   "37220915",
+   "37438534",
+   "37460753",
+   "37463210",
+   "37679503",
+   "38746668",
+   "38768452",
+   "39121174",
+   "39405325",
+   "39779929",
+   "40281841",
+   "42085702"
+  ],
+  "843571": {
+   "uid": "843571",
+   "pubdate": "1977 Mar",
+   "epubdate": "",
+   "source": "Biometrics",
+   "authors": [
+    {
+     "name": "Landis JR",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Koch GG",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Koch GG",
+   "title": "The measurement of observer agreement for categorical data.",
+   "sorttitle": "measurement of observer agreement for categorical data",
+   "volume": "33",
+   "issue": "1",
+   "pages": "159-74",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "0370625",
+   "issn": "0006-341X",
+   "essn": "",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, U.S. Gov't, Non-P.H.S.",
+    "Research Support, U.S. Gov't, P.H.S."
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "843571"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "pubmed",
+     "date": "1977/03/01 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "1977/03/01 00:01"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "1977/03/01 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Biometrics",
+   "elocationid": "",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "1977/03/01 00:00",
+   "sortfirstauthor": "Landis JR",
+   "vernaculartitle": ""
+  },
+  "2081237": {
+   "uid": "2081237",
+   "pubdate": "1990 Jan",
+   "epubdate": "",
+   "source": "Epidemiology",
+   "authors": [
+    {
+     "name": "Rothman KJ",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Rothman KJ",
+   "title": "No adjustments are needed for multiple comparisons.",
+   "sorttitle": "no adjustments are needed for multiple comparisons",
+   "volume": "1",
+   "issue": "1",
+   "pages": "43-6",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9009644",
+   "issn": "1044-3983",
+   "essn": "",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "2081237"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "pubmed",
+     "date": "1990/01/01 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "1990/01/01 00:01"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "1990/01/01 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Epidemiology (Cambridge, Mass.)",
+   "elocationid": "",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "1990/01/01 00:00",
+   "sortfirstauthor": "Rothman KJ",
+   "vernaculartitle": ""
+  },
+  "12892569": {
+   "uid": "12892569",
+   "pubdate": "2003 Jul 31",
+   "epubdate": "2003 Jul 31",
+   "source": "BMC Med Res Methodol",
+   "authors": [
+    {
+     "name": "Loke YK",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Derry S",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Derry S",
+   "title": "Does anybody read \"evidence-based\" articles?",
+   "sorttitle": "does anybody read evidence based articles",
+   "volume": "3",
+   "issue": "",
+   "pages": "14",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "100968545",
+   "issn": "",
+   "essn": "1471-2288",
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "12892569"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC184390"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC184390;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1186/1471-2288-3-14"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2003/03/27 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2003/07/31 00:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2003/08/02 05:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2003/12/03 05:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2003/08/02 05:00"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2003/07/31 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 13,
+   "fulljournalname": "BMC medical research methodology",
+   "elocationid": "",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2003/07/31 00:00",
+   "sortfirstauthor": "Loke YK",
+   "vernaculartitle": ""
+  },
+  "19329408": {
+   "uid": "19329408",
+   "pubdate": "2009 Mar 27",
+   "epubdate": "2009 Mar 27",
+   "source": "J Med Internet Res",
+   "authors": [
+    {
+     "name": "Eysenbach G",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Eysenbach G",
+   "title": "Infodemiology and infoveillance: framework for an emerging set of public health informatics methods to analyze search, communication and publication behavior on the Internet.",
+   "sorttitle": "infodemiology and infoveillance framework for an emerging set of public health informatics methods to analyze search communication and publication behavior on the internet",
+   "volume": "11",
+   "issue": "1",
+   "pages": "e11",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "100959882",
+   "issn": "",
+   "essn": "1438-8871",
+   "pubtype": [
+    "Editorial"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "19329408"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC2762766"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC2762766;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.2196/jmir.1157"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "v11i1e11"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2009/03/22 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2009/03/26 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2009/03/31 09:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2009/03/31 09:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2009/07/30 09:00"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2009/03/27 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 18,
+   "fulljournalname": "Journal of medical Internet research",
+   "elocationid": "doi: 10.2196/jmir.1157",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2009/03/27 00:00",
+   "sortfirstauthor": "Eysenbach G",
+   "vernaculartitle": ""
+  },
+  "20501928": {
+   "uid": "20501928",
+   "pubdate": "2010 May 26",
+   "epubdate": "",
+   "source": "JAMA",
+   "authors": [
+    {
+     "name": "Boutron I",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Dutton S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ravaud P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Altman DG",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Altman DG",
+   "title": "Reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes.",
+   "sorttitle": "reporting and interpretation of randomized controlled trials with statistically nonsignificant results for primary outcomes",
+   "volume": "303",
+   "issue": "20",
+   "pages": "2058-64",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "7501160",
+   "issn": "0098-7484",
+   "essn": "1538-3598",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "20501928"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1001/jama.2010.651"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "303/20/2058"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "entrez",
+     "date": "2010/05/27 06:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2010/05/27 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2010/06/02 06:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "JAMA. 2010 Sep 1;304(9):965; author reply 965. doi: 10.1001/jama.2010.1245.",
+     "reftype": "Comment in",
+     "pmid": 20810373,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "JAMA",
+   "elocationid": "doi: 10.1001/jama.2010.651",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2010/05/26 00:00",
+   "sortfirstauthor": "Boutron I",
+   "vernaculartitle": ""
+  },
+  "26668206": {
+   "uid": "26668206",
+   "pubdate": "2015 Dec 14",
+   "epubdate": "2015 Dec 14",
+   "source": "BMJ",
+   "authors": [
+    {
+     "name": "Vinkers CH",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tijdink JK",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Otte WM",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Otte WM",
+   "title": "Use of positive and negative words in scientific PubMed abstracts between 1974 and 2014: retrospective analysis.",
+   "sorttitle": "use of positive and negative words in scientific pubmed abstracts between 1974 and 2014 retrospective analysis",
+   "volume": "351",
+   "issue": "",
+   "pages": "h6467",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "8900488",
+   "issn": "0959-8138",
+   "essn": "1756-1833",
+   "pubtype": [
+    "Historical Article",
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "26668206"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC4677695"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC4677695;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1136/bmj.h6467"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "entrez",
+     "date": "2015/12/16 06:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2015/12/17 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2016/04/14 06:00"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2015/12/14 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "MMW Fortschr Med. 2016 Mar 31;158(6):48.",
+     "reftype": "Comment in",
+     "pmid": 27180390,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 21,
+   "fulljournalname": "BMJ (Clinical research ed.)",
+   "elocationid": "doi: 10.1136/bmj.h6467",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2015/12/14 00:00",
+   "sortfirstauthor": "Vinkers CH",
+   "vernaculartitle": ""
+  },
+  "29532063": {
+   "uid": "29532063",
+   "pubdate": "2018 Apr 3",
+   "epubdate": "",
+   "source": "JAMA",
+   "authors": [
+    {
+     "name": "Beam AL",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Kohane IS",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Kohane IS",
+   "title": "Big Data and Machine Learning in Health Care.",
+   "sorttitle": "big data and machine learning in health care",
+   "volume": "319",
+   "issue": "13",
+   "pages": "1317-1318",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "7501160",
+   "issn": "0098-7484",
+   "essn": "1538-3598",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "29532063"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1001/jama.2017.18391"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "2675024"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "pubmed",
+     "date": "2018/03/14 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2018/04/19 06:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2018/03/14 06:00"
+    }
+   ],
+   "references": [],
+   "attributes": [],
+   "pmcrefcount": "",
+   "fulljournalname": "JAMA",
+   "elocationid": "doi: 10.1001/jama.2017.18391",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2018/04/03 00:00",
+   "sortfirstauthor": "Beam AL",
+   "vernaculartitle": ""
+  },
+  "29736848": {
+   "uid": "29736848",
+   "pubdate": "2018 Nov",
+   "epubdate": "2018 May 7",
+   "source": "Eur Radiol",
+   "authors": [
+    {
+     "name": "Baek S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yoon DY",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lim KJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cho YK",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Seo YL",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yun EJ",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Yun EJ",
+   "title": "The most downloaded and most cited articles in radiology journals: a comparative bibliometric analysis.",
+   "sorttitle": "most downloaded and most cited articles in radiology journals a comparative bibliometric analysis",
+   "volume": "28",
+   "issue": "11",
+   "pages": "4832-4838",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9114774",
+   "issn": "0938-7994",
+   "essn": "1432-1084",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "29736848"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1007/s00330-018-5423-1"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1007/s00330-018-5423-1"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2017/12/26 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2018/03/09 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2018/02/26 00:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2018/05/08 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2019/05/09 06:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2018/05/09 06:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "European radiology",
+   "elocationid": "doi: 10.1007/s00330-018-5423-1",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2018/11/01 00:00",
+   "sortfirstauthor": "Baek S",
+   "vernaculartitle": ""
+  },
+  "30617339": {
+   "uid": "30617339",
+   "pubdate": "2019 Jan",
+   "epubdate": "2019 Jan 7",
+   "source": "Nat Med",
+   "authors": [
+    {
+     "name": "Topol EJ",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Topol EJ",
+   "title": "High-performance medicine: the convergence of human and artificial intelligence.",
+   "sorttitle": "high performance medicine the convergence of human and artificial intelligence",
+   "volume": "25",
+   "issue": "1",
+   "pages": "44-56",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9502015",
+   "issn": "1078-8956",
+   "essn": "1546-170X",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "30617339"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41591-018-0300-7"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41591-018-0300-7"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2018/08/16 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2018/11/12 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2019/01/09 06:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2019/01/09 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2019/05/11 06:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "Indian J Med Ethics. 2023 Apr-Jun;VIII(2):93-94. doi: 10.20529/IJME.2023.029.",
+     "reftype": "Comment in",
+     "pmid": 37401180,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Nature medicine",
+   "elocationid": "doi: 10.1038/s41591-018-0300-7",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2019/01/01 00:00",
+   "sortfirstauthor": "Topol EJ",
+   "vernaculartitle": ""
+  },
+  "32213531": {
+   "uid": "32213531",
+   "pubdate": "2020 Mar 25",
+   "epubdate": "2020 Mar 25",
+   "source": "BMJ",
+   "authors": [
+    {
+     "name": "Nagendran M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chen Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lovejoy CA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gordon AC",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Komorowski M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Harvey H",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Topol EJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ioannidis JPA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Collins GS",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Maruthappu M",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Maruthappu M",
+   "title": "Artificial intelligence versus clinicians: systematic review of design, reporting standards, and claims of deep learning studies.",
+   "sorttitle": "artificial intelligence versus clinicians systematic review of design reporting standards and claims of deep learning studies",
+   "volume": "368",
+   "issue": "",
+   "pages": "m689",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "8900488",
+   "issn": "0959-8138",
+   "essn": "1756-1833",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "32213531"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC7190037"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC7190037;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1136/bmj.m689"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "entrez",
+     "date": "2020/03/28 06:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2020/03/28 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2020/04/09 06:00"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2020/03/25 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "BMJ. 2020 Apr 3;369:m1326. doi: 10.1136/bmj.m1326.",
+     "reftype": "Comment in",
+     "pmid": 32245846,
+     "note": ""
+    },
+    {
+     "refsource": "Postgrad Med J. 2022 Mar;98(e2):e94-e95. doi: 10.1136/postgradmedj-2020-139032.",
+     "reftype": "Comment in",
+     "pmid": 35232850,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 41,
+   "fulljournalname": "BMJ (Clinical research ed.)",
+   "elocationid": "doi: 10.1136/bmj.m689",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2020/03/25 00:00",
+   "sortfirstauthor": "Nagendran M",
+   "vernaculartitle": ""
+  },
+  "32984550": {
+   "uid": "32984550",
+   "pubdate": "2020",
+   "epubdate": "2020 Sep 11",
+   "source": "NPJ Digit Med",
+   "authors": [
+    {
+     "name": "Benjamens S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Dhunnoo P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Mesk\u00f3 B",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Mesk\u00f3 B",
+   "title": "The state of artificial intelligence-based FDA-approved medical devices and algorithms: an online database.",
+   "sorttitle": "state of artificial intelligence based fda approved medical devices and algorithms an online database",
+   "volume": "3",
+   "issue": "",
+   "pages": "118",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101731738",
+   "issn": "",
+   "essn": "2398-6352",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "258",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "32984550"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC7486909"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC7486909;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41746-020-00324-0"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41746-020-00324-0"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2020/03/28 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2020/08/13 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2020/09/28 05:46"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2020/09/29 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2020/09/29 06:01"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2020/09/11 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 34,
+   "fulljournalname": "NPJ digital medicine",
+   "elocationid": "doi: 10.1038/s41746-020-00324-0",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2020/09/11 00:00",
+   "sortfirstauthor": "Benjamens S",
+   "vernaculartitle": ""
+  },
+  "33217947": {
+   "uid": "33217947",
+   "pubdate": "2020 Nov 18",
+   "epubdate": "2020 Nov 18",
+   "source": "Healthcare (Basel)",
+   "authors": [
+    {
+     "name": "Hong JH",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yoon DY",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lim KJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Moon JY",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Baek S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Seo YL",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yun EJ",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Yun EJ",
+   "title": "Characteristics of the Most Cited, Most Downloaded, and Most Mentioned Articles in General Medical Journals: A Comparative Bibliometric Analysis.",
+   "sorttitle": "characteristics of the most cited most downloaded and most mentioned articles in general medical journals a comparative bibliometric analysis",
+   "volume": "8",
+   "issue": "4",
+   "pages": "",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101666525",
+   "issn": "2227-9032",
+   "essn": "2227-9032",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "33217947"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC7711934"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC7711934;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.3390/healthcare8040492"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "healthcare8040492"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2020/09/26 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2020/11/13 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2020/11/16 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2020/11/21 01:01"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2020/11/22 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2020/11/22 06:01"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2020/11/18 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 34,
+   "fulljournalname": "Healthcare (Basel, Switzerland)",
+   "elocationid": "doi: 10.3390/healthcare8040492",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2020/11/18 00:00",
+   "sortfirstauthor": "Hong JH",
+   "vernaculartitle": ""
+  },
+  "33302942": {
+   "uid": "33302942",
+   "pubdate": "2020 Dec 10",
+   "epubdate": "2020 Dec 10",
+   "source": "BMC Med Inform Decis Mak",
+   "authors": [
+    {
+     "name": "Frost EK",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Carter SM",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Carter SM",
+   "title": "Reporting of screening and diagnostic AI rarely acknowledges ethical, legal, and social implications: a mass media frame analysis.",
+   "sorttitle": "reporting of screening and diagnostic ai rarely acknowledges ethical legal and social implications a mass media frame analysis",
+   "volume": "20",
+   "issue": "1",
+   "pages": "325",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101088682",
+   "issn": "",
+   "essn": "1472-6947",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "33302942"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC7725880"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC7725880;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1186/s12911-020-01353-1"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1186/s12911-020-01353-1"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2020/07/28 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2020/11/25 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2020/12/11 05:35"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2020/12/12 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2021/01/14 06:00"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2020/12/10 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 53,
+   "fulljournalname": "BMC medical informatics and decision making",
+   "elocationid": "doi: 10.1186/s12911-020-01353-1",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2020/12/10 00:00",
+   "sortfirstauthor": "Frost EK",
+   "vernaculartitle": ""
+  },
+  "33478929": {
+   "uid": "33478929",
+   "pubdate": "2021 Mar",
+   "epubdate": "2021 Jan 18",
+   "source": "Lancet Digit Health",
+   "authors": [
+    {
+     "name": "Muehlematter UJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Daniore P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Vokinger KN",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Vokinger KN",
+   "title": "Approval of artificial intelligence and machine learning-based medical devices in the USA and Europe (2015-20): a comparative analysis.",
+   "sorttitle": "approval of artificial intelligence and machine learning based medical devices in the usa and europe 2015 20 a comparative analysis",
+   "volume": "3",
+   "issue": "3",
+   "pages": "e195-e203",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101751302",
+   "issn": "",
+   "essn": "2589-7500",
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Review"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "33478929"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1016/S2589-7500(20)30292-2"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "S2589-7500(20)30292-2"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2020/07/15 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2020/11/09 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2020/11/24 00:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2021/01/23 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2021/03/18 06:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2021/01/22 05:53"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "The Lancet. Digital health",
+   "elocationid": "doi: 10.1016/S2589-7500(20)30292-2",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2021/03/01 00:00",
+   "sortfirstauthor": "Muehlematter UJ",
+   "vernaculartitle": ""
+  },
+  "35058619": {
+   "uid": "35058619",
+   "pubdate": "2022 Jan",
+   "epubdate": "2022 Jan 20",
+   "source": "Nat Med",
+   "authors": [
+    {
+     "name": "Rajpurkar P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chen E",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Banerjee O",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Topol EJ",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Topol EJ",
+   "title": "AI in health and medicine.",
+   "sorttitle": "ai in health and medicine",
+   "volume": "28",
+   "issue": "1",
+   "pages": "31-38",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9502015",
+   "issn": "1078-8956",
+   "essn": "1546-170X",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Review"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "35058619"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41591-021-01614-0"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41591-021-01614-0"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2021/07/23 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2021/11/05 00:00"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2022/01/22 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2022/02/23 06:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2022/01/21 06:14"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Nature medicine",
+   "elocationid": "doi: 10.1038/s41591-021-01614-0",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2022/01/01 00:00",
+   "sortfirstauthor": "Rajpurkar P",
+   "vernaculartitle": ""
+  },
+  "36812645": {
+   "uid": "36812645",
+   "pubdate": "2023 Feb",
+   "epubdate": "2023 Feb 9",
+   "source": "PLOS Digit Health",
+   "authors": [
+    {
+     "name": "Kung TH",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cheatham M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Medenilla A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Sillos C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "De Leon L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Elepa\u00f1o C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Madriaga M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Aggabao R",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Diaz-Candido G",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Maningo J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tseng V",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Tseng V",
+   "title": "Performance of ChatGPT on USMLE: Potential for AI-assisted medical education using large language models.",
+   "sorttitle": "performance of chatgpt on usmle potential for ai assisted medical education using large language models",
+   "volume": "2",
+   "issue": "2",
+   "pages": "e0000198",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9918335064206676",
+   "issn": "",
+   "essn": "2767-3170",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "258",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "36812645"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC9931230"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC9931230;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1371/journal.pdig.0000198"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "PDIG-D-22-00371"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2022/12/19 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2023/01/23 00:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/02/22 17:35"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/02/23 06:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2023/02/23 06:01"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2023/02/09 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "ChatGPT passing USMLE shines a spotlight on the flaws of medical education.",
+     "reftype": "Comment in",
+     "pmid": "",
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 25,
+   "fulljournalname": "PLOS digital health",
+   "elocationid": "doi: 10.1371/journal.pdig.0000198",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/02/09 00:00",
+   "sortfirstauthor": "Kung TH",
+   "vernaculartitle": ""
+  },
+  "36935090": {
+   "uid": "36935090",
+   "pubdate": "2023 May",
+   "epubdate": "2023 Mar 17",
+   "source": "J Clin Epidemiol",
+   "authors": [
+    {
+     "name": "Dhiman P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ma J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Andaur Navarro CL",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Speich B",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Bullock G",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Damen JAA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Hooft L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Kirtley S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Riley RD",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Van Calster B",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Moons KGM",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Collins GS",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Collins GS",
+   "title": "Overinterpretation of findings in machine learning prediction model studies in oncology: a systematic review.",
+   "sorttitle": "overinterpretation of findings in machine learning prediction model studies in oncology a systematic review",
+   "volume": "157",
+   "issue": "",
+   "pages": "120-133",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "8801383",
+   "issn": "0895-4356",
+   "essn": "1878-5921",
+   "pubtype": [
+    "Systematic Review",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "36935090"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC11913775"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC11913775;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1016/j.jclinepi.2023.03.012"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "S0895-4356(23)00055-0"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2022/09/22 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2023/03/03 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2023/03/14 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2023/05/26 06:42"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/03/20 06:00"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/03/19 20:33"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2023/05/01 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 87,
+   "fulljournalname": "Journal of clinical epidemiology",
+   "elocationid": "doi: 10.1016/j.jclinepi.2023.03.012",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/05/01 00:00",
+   "sortfirstauthor": "Dhiman P",
+   "vernaculartitle": ""
+  },
+  "37220915": {
+   "uid": "37220915",
+   "pubdate": "2023 Sep 7",
+   "epubdate": "",
+   "source": "Schizophr Bull",
+   "authors": [
+    {
+     "name": "\u00d8stergaard SD",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Nielbo KL",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Nielbo KL",
+   "title": "False Responses From Artificial Intelligence Models Are Not Hallucinations.",
+   "sorttitle": "false responses from artificial intelligence models are not hallucinations",
+   "volume": "49",
+   "issue": "5",
+   "pages": "1105-1107",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "0236760",
+   "issn": "0586-7614",
+   "essn": "1745-1701",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "37220915"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC10483440"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC10483440;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1093/schbul/sbad068"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "7176424"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "medline",
+     "date": "2023/09/08 06:42"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/05/24 01:06"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/05/23 20:32"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2024/05/23 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [],
+   "pmcrefcount": 7,
+   "fulljournalname": "Schizophrenia bulletin",
+   "elocationid": "doi: 10.1093/schbul/sbad068",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/09/07 00:00",
+   "sortfirstauthor": "\u00d8stergaard SD",
+   "vernaculartitle": ""
+  },
+  "37438534": {
+   "uid": "37438534",
+   "pubdate": "2023 Aug",
+   "epubdate": "2023 Jul 12",
+   "source": "Nature",
+   "authors": [
+    {
+     "name": "Singhal K",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Azizi S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tu T",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Mahdavi SS",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wei J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chung HW",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Scales N",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tanwani A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cole-Lewis H",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Pfohl S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Payne P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Seneviratne M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gamble P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Kelly C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Babiker A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Sch\u00e4rli N",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chowdhery A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Mansfield P",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Demner-Fushman D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ag\u00fcera Y Arcas B",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Webster D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Corrado GS",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Matias Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chou K",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gottweis J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tomasev N",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Liu Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Rajkomar A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Barral J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Semturs C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Karthikesalingam A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Natarajan V",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Natarajan V",
+   "title": "Large language models encode clinical knowledge.",
+   "sorttitle": "large language models encode clinical knowledge",
+   "volume": "620",
+   "issue": "7972",
+   "pages": "172-180",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "0410462",
+   "issn": "0028-0836",
+   "essn": "1476-4687",
+   "pubtype": [
+    "Comparative Study",
+    "Journal Article",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "37438534"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC10396962"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC10396962;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41586-023-06291-2"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41586-023-06291-2"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2023/01/25 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2023/06/05 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2023/08/04 06:43"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/07/13 01:06"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/07/12 23:31"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2023/07/12 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "Nature. 2023 Aug;620(7973):E19. doi: 10.1038/s41586-023-06455-0.",
+     "reftype": "Erratum in",
+     "pmid": 37500979,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 94,
+   "fulljournalname": "Nature",
+   "elocationid": "doi: 10.1038/s41586-023-06291-2",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/08/01 00:00",
+   "sortfirstauthor": "Singhal K",
+   "vernaculartitle": ""
+  },
+  "37460753": {
+   "uid": "37460753",
+   "pubdate": "2023 Aug",
+   "epubdate": "2023 Jul 17",
+   "source": "Nat Med",
+   "authors": [
+    {
+     "name": "Thirunavukarasu AJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ting DSJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Elangovan K",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gutierrez L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tan TF",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ting DSW",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Ting DSW",
+   "title": "Large language models in medicine.",
+   "sorttitle": "large language models in medicine",
+   "volume": "29",
+   "issue": "8",
+   "pages": "1930-1940",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9502015",
+   "issn": "1078-8956",
+   "essn": "1546-170X",
+   "pubtype": [
+    "Journal Article",
+    "Review",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "37460753"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41591-023-02448-8"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41591-023-02448-8"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2023/03/24 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2023/06/08 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2023/08/17 06:43"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/07/18 01:09"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/07/17 23:30"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Nature medicine",
+   "elocationid": "doi: 10.1038/s41591-023-02448-8",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/08/01 00:00",
+   "sortfirstauthor": "Thirunavukarasu AJ",
+   "vernaculartitle": ""
+  },
+  "37463210": {
+   "uid": "37463210",
+   "pubdate": "2023 Jul 25",
+   "epubdate": "2023 Jul 18",
+   "source": "Proc Natl Acad Sci U S A",
+   "authors": [
+    {
+     "name": "Gilardi F",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Alizadeh M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Kubli M",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Kubli M",
+   "title": "ChatGPT outperforms crowd workers for text-annotation tasks.",
+   "sorttitle": "chatgpt outperforms crowd workers for text annotation tasks",
+   "volume": "120",
+   "issue": "30",
+   "pages": "e2305016120",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "7505876",
+   "issn": "0027-8424",
+   "essn": "1091-6490",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "37463210"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC10372638"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC10372638;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1073/pnas.2305016120"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "medline",
+     "date": "2023/07/18 18:43"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/07/18 18:42"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/07/18 13:43"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2023/07/18 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 15,
+   "fulljournalname": "Proceedings of the National Academy of Sciences of the United States of America",
+   "elocationid": "doi: 10.1073/pnas.2305016120",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/07/25 00:00",
+   "sortfirstauthor": "Gilardi F",
+   "vernaculartitle": ""
+  },
+  "37679503": {
+   "uid": "37679503",
+   "pubdate": "2023 Sep 7",
+   "epubdate": "2023 Sep 7",
+   "source": "Sci Rep",
+   "authors": [
+    {
+     "name": "Walters WH",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wilder EI",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Wilder EI",
+   "title": "Fabrication and errors in the bibliographic citations generated by ChatGPT.",
+   "sorttitle": "fabrication and errors in the bibliographic citations generated by chatgpt",
+   "volume": "13",
+   "issue": "1",
+   "pages": "14045",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101563288",
+   "issn": "",
+   "essn": "2045-2322",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "37679503"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC10484980"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC10484980;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41598-023-41032-5"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41598-023-41032-5"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2023/07/11 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2023/08/21 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2023/09/08 00:43"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2023/09/08 00:42"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2023/09/07 23:32"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2023/09/07 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 45,
+   "fulljournalname": "Scientific reports",
+   "elocationid": "doi: 10.1038/s41598-023-41032-5",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2023/09/07 00:00",
+   "sortfirstauthor": "Walters WH",
+   "vernaculartitle": ""
+  },
+  "38746668": {
+   "uid": "38746668",
+   "pubdate": "2024 May 17",
+   "epubdate": "2024 Apr 23",
+   "source": "iScience",
+   "authors": [
+    {
+     "name": "Meng X",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yan X",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Zhang K",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Liu D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cui X",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yang Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Zhang M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cao C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wang J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wang X",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gao J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wang YG",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ji JM",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Qiu Z",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Li M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Qian C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Guo T",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ma S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wang Z",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Guo Z",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lei Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Shao C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wang W",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Fan H",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tang YD",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Tang YD",
+   "title": "The application of large language models in medicine: A scoping review.",
+   "sorttitle": "application of large language models in medicine a scoping review",
+   "volume": "27",
+   "issue": "5",
+   "pages": "109713",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101724038",
+   "issn": "",
+   "essn": "2589-0042",
+   "pubtype": [
+    "Journal Article",
+    "Scoping Review"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "258",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "38746668"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC11091685"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC11091685;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1016/j.isci.2024.109713"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "S2589-0042(24)00935-0"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2023/10/16 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2024/01/27 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2024/04/07 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2024/05/15 06:43"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2024/05/15 06:42"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2024/05/15 04:02"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2024/04/23 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 113,
+   "fulljournalname": "iScience",
+   "elocationid": "doi: 10.1016/j.isci.2024.109713",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2024/04/23 00:00",
+   "sortfirstauthor": "Meng X",
+   "vernaculartitle": ""
+  },
+  "38768452": {
+   "uid": "38768452",
+   "pubdate": "2024 Jun",
+   "epubdate": "2024 May 21",
+   "source": "Ann Intern Med",
+   "authors": [
+    {
+     "name": "Tran VT",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gartlehner G",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Yaacoub S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Boutron I",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Schwingshackl L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Stadelmaier J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Sommer I",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Alebouyeh F",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Afach S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Meerpohl J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ravaud P",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Ravaud P",
+   "title": "Sensitivity and Specificity of Using GPT-3.5 Turbo Models for Title and Abstract Screening in Systematic Reviews and Meta-analyses.",
+   "sorttitle": "sensitivity and specificity of using gpt 3 5 turbo models for title and abstract screening in systematic reviews and meta analyses",
+   "volume": "177",
+   "issue": "6",
+   "pages": "791-799",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "0372351",
+   "issn": "0003-4819",
+   "essn": "1539-3704",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "38768452"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.7326/M23-3389"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "medline",
+     "date": "2024/06/18 04:22"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2024/05/20 18:44"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2024/05/20 17:13"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "Ann Intern Med. 2024 Jun;177(6):828-829. doi: 10.7326/M24-0877.",
+     "reftype": "Comment in",
+     "pmid": 38768454,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": "",
+   "fulljournalname": "Annals of internal medicine",
+   "elocationid": "doi: 10.7326/M23-3389",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2024/06/01 00:00",
+   "sortfirstauthor": "Tran VT",
+   "vernaculartitle": ""
+  },
+  "39121174": {
+   "uid": "39121174",
+   "pubdate": "2024 Oct 1",
+   "epubdate": "",
+   "source": "J Am Med Inform Assoc",
+   "authors": [
+    {
+     "name": "Guo Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ovadje A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Al-Garadi MA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Sarker A",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Sarker A",
+   "title": "Evaluating large language models for health-related text classification tasks with public social media data.",
+   "sorttitle": "evaluating large language models for health related text classification tasks with public social media data",
+   "volume": "31",
+   "issue": "10",
+   "pages": "2181-2189",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9430800",
+   "issn": "1067-5027",
+   "essn": "1527-974X",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "39121174"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC11413434"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC11413434;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1093/jamia/ocae210"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "7731085"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2024/05/13 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2024/07/08 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2024/08/07 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2024/09/21 13:19"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2024/08/09 18:42"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2024/08/09 13:44"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2024/08/09 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 42,
+   "fulljournalname": "Journal of the American Medical Informatics Association : JAMIA",
+   "elocationid": "doi: 10.1093/jamia/ocae210",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2024/10/01 00:00",
+   "sortfirstauthor": "Guo Y",
+   "vernaculartitle": ""
+  },
+  "39405325": {
+   "uid": "39405325",
+   "pubdate": "2025 Jan 28",
+   "epubdate": "",
+   "source": "JAMA",
+   "authors": [
+    {
+     "name": "Bedi S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Liu Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Orr-Ewing L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Dash D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Koyejo S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Callahan A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Fries JA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wornow M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Swaminathan A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lehmann LS",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Hong HJ",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Kashyap M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chaurasia AR",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Shah NR",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Singh K",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tazbaz T",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Milstein A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Pfeffer MA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Shah NH",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Shah NH",
+   "title": "Testing and Evaluation of Health Care Applications of Large Language Models: A Systematic Review.",
+   "sorttitle": "testing and evaluation of health care applications of large language models a systematic review",
+   "volume": "333",
+   "issue": "4",
+   "pages": "319-328",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "7501160",
+   "issn": "0098-7484",
+   "essn": "1538-3598",
+   "pubtype": [
+    "Journal Article",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't",
+    "Systematic Review"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "4",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "39405325"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC11480901"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC11480901;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1001/jama.2024.21700"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "2825147"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "medline",
+     "date": "2025/01/28 12:35"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2024/10/15 22:18"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2024/10/15 13:34"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2025/04/15 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "doi: 10.1001/jama.2024.21451",
+     "reftype": "Comment in",
+     "pmid": "",
+     "note": ""
+    },
+    {
+     "refsource": "doi: 10.1001/jama.2024.21772",
+     "reftype": "Comment in",
+     "pmid": "",
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 78,
+   "fulljournalname": "JAMA",
+   "elocationid": "doi: 10.1001/jama.2024.21700",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2025/01/28 00:00",
+   "sortfirstauthor": "Bedi S",
+   "vernaculartitle": ""
+  },
+  "39779929": {
+   "uid": "39779929",
+   "pubdate": "2025 Jan",
+   "epubdate": "2025 Jan 8",
+   "source": "Nat Med",
+   "authors": [
+    {
+     "name": "Gallifant J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Afshar M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Ameen S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Aphinyanaphongs Y",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Chen S",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Cacciamani G",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Demner-Fushman D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Dligach D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Daneshjou R",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Fernandes C",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Hansen LH",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Landman A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lehmann L",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "McCoy LG",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Miller T",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Moreno A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Munch N",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Restrepo D",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Savova G",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Umeton R",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Gichoya JW",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Collins GS",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Moons KGM",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Celi LA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Bitterman DS",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Bitterman DS",
+   "title": "The TRIPOD-LLM reporting guideline for studies using large language models.",
+   "sorttitle": "tripod llm reporting guideline for studies using large language models",
+   "volume": "31",
+   "issue": "1",
+   "pages": "60-69",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "9502015",
+   "issn": "1078-8956",
+   "essn": "1546-170X",
+   "pubtype": [
+    "Journal Article",
+    "Review",
+    "Research Support, N.I.H., Extramural",
+    "Research Support, Non-U.S. Gov't"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "256",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "39779929"
+    },
+    {
+     "idtype": "mid",
+     "idtypen": 8,
+     "value": "NIHMS2079076"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC12104976"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC12104976;manuscript-id: NIHMS2079076;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.1038/s41591-024-03425-5"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "10.1038/s41591-024-03425-5"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2024/07/24 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2024/11/21 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2025/01/22 06:26"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2025/01/09 00:22"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2025/01/08 23:34"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2025/05/26 00:00"
+    }
+   ],
+   "references": [
+    {
+     "refsource": "medRxiv. 2024 Jul 25:2024.07.24.24310930. doi: 10.1101/2024.07.24.24310930.",
+     "reftype": "Update of",
+     "pmid": 39211885,
+     "note": ""
+    }
+   ],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 64,
+   "fulljournalname": "Nature medicine",
+   "elocationid": "doi: 10.1038/s41591-024-03425-5",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2025/01/01 00:00",
+   "sortfirstauthor": "Gallifant J",
+   "vernaculartitle": ""
+  },
+  "40281841": {
+   "uid": "40281841",
+   "pubdate": "2025 Apr 13",
+   "epubdate": "2025 Apr 13",
+   "source": "Healthcare (Basel)",
+   "authors": [
+    {
+     "name": "Dalky A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Altawalbih M",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Alshanik F",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Khasawneh RA",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Tawalbeh R",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Al-Dekah AM",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Alrawashdeh A",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Quran TO",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "ALBashtawy M",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "ALBashtawy M",
+   "title": "Global Research Trends, Hotspots, Impacts, and Emergence of Artificial Intelligence and Machine Learning in Health and Medicine: A 25-Year Bibliometric Analysis.",
+   "sorttitle": "global research trends hotspots impacts and emergence of artificial intelligence and machine learning in health and medicine a 25 year bibliometric analysis",
+   "volume": "13",
+   "issue": "8",
+   "pages": "",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "101666525",
+   "issn": "2227-9032",
+   "essn": "2227-9032",
+   "pubtype": [
+    "Journal Article",
+    "Review"
+   ],
+   "recordstatus": "PubMed",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "40281841"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC12026717"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC12026717;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.3390/healthcare13080892"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "healthcare13080892"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2025/03/03 00:00"
+    },
+    {
+     "pubstatus": "revised",
+     "date": "2025/04/02 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2025/04/08 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2025/04/26 16:18"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2025/04/26 16:17"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2025/04/26 01:04"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2025/04/13 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 58,
+   "fulljournalname": "Healthcare (Basel, Switzerland)",
+   "elocationid": "doi: 10.3390/healthcare13080892",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2025/04/13 00:00",
+   "sortfirstauthor": "Dalky A",
+   "vernaculartitle": ""
+  },
+  "42085702": {
+   "uid": "42085702",
+   "pubdate": "2026 May 5",
+   "epubdate": "2026 May 5",
+   "source": "J Med Internet Res",
+   "authors": [
+    {
+     "name": "Wass LM",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wu Z",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Vizoso J",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Wu JT",
+     "authtype": "Author",
+     "clusterid": ""
+    },
+    {
+     "name": "Lin L",
+     "authtype": "Author",
+     "clusterid": ""
+    }
+   ],
+   "lastauthor": "Lin L",
+   "title": "Global Sentiment Toward Health AI at the Dawn of the ChatGPT Era: Empirical Analysis of Twitter (X) Discourse.",
+   "sorttitle": "global sentiment toward health ai at the dawn of the chatgpt era empirical analysis of twitter x discourse",
+   "volume": "28",
+   "issue": "",
+   "pages": "e80346",
+   "lang": [
+    "eng"
+   ],
+   "nlmuniqueid": "100959882",
+   "issn": "1439-4456",
+   "essn": "1438-8871",
+   "pubtype": [
+    "Journal Article"
+   ],
+   "recordstatus": "PubMed - indexed for MEDLINE",
+   "pubstatus": "3",
+   "articleids": [
+    {
+     "idtype": "pubmed",
+     "idtypen": 1,
+     "value": "42085702"
+    },
+    {
+     "idtype": "pmc",
+     "idtypen": 8,
+     "value": "PMC13187703"
+    },
+    {
+     "idtype": "pmcid",
+     "idtypen": 5,
+     "value": "pmc-id: PMC13187703;"
+    },
+    {
+     "idtype": "doi",
+     "idtypen": 3,
+     "value": "10.2196/80346"
+    },
+    {
+     "idtype": "pii",
+     "idtypen": 4,
+     "value": "v28i1e80346"
+    }
+   ],
+   "history": [
+    {
+     "pubstatus": "received",
+     "date": "2025/07/27 00:00"
+    },
+    {
+     "pubstatus": "accepted",
+     "date": "2026/03/24 00:00"
+    },
+    {
+     "pubstatus": "medline",
+     "date": "2026/05/05 18:33"
+    },
+    {
+     "pubstatus": "pubmed",
+     "date": "2026/05/05 18:32"
+    },
+    {
+     "pubstatus": "entrez",
+     "date": "2026/05/05 16:53"
+    },
+    {
+     "pubstatus": "pmc-release",
+     "date": "2026/05/05 00:00"
+    }
+   ],
+   "references": [],
+   "attributes": [
+    "Has Abstract"
+   ],
+   "pmcrefcount": 77,
+   "fulljournalname": "Journal of medical Internet research",
+   "elocationid": "doi: 10.2196/80346",
+   "doctype": "citation",
+   "srccontriblist": [],
+   "booktitle": "",
+   "medium": "",
+   "edition": "",
+   "publisherlocation": "",
+   "publishername": "",
+   "srcdate": "",
+   "reportnumber": "",
+   "availablefromurl": "",
+   "locationlabel": "",
+   "doccontriblist": [],
+   "docdate": "",
+   "bookname": "",
+   "chapter": "",
+   "sortpubdate": "2026/05/05 00:00",
+   "sortfirstauthor": "Wass LM",
+   "vernaculartitle": ""
+  }
+ }
+}
