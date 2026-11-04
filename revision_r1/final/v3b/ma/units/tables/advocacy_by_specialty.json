@@ -1,0 +1,136 @@
+{
+ "id": "advocacy_by_specialty",
+ "kind": "table",
+ "caption": "Advocacy records by specialty or domain category, 2021 and 2025.",
+ "header": [
+  "Specialty",
+  "2021: n (% of all Advocacy; % of records in the category)",
+  "2025: n (% of all Advocacy; % of records in the category)"
+ ],
+ "rows": [
+  [
+   "Radiology / Diagnostic Imaging",
+   "2 (6.5% of 31; 1.1% of 181)",
+   "2 (3.0% of 66; 0.3% of 596)"
+  ],
+  [
+   "Pathology / Laboratory Medicine",
+   "1 (3.2% of 31; 2.3% of 44)",
+   "0 (0.0% of 66; 0.0% of 137)"
+  ],
+  [
+   "Cardiology",
+   "1 (3.2% of 31; 2.0% of 49)",
+   "3 (4.5% of 66; 1.5% of 200)"
+  ],
+  [
+   "Oncology",
+   "5 (16.1% of 31; 4.7% of 106)",
+   "6 (9.1% of 66; 1.2% of 489)"
+  ],
+  [
+   "Surgery",
+   "1 (3.2% of 31; 1.8% of 56)",
+   "9 (13.6% of 66; 1.8% of 512)"
+  ],
+  [
+   "Ophthalmology",
+   "1 (3.2% of 31; 1.5% of 65)",
+   "0 (0.0% of 66; 0.0% of 229)"
+  ],
+  [
+   "Dermatology",
+   "2 (6.5% of 31; 6.9% of 29)",
+   "1 (1.5% of 66; 1.1% of 94)"
+  ],
+  [
+   "Neurology / Neuroscience",
+   "2 (6.5% of 31; 10.5% of 19)",
+   "3 (4.5% of 66; 2.6% of 117)"
+  ],
+  [
+   "Mental Health / Psychiatry",
+   "0 (0.0% of 31; 0.0% of 25)",
+   "0 (0.0% of 66; 0.0% of 198)"
+  ],
+  [
+   "Internal Medicine / Primary Care",
+   "0 (0.0% of 31; 0.0% of 86)",
+   "6 (9.1% of 66; 1.6% of 384)"
+  ],
+  [
+   "Emergency Medicine / Critical Care",
+   "0 (0.0% of 31; 0.0% of 16)",
+   "1 (1.5% of 66; 0.7% of 140)"
+  ],
+  [
+   "Pediatrics",
+   "0 (0.0% of 31; 0.0% of 11)",
+   "1 (1.5% of 66; 0.6% of 154)"
+  ],
+  [
+   "Obstetrics / Gynecology",
+   "1 (3.2% of 31; 9.1% of 11)",
+   "0 (0.0% of 66; 0.0% of 94)"
+  ],
+  [
+   "Dentistry",
+   "0 (0.0% of 31; 0.0% of 27)",
+   "1 (1.5% of 66; 0.3% of 330)"
+  ],
+  [
+   "Medical Informatics / Digital Health",
+   "12 (38.7% of 31; 4.1% of 293)",
+   "28 (42.4% of 66; 1.8% of 1517)"
+  ],
+  [
+   "Nursing",
+   "1 (3.2% of 31; 20.0% of 5)",
+   "0 (0.0% of 66; 0.0% of 145)"
+  ],
+  [
+   "Medical Education",
+   "2 (6.5% of 31; 7.4% of 27)",
+   "5 (7.6% of 66; 1.1% of 472)"
+  ],
+  [
+   "Multidisciplinary / Other",
+   "0 (0.0% of 31; 0.0% of 13)",
+   "0 (0.0% of 66; 0.0% of 85)"
+  ],
+  [
+   "Specialty FAILED",
+   "0 (0.0% of 31; N/A, no records)",
+   "0 (0.0% of 66; 0.0% of 5)"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Advocacy records: 2021 n=31; 2025 n=66. Counts and shares only; with few Advocacy records per category, category-level shares are imprecise."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-ADVSP-CARDIOLOGY",
+  "RES-ADVSP-DENTISTRY",
+  "RES-ADVSP-DERMATOLOGY",
+  "RES-ADVSP-EMERGENCYMEDICINECRITICA",
+  "RES-ADVSP-FAILED",
+  "RES-ADVSP-INTERNALMEDICINEPRIMARYC",
+  "RES-ADVSP-MEDICALEDUCATION",
+  "RES-ADVSP-MEDICALINFORMATICSDIGITA",
+  "RES-ADVSP-MENTALHEALTHPSYCHIATRY",
+  "RES-ADVSP-MULTIDISCIPLINARYOTHER",
+  "RES-ADVSP-NEUROLOGYNEUROSCIENCE",
+  "RES-ADVSP-NURSING",
+  "RES-ADVSP-OBSTETRICSGYNECOLOGY",
+  "RES-ADVSP-ONCOLOGY",
+  "RES-ADVSP-OPHTHALMOLOGY",
+  "RES-ADVSP-PATHOLOGYLABORATORYMEDIC",
+  "RES-ADVSP-PEDIATRICS",
+  "RES-ADVSP-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-ADVSP-SURGERY",
+  "RES-ADVSP-TOTAL-2021",
+  "RES-ADVSP-TOTAL-2025"
+ ],
+ "sub_rows": []
+}

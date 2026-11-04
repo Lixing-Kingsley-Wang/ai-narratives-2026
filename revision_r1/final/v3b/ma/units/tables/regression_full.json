@@ -1,0 +1,1492 @@
+{
+ "id": "regression_full",
+ "kind": "table",
+ "caption": "Multivariable models in full: Advocacy model, ordinal model and sensitivity models S1 to S4, 2021-2025.",
+ "header": [
+  "Model: variable: level",
+  "Estimate",
+  "Cut-point ORs (ordinal model)",
+  "Proportional-odds check"
+ ],
+ "rows": [
+  [
+   "(a) Primary model, critical stance: see Table 2 for every level; year effect"
+  ],
+  [
+   "Year, per 1 year: unadjusted OR",
+   "OR 1.077 (95% CI 1.038-1.116), P<.001",
+   "",
+   ""
+  ],
+  [
+   "Year, per 1 year: adjusted OR",
+   "OR 1.103 (95% CI 1.066-1.141), P<.001",
+   "",
+   ""
+  ],
+  [
+   "(b) Advocacy model (secondary 2): adjusted OR (95% CI), P"
+  ],
+  [
+   "genre: evaluative",
+   "OR 0.17 (95% CI 0.10-0.27), P<.001",
+   "",
+   ""
+  ],
+  [
+   "publication type: Editorial",
+   "OR 3.31 (95% CI 1.96-5.61), P<.001",
+   "",
+   ""
+  ],
+  [
+   "publication type: Letter",
+   "OR 3.48 (95% CI 2.18-5.54), P<.001",
+   "",
+   ""
+  ],
+  [
+   "publication type: Other (<5 events)",
+   "OR 0.81 (95% CI 0.17-3.89), P=.788",
+   "",
+   ""
+  ],
+  [
+   "publication type: Review",
+   "OR 0.90 (95% CI 0.62-1.31), P=.571",
+   "",
+   ""
+  ],
+  [
+   "specialty: Cardiology",
+   "OR 1.47 (95% CI 0.79-2.72), P=.220",
+   "",
+   ""
+  ],
+  [
+   "specialty: Dermatology",
+   "OR 1.02 (95% CI 0.40-2.60), P=.972",
+   "",
+   ""
+  ],
+  [
+   "specialty: Internal Medicine / Primary Care",
+   "OR 0.95 (95% CI 0.52-1.71), P=.855",
+   "",
+   ""
+  ],
+  [
+   "specialty: Medical Education",
+   "OR 0.57 (95% CI 0.31-1.06), P=.077",
+   "",
+   ""
+  ],
+  [
+   "specialty: Multidisciplinary / Other",
+   "OR 1.02 (95% CI 0.41-2.52), P=.966",
+   "",
+   ""
+  ],
+  [
+   "specialty: Neurology / Neuroscience",
+   "OR 1.34 (95% CI 0.58-3.09), P=.493",
+   "",
+   ""
+  ],
+  [
+   "specialty: Oncology",
+   "OR 1.03 (95% CI 0.60-1.79), P=.902",
+   "",
+   ""
+  ],
+  [
+   "specialty: Other (<5 events)",
+   "OR 0.36 (95% CI 0.21-0.63), P<.001",
+   "",
+   ""
+  ],
+  [
+   "specialty: Radiology / Diagnostic Imaging",
+   "OR 0.51 (95% CI 0.29-0.92), P=.026",
+   "",
+   ""
+  ],
+  [
+   "specialty: Surgery",
+   "OR 1.16 (95% CI 0.70-1.93), P=.565",
+   "",
+   ""
+  ],
+  [
+   "region: East Asia",
+   "OR 0.78 (95% CI 0.49-1.23), P=.283",
+   "",
+   ""
+  ],
+  [
+   "region: Latin America / Oceania",
+   "OR 0.67 (95% CI 0.32-1.40), P=.284",
+   "",
+   ""
+  ],
+  [
+   "region: Middle East / North Africa",
+   "OR 1.66 (95% CI 1.00-2.74), P=.049",
+   "",
+   ""
+  ],
+  [
+   "region: Other (<5 events)",
+   "OR 1.06 (95% CI 0.47-2.37), P=.895",
+   "",
+   ""
+  ],
+  [
+   "region: South/Southeast Asia",
+   "OR 2.25 (95% CI 1.32-3.84), P=.003",
+   "",
+   ""
+  ],
+  [
+   "region: Unknown",
+   "OR 1.35 (95% CI 0.71-2.57), P=.360",
+   "",
+   ""
+  ],
+  [
+   "region: Western Europe",
+   "OR 0.45 (95% CI 0.30-0.70), P<.001",
+   "",
+   ""
+  ],
+  [
+   "year: per 1 year",
+   "OR 0.84 (95% CI 0.75-0.94), P=.002",
+   "",
+   ""
+  ],
+  [
+   "(c) Ordinal model (secondary 1): ordinal OR (95% CI), P; cut-point ORs; proportional-odds check"
+  ],
+  [
+   "genre: evaluative",
+   "OR 1.36 (95% CI 1.22-1.51), P<.001",
+   ">Alarm 0.19; >Caution 1.84; >Neutral 1.70; >Cautious Optimism 0.16",
+   "outside CI at >Alarm,Caution,Neutral,Cautious Optimism; sign change"
+  ],
+  [
+   "publication type: Commentary",
+   "OR 0.59 (95% CI 0.39-0.87), P=.009",
+   ">Alarm 0.38; >Caution 0.56; >Neutral 0.60; >Cautious Optimism 0.82",
+   "holds"
+  ],
+  [
+   "publication type: Editorial",
+   "OR 1.33 (95% CI 1.04-1.68), P=.021",
+   ">Alarm 1.07; >Caution 1.37; >Neutral 1.19; >Cautious Optimism 3.33",
+   "outside CI at >Cautious Optimism"
+  ],
+  [
+   "publication type: Letter",
+   "OR 0.65 (95% CI 0.51-0.83), P<.001",
+   ">Alarm 0.66; >Caution 0.86; >Neutral 0.42; >Cautious Optimism 3.49",
+   "outside CI at >Caution,Neutral,Cautious Optimism; sign change"
+  ],
+  [
+   "publication type: Review",
+   "OR 2.10 (95% CI 1.85-2.37), P<.001",
+   ">Alarm 2.61; >Caution 2.13; >Neutral 2.42; >Cautious Optimism 0.89",
+   "outside CI at >Neutral,Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Cardiology",
+   "OR 3.47 (95% CI 2.80-4.32), P<.001",
+   ">Alarm 2.16; >Caution 3.59; >Neutral 3.97; >Cautious Optimism 1.49",
+   "outside CI at >Cautious Optimism"
+  ],
+  [
+   "specialty: Dentistry",
+   "OR 1.85 (95% CI 1.51-2.27), P<.001",
+   ">Alarm 1.44; >Caution 1.91; >Neutral 2.08; >Cautious Optimism 0.38",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Dermatology",
+   "OR 1.32 (95% CI 1.00-1.74), P=.048",
+   ">Alarm 0.95; >Caution 1.31; >Neutral 1.49; >Cautious Optimism 1.02",
+   "sign change"
+  ],
+  [
+   "specialty: Emergency Medicine / Critical Care",
+   "OR 1.84 (95% CI 1.43-2.37), P<.001",
+   ">Alarm 1.12; >Caution 1.90; >Neutral 2.18; >Cautious Optimism 0.23",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Internal Medicine / Primary Care",
+   "OR 2.52 (95% CI 2.12-2.99), P<.001",
+   ">Alarm 1.85; >Caution 2.47; >Neutral 2.93; >Cautious Optimism 0.95",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Medical Education",
+   "OR 1.77 (95% CI 1.48-2.11), P<.001",
+   ">Alarm 2.51; >Caution 1.73; >Neutral 1.99; >Cautious Optimism 0.57",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Mental Health / Psychiatry",
+   "OR 0.91 (95% CI 0.72-1.14), P=.399",
+   ">Alarm 1.08; >Caution 0.82; >Neutral 1.02; >Cautious Optimism 0.12",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Multidisciplinary / Other",
+   "OR 1.72 (95% CI 1.26-2.35), P<.001",
+   ">Alarm 1.13; >Caution 1.69; >Neutral 2.00; >Cautious Optimism 1.01",
+   "holds"
+  ],
+  [
+   "specialty: Neurology / Neuroscience",
+   "OR 2.24 (95% CI 1.69-2.98), P<.001",
+   ">Alarm 1.17; >Caution 2.26; >Neutral 2.52; >Cautious Optimism 1.35",
+   "outside CI at >Alarm"
+  ],
+  [
+   "specialty: Nursing",
+   "OR 1.22 (95% CI 0.90-1.66), P=.194",
+   ">Alarm 1.29; >Caution 1.18; >Neutral 1.40; >Cautious Optimism 0.33",
+   "sign change"
+  ],
+  [
+   "specialty: Obstetrics / Gynecology",
+   "OR 2.31 (95% CI 1.67-3.20), P<.001",
+   ">Alarm 1.79; >Caution 2.17; >Neutral 2.64; >Cautious Optimism 1.09",
+   "holds"
+  ],
+  [
+   "specialty: Oncology",
+   "OR 2.69 (95% CI 2.31-3.14), P<.001",
+   ">Alarm 2.17; >Caution 2.83; >Neutral 3.01; >Cautious Optimism 1.04",
+   "outside CI at >Cautious Optimism"
+  ],
+  [
+   "specialty: Ophthalmology",
+   "OR 2.50 (95% CI 2.10-2.98), P<.001",
+   ">Alarm 2.12; >Caution 2.75; >Neutral 2.93; >Cautious Optimism 0.22",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Pathology / Laboratory Medicine",
+   "OR 2.37 (95% CI 1.93-2.91), P<.001",
+   ">Alarm 1.63; >Caution 2.72; >Neutral 2.68; >Cautious Optimism 0.62",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Pediatrics",
+   "OR 2.37 (95% CI 1.86-3.03), P<.001",
+   ">Alarm 1.71; >Caution 2.39; >Neutral 2.78; >Cautious Optimism 0.44",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Radiology / Diagnostic Imaging",
+   "OR 2.30 (95% CI 2.03-2.62), P<.001",
+   ">Alarm 2.13; >Caution 2.53; >Neutral 2.53; >Cautious Optimism 0.52",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "specialty: Surgery",
+   "OR 1.95 (95% CI 1.65-2.30), P<.001",
+   ">Alarm 1.20; >Caution 1.85; >Neutral 2.25; >Cautious Optimism 1.17",
+   "outside CI at >Alarm,Cautious Optimism"
+  ],
+  [
+   "specialty: Unassigned",
+   "OR 3.44 (95% CI 0.94-12.62), P=.062",
+   ">Alarm 1.19; >Caution 6.21; >Neutral 3.82; >Cautious Optimism 0.00",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "region: East Asia",
+   "OR 1.90 (95% CI 1.70-2.14), P<.001",
+   ">Alarm 1.98; >Caution 2.28; >Neutral 1.97; >Cautious Optimism 0.78",
+   "outside CI at >Caution,Cautious Optimism; sign change"
+  ],
+  [
+   "region: Eastern Europe",
+   "OR 1.17 (95% CI 0.93-1.48), P=.177",
+   ">Alarm 0.79; >Caution 1.25; >Neutral 1.20; >Cautious Optimism 0.85",
+   "sign change"
+  ],
+  [
+   "region: Latin America / Oceania",
+   "OR 0.89 (95% CI 0.75-1.05), P=.154",
+   ">Alarm 1.06; >Caution 0.90; >Neutral 0.87; >Cautious Optimism 0.68",
+   "sign change"
+  ],
+  [
+   "region: Middle East / North Africa",
+   "OR 1.30 (95% CI 1.13-1.49), P<.001",
+   ">Alarm 1.02; >Caution 1.27; >Neutral 1.32; >Cautious Optimism 1.67",
+   "holds"
+  ],
+  [
+   "region: South/Southeast Asia",
+   "OR 1.81 (95% CI 1.48-2.22), P<.001",
+   ">Alarm 1.59; >Caution 1.74; >Neutral 1.77; >Cautious Optimism 2.28",
+   "holds"
+  ],
+  [
+   "region: Sub-Saharan Africa",
+   "OR 0.98 (95% CI 0.55-1.75), P=.947",
+   ">Alarm 0.77; >Caution 0.90; >Neutral 0.96; >Cautious Optimism 2.06",
+   "sign change"
+  ],
+  [
+   "region: Unknown",
+   "OR 1.21 (95% CI 0.97-1.51), P=.088",
+   ">Alarm 0.95; >Caution 1.34; >Neutral 1.15; >Cautious Optimism 1.36",
+   "sign change"
+  ],
+  [
+   "region: Western Europe",
+   "OR 0.95 (95% CI 0.86-1.05), P=.300",
+   ">Alarm 1.12; >Caution 0.94; >Neutral 0.95; >Cautious Optimism 0.45",
+   "outside CI at >Cautious Optimism; sign change"
+  ],
+  [
+   "year: per 1 year",
+   "OR 0.94 (95% CI 0.92-0.97), P<.001",
+   ">Alarm 0.94; >Caution 0.91; >Neutral 0.97; >Cautious Optimism 0.84",
+   "outside CI at >Caution,Cautious Optimism"
+  ],
+  [
+   "(d) Sensitivity models S1-S4, critical stance: adjusted OR (95% CI), P"
+  ],
+  [
+   "S1 year categorical: year: 2022",
+   "OR 1.001 (95% CI 0.827-1.211), P=.993",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: year: 2023",
+   "OR 1.305 (95% CI 1.093-1.558), P=.003",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: year: 2024",
+   "OR 1.532 (95% CI 1.302-1.803), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: year: 2025",
+   "OR 1.446 (95% CI 1.232-1.698), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: genre: evaluative",
+   "OR 0.54 (95% CI 0.48-0.61), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: publication type: Commentary",
+   "OR 1.79 (95% CI 0.98-3.28), P=.059",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: publication type: Editorial",
+   "OR 0.72 (95% CI 0.55-0.93), P=.013",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: publication type: Letter",
+   "OR 1.13 (95% CI 0.87-1.47), P=.354",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: publication type: Review",
+   "OR 0.47 (95% CI 0.41-0.54), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Cardiology",
+   "OR 0.28 (95% CI 0.22-0.36), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Dentistry",
+   "OR 0.52 (95% CI 0.42-0.65), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Dermatology",
+   "OR 0.76 (95% CI 0.59-0.98), P=.033",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Emergency Medicine / Critical Care",
+   "OR 0.52 (95% CI 0.40-0.68), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Internal Medicine / Primary Care",
+   "OR 0.40 (95% CI 0.34-0.49), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Medical Education",
+   "OR 0.58 (95% CI 0.47-0.71), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Mental Health / Psychiatry",
+   "OR 1.23 (95% CI 0.94-1.60), P=.134",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Multidisciplinary / Other",
+   "OR 0.59 (95% CI 0.42-0.83), P=.002",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Neurology / Neuroscience",
+   "OR 0.44 (95% CI 0.32-0.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Nursing",
+   "OR 0.86 (95% CI 0.60-1.22), P=.390",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Obstetrics / Gynecology",
+   "OR 0.46 (95% CI 0.33-0.65), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Oncology",
+   "OR 0.35 (95% CI 0.29-0.42), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Ophthalmology",
+   "OR 0.36 (95% CI 0.30-0.44), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Pathology / Laboratory Medicine",
+   "OR 0.37 (95% CI 0.29-0.47), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Pediatrics",
+   "OR 0.42 (95% CI 0.32-0.55), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Radiology / Diagnostic Imaging",
+   "OR 0.40 (95% CI 0.34-0.46), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Surgery",
+   "OR 0.53 (95% CI 0.45-0.63), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: specialty: Unassigned",
+   "OR 0.16 (95% CI 0.02-1.48), P=.108",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: East Asia",
+   "OR 0.44 (95% CI 0.38-0.52), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Eastern Europe",
+   "OR 0.80 (95% CI 0.61-1.05), P=.108",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Latin America / Oceania",
+   "OR 1.12 (95% CI 0.94-1.34), P=.218",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Middle East / North Africa",
+   "OR 0.80 (95% CI 0.69-0.92), P=.002",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: South/Southeast Asia",
+   "OR 0.57 (95% CI 0.46-0.71), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Sub-Saharan Africa",
+   "OR 1.12 (95% CI 0.61-2.05), P=.721",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Unknown",
+   "OR 0.74 (95% CI 0.56-0.97), P=.029",
+   "",
+   ""
+  ],
+  [
+   "S1 year categorical: region: Western Europe",
+   "OR 1.07 (95% CI 0.95-1.20), P=.256",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: year: 2022",
+   "OR 0.997 (95% CI 0.825-1.206), P=.978",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: year: 2023",
+   "OR 1.298 (95% CI 1.088-1.548), P=.004",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: year: 2024",
+   "OR 1.529 (95% CI 1.300-1.798), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: year: 2025",
+   "OR 1.441 (95% CI 1.229-1.690), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: year: 2026",
+   "OR 1.610 (95% CI 1.349-1.921), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: genre: evaluative",
+   "OR 0.54 (95% CI 0.48-0.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: publication type: Commentary",
+   "OR 1.62 (95% CI 0.88-2.99), P=.122",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: publication type: Editorial",
+   "OR 0.76 (95% CI 0.59-0.98), P=.035",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: publication type: Letter",
+   "OR 1.20 (95% CI 0.94-1.54), P=.140",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: publication type: Review",
+   "OR 0.48 (95% CI 0.42-0.54), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Cardiology",
+   "OR 0.30 (95% CI 0.23-0.38), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Dentistry",
+   "OR 0.52 (95% CI 0.43-0.62), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Dermatology",
+   "OR 0.76 (95% CI 0.60-0.96), P=.020",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Emergency Medicine / Critical Care",
+   "OR 0.54 (95% CI 0.42-0.70), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Internal Medicine / Primary Care",
+   "OR 0.42 (95% CI 0.35-0.50), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Medical Education",
+   "OR 0.58 (95% CI 0.48-0.71), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Mental Health / Psychiatry",
+   "OR 1.30 (95% CI 1.02-1.65), P=.034",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Multidisciplinary / Other",
+   "OR 0.60 (95% CI 0.45-0.82), P=.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Neurology / Neuroscience",
+   "OR 0.46 (95% CI 0.34-0.62), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Nursing",
+   "OR 0.89 (95% CI 0.66-1.19), P=.419",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Obstetrics / Gynecology",
+   "OR 0.52 (95% CI 0.37-0.73), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Oncology",
+   "OR 0.37 (95% CI 0.32-0.44), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Ophthalmology",
+   "OR 0.36 (95% CI 0.30-0.45), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Pathology / Laboratory Medicine",
+   "OR 0.38 (95% CI 0.30-0.48), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Pediatrics",
+   "OR 0.47 (95% CI 0.37-0.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Radiology / Diagnostic Imaging",
+   "OR 0.42 (95% CI 0.37-0.48), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Surgery",
+   "OR 0.54 (95% CI 0.46-0.62), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: specialty: Unassigned",
+   "OR 0.29 (95% CI 0.06-1.50), P=.139",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: East Asia",
+   "OR 0.46 (95% CI 0.40-0.52), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Eastern Europe",
+   "OR 0.83 (95% CI 0.65-1.06), P=.146",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Latin America / Oceania",
+   "OR 1.04 (95% CI 0.88-1.23), P=.625",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Middle East / North Africa",
+   "OR 0.83 (95% CI 0.73-0.95), P=.006",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: South/Southeast Asia",
+   "OR 0.57 (95% CI 0.47-0.70), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Sub-Saharan Africa",
+   "OR 1.34 (95% CI 0.84-2.15), P=.222",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Unknown",
+   "OR 0.75 (95% CI 0.58-0.96), P=.025",
+   "",
+   ""
+  ],
+  [
+   "S2 with Jan–Apr 2026: region: Western Europe",
+   "OR 1.08 (95% CI 0.98-1.19), P=.138",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: genre: evaluative",
+   "OR 0.51 (95% CI 0.43-0.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: publication type: Commentary",
+   "OR 1.13 (95% CI 0.55-2.34), P=.734",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: publication type: Editorial",
+   "OR 0.64 (95% CI 0.44-0.93), P=.019",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: publication type: Letter",
+   "OR 1.11 (95% CI 0.76-1.62), P=.585",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: publication type: Review",
+   "OR 0.62 (95% CI 0.50-0.76), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Cardiology",
+   "OR 0.56 (95% CI 0.40-0.79), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Dentistry",
+   "OR 0.48 (95% CI 0.34-0.70), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Dermatology",
+   "OR 1.15 (95% CI 0.70-1.90), P=.576",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Emergency Medicine / Critical Care",
+   "OR 0.46 (95% CI 0.31-0.67), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Internal Medicine / Primary Care",
+   "OR 0.54 (95% CI 0.39-0.74), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Medical Education",
+   "OR 0.54 (95% CI 0.40-0.72), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Mental Health / Psychiatry",
+   "OR 0.92 (95% CI 0.61-1.39), P=.693",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Multidisciplinary / Other",
+   "OR 1.23 (95% CI 0.66-2.27), P=.516",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Neurology / Neuroscience",
+   "OR 0.47 (95% CI 0.28-0.79), P=.005",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Nursing",
+   "OR 0.74 (95% CI 0.40-1.36), P=.330",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Obstetrics / Gynecology",
+   "OR 0.27 (95% CI 0.15-0.47), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Oncology",
+   "OR 0.42 (95% CI 0.33-0.55), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Ophthalmology",
+   "OR 0.49 (95% CI 0.35-0.68), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Pathology / Laboratory Medicine",
+   "OR 0.49 (95% CI 0.32-0.74), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Pediatrics",
+   "OR 0.50 (95% CI 0.31-0.80), P=.004",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Radiology / Diagnostic Imaging",
+   "OR 0.49 (95% CI 0.40-0.62), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Surgery",
+   "OR 0.71 (95% CI 0.54-0.93), P=.014",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: specialty: Unassigned",
+   "OR 0.41 (95% CI 0.05-3.54), P=.415",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: East Asia",
+   "OR 0.48 (95% CI 0.40-0.57), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Eastern Europe",
+   "OR 0.82 (95% CI 0.57-1.17), P=.279",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Latin America / Oceania",
+   "OR 0.93 (95% CI 0.73-1.19), P=.585",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Middle East / North Africa",
+   "OR 0.89 (95% CI 0.72-1.10), P=.271",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: South/Southeast Asia",
+   "OR 0.72 (95% CI 0.51-1.02), P=.066",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Sub-Saharan Africa",
+   "OR 1.36 (95% CI 0.45-4.05), P=.585",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Unknown",
+   "OR 0.59 (95% CI 0.34-1.04), P=.069",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: region: Western Europe",
+   "OR 1.03 (95% CI 0.86-1.22), P=.766",
+   "",
+   ""
+  ],
+  [
+   "S3 journal fixed effects: year: per 1 year",
+   "OR 1.082 (95% CI 1.030-1.137), P=.002",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: genre: evaluative",
+   "OR 0.54 (95% CI 0.47-0.61), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: publication type: Commentary",
+   "OR 1.83 (95% CI 1.03-3.25), P=.041",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: publication type: Editorial",
+   "OR 0.74 (95% CI 0.57-0.97), P=.026",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: publication type: Letter",
+   "OR 1.19 (95% CI 0.92-1.55), P=.190",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: publication type: Review",
+   "OR 0.49 (95% CI 0.42-0.56), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Cardiology",
+   "OR 0.27 (95% CI 0.21-0.35), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Dentistry",
+   "OR 0.51 (95% CI 0.42-0.63), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Dermatology",
+   "OR 0.77 (95% CI 0.60-0.99), P=.043",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Emergency Medicine / Critical Care",
+   "OR 0.52 (95% CI 0.40-0.67), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Internal Medicine / Primary Care",
+   "OR 0.42 (95% CI 0.35-0.50), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Medical Education",
+   "OR 0.58 (95% CI 0.47-0.71), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Mental Health / Psychiatry",
+   "OR 1.21 (95% CI 0.93-1.57), P=.164",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Multidisciplinary / Other",
+   "OR 0.61 (95% CI 0.44-0.86), P=.004",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Neurology / Neuroscience",
+   "OR 0.45 (95% CI 0.33-0.62), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Nursing",
+   "OR 0.81 (95% CI 0.57-1.13), P=.217",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Obstetrics / Gynecology",
+   "OR 0.45 (95% CI 0.32-0.63), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Oncology",
+   "OR 0.36 (95% CI 0.30-0.43), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Ophthalmology",
+   "OR 0.36 (95% CI 0.29-0.44), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Pathology / Laboratory Medicine",
+   "OR 0.37 (95% CI 0.29-0.47), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Pediatrics",
+   "OR 0.41 (95% CI 0.31-0.53), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Radiology / Diagnostic Imaging",
+   "OR 0.39 (95% CI 0.33-0.45), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Surgery",
+   "OR 0.54 (95% CI 0.46-0.64), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: specialty: Unassigned",
+   "OR 0.17 (95% CI 0.02-1.57), P=.118",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Australia",
+   "OR 1.45 (95% CI 1.15-1.82), P=.002",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Brazil",
+   "OR 0.51 (95% CI 0.32-0.81), P=.005",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Canada",
+   "OR 1.21 (95% CI 0.97-1.52), P=.090",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: China",
+   "OR 0.36 (95% CI 0.29-0.44), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: France",
+   "OR 0.87 (95% CI 0.63-1.19), P=.390",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Germany",
+   "OR 1.10 (95% CI 0.90-1.34), P=.363",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: India",
+   "OR 0.46 (95% CI 0.35-0.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Iran",
+   "OR 0.48 (95% CI 0.31-0.74), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Israel",
+   "OR 1.02 (95% CI 0.73-1.41), P=.929",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Italy",
+   "OR 0.75 (95% CI 0.60-0.92), P=.007",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Japan",
+   "OR 0.53 (95% CI 0.39-0.71), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Netherlands",
+   "OR 1.64 (95% CI 1.29-2.08), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Other",
+   "OR 0.88 (95% CI 0.75-1.02), P=.095",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Saudi Arabia",
+   "OR 0.50 (95% CI 0.34-0.74), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Singapore",
+   "OR 0.79 (95% CI 0.53-1.18), P=.244",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: South Korea",
+   "OR 0.58 (95% CI 0.43-0.78), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Spain",
+   "OR 0.75 (95% CI 0.51-1.10), P=.136",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Sweden",
+   "OR 1.07 (95% CI 0.64-1.77), P=.805",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Switzerland",
+   "OR 1.45 (95% CI 1.07-1.97), P=.016",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Taiwan",
+   "OR 0.52 (95% CI 0.33-0.83), P=.006",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Turkey",
+   "OR 1.24 (95% CI 0.95-1.60), P=.107",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: United Kingdom",
+   "OR 1.37 (95% CI 1.17-1.60), P<.001",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: country: Unresolved",
+   "OR 0.87 (95% CI 0.75-1.02), P=.086",
+   "",
+   ""
+  ],
+  [
+   "S4 country instead of region: year: per 1 year",
+   "OR 1.110 (95% CI 1.073-1.149), P<.001",
+   "",
+   ""
+  ]
+ ],
+ "group_rows": [
+  0,
+  3,
+  27,
+  60
+ ],
+ "notes": [
+  "Logistic regression of critical stance (Alarm or Caution) on publication year (continuous, centred on 2023.856), genre, publication type, specialty and first-author region; n=14,058; events=4283; 2278 journal clusters; cluster-robust (journal) SEs. Logistic regression of Advocacy vs not; n=14,058; events=218; 2278 journal clusters; levels with fewer than 5 Advocacy events collapsed into 'Other (<5 events)'. Proportional-odds logistic model (Alarm < Caution < Neutral < Cautious Optimism < Advocacy); OR > 1 = more favourable; n=14,058; cluster-robust SEs; cut-point ORs from separate binary models. Proportional odds was judged violated when a cut-point coefficient fell outside the ordinal coefficient's CI or changed sign; fails for 27 of 32 terms (pre-specified rule), mainly at the Advocacy cut point. S1: year as categories (reference 2021). S2: adds January-April 2026 as a year level (n=16,747; the only model that uses 2026 records). S3: journal fixed effects (n=8529 records, 2728 events, 275 journals). S4: first-author country levels with at least 100 records (reference United States) instead of region. Reference levels and covariates as in Table 2. All SEs cluster-robust by journal."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "RES-REG-HEADER",
+  "RES-REG-YEAR-UOR",
+  "RES-REGADV-GENRE-EVALUATIVE",
+  "RES-REGADV-HEADER",
+  "RES-REGADV-PUBTYPE-EDITORIAL",
+  "RES-REGADV-PUBTYPE-LETTER",
+  "RES-REGADV-PUBTYPE-OTHER5EVENTS",
+  "RES-REGADV-PUBTYPE-REVIEW",
+  "RES-REGADV-REGION-EASTASIA",
+  "RES-REGADV-REGION-LATINAMERICAOCEANIA",
+  "RES-REGADV-REGION-MIDDLEEASTNORTHAFRICA",
+  "RES-REGADV-REGION-OTHER5EVENTS",
+  "RES-REGADV-REGION-SOUTHSOUTHEASTASIA",
+  "RES-REGADV-REGION-UNKNOWN",
+  "RES-REGADV-REGION-WESTERNEUROPE",
+  "RES-REGADV-SPECIALTY-CARDIOLOGY",
+  "RES-REGADV-SPECIALTY-DERMATOLOGY",
+  "RES-REGADV-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGADV-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGADV-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGADV-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGADV-SPECIALTY-ONCOLOGY",
+  "RES-REGADV-SPECIALTY-OTHER5EVENTS",
+  "RES-REGADV-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGADV-SPECIALTY-SURGERY",
+  "RES-REGADV-YEAR-PER1YEAR",
+  "RES-REGORD-GENRE-EVALUATIVE",
+  "RES-REGORD-HEADER",
+  "RES-REGORD-PUBTYPE-COMMENTARY",
+  "RES-REGORD-PUBTYPE-EDITORIAL",
+  "RES-REGORD-PUBTYPE-LETTER",
+  "RES-REGORD-PUBTYPE-REVIEW",
+  "RES-REGORD-REGION-EASTASIA",
+  "RES-REGORD-REGION-EASTERNEUROPE",
+  "RES-REGORD-REGION-LATINAMERICAOCEANIA",
+  "RES-REGORD-REGION-MIDDLEEASTNORTHAFRICA",
+  "RES-REGORD-REGION-SOUTHSOUTHEASTASIA",
+  "RES-REGORD-REGION-SUBSAHARANAFRICA",
+  "RES-REGORD-REGION-UNKNOWN",
+  "RES-REGORD-REGION-WESTERNEUROPE",
+  "RES-REGORD-SPECIALTY-CARDIOLOGY",
+  "RES-REGORD-SPECIALTY-DENTISTRY",
+  "RES-REGORD-SPECIALTY-DERMATOLOGY",
+  "RES-REGORD-SPECIALTY-EMERGENCYMEDICINECRITICA",
+  "RES-REGORD-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGORD-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGORD-SPECIALTY-MENTALHEALTHPSYCHIATRY",
+  "RES-REGORD-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGORD-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGORD-SPECIALTY-NURSING",
+  "RES-REGORD-SPECIALTY-OBSTETRICSGYNECOLOGY",
+  "RES-REGORD-SPECIALTY-ONCOLOGY",
+  "RES-REGORD-SPECIALTY-OPHTHALMOLOGY",
+  "RES-REGORD-SPECIALTY-PATHOLOGYLABORATORYMEDIC",
+  "RES-REGORD-SPECIALTY-PEDIATRICS",
+  "RES-REGORD-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGORD-SPECIALTY-SURGERY",
+  "RES-REGORD-SPECIALTY-UNASSIGNED",
+  "RES-REGORD-YEAR-PER1YEAR",
+  "RES-REGSEN-S1-GENRE-EVALUATIVE",
+  "RES-REGSEN-S1-PUBTYPE-COMMENTARY",
+  "RES-REGSEN-S1-PUBTYPE-EDITORIAL",
+  "RES-REGSEN-S1-PUBTYPE-LETTER",
+  "RES-REGSEN-S1-PUBTYPE-REVIEW",
+  "RES-REGSEN-S1-REGION-EASTASIA",
+  "RES-REGSEN-S1-REGION-EASTERNEUROPE",
+  "RES-REGSEN-S1-REGION-LATINAMERICAOCEANIA",
+  "RES-REGSEN-S1-REGION-MIDDLEEASTNORTHAFRICA",
+  "RES-REGSEN-S1-REGION-SOUTHSOUTHEASTASIA",
+  "RES-REGSEN-S1-REGION-SUBSAHARANAFRICA",
+  "RES-REGSEN-S1-REGION-UNKNOWN",
+  "RES-REGSEN-S1-REGION-WESTERNEUROPE",
+  "RES-REGSEN-S1-SPECIALTY-CARDIOLOGY",
+  "RES-REGSEN-S1-SPECIALTY-DENTISTRY",
+  "RES-REGSEN-S1-SPECIALTY-DERMATOLOGY",
+  "RES-REGSEN-S1-SPECIALTY-EMERGENCYMEDICINECRITICA",
+  "RES-REGSEN-S1-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGSEN-S1-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGSEN-S1-SPECIALTY-MENTALHEALTHPSYCHIATRY",
+  "RES-REGSEN-S1-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGSEN-S1-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGSEN-S1-SPECIALTY-NURSING",
+  "RES-REGSEN-S1-SPECIALTY-OBSTETRICSGYNECOLOGY",
+  "RES-REGSEN-S1-SPECIALTY-ONCOLOGY",
+  "RES-REGSEN-S1-SPECIALTY-OPHTHALMOLOGY",
+  "RES-REGSEN-S1-SPECIALTY-PATHOLOGYLABORATORYMEDIC",
+  "RES-REGSEN-S1-SPECIALTY-PEDIATRICS",
+  "RES-REGSEN-S1-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGSEN-S1-SPECIALTY-SURGERY",
+  "RES-REGSEN-S1-SPECIALTY-UNASSIGNED",
+  "RES-REGSEN-S1-YEAR-2022",
+  "RES-REGSEN-S1-YEAR-2023",
+  "RES-REGSEN-S1-YEAR-2024",
+  "RES-REGSEN-S1-YEAR-2025",
+  "RES-REGSEN-S2-GENRE-EVALUATIVE",
+  "RES-REGSEN-S2-PUBTYPE-COMMENTARY",
+  "RES-REGSEN-S2-PUBTYPE-EDITORIAL",
+  "RES-REGSEN-S2-PUBTYPE-LETTER",
+  "RES-REGSEN-S2-PUBTYPE-REVIEW",
+  "RES-REGSEN-S2-REGION-EASTASIA",
+  "RES-REGSEN-S2-REGION-EASTERNEUROPE",
+  "RES-REGSEN-S2-REGION-LATINAMERICAOCEANIA",
+  "RES-REGSEN-S2-REGION-MIDDLEEASTNORTHAFRICA",
+  "RES-REGSEN-S2-REGION-SOUTHSOUTHEASTASIA",
+  "RES-REGSEN-S2-REGION-SUBSAHARANAFRICA",
+  "RES-REGSEN-S2-REGION-UNKNOWN",
+  "RES-REGSEN-S2-REGION-WESTERNEUROPE",
+  "RES-REGSEN-S2-SPECIALTY-CARDIOLOGY",
+  "RES-REGSEN-S2-SPECIALTY-DENTISTRY",
+  "RES-REGSEN-S2-SPECIALTY-DERMATOLOGY",
+  "RES-REGSEN-S2-SPECIALTY-EMERGENCYMEDICINECRITICA",
+  "RES-REGSEN-S2-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGSEN-S2-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGSEN-S2-SPECIALTY-MENTALHEALTHPSYCHIATRY",
+  "RES-REGSEN-S2-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGSEN-S2-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGSEN-S2-SPECIALTY-NURSING",
+  "RES-REGSEN-S2-SPECIALTY-OBSTETRICSGYNECOLOGY",
+  "RES-REGSEN-S2-SPECIALTY-ONCOLOGY",
+  "RES-REGSEN-S2-SPECIALTY-OPHTHALMOLOGY",
+  "RES-REGSEN-S2-SPECIALTY-PATHOLOGYLABORATORYMEDIC",
+  "RES-REGSEN-S2-SPECIALTY-PEDIATRICS",
+  "RES-REGSEN-S2-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGSEN-S2-SPECIALTY-SURGERY",
+  "RES-REGSEN-S2-SPECIALTY-UNASSIGNED",
+  "RES-REGSEN-S2-YEAR-2022",
+  "RES-REGSEN-S2-YEAR-2023",
+  "RES-REGSEN-S2-YEAR-2024",
+  "RES-REGSEN-S2-YEAR-2025",
+  "RES-REGSEN-S2-YEAR-2026",
+  "RES-REGSEN-S3-GENRE-EVALUATIVE",
+  "RES-REGSEN-S3-PUBTYPE-COMMENTARY",
+  "RES-REGSEN-S3-PUBTYPE-EDITORIAL",
+  "RES-REGSEN-S3-PUBTYPE-LETTER",
+  "RES-REGSEN-S3-PUBTYPE-REVIEW",
+  "RES-REGSEN-S3-REGION-EASTASIA",
+  "RES-REGSEN-S3-REGION-EASTERNEUROPE",
+  "RES-REGSEN-S3-REGION-LATINAMERICAOCEANIA",
+  "RES-REGSEN-S3-REGION-MIDDLEEASTNORTHAFRICA",
+  "RES-REGSEN-S3-REGION-SOUTHSOUTHEASTASIA",
+  "RES-REGSEN-S3-REGION-SUBSAHARANAFRICA",
+  "RES-REGSEN-S3-REGION-UNKNOWN",
+  "RES-REGSEN-S3-REGION-WESTERNEUROPE",
+  "RES-REGSEN-S3-SPECIALTY-CARDIOLOGY",
+  "RES-REGSEN-S3-SPECIALTY-DENTISTRY",
+  "RES-REGSEN-S3-SPECIALTY-DERMATOLOGY",
+  "RES-REGSEN-S3-SPECIALTY-EMERGENCYMEDICINECRITICA",
+  "RES-REGSEN-S3-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGSEN-S3-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGSEN-S3-SPECIALTY-MENTALHEALTHPSYCHIATRY",
+  "RES-REGSEN-S3-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGSEN-S3-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGSEN-S3-SPECIALTY-NURSING",
+  "RES-REGSEN-S3-SPECIALTY-OBSTETRICSGYNECOLOGY",
+  "RES-REGSEN-S3-SPECIALTY-ONCOLOGY",
+  "RES-REGSEN-S3-SPECIALTY-OPHTHALMOLOGY",
+  "RES-REGSEN-S3-SPECIALTY-PATHOLOGYLABORATORYMEDIC",
+  "RES-REGSEN-S3-SPECIALTY-PEDIATRICS",
+  "RES-REGSEN-S3-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGSEN-S3-SPECIALTY-SURGERY",
+  "RES-REGSEN-S3-SPECIALTY-UNASSIGNED",
+  "RES-REGSEN-S3-YEAR-PER1YEAR",
+  "RES-REGSEN-S4-COUNTRY_G-AUSTRALIA",
+  "RES-REGSEN-S4-COUNTRY_G-BRAZIL",
+  "RES-REGSEN-S4-COUNTRY_G-CANADA",
+  "RES-REGSEN-S4-COUNTRY_G-CHINA",
+  "RES-REGSEN-S4-COUNTRY_G-FRANCE",
+  "RES-REGSEN-S4-COUNTRY_G-GERMANY",
+  "RES-REGSEN-S4-COUNTRY_G-INDIA",
+  "RES-REGSEN-S4-COUNTRY_G-IRAN",
+  "RES-REGSEN-S4-COUNTRY_G-ISRAEL",
+  "RES-REGSEN-S4-COUNTRY_G-ITALY",
+  "RES-REGSEN-S4-COUNTRY_G-JAPAN",
+  "RES-REGSEN-S4-COUNTRY_G-NETHERLANDS",
+  "RES-REGSEN-S4-COUNTRY_G-OTHER",
+  "RES-REGSEN-S4-COUNTRY_G-SAUDIARABIA",
+  "RES-REGSEN-S4-COUNTRY_G-SINGAPORE",
+  "RES-REGSEN-S4-COUNTRY_G-SOUTHKOREA",
+  "RES-REGSEN-S4-COUNTRY_G-SPAIN",
+  "RES-REGSEN-S4-COUNTRY_G-SWEDEN",
+  "RES-REGSEN-S4-COUNTRY_G-SWITZERLAND",
+  "RES-REGSEN-S4-COUNTRY_G-TAIWAN",
+  "RES-REGSEN-S4-COUNTRY_G-TURKEY",
+  "RES-REGSEN-S4-COUNTRY_G-UNITEDKINGDOM",
+  "RES-REGSEN-S4-COUNTRY_G-UNRESOLVED",
+  "RES-REGSEN-S4-GENRE-EVALUATIVE",
+  "RES-REGSEN-S4-PUBTYPE-COMMENTARY",
+  "RES-REGSEN-S4-PUBTYPE-EDITORIAL",
+  "RES-REGSEN-S4-PUBTYPE-LETTER",
+  "RES-REGSEN-S4-PUBTYPE-REVIEW",
+  "RES-REGSEN-S4-SPECIALTY-CARDIOLOGY",
+  "RES-REGSEN-S4-SPECIALTY-DENTISTRY",
+  "RES-REGSEN-S4-SPECIALTY-DERMATOLOGY",
+  "RES-REGSEN-S4-SPECIALTY-EMERGENCYMEDICINECRITICA",
+  "RES-REGSEN-S4-SPECIALTY-INTERNALMEDICINEPRIMARYC",
+  "RES-REGSEN-S4-SPECIALTY-MEDICALEDUCATION",
+  "RES-REGSEN-S4-SPECIALTY-MENTALHEALTHPSYCHIATRY",
+  "RES-REGSEN-S4-SPECIALTY-MULTIDISCIPLINARYOTHER",
+  "RES-REGSEN-S4-SPECIALTY-NEUROLOGYNEUROSCIENCE",
+  "RES-REGSEN-S4-SPECIALTY-NURSING",
+  "RES-REGSEN-S4-SPECIALTY-OBSTETRICSGYNECOLOGY",
+  "RES-REGSEN-S4-SPECIALTY-ONCOLOGY",
+  "RES-REGSEN-S4-SPECIALTY-OPHTHALMOLOGY",
+  "RES-REGSEN-S4-SPECIALTY-PATHOLOGYLABORATORYMEDIC",
+  "RES-REGSEN-S4-SPECIALTY-PEDIATRICS",
+  "RES-REGSEN-S4-SPECIALTY-RADIOLOGYDIAGNOSTICIMAGI",
+  "RES-REGSEN-S4-SPECIALTY-SURGERY",
+  "RES-REGSEN-S4-SPECIALTY-UNASSIGNED",
+  "RES-REGSEN-S4-YEAR-PER1YEAR",
+  "RES-SEN-B4-PO",
+  "RES-SEN-B4S3-N",
+  "RES-TMP-CRIT-AOR"
+ ],
+ "sub_rows": []
+}

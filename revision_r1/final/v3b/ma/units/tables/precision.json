@@ -1,0 +1,231 @@
+{
+ "id": "precision",
+ "kind": "table",
+ "caption": "Sample size and precision of the critical-share estimates, 2021-2025.",
+ "header": [
+  "Group",
+  "n; 95% CI half-width"
+ ],
+ "rows": [
+  [
+   "Design",
+   "The analytic corpus is a census of all eligible Q1/Q2 records published 2021-2025 that the prefilter retained (n=14,058); no sample was drawn and no power calculation applies. Precision is reported as the 95% CI half-width."
+  ],
+  [
+   "All records",
+   "n=14,058; half-width 0.8 percentage points"
+  ],
+  [
+   "By year"
+  ],
+  [
+   "Critical share 2021",
+   "n=1063; half-width 2.6 percentage points"
+  ],
+  [
+   "Critical share 2022",
+   "n=1343; half-width 2.2 percentage points"
+  ],
+  [
+   "Critical share 2023",
+   "n=2054; half-width 2.1 percentage points"
+  ],
+  [
+   "Critical share 2024",
+   "n=3700; half-width 1.5 percentage points"
+  ],
+  [
+   "Critical share 2025",
+   "n=5898; half-width 1.2 percentage points"
+  ],
+  [
+   "By specialty or domain category"
+  ],
+  [
+   "Radiology / Diagnostic Imaging",
+   "n=1769; half-width 1.9 percentage points"
+  ],
+  [
+   "Pathology / Laboratory Medicine",
+   "n=398; half-width 4.1 percentage points"
+  ],
+  [
+   "Cardiology",
+   "n=542; half-width 3.2 percentage points"
+  ],
+  [
+   "Oncology",
+   "n=1211; half-width 2.2 percentage points"
+  ],
+  [
+   "Surgery",
+   "n=1191; half-width 2.7 percentage points"
+  ],
+  [
+   "Ophthalmology",
+   "n=669; half-width 3.0 percentage points"
+  ],
+  [
+   "Dermatology",
+   "n=265; half-width 5.7 percentage points"
+  ],
+  [
+   "Neurology / Neuroscience",
+   "n=290; half-width 4.9 percentage points"
+  ],
+  [
+   "Mental Health / Psychiatry",
+   "n=390; half-width 4.8 percentage points"
+  ],
+  [
+   "Internal Medicine / Primary Care",
+   "n=936; half-width 2.6 percentage points"
+  ],
+  [
+   "Emergency Medicine / Critical Care",
+   "n=308; half-width 5.0 percentage points"
+  ],
+  [
+   "Pediatrics",
+   "n=303; half-width 4.7 percentage points"
+  ],
+  [
+   "Obstetrics / Gynecology",
+   "n=195; half-width 6.2 percentage points"
+  ],
+  [
+   "Dentistry",
+   "n=581; half-width 3.6 percentage points"
+  ],
+  [
+   "Medical Informatics / Digital Health",
+   "n=3701; half-width 1.6 percentage points"
+  ],
+  [
+   "Nursing",
+   "n=227; half-width 6.5 percentage points"
+  ],
+  [
+   "Medical Education",
+   "n=876; half-width 3.2 percentage points"
+  ],
+  [
+   "Multidisciplinary / Other",
+   "n=196; half-width 6.9 percentage points"
+  ],
+  [
+   "By first-author region"
+  ],
+  [
+   "East Asia",
+   "n=2702; half-width 1.5 percentage points"
+  ],
+  [
+   "Eastern Europe",
+   "n=272; half-width 5.5 percentage points"
+  ],
+  [
+   "Latin America / Oceania",
+   "n=639; half-width 3.8 percentage points"
+  ],
+  [
+   "Middle East / North Africa",
+   "n=1322; half-width 2.6 percentage points"
+  ],
+  [
+   "North America",
+   "n=4221; half-width 1.4 percentage points"
+  ],
+  [
+   "South/Southeast Asia",
+   "n=656; half-width 3.2 percentage points"
+  ],
+  [
+   "Sub-Saharan Africa",
+   "n=49; half-width 14.0 percentage points"
+  ],
+  [
+   "Unknown",
+   "n=504; half-width 3.9 percentage points"
+  ],
+  [
+   "Western Europe",
+   "n=3693; half-width 1.5 percentage points"
+  ],
+  [
+   "By publication type"
+  ],
+  [
+   "Research Article",
+   "n=8556; half-width 1.0 percentage points"
+  ],
+  [
+   "Review",
+   "n=4611; half-width 1.2 percentage points"
+  ],
+  [
+   "Letter",
+   "n=429; half-width 4.7 percentage points"
+  ],
+  [
+   "Editorial",
+   "n=364; half-width 4.9 percentage points"
+  ],
+  [
+   "Commentary",
+   "n=98; half-width 10.2 percentage points"
+  ]
+ ],
+ "group_rows": [
+  2,
+  8,
+  27,
+  37
+ ],
+ "notes": [
+  "Half-width = half the width of the 95% percentile bootstrap CI (1000 resamples, seed 42), in percentage points. Critical stance was Alarm or Caution."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "PRE-00",
+  "PRE-ALL",
+  "PRE-PT-COMMENTARY",
+  "PRE-PT-EDITORIAL",
+  "PRE-PT-LETTER",
+  "PRE-PT-RESEARCHARTICLE",
+  "PRE-PT-REVIEW",
+  "PRE-REG-EASTASIA",
+  "PRE-REG-EASTERNEUROPE",
+  "PRE-REG-LATINAMERICAOCEANIA",
+  "PRE-REG-MIDDLEEASTNORTHAFRICA",
+  "PRE-REG-NORTHAMERICA",
+  "PRE-REG-SOUTHSOUTHEASTASIA",
+  "PRE-REG-SUBSAHARANAFRICA",
+  "PRE-REG-UNKNOWN",
+  "PRE-REG-WESTERNEUROPE",
+  "PRE-SPC-CARDIOLOGY",
+  "PRE-SPC-DENTISTRY",
+  "PRE-SPC-DERMATOLOGY",
+  "PRE-SPC-EMERGENCYMEDICINECRITICA",
+  "PRE-SPC-INTERNALMEDICINEPRIMARYC",
+  "PRE-SPC-MEDICALEDUCATION",
+  "PRE-SPC-MEDICALINFORMATICSDIGITA",
+  "PRE-SPC-MENTALHEALTHPSYCHIATRY",
+  "PRE-SPC-MULTIDISCIPLINARYOTHER",
+  "PRE-SPC-NEUROLOGYNEUROSCIENCE",
+  "PRE-SPC-NURSING",
+  "PRE-SPC-OBSTETRICSGYNECOLOGY",
+  "PRE-SPC-ONCOLOGY",
+  "PRE-SPC-OPHTHALMOLOGY",
+  "PRE-SPC-PATHOLOGYLABORATORYMEDIC",
+  "PRE-SPC-PEDIATRICS",
+  "PRE-SPC-RADIOLOGYDIAGNOSTICIMAGI",
+  "PRE-SPC-SURGERY",
+  "PRE-YR-2021",
+  "PRE-YR-2022",
+  "PRE-YR-2023",
+  "PRE-YR-2024",
+  "PRE-YR-2025"
+ ],
+ "sub_rows": []
+}

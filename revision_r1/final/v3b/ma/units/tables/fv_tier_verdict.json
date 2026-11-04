@@ -1,0 +1,68 @@
+{
+ "id": "fv_tier_verdict",
+ "kind": "table",
+ "caption": "Forward-validation of early Advocacy predictions: adjudicated verdicts by falsifiability tier.",
+ "header": [
+  "Tier",
+  "Borne out",
+  "Partially borne out",
+  "Not borne out",
+  "Too early or unfalsifiable",
+  "of which corpus silent"
+ ],
+ "rows": [
+  [
+   "Tier 1, specific superiority or replacement (n=7)",
+   "0",
+   "1",
+   "5",
+   "1",
+   "0"
+  ],
+  [
+   "Tier 2, capability deployment (n=36)",
+   "2",
+   "23",
+   "1",
+   "10",
+   "8"
+  ],
+  [
+   "Tier 3, diffuse transformation (n=35)",
+   "0",
+   "30",
+   "2",
+   "3",
+   "1"
+  ],
+  [
+   "Total (n=78)",
+   "2",
+   "54",
+   "8",
+   "14",
+   "9"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "All 74 papers, 78 claims (Tier 1 7; Tier 2 36; Tier 3 35) from Advocacy records published 2021-2023 with a confirmed predictive claim (92 flagged; 18 false positives removed by blind human review). Claims were adjudicated by a single rater against evidence published 2024 to April 2026. 'Not borne out' required positive contrary evidence; corpus silence was classified as too early or unfalsifiable. Exploratory, Advocacy-only and retrieval-dependent; the flow diagram is {{F:forward_validation_sankey}}."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-FV-BORNEOUT",
+  "RES-FV-CAND",
+  "RES-FV-FP",
+  "RES-FV-NOTBORNEOUT",
+  "RES-FV-PARTIALLY",
+  "RES-FV-SET",
+  "RES-FV-SILENT-T1",
+  "RES-FV-SILENT-T2",
+  "RES-FV-SILENT-T3",
+  "RES-FV-TIER1",
+  "RES-FV-TIER2",
+  "RES-FV-TIER3",
+  "RES-FV-TOOEARLYUNFALSIFIABLE"
+ ],
+ "sub_rows": []
+}

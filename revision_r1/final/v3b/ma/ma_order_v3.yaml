@@ -1,0 +1,58 @@
+# v3b: numbering by first citation in the sections Peter returned on 2026-11-02 (Methods now cites the
+# lexicon decomposition, so it precedes Advocacy by specialty). Figures S5 and S6 assume the two proposed Results citations.
+ma1_notes:
+- note_data_code
+- note_prefilter_prompt
+- note_stance_prompts
+- note_endorsement_prompt
+- note_theme_prompt
+- note_mechanism_prompt
+- note_specialty_prompt
+- note_forward_validation
+- note_validation_protocol
+- note_correction_estimator
+- note_mesh_keywords
+ma2_tables:
+- sjr_sensitivity
+- update_2026
+- keep_rate
+- precision
+- run_to_run
+- specialty_definitions
+- fda_mapping
+- fv_tier_verdict
+- prefilter_validation
+- stance_confusion
+- corrected_prevalence
+- theme_validation
+- mechanism_confusion
+- missing_data
+- stance_trend
+- themes
+- regression_full
+- fda_robustness
+- ea_vs_nawe_within_specialty
+- corpus_sensitivity
+- symmetric_endorsement
+- q3_arm
+- within_genre
+- lexicon_and_terms
+- lexicon_decomposition
+- advocacy_by_specialty
+- country
+- region
+- pubtype
+- review_subtypes
+- theme_by_format
+ma3_figures:
+- country_map_20
+- forward_validation_sankey
+- lexicon_vs_llm_fig
+- terms_fig
+- temporal_robustness_fig
+- q3_fig
+- within_genre_fig
+- advocacy_measures_fig
+- other_themes_fig
+- theme_counts_fig
+- generative_share_fig

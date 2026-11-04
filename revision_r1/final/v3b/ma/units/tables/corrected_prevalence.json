@@ -1,0 +1,291 @@
+{
+ "id": "corrected_prevalence",
+ "caption": "Misclassification-corrected prevalence of Advocacy and critical stance: prespecified constant-rate correction and post hoc period-specific correction, 2021-2025.",
+ "header": [
+  "Item",
+  "Column 1",
+  "Column 2",
+  "Column 3",
+  "Column 4"
+ ],
+ "rows": [
+  [
+   "(a) Corrected prevalence by year, % (95% CI)",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Year",
+   "Advocacy: constant rates (prespecified)",
+   "Advocacy: period-specific rates (post hoc)",
+   "Critical: constant rates (prespecified)",
+   "Critical: period-specific rates (post hoc)"
+  ],
+  [
+   "2021",
+   "6.16 (3.13-9.65)",
+   "3.07 (0.98-10.04)",
+   "26.99 (21.82-32.64)",
+   "30.45 (19.55-41.09)"
+  ],
+  [
+   "2022",
+   "5.71 (2.75-8.99)",
+   "2.75 (0.78-9.67)",
+   "26.73 (21.70-32.49)",
+   "30.31 (18.87-41.42)"
+  ],
+  [
+   "2023",
+   "5.40 (2.67-8.50)",
+   "2.61 (0.77-9.73)",
+   "30.33 (25.13-35.53)",
+   "33.43 (22.11-43.73)"
+  ],
+  [
+   "2024",
+   "5.04 (2.40-8.10)",
+   "6.86 (2.58-12.63)",
+   "32.61 (27.71-37.96)",
+   "29.22 (24.03-35.43)"
+  ],
+  [
+   "2025",
+   "5.13 (2.33-8.41)",
+   "6.99 (2.26-13.06)",
+   "31.36 (26.25-36.75)",
+   "27.70 (22.03-33.84)"
+  ],
+  [
+   "Change, 2025 minus 2021, percentage points",
+   "-1.03 (-1.79 to -0.42)",
+   "3.92 (-3.79 to 9.45)",
+   "4.37 (2.61-5.99)",
+   "-2.75 (-14.52 to 9.57)"
+  ],
+  [
+   "(b) Conversion rates: validation records with each model label that the coder labelled Advocacy or critical, % (k/n; exact 95% CI)",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Model label: human label",
+   "All years (constant rates)",
+   "2021-2023",
+   "2024-2025",
+   "Period difference, Fisher exact P"
+  ],
+  [
+   "Model Alarm: human Advocacy",
+   "0.0 (0/40; 0.0-8.8)",
+   "0.0 (0/7; 0.0-41.0)*",
+   "0.0 (0/24; 0.0-14.2)",
+   "P>.99"
+  ],
+  [
+   "Model Alarm: human critical",
+   "97.5 (39/40; 86.8-99.9)",
+   "100.0 (7/7; 59.0-100.0)*",
+   "95.8 (23/24; 78.9-99.9)",
+   "P>.99"
+  ],
+  [
+   "Model Caution: human Advocacy",
+   "0.0 (0/60; 0.0-6.0)",
+   "0.0 (0/12; 0.0-26.5)",
+   "0.0 (0/38; 0.0-9.3)",
+   "P>.99"
+  ],
+  [
+   "Model Caution: human critical",
+   "63.3 (38/60; 49.9-75.4)",
+   "58.3 (7/12; 27.7-84.8)",
+   "68.4 (26/38; 51.3-82.5)",
+   "P=.728"
+  ],
+  [
+   "Model Neutral: human Advocacy",
+   "0.0 (0/70; 0.0-5.1)",
+   "0.0 (0/26; 0.0-13.2)",
+   "0.0 (0/33; 0.0-10.6)",
+   "P>.99"
+  ],
+  [
+   "Model Neutral: human critical",
+   "4.3 (3/70; 0.9-12.0)",
+   "11.5 (3/26; 2.4-30.2)",
+   "0.0 (0/33; 0.0-10.6)",
+   "P=.080"
+  ],
+  [
+   "Model Cautious Optimism: human Advocacy",
+   "7.0 (7/100; 2.9-13.9)",
+   "3.0 (1/33; 0.1-15.8)",
+   "9.6 (5/52; 3.2-21.0)",
+   "P=.397"
+  ],
+  [
+   "Model Cautious Optimism: human critical",
+   "15.0 (15/100; 8.6-23.5)",
+   "21.2 (7/33; 9.0-38.9)",
+   "7.7 (4/52; 2.1-18.5)",
+   "P=.099"
+  ],
+  [
+   "Model Advocacy: human Advocacy",
+   "56.7 (17/30; 37.4-74.5)",
+   "38.5 (5/13; 13.9-68.4)",
+   "73.3 (11/15; 44.9-92.2)",
+   "P=.125"
+  ],
+  [
+   "Model Advocacy: human critical",
+   "0.0 (0/30; 0.0-11.6)",
+   "0.0 (0/13; 0.0-24.7)",
+   "0.0 (0/15; 0.0-21.8)",
+   "P>.99"
+  ],
+  [
+   "(c) Advocacy precision and recall, % (k/n; exact 95% CI)",
+   "",
+   "",
+   "",
+   ""
+  ],
+  [
+   "Measure",
+   "All years",
+   "2021-2023",
+   "2024-2025",
+   ""
+  ],
+  [
+   "Precision, all 300 records",
+   "56.7 (17/30; 37.4-74.5)",
+   "38.5 (5/13; 13.9-68.4)",
+   "73.3 (11/15; 44.9-92.2)",
+   ""
+  ],
+  [
+   "Recall, all 300 records",
+   "70.8 (17/24; 48.9-87.4)",
+   "83.3 (5/6; 35.9-99.6)",
+   "68.8 (11/16; 41.3-89.0)",
+   ""
+  ],
+  [
+   "Precision, 225 in-scope records",
+   "65.4 (17/26; 44.3-82.8)",
+   "50.0 (5/10; 18.7-81.3)",
+   "78.6 (11/14; 49.2-95.3)",
+   ""
+  ],
+  [
+   "Recall, 225 in-scope records",
+   "70.8 (17/24; 48.9-87.4)",
+   "83.3 (5/6; 35.9-99.6)",
+   "68.8 (11/16; 41.3-89.0)",
+   ""
+  ]
+ ],
+ "notes": [
+  "Corrected prevalence for a year = sum over the five model-stance labels of (share of that year's records with the model label) x (share of validation records with that model label that the coder assigned the target label) ({{N:note_correction_estimator}}). Target labels: Advocacy; critical (Alarm or Caution). Corpus: 14,058 records, 2021-2025.",
+  "Constant rates (prespecified): rates from all 300 stance-validation records, applied to every year; records the coder judged not codable or out of scope count as human Neutral, as in {{T:stance_confusion}}. 95% CIs: 1000 bootstrap draws (seed 42) resampling validation records within model label and corpus records jointly. These are the estimates reported in the Results.",
+  "Period-specific rates (post hoc): rates estimated separately from the 253 validation records published 2021-2023 or 2024-2025 (46 dated 2026 and 1 dated 2020 excluded) and applied to the years of the same period. 95% CIs: 1000 bootstrap draws (seed 42) resampling validation records within model label and period and corpus records jointly, with a Jeffreys Beta(k+1/2, n-k+1/2) draw for cells with no or all events. The validation sample was stratified by model stance, not by year, so period cells are small; * marks the one cell with fewer than 10 records.",
+  "(b) and (c): exact Clopper-Pearson 95% CIs; Fisher exact two-sided test of the period difference within each model label. 'All years' uses all 300 validation records, including the 47 dated outside 2021-2025 (counts from {{T:stance_confusion}}). Precision: share of model-Advocacy records the coder labelled Advocacy; recall: share of coder-Advocacy records the model labelled Advocacy; in scope: the 225 records the coder judged codable and in scope.",
+  "The post hoc analysis followed a written plan committed to the repository before it was run ({{N:note_data_code}}). Critical stance was Alarm or Caution."
+ ],
+ "group_rows": [
+  0,
+  8,
+  20
+ ],
+ "sub_rows": [
+  1,
+  9,
+  21
+ ],
+ "landscape": true,
+ "book_ids": [
+  "VAL-ST-PER-CORR-ADVOCACY-2021",
+  "VAL-ST-PER-CORR-CRITICAL-2021",
+  "VAL-ST-PER-CORR-ADVOCACY-2022",
+  "VAL-ST-PER-CORR-CRITICAL-2022",
+  "VAL-ST-PER-CORR-ADVOCACY-2023",
+  "VAL-ST-PER-CORR-CRITICAL-2023",
+  "VAL-ST-PER-CORR-ADVOCACY-2024",
+  "VAL-ST-PER-CORR-CRITICAL-2024",
+  "VAL-ST-PER-CORR-ADVOCACY-2025",
+  "VAL-ST-PER-CORR-CRITICAL-2025",
+  "VAL-ST-PER-CORR-ADVOCACY-DELTA",
+  "VAL-ST-PER-CORR-CRITICAL-DELTA",
+  "VAL-ST-PER-CONV-ALARM-ADVOCACY-P1",
+  "VAL-ST-PER-CONV-ALARM-ADVOCACY-P2",
+  "VAL-ST-PER-FISHER-ALARM-ADVOCACY",
+  "VAL-ST-PER-CONV-ALARM-CRITICAL-P1",
+  "VAL-ST-PER-CONV-ALARM-CRITICAL-P2",
+  "VAL-ST-PER-FISHER-ALARM-CRITICAL",
+  "VAL-ST-PER-CONV-CAUTION-ADVOCACY-P1",
+  "VAL-ST-PER-CONV-CAUTION-ADVOCACY-P2",
+  "VAL-ST-PER-FISHER-CAUTION-ADVOCACY",
+  "VAL-ST-PER-CONV-CAUTION-CRITICAL-P1",
+  "VAL-ST-PER-CONV-CAUTION-CRITICAL-P2",
+  "VAL-ST-PER-FISHER-CAUTION-CRITICAL",
+  "VAL-ST-PER-CONV-NEUTRAL-ADVOCACY-P1",
+  "VAL-ST-PER-CONV-NEUTRAL-ADVOCACY-P2",
+  "VAL-ST-PER-FISHER-NEUTRAL-ADVOCACY",
+  "VAL-ST-PER-CONV-NEUTRAL-CRITICAL-P1",
+  "VAL-ST-PER-CONV-NEUTRAL-CRITICAL-P2",
+  "VAL-ST-PER-FISHER-NEUTRAL-CRITICAL",
+  "VAL-ST-PER-CONV-CAUTIOUSOPTIMISM-ADVOCACY-P1",
+  "VAL-ST-PER-CONV-CAUTIOUSOPTIMISM-ADVOCACY-P2",
+  "VAL-ST-PER-FISHER-CAUTIOUSOPTIMISM-ADVOCACY",
+  "VAL-ST-PER-CONV-CAUTIOUSOPTIMISM-CRITICAL-P1",
+  "VAL-ST-PER-CONV-CAUTIOUSOPTIMISM-CRITICAL-P2",
+  "VAL-ST-PER-FISHER-CAUTIOUSOPTIMISM-CRITICAL",
+  "VAL-ST-PER-CONV-ADVOCACY-ADVOCACY-P1",
+  "VAL-ST-PER-CONV-ADVOCACY-ADVOCACY-P2",
+  "VAL-ST-PER-FISHER-ADVOCACY-ADVOCACY",
+  "VAL-ST-PER-CONV-ADVOCACY-CRITICAL-P1",
+  "VAL-ST-PER-CONV-ADVOCACY-CRITICAL-P2",
+  "VAL-ST-PER-FISHER-ADVOCACY-CRITICAL",
+  "VAL-ST-PER-ADV-PREC-ALL-P1",
+  "VAL-ST-PER-ADV-PREC-ALL-P2",
+  "VAL-ST-PER-ADV-REC-ALL-P1",
+  "VAL-ST-PER-ADV-REC-ALL-P2",
+  "VAL-ST-PER-ADV-PREC-INSCOPE-P1",
+  "VAL-ST-PER-ADV-PREC-INSCOPE-P2",
+  "VAL-ST-PER-ADV-REC-INSCOPE-P1",
+  "VAL-ST-PER-ADV-REC-INSCOPE-P2",
+  "VAL-ST-PER-META",
+  "RES-TMP-ALARM-2021",
+  "RES-TMP-ALARM-2022",
+  "RES-TMP-ALARM-2023",
+  "RES-TMP-ALARM-2024",
+  "RES-TMP-ALARM-2025",
+  "RES-TMP-CAUT-2021",
+  "RES-TMP-CAUT-2022",
+  "RES-TMP-CAUT-2023",
+  "RES-TMP-CAUT-2024",
+  "RES-TMP-CAUT-2025",
+  "RES-TMP-NEUT-2021",
+  "RES-TMP-NEUT-2022",
+  "RES-TMP-NEUT-2023",
+  "RES-TMP-NEUT-2024",
+  "RES-TMP-NEUT-2025",
+  "RES-TMP-CO-2021",
+  "RES-TMP-CO-2022",
+  "RES-TMP-CO-2023",
+  "RES-TMP-CO-2024",
+  "RES-TMP-CO-2025",
+  "RES-TMP-ADV-2021",
+  "RES-TMP-ADV-2022",
+  "RES-TMP-ADV-2023",
+  "RES-TMP-ADV-2024",
+  "RES-TMP-ADV-2025"
+ ]
+}

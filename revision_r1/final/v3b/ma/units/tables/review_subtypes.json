@@ -1,0 +1,63 @@
+{
+ "id": "review_subtypes",
+ "kind": "table",
+ "caption": "Stance distribution within the two review subtypes, 2021-2025.",
+ "header": [
+  "Subtype",
+  "Records, n",
+  "Critical, % (95% CI); n",
+  "Alarm, % (95% CI); n",
+  "Caution, % (95% CI); n",
+  "Neutral, % (95% CI); n",
+  "Cautious Optimism, % (95% CI); n",
+  "Advocacy, % (95% CI); n",
+  "Favourable, % (95% CI); n"
+ ],
+ "rows": [
+  [
+   "Systematic Review",
+   "831",
+   "29.5 (26.2-32.7); 245",
+   "3.4 (2.2-4.7); 28",
+   "26.1 (23.0-29.2); 217",
+   "2.4 (1.6-3.6); 20",
+   "67.7 (64.3-71.0); 563",
+   "0.4 (0.0-0.8); 3",
+   "68.1 (64.7-71.4); 566"
+  ],
+  [
+   "Review (non-systematic)",
+   "3780",
+   "23.1 (21.7-24.5); 875",
+   "0.7 (0.4-0.9); 25",
+   "22.5 (21.1-23.8); 850",
+   "2.0 (1.6-2.5); 76",
+   "72.6 (71.3-74.0); 2745",
+   "2.2 (1.7-2.7); 84",
+   "74.8 (73.5-76.3); 2829"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "95% percentile bootstrap CIs (1000 resamples, seed 42), resampling within subtype. Subtype rule: PubMed Publication Type substring precedence: Editorial > Letter > Systematic Review > Review > Comment > News > Research Article. 'Systematic Review' tag = systematic subtype; any other 'Review' tag (including Scoping Review) = non-systematic subtype; Meta-Analysis has no rule of its own. Critical stance was Alarm or Caution. Favourable stance was Cautious Optimism or Advocacy."
+ ],
+ "landscape": true,
+ "book_ids": [
+  "RES-FMT-RSUB-REVIEWNARRATIVE-ADVOCACY",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-ALARM",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-CAUTION",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-CAUTIOUSOPTIMISM",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-CRITICAL",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-FAVOURABLE",
+  "RES-FMT-RSUB-REVIEWNARRATIVE-NEUTRAL",
+  "RES-FMT-RSUB-RULE",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-ADVOCACY",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-ALARM",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-CAUTION",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-CAUTIOUSOPTIMISM",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-CRITICAL",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-FAVOURABLE",
+  "RES-FMT-RSUB-SYSTEMATICREVIEW-NEUTRAL"
+ ],
+ "sub_rows": []
+}

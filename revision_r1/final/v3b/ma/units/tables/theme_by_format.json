@@ -1,0 +1,91 @@
+{
+ "id": "theme_by_format",
+ "kind": "table",
+ "caption": "Concern-theme prevalence among critical records, Reviews compared with Research Articles, 2021-2025.",
+ "header": [
+  "Theme",
+  "Reviews, % (95% CI); n/N",
+  "Research Articles, % (95% CI); n/N",
+  "Difference, percentage points"
+ ],
+ "rows": [
+  [
+   "Governance / regulation",
+   "56.9 (54.0-59.7); 637/1120",
+   "28.3 (26.6-29.8); 792/2799",
+   "+28.6"
+  ],
+  [
+   "Ethics & bias",
+   "44.6 (41.7-47.7); 500/1120",
+   "30.5 (28.9-32.3); 854/2799",
+   "+14.1"
+  ],
+  [
+   "Data privacy",
+   "11.4 (9.6-13.2); 128/1120",
+   "6.3 (5.4-7.2); 176/2799",
+   "+5.1"
+  ],
+  [
+   "Other",
+   "3.0 (2.1-4.1); 34/1120",
+   "1.9 (1.4-2.5); 54/2799",
+   "+1.1"
+  ],
+  [
+   "Patient safety",
+   "64.6 (61.7-67.4); 723/1120",
+   "63.6 (61.8-65.5); 1781/2799",
+   "+0.9"
+  ],
+  [
+   "Replacement fears",
+   "2.9 (1.9-3.8); 32/1120",
+   "3.9 (3.2-4.6); 109/2799",
+   "-1.0"
+  ],
+  [
+   "Existential threat",
+   "3.8 (2.8-5.0); 43/1120",
+   "5.0 (4.2-5.8); 140/2799",
+   "-1.2"
+  ],
+  [
+   "Cognitive offloading",
+   "4.3 (3.0-5.4); 48/1120",
+   "6.4 (5.5-7.3); 179/2799",
+   "-2.1"
+  ],
+  [
+   "Medical education",
+   "5.4 (4.1-6.9); 61/1120",
+   "10.1 (9.0-11.2); 284/2799",
+   "-4.7"
+  ],
+  [
+   "Hallucination / errors",
+   "29.2 (26.6-32.1); 327/1120",
+   "52.6 (50.7-54.7); 1473/2799",
+   "-23.4"
+  ]
+ ],
+ "group_rows": [],
+ "notes": [
+  "Prevalence of each theme among critical records within each format; themes were multilabel, so columns do not sum to 100%. Difference = Reviews minus Research Articles. 95% percentile bootstrap CIs (1000 resamples, seed 42), resampling within format. Critical stance was Alarm or Caution."
+ ],
+ "landscape": false,
+ "book_ids": [
+  "RES-FMT-THEME-COGNITIVEOFFLOADING",
+  "RES-FMT-THEME-DATAPRIVACY",
+  "RES-FMT-THEME-ETHICSANDBIAS",
+  "RES-FMT-THEME-EXISTENTIALTHREAT",
+  "RES-FMT-THEME-GOVERNANCEREGULATION",
+  "RES-FMT-THEME-HALLUCINATIONERRORS",
+  "RES-FMT-THEME-MEDICALEDUCATION",
+  "RES-FMT-THEME-OTHER",
+  "RES-FMT-THEME-PATIENTSAFETY",
+  "RES-FMT-THEME-REPLACEMENTFEARS"
+ ],
+ "sub_rows": []
+}
